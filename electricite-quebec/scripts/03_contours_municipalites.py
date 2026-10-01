@@ -1,7 +1,7 @@
 """Prépare les contours des municipalités pour la carte web.
 
 Entrée  : couche munic_s de BDAT(adm)_SHP.zip (MRNF, découpages administratifs)
-Sortie  : electricite-quebec/donnees/municipalites.geojson
+Sortie  : electricite-quebec/donnees/municipalites.geojson et centres_municipalites.csv
           (un polygone par code géographique, simplifié, en WGS84)
 
 Étapes : lecture, projection en mètres (NAD83 / MTM Québec Lambert, EPSG:32198), fusion des
@@ -43,6 +43,13 @@ def main():
     methode = "simplify par polygone"
     fusion["geometry"] = simple
     fusion = fusion[~fusion.geometry.is_empty]
+    # Centre de chaque municipalité (calculé en mètres, exporté en WGS84) : sert à choisir
+    # le point de grille climatique associé à chaque municipalité (script 04).
+    centres = fusion.geometry.centroid.to_crs(4326)
+    table = fusion[["code_geo", "nom"]].copy()
+    table["lon"] = centres.x.round(5)
+    table["lat"] = centres.y.round(5)
+    table.to_csv(SORTIE.with_name("centres_municipalites.csv"), index=False, encoding="utf-8")
     fusion = fusion.to_crs(4326)
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     fusion.to_file(SORTIE, driver="GeoJSON", COORDINATE_PRECISION=5)

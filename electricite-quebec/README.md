@@ -11,6 +11,7 @@ température.
 | Consommation d'électricité par secteur, par municipalité et par MRC (mensuelle, janvier 2016 à septembre 2022) | Hydro-Québec, [Données Québec](https://www.donneesquebec.ca/recherche/dataset/historique-consommation-electricite-secteur-activite) | CC-BY-NC 4.0 (attribution, **usage non commercial**) |
 | Découpages administratifs (limites des municipalités) | Ministère des Ressources naturelles et des Forêts, [Données Québec](https://www.donneesquebec.ca/recherche/dataset/decoupages-administratifs) | CC-BY 4.0 |
 | Profil du recensement de 2021, subdivisions de recensement du Québec | [Statistique Canada](https://www12.statcan.gc.ca/census-recensement/2021/dp-pd/prof/details/download-telecharger.cfm?Lang=F) | À vérifier sur le site de Statistique Canada |
+| Températures quotidiennes (réanalyse ERA5) | [Open-Meteo](https://open-meteo.com), à partir de données Copernicus / ECMWF | CC-BY 4.0 ; API gratuite pour usage non commercial |
 
 À cause de la licence CC-BY-NC, le site qui affichera ces données doit rester non commercial
 (pas de publicité ni de monétisation) et citer Hydro-Québec.
@@ -46,7 +47,8 @@ electricite-quebec/
 ├── scripts/
 │   ├── 01_extraire_recensement.py          # recensement 2021 -> donnees/recensement_2021_sdr_qc.csv
 │   ├── 02_correspondance_municipalites.py  # noms Hydro-Québec -> codes -> donnees/correspondance_hq_code.csv
-│   └── 03_contours_municipalites.py        # limites -> donnees/municipalites.geojson (simplifié, 3 Mo)
+│   ├── 03_contours_municipalites.py        # limites -> donnees/municipalites.geojson (simplifié, 3 Mo) et centres_municipalites.csv
+│   └── 04_temperatures.py                  # températures ERA5 (Open-Meteo) -> degrés-jours mensuels, incrémental
 └── donnees/
 ```
 
@@ -70,9 +72,43 @@ Cacouna, Lac-des-Aigles, Plessisville, Notre-Dame-de-la-Salette, Hébertville), 
 suite de changements de municipalités ; ces unités n'auront pas de caractéristiques de logement
 tant que la correspondance n'est pas corrigée à la main.
 
+### Températures
+
+`04_temperatures.py` associe chaque municipalité (centre de son polygone) à un point d'une grille
+de 0,5° et télécharge un point par cellule utile (207 points). Il produit les températures
+quotidiennes, puis les degrés-jours de chauffage mensuels (base 18 °C) par point, et le lien
+municipalité -> point (`municipalites_points.csv`).
+
+```
+python electricite-quebec/scripts/04_temperatures.py --essai            # 2 appels de vérification, ne modifie rien
+python electricite-quebec/scripts/04_temperatures.py --fin 2022-12-31   # période du calage (données d'Hydro-Québec jusqu'en 2022)
+python electricite-quebec/scripts/04_temperatures.py                    # jusqu'à aujourd'hui, puis mises à jour
+```
+
+Le script est incrémental : il garde ce qui est déjà téléchargé et ne demande que les jours
+manquants, avec un recouvrement de 30 jours parce que les valeurs récentes d'ERA5 peuvent être
+révisées. Les derniers jours, absents de l'archive, viennent de l'API de prévision d'Open-Meteo
+et sont remplacés par l'archive aux exécutions suivantes. C'est ce qui permettra de le planifier
+plus tard (par exemple une exécution quotidienne) sans le réécrire.
+
+**Limites à connaître**
+
+- L'API gratuite d'Open-Meteo plafonne le nombre d'appels par jour, et un appel qui couvre de
+  nombreux jours compte pour plusieurs. Le premier téléchargement complet pourrait donc
+  s'étaler sur plusieurs jours : à la limite quotidienne, le script s'arrête proprement et
+  reprend où il s'est arrêté à la relance. Les mises à jour suivantes sont minimes.
+  Les conditions exactes sont à vérifier sur la page de tarification d'Open-Meteo.
+- Le script a été testé hors ligne avec de fausses réponses de l'API (reprise incrémentale, arrêt
+  à la limite quotidienne, calcul des degrés-jours), mais **l'appel réel à l'API n'a pas pu être
+  testé** depuis l'environnement où il a été écrit. Commence par `--essai`.
+- Une cellule de 0,5° (environ 55 km sur 38 km) ignore les écarts locaux de température,
+  notamment l'altitude.
+- Ces données sont publiées sous licence CC-BY 4.0 : à citer (Open-Meteo, données ERA5 de
+  Copernicus / ECMWF).
+
 ## Reste à faire
 
-1. Données de température mensuelles (2016 à 2022) par municipalité, pour calculer les degrés-jours.
+1. Lancer `04_temperatures.py` (voir ci-dessus), puis calculer les degrés-jours par municipalité.
 2. Modèle de consommation résidentielle par logement, estimé sur les unités mesurées, puis
    ajusté aux totaux des MRC.
 3. Carte interactive (choroplèthe) avec incertitude.
