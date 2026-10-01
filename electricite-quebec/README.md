@@ -48,7 +48,8 @@ electricite-quebec/
 │   ├── 01_extraire_recensement.py          # recensement 2021 -> donnees/recensement_2021_sdr_qc.csv
 │   ├── 02_correspondance_municipalites.py  # noms Hydro-Québec -> codes -> donnees/correspondance_hq_code.csv
 │   ├── 03_contours_municipalites.py        # limites -> donnees/municipalites.geojson (simplifié, 3 Mo) et centres_municipalites.csv
-│   └── 04_temperatures.py                  # températures ERA5 (Open-Meteo) -> degrés-jours mensuels, incrémental
+│   ├── 04_temperatures.py                  # températures ERA5 (Open-Meteo) -> degrés-jours mensuels, incrémental
+│   └── 05_modele_residentiel.py            # modèle + ajustement aux MRC -> donnees/estimations_residentiel_2021.csv
 └── donnees/
 ```
 
@@ -106,9 +107,48 @@ plus tard (par exemple une exécution quotidienne) sans le réécrire.
 - Ces données sont publiées sous licence CC-BY 4.0 : à citer (Open-Meteo, données ERA5 de
   Copernicus / ECMWF).
 
+### Modèle résidentiel (`05_modele_residentiel.py`)
+
+Dépendances supplémentaires : statsmodels. Les données de départ sont un panel de 338 unités
+d'Hydro-Québec (1 752 unités-années 2016-2021 avec 12 mois complets) : log(kWh résidentiels par
+logement) en fonction des degrés-jours, de la composition du parc de logements et du revenu médian.
+
+| Terme | Coefficient | Lecture |
+|---|---|---|
+| Degrés-jours, écart d'une année à la moyenne de l'unité | +0,20 (écart-type 0,02) | une année 10 % plus froide fait monter la consommation d'environ 2 % |
+| Degrés-jours, moyenne de l'unité | −0,66 (0,11) | association **entre** municipalités, à ne pas lire comme un effet du froid (voir plus bas) |
+| Logarithme du revenu médian | +0,62 (0,16) | |
+| Part de maisons individuelles, de logements mobiles, de locataires, d'avant 1980, taille des ménages | non significatifs seuls | conservés ensemble, peu précis |
+
+R² = 0,49 ; erreur de prédiction (validation croisée par blocs d'unités) : 0,19 en échelle logarithmique,
+soit environ ±27 % pour un intervalle à 80 %.
+
+Ce qui est solide : l'effet de la météo d'une année à l'autre dans une même municipalité. Ce qui l'est
+moins : le niveau d'une municipalité non mesurée. Les municipalités plus froides consomment *moins* par
+logement dans les données (régions du nord, plus de bois et de mazout, plus de résidences secondaires),
+ce qui masque l'effet du froid ; le modèle l'absorbe avec ce terme mais ne l'explique pas. Comme les
+unités mesurées sont plus grandes que les autres, les prédictions pour les très petites municipalités
+sont des extrapolations.
+
+L'estimation de chaque municipalité 2021 suit trois règles :
+
+1. unité mesurée en 2021 (303 codes) : valeur observée, répartie entre ses codes selon la prédiction ;
+2. unité non mesurée dans une MRC au total 2021 complet et cohérent (912 codes) : prédiction multipliée
+   par un facteur commun à la MRC pour que mesuré + estimé égale le total de la MRC (facteur médian 1,06,
+   du 10e au 90e centile : 0,84 à 1,28) ;
+3. sinon (67 codes, 7,3 TWh, dont Gatineau, Sherbrooke, Saguenay et Trois-Rivières, dont le total
+   « hors MRC » est incomplet chez Hydro-Québec) : prédiction brute, signalée `estime_non_ajuste`.
+
+Le total estimé est de 68,6 TWh, contre 64,8 TWh dans le fichier des MRC, qui est incomplet pour ces
+mêmes villes. Contrôle ponctuel : Québec (ville) 4,3 TWh estimés, pour 4,7 TWh dans les lignes « hors
+MRC » de la Capitale-Nationale (ces lignes contiennent aussi d'autres municipalités).
+
+Limites : seul le secteur résidentiel est estimé (pas le commercial, l'industriel ni l'institutionnel) ;
+207 codes ont des variables manquantes remplacées par la médiane (`pred_incomplet`) ; les facteurs
+d'ajustement supposent que l'erreur de prédiction est la même pour toutes les municipalités d'une MRC.
+
 ## Reste à faire
 
-1. Lancer `04_temperatures.py` (voir ci-dessus), puis calculer les degrés-jours par municipalité.
-2. Modèle de consommation résidentielle par logement, estimé sur les unités mesurées, puis
-   ajusté aux totaux des MRC.
-3. Carte interactive (choroplèthe) avec incertitude.
+1. Corriger à la main les 25 unités non associées et les 7 codes absents du recensement.
+2. Carte interactive (choroplèthe) avec incertitude : `carte/`.
+3. Estimer les autres secteurs (commercial, industriel, institutionnel).

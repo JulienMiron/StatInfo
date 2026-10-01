@@ -1,0 +1,1283 @@
+code_geo,nom,population_2021,logements_total,logements_occupes,dju21,kwh_estime,kwh_bas80,kwh_haut80,kwh_par_logement,kwh_par_habitant,statut,facteur_mrc,pred_kwh,pred_incomplet
+01023,"Les Îles-de-la-Madeleine, Municipalité (MÉ)",12190.0,6413.0,5610.0,4181.0,102260624.0,102260624.0,102260624.0,15946.0,8389.0,mesure,,120532209.0,False
+01042,"Grosse-Île, Municipalité (MÉ)",464.0,252.0,220.0,4006.0,5403020.0,4230787.0,6900046.0,21441.0,11644.0,estime_non_ajuste,,5403020.0,False
+02005,"Percé, Ville (V)",3095.0,1862.0,1550.0,4904.0,39847591.0,31202303.0,50888247.0,21400.0,12875.0,estime_ajuste_mrc,1.476,27005450.0,False
+02010,"Sainte-Thérèse-de-Gaspé, Municipalité (MÉ)",979.0,504.0,475.0,4904.0,11776396.0,9221403.0,15039307.0,23366.0,12029.0,estime_ajuste_mrc,1.476,7981082.0,False
+02015,"Grande-Rivière, Ville (V)",3384.0,1723.0,1643.0,4904.0,36876609.0,28875902.0,47094089.0,21403.0,10897.0,estime_ajuste_mrc,1.476,24991961.0,False
+02028,"Chandler, Ville (V)",7490.0,3794.0,3572.0,5166.0,78340940.0,61344180.0,100047029.0,20649.0,10459.0,estime_ajuste_mrc,1.476,53093105.0,False
+02047,"Port-Daniel--Gascons, Municipalité (MÉ)",2271.0,1227.0,1079.0,4214.0,19519216.0,15284349.0,24927446.0,15908.0,8595.0,estime_non_ajuste,,19519216.0,False
+02902,"Mont-Alexandre, Non organisé (NO)",0.0,0.0,0.0,5166.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+03005,"Gaspé, Ville (V)",15063.0,7352.0,6780.0,5069.0,133458899.0,104503809.0,170436636.0,18153.0,8860.0,estime_ajuste_mrc,1.156,115482940.0,False
+03010,"Cloridorme, Canton (municipalité de) (CT)",607.0,382.0,315.0,5375.0,6108565.0,4783257.0,7801077.0,15991.0,10064.0,estime_ajuste_mrc,1.156,5285785.0,False
+03015,"Petite-Vallée, Municipalité (MÉ)",157.0,98.0,82.0,5375.0,1815738.0,1815738.0,1815738.0,18528.0,11565.0,mesure,,1559212.0,True
+03020,"Grande-Vallée, Municipalité (MÉ)",1077.0,595.0,530.0,5375.0,9552417.0,7479935.0,12199125.0,16054.0,8869.0,estime_ajuste_mrc,1.156,8265775.0,False
+03025,"Murdochville, Ville (V)",643.0,476.0,327.0,5891.0,7011269.0,5490112.0,8953896.0,14730.0,10904.0,estime_ajuste_mrc,1.156,6066901.0,False
+03902,"Rivière-Saint-Jean, Non organisé (NO)",0.0,3.0,0.0,5375.0,45266.0,35445.0,57808.0,15089.0,,estime_non_ajuste,,45266.0,True
+03904,"Collines-du-Basque, Non organisé (NO)",0.0,0.0,0.0,5891.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+04005,"Sainte-Madeleine-de-la-Rivière-Madeleine, Municipalité (MÉ)",289.0,224.0,161.0,5891.0,3145472.0,2463034.0,4016995.0,14042.0,10884.0,estime_ajuste_mrc,1.292,2435089.0,False
+04010,"Saint-Maxime-du-Mont-Louis, Municipalité (MÉ)",1047.0,585.0,501.0,5891.0,9345531.0,7317935.0,11934917.0,15975.0,8926.0,estime_ajuste_mrc,1.292,7234906.0,False
+04015,"Mont-Saint-Pierre, Village (VL)",186.0,133.0,98.0,6647.0,2419144.0,1894289.0,3089421.0,18189.0,13006.0,estime_ajuste_mrc,1.292,1872796.0,True
+04020,"Rivière-à-Claude, Municipalité (MÉ)",141.0,113.0,76.0,6647.0,2007837.0,1572219.0,2564152.0,17768.0,14240.0,estime_ajuste_mrc,1.292,1554380.0,True
+04025,"Marsoui, Village (VL)",289.0,179.0,149.0,6647.0,2587687.0,2026265.0,3304662.0,14456.0,8954.0,estime_ajuste_mrc,1.292,2003275.0,False
+04030,"La Martre, Municipalité (MÉ)",194.0,119.0,84.0,6647.0,2054837.0,1609022.0,2624175.0,17268.0,10592.0,estime_ajuste_mrc,1.292,1590766.0,True
+04037,"Sainte-Anne-des-Monts, Ville (V)",6121.0,3353.0,3030.0,5090.0,58264559.0,58264559.0,58264559.0,17377.0,9519.0,mesure,,44714131.0,False
+04047,"Cap-Chat, Ville (V)",2516.0,1405.0,1225.0,5090.0,23828056.0,18658348.0,30430145.0,16959.0,9471.0,estime_ajuste_mrc,1.292,18446651.0,False
+04902,"Mont-Albert, Non organisé (NO)",167.0,110.0,91.0,6647.0,1539514.0,1205503.0,1966071.0,13996.0,9219.0,estime_non_ajuste,,1539514.0,True
+04904,"Coulée-des-Adolphe, Non organisé (NO)",0.0,1.0,0.0,5090.0,15793.0,12366.0,20168.0,15793.0,,estime_non_ajuste,,15793.0,True
+05010,"Shigawake, Municipalité (MÉ)",333.0,167.0,144.0,4214.0,2878842.0,2254252.0,3676489.0,17239.0,8645.0,estime_ajuste_mrc,1.115,2580772.0,False
+05015,"Saint-Godefroi, Canton (municipalité de) (CT)",350.0,200.0,177.0,4214.0,3378388.0,2645417.0,4314445.0,16892.0,9653.0,estime_ajuste_mrc,1.115,3028596.0,False
+05020,"Hope Town, Municipalité (MÉ)",334.0,167.0,142.0,4214.0,3068708.0,2402925.0,3918962.0,18375.0,9188.0,estime_ajuste_mrc,1.115,2750980.0,False
+05025,"Hope, Canton (municipalité de) (CT)",584.0,320.0,289.0,4214.0,5733528.0,4489588.0,7322128.0,17917.0,9818.0,estime_ajuste_mrc,1.115,5139888.0,False
+05032,"Paspébiac, Ville (V)",3033.0,1501.0,1409.0,4364.0,26783243.0,20972381.0,34204132.0,17844.0,8831.0,estime_ajuste_mrc,1.115,24010151.0,False
+05040,"New Carlisle, Municipalité (MÉ)",1336.0,668.0,603.0,4364.0,11677507.0,9143969.0,14913019.0,17481.0,8741.0,estime_ajuste_mrc,1.115,10468438.0,False
+05045,"Bonaventure, Ville (V)",2733.0,1404.0,1318.0,4364.0,25162882.0,19703572.0,32134814.0,17922.0,9207.0,estime_ajuste_mrc,1.115,22557559.0,False
+05050,"Saint-Elzéar, Municipalité (MÉ)",464.0,227.0,204.0,4364.0,4357126.0,3411809.0,5564363.0,19194.0,9390.0,estime_ajuste_mrc,1.115,3905996.0,False
+05055,"Saint-Siméon, Paroisse (municipalité de) (PE)",1207.0,606.0,576.0,4364.0,11394595.0,8922437.0,14551719.0,18803.0,9440.0,estime_ajuste_mrc,1.115,10214818.0,False
+05060,"Caplan, Municipalité (MÉ)",1966.0,969.0,920.0,4364.0,17220238.0,13484155.0,21991486.0,17771.0,8759.0,estime_ajuste_mrc,1.115,15437284.0,False
+05065,"Saint-Alphonse, Municipalité (MÉ)",711.0,325.0,314.0,4364.0,6443025.0,5045153.0,8228207.0,19825.0,9062.0,estime_ajuste_mrc,1.115,5775925.0,False
+05070,"New Richmond, Ville (V)",3683.0,1805.0,1715.0,4286.0,33070869.0,25895852.0,42233885.0,18322.0,8979.0,estime_ajuste_mrc,1.115,29646768.0,False
+05077,"Cascapédia--Saint-Jules, Municipalité (MÉ)",764.0,385.0,347.0,4934.0,6142472.0,4809809.0,7844380.0,15954.0,8040.0,estime_non_ajuste,,6142472.0,False
+05902,"Rivière-Bonaventure, Non organisé (NO)",59.0,87.0,36.0,5550.0,1511108.0,1183260.0,1929794.0,17369.0,25612.0,estime_non_ajuste,,1511108.0,True
+06005,"Maria, Municipalité (MÉ)",2760.0,1229.0,1164.0,4286.0,23896678.0,18712082.0,30517780.0,19444.0,8658.0,estime_ajuste_mrc,1.084,22051817.0,False
+06013,"Carleton-sur-Mer, Ville (V)",4081.0,2222.0,2016.0,4286.0,37834099.0,37834099.0,37834099.0,17027.0,9271.0,mesure,,36069179.0,False
+06020,"Nouvelle, Municipalité (MÉ)",1782.0,931.0,829.0,4630.0,16135735.0,12634944.0,20606496.0,17332.0,9055.0,estime_ajuste_mrc,1.084,14890031.0,False
+06025,"Escuminac, Municipalité (MÉ)",575.0,317.0,268.0,4630.0,5474422.0,4286698.0,6991231.0,17269.0,9521.0,estime_ajuste_mrc,1.084,5051788.0,False
+06030,"Pointe-à-la-Croix, Municipalité (MÉ)",1344.0,697.0,642.0,4630.0,10333484.0,8091543.0,13196605.0,14826.0,7689.0,estime_ajuste_mrc,1.084,9535723.0,False
+06035,"Ristigouche-Partie-Sud-Est, Canton (municipalité de) (CT)",170.0,95.0,81.0,4628.0,1646210.0,1289050.0,2102329.0,17329.0,9684.0,estime_non_ajuste,,1646210.0,True
+06040,"Saint-André-de-Restigouche, Municipalité (MÉ)",154.0,92.0,72.0,4628.0,1686399.0,1320520.0,2153653.0,18330.0,10951.0,estime_ajuste_mrc,1.084,1556207.0,True
+06045,"Matapédia, Municipalité (MÉ)",566.0,357.0,307.0,4628.0,5221629.0,4088750.0,6668397.0,14626.0,9225.0,estime_ajuste_mrc,1.084,4818511.0,False
+06050,"Saint-Alexis-de-Matapédia, Municipalité (MÉ)",519.0,285.0,249.0,4628.0,4204976.0,3292670.0,5370058.0,14754.0,8102.0,estime_ajuste_mrc,1.084,3880346.0,False
+06055,"Saint-François-d'Assise, Municipalité (MÉ)",679.0,367.0,323.0,4628.0,5605052.0,4388986.0,7158055.0,15273.0,8255.0,estime_ajuste_mrc,1.084,5172333.0,False
+06060,"L'Ascension-de-Patapédia, Municipalité (MÉ)",148.0,111.0,87.0,5269.0,1940696.0,1519645.0,2478409.0,17484.0,13113.0,estime_ajuste_mrc,1.084,1790871.0,True
+06802,"Gesgapegiag, Réserve indienne (IRI)",637.0,264.0,243.0,4286.0,6455403.0,6455403.0,6455403.0,24452.0,10134.0,mesure,,4378509.0,False
+06804,"Listuguj, Réserve indienne (IRI)",,,,4628.0,,,,,,estime_non_ajuste,,,True
+06902,"Rivière-Nouvelle, Non organisé (NO)",0.0,0.0,0.0,5726.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+06904,"Ruisseau-Ferguson, Non organisé (NO)",0.0,0.0,0.0,5269.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+07005,"Sainte-Marguerite-Marie, Municipalité (MÉ)",183.0,91.0,86.0,5349.0,1580396.0,1237515.0,2018280.0,17367.0,8636.0,estime_ajuste_mrc,1.124,1406670.0,True
+07010,"Sainte-Florence, Municipalité (MÉ)",367.0,207.0,187.0,5349.0,2780333.0,2177115.0,3550686.0,13432.0,7576.0,estime_ajuste_mrc,1.124,2474703.0,False
+07018,"Causapscal, Ville (V)",2147.0,1140.0,1061.0,5349.0,16434041.0,12868531.0,20987456.0,14416.0,7654.0,estime_ajuste_mrc,1.124,14627515.0,False
+07025,"Albertville, Municipalité (MÉ)",239.0,163.0,122.0,5286.0,2005864.0,2005864.0,2005864.0,12306.0,8393.0,mesure,,2678630.0,True
+07030,"Saint-Léon-le-Grand, Paroisse (municipalité de) (PE)",968.0,447.0,420.0,5286.0,6410623.0,6410623.0,6410623.0,14341.0,6623.0,mesure,,6583525.0,False
+07035,"Saint-Zénon-du-Lac-Humqui, Paroisse (municipalité de) (PE)",370.0,283.0,194.0,5286.0,2955144.0,2955144.0,2955144.0,10442.0,7987.0,mesure,,3727132.0,False
+07040,"Sainte-Irène, Paroisse (municipalité de) (PE)",369.0,246.0,174.0,5286.0,3690319.0,3690319.0,3690319.0,15001.0,10001.0,mesure,,4043836.0,False
+07047,"Amqui, Ville (V)",5999.0,3015.0,2846.0,5286.0,46452865.0,36374505.0,59323658.0,15407.0,7743.0,estime_ajuste_mrc,1.124,41346493.0,False
+07057,"Lac-au-Saumon, Municipalité (MÉ)",1488.0,646.0,607.0,5286.0,10624492.0,8319415.0,13568242.0,16447.0,7140.0,estime_ajuste_mrc,1.124,9456585.0,False
+07065,"Saint-Alexandre-des-Lacs, Paroisse (municipalité de) (PE)",298.0,143.0,129.0,5286.0,2362744.0,1850126.0,3017394.0,16523.0,7929.0,estime_ajuste_mrc,1.124,2103017.0,False
+07070,"Saint-Tharcisius, Paroisse (municipalité de) (PE)",411.0,199.0,185.0,5286.0,2898858.0,2269925.0,3702050.0,14567.0,7053.0,estime_ajuste_mrc,1.124,2580198.0,False
+07075,"Saint-Vianney, Municipalité (MÉ)",446.0,245.0,212.0,5286.0,3491972.0,2734357.0,4459499.0,14253.0,7830.0,estime_ajuste_mrc,1.124,3108113.0,False
+07080,"Val-Brillant, Municipalité (MÉ)",899.0,504.0,419.0,5286.0,8063532.0,8063532.0,8063532.0,15999.0,8969.0,mesure,,7696099.0,False
+07085,"Sayabec, Municipalité (MÉ)",1706.0,872.0,812.0,5286.0,13056461.0,10223746.0,16674042.0,14973.0,7653.0,estime_ajuste_mrc,1.124,11621218.0,False
+07090,"Saint-Cléophas, Paroisse (municipalité de) (PE)",321.0,159.0,145.0,5286.0,2404326.0,1882686.0,3070497.0,15122.0,7490.0,estime_ajuste_mrc,1.124,2140028.0,False
+07095,"Saint-Moïse, Paroisse (municipalité de) (PE)",542.0,324.0,265.0,4868.0,5122744.0,4011319.0,6542113.0,15811.0,9452.0,estime_ajuste_mrc,1.124,4559622.0,False
+07100,"Saint-Noël, Village (VL)",392.0,210.0,182.0,4868.0,3039428.0,2379998.0,3881569.0,14473.0,7754.0,estime_ajuste_mrc,1.124,2705317.0,False
+07105,"Saint-Damase, Paroisse (municipalité de) (PE)",382.0,178.0,165.0,4868.0,2912496.0,2280604.0,3719468.0,16362.0,7624.0,estime_ajuste_mrc,1.124,2592337.0,False
+07902,"Routhierville, Non organisé (NO)",20.0,15.0,11.0,4628.0,249570.0,195424.0,318719.0,16638.0,12479.0,estime_non_ajuste,,249570.0,True
+07904,"Rivière-Vaseuse, Non organisé (NO)",0.0,0.0,0.0,5269.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.124,0.0,True
+07906,"Rivière-Patapédia-Est, Non organisé (NO)",0.0,0.0,0.0,5269.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.124,0.0,True
+07908,"Lac-Casault, Non organisé (NO)",30.0,142.0,24.0,5726.0,224299.0,224299.0,224299.0,1580.0,7477.0,mesure,,2069239.0,True
+07910,"Ruisseau-des-Mineurs, Non organisé (NO)",5.0,27.0,4.0,5726.0,442038.0,346134.0,564515.0,16372.0,88408.0,estime_ajuste_mrc,1.124,393447.0,True
+07912,"Lac-Alfred, Non organisé (NO)",0.0,0.0,0.0,5286.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.124,0.0,True
+07914,"Lac-Matapédia, Non organisé (NO)",10.0,18.0,8.0,5286.0,312880.0,244998.0,399570.0,17382.0,31288.0,estime_ajuste_mrc,1.124,278486.0,True
+08005,"Les Méchins, Municipalité (MÉ)",995.0,671.0,519.0,4484.0,9852490.0,7714905.0,12582341.0,14683.0,9902.0,estime_ajuste_mrc,1.115,8837921.0,False
+08010,"Saint-Jean-de-Cherbourg, Paroisse (municipalité de) (PE)",163.0,93.0,73.0,4484.0,1749310.0,1369782.0,2233995.0,18810.0,10732.0,estime_ajuste_mrc,1.115,1569174.0,True
+08015,"Grosses-Roches, Municipalité (MÉ)",375.0,261.0,206.0,4484.0,3724525.0,2916456.0,4756487.0,14270.0,9932.0,estime_ajuste_mrc,1.115,3340989.0,False
+08023,"Sainte-Félicité, Municipalité (MÉ)",1100.0,580.0,505.0,4736.0,8682934.0,8682934.0,8682934.0,14971.0,7894.0,mesure,,8522733.0,False
+08030,"Saint-Adelme, Paroisse (municipalité de) (PE)",484.0,291.0,223.0,4736.0,5119095.0,4008462.0,6537453.0,17591.0,10577.0,estime_ajuste_mrc,1.115,4591952.0,False
+08035,"Saint-René-de-Matane, Municipalité (MÉ)",961.0,596.0,478.0,5286.0,7890925.0,7890925.0,7890925.0,13240.0,8211.0,mesure,,8543378.0,False
+08040,"Sainte-Paule, Municipalité (MÉ)",247.0,217.0,129.0,5286.0,3973201.0,3111180.0,5074064.0,18310.0,16086.0,estime_ajuste_mrc,1.115,3564057.0,True
+08053,"Matane, Ville (V)",13987.0,7482.0,6996.0,4736.0,115269516.0,90260774.0,147207482.0,15406.0,8241.0,estime_ajuste_mrc,1.115,103399535.0,False
+08065,"Saint-Léandre, Paroisse (municipalité de) (PE)",375.0,222.0,188.0,5286.0,3566270.0,2792536.0,4554383.0,16064.0,9510.0,estime_ajuste_mrc,1.115,3199030.0,False
+08073,"Saint-Ulric, Municipalité (MÉ)",1567.0,912.0,781.0,4736.0,16244681.0,12720254.0,20745629.0,17812.0,10367.0,estime_ajuste_mrc,1.115,14571871.0,False
+08080,"Baie-des-Sables, Municipalité (MÉ)",613.0,336.0,281.0,4868.0,5099982.0,5099982.0,5099982.0,15179.0,8320.0,mesure,,4975507.0,False
+08902,"Rivière-Bonjour, Non organisé (NO)",16.0,67.0,8.0,5726.0,1088411.0,852271.0,1389979.0,16245.0,68026.0,estime_ajuste_mrc,1.115,976331.0,True
+09005,"La Rédemption, Paroisse (municipalité de) (PE)",384.0,227.0,174.0,4868.0,3020023.0,2364802.0,3856786.0,13304.0,7865.0,estime_ajuste_mrc,1.047,2884141.0,False
+09010,"Saint-Charles-Garnier, Paroisse (municipalité de) (PE)",222.0,151.0,110.0,4868.0,2677796.0,2096825.0,3419739.0,17734.0,12062.0,estime_ajuste_mrc,1.047,2557312.0,True
+09015,"Les Hauteurs, Municipalité (MÉ)",485.0,263.0,217.0,4868.0,3722955.0,3722955.0,3722955.0,14156.0,7676.0,mesure,,3559042.0,False
+09020,"Sainte-Jeanne-d'Arc, Paroisse (municipalité de) (PE)",217.0,146.0,110.0,4868.0,2621145.0,2052464.0,3347391.0,17953.0,12079.0,estime_ajuste_mrc,1.047,2503210.0,True
+09025,"Saint-Gabriel-de-Rimouski, Municipalité (MÉ)",1177.0,581.0,524.0,4868.0,8741479.0,8741479.0,8741479.0,15046.0,7427.0,mesure,,8833225.0,False
+09030,"Saint-Donat, Paroisse (municipalité de) (PE)",835.0,478.0,400.0,4868.0,8420472.0,6593576.0,10753550.0,17616.0,10084.0,estime_ajuste_mrc,1.047,8041604.0,False
+09035,"Sainte-Angèle-de-Mérici, Municipalité (MÉ)",989.0,519.0,455.0,4868.0,7868774.0,6161574.0,10048992.0,15161.0,7956.0,estime_ajuste_mrc,1.047,7514729.0,False
+09040,"Padoue, Municipalité (MÉ)",250.0,123.0,111.0,4868.0,1592575.0,1592575.0,1592575.0,12948.0,6370.0,mesure,,1909830.0,False
+09048,"Métis-sur-Mer, Ville (V)",594.0,505.0,310.0,4868.0,7384035.0,5782003.0,9429945.0,14622.0,12431.0,estime_ajuste_mrc,1.047,7051800.0,False
+09055,"Saint-Octave-de-Métis, Paroisse (municipalité de) (PE)",493.0,221.0,207.0,4868.0,3540193.0,3540193.0,3540193.0,16019.0,7181.0,mesure,,3431767.0,False
+09060,"Grand-Métis, Municipalité (MÉ)",218.0,206.0,122.0,4868.0,2168316.0,2168316.0,2168316.0,10526.0,9946.0,mesure,,3485955.0,True
+09065,"Price, Village (VL)",1729.0,794.0,760.0,4868.0,12145229.0,9510214.0,15510333.0,15296.0,7024.0,estime_ajuste_mrc,1.047,11598771.0,False
+09070,"Saint-Joseph-de-Lepage, Paroisse (municipalité de) (PE)",590.0,260.0,223.0,4868.0,4796135.0,3755571.0,6125010.0,18447.0,8129.0,estime_ajuste_mrc,1.047,4580339.0,False
+09077,"Mont-Joli, Ville (V)",6384.0,3173.0,3034.0,4868.0,42663751.0,33407473.0,54484686.0,13446.0,6683.0,estime_ajuste_mrc,1.047,40744155.0,False
+09085,"Sainte-Flavie, Paroisse (municipalité de) (PE)",904.0,531.0,418.0,4868.0,8693460.0,6807337.0,11102175.0,16372.0,9617.0,estime_ajuste_mrc,1.047,8302310.0,False
+09092,"Sainte-Luce, Municipalité (MÉ)",2845.0,1462.0,1292.0,4562.0,26688665.0,20898323.0,34083350.0,18255.0,9381.0,estime_ajuste_mrc,1.047,25487846.0,False
+09902,"Lac-des-Eaux-Mortes, Non organisé (NO)",47.0,202.0,25.0,5164.0,3487055.0,2730507.0,4453220.0,17263.0,74193.0,estime_ajuste_mrc,1.047,3330159.0,True
+09904,"Lac-à-la-Croix, Non organisé (NO)",0.0,0.0,0.0,4868.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.047,0.0,True
+10005,"Esprit-Saint, Municipalité (MÉ)",340.0,198.0,173.0,5129.0,2160749.0,1691956.0,2759433.0,10913.0,6355.0,estime_ajuste_mrc,0.863,2502409.0,False
+10010,"La Trinité-des-Monts, Paroisse (municipalité de) (PE)",233.0,167.0,128.0,5129.0,2385744.0,1868135.0,3046767.0,14286.0,10239.0,estime_ajuste_mrc,0.863,2762980.0,True
+10015,"Saint-Narcisse-de-Rimouski, Paroisse (municipalité de) (PE)",1084.0,667.0,495.0,5129.0,9375013.0,9375013.0,9375013.0,14055.0,8649.0,mesure,,10691642.0,False
+10025,"Saint-Marcellin, Paroisse (municipalité de) (PE)",397.0,324.0,213.0,4562.0,4532791.0,3549362.0,5788701.0,13990.0,11418.0,estime_ajuste_mrc,0.863,5249520.0,False
+10030,"Saint-Anaclet-de-Lessard, Paroisse (municipalité de) (PE)",3019.0,1324.0,1275.0,4562.0,21474305.0,16815264.0,27424236.0,16219.0,7113.0,estime_ajuste_mrc,0.863,24869844.0,False
+10043,"Rimouski, Ville (V)",48935.0,24849.0,23470.0,4562.0,402917246.0,402917246.0,402917246.0,16215.0,8234.0,mesure,,385419159.0,False
+10060,"Saint-Valérien, Paroisse (municipalité de) (PE)",906.0,459.0,378.0,4562.0,6263193.0,6263193.0,6263193.0,13645.0,6913.0,mesure,,7983079.0,False
+10070,"Saint-Fabien, Paroisse (municipalité de) (PE)",1834.0,1171.0,867.0,5004.0,15229319.0,15229319.0,15229319.0,13005.0,8304.0,mesure,,17132384.0,False
+10075,"Saint-Eugène-de-Ladrière, Paroisse (municipalité de) (PE)",413.0,190.0,183.0,5129.0,2869039.0,2869039.0,2869039.0,15100.0,6947.0,mesure,,2679932.0,False
+10902,"Lac-Huron, Non organisé (NO)",30.0,125.0,21.0,5164.0,1696738.0,1328616.0,2166857.0,13574.0,56558.0,estime_ajuste_mrc,0.863,1965028.0,True
+11005,"Saint-Clément, Municipalité (MÉ)",479.0,231.0,214.0,4897.0,3392309.0,2656318.0,4332223.0,14685.0,7082.0,estime_ajuste_mrc,1.018,3331482.0,False
+11010,"Saint-Jean-de-Dieu, Municipalité (MÉ)",1651.0,742.0,699.0,4897.0,10426678.0,8164518.0,13315619.0,14052.0,6315.0,estime_ajuste_mrc,1.018,10239718.0,False
+11015,"Sainte-Rita, Municipalité (MÉ)",303.0,216.0,142.0,4897.0,2211427.0,2211427.0,2211427.0,10238.0,7298.0,mesure,,2986793.0,False
+11020,"Saint-Guy, Municipalité (MÉ)",76.0,65.0,47.0,,1180214.0,924156.0,1507218.0,18157.0,15529.0,estime_non_ajuste,,1180214.0,True
+11025,"Saint-Médard, Municipalité (MÉ)",216.0,120.0,106.0,4897.0,2075699.0,1625358.0,2650818.0,17297.0,9610.0,estime_ajuste_mrc,1.018,2038480.0,True
+11030,"Sainte-Françoise, Paroisse (municipalité de) (PE)",383.0,209.0,192.0,4897.0,2998540.0,2347980.0,3829351.0,14347.0,7829.0,estime_ajuste_mrc,1.018,2944773.0,False
+11035,"Saint-Éloi, Paroisse (municipalité de) (PE)",310.0,151.0,136.0,4897.0,2413481.0,1889855.0,3082189.0,15983.0,7785.0,estime_ajuste_mrc,1.018,2370205.0,False
+11040,"Trois-Pistoles, Ville (V)",3115.0,1727.0,1562.0,4897.0,22074737.0,17285428.0,28191031.0,12782.0,7087.0,estime_ajuste_mrc,1.018,21678917.0,False
+11045,"Notre-Dame-des-Neiges, Municipalité (MÉ)",1194.0,815.0,575.0,4897.0,13178696.0,10319461.0,16830145.0,16170.0,11037.0,estime_ajuste_mrc,1.018,12942390.0,False
+11050,"Saint-Mathieu-de-Rioux, Municipalité (MÉ)",691.0,573.0,341.0,4897.0,9326410.0,7302962.0,11910497.0,16276.0,13497.0,estime_ajuste_mrc,1.018,9159178.0,False
+11055,"Saint-Simon-de-Rimouski, Municipalité (MÉ)",455.0,333.0,230.0,4897.0,4301903.0,4301903.0,4301903.0,12919.0,9455.0,mesure,,4975755.0,False
+11902,"Lac-Boisbouscache, Non organisé (NO)",0.0,0.0,0.0,4897.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.018,0.0,True
+12005,"Saint-Cyprien, Municipalité (MÉ)",1078.0,502.0,448.0,4897.0,8022192.0,6281707.0,10244918.0,15980.0,7442.0,estime_ajuste_mrc,1.028,7804203.0,False
+12010,"Saint-Hubert-de-Rivière-du-Loup, Municipalité (MÉ)",1412.0,1019.0,646.0,4897.0,16790022.0,13147278.0,21442069.0,16477.0,11891.0,estime_ajuste_mrc,1.028,16333783.0,False
+12015,"Saint-Antonin, Municipalité (MÉ)",4338.0,1990.0,1889.0,5060.0,30248690.0,30248690.0,30248690.0,15200.0,6973.0,mesure,,33414252.0,False
+12020,"Saint-Modeste, Municipalité (MÉ)",1180.0,480.0,446.0,4481.0,9927716.0,7773810.0,12678409.0,20683.0,8413.0,estime_ajuste_mrc,1.028,9657947.0,False
+12025,"Saint-François-Xavier-de-Viger, Municipalité (MÉ)",247.0,137.0,118.0,4897.0,2322619.0,1818706.0,2966152.0,16953.0,9403.0,estime_ajuste_mrc,1.028,2259506.0,True
+12030,"Saint-Épiphane, Municipalité (MÉ)",836.0,390.0,369.0,4481.0,5281631.0,5281631.0,5281631.0,13543.0,6318.0,mesure,,6027300.0,False
+12035,"Saint-Paul-de-la-Croix, Paroisse (municipalité de) (PE)",313.0,182.0,156.0,4897.0,2806120.0,2197308.0,3583618.0,15418.0,8965.0,estime_ajuste_mrc,1.028,2729869.0,False
+12043,"L'Isle-Verte, Municipalité (MÉ)",1356.0,697.0,643.0,4481.0,10476143.0,10476143.0,10476143.0,15030.0,7726.0,mesure,,10436704.0,False
+12045,"Notre-Dame-des-Sept-Douleurs, Paroisse (municipalité de) (PE)",71.0,117.0,46.0,4481.0,2240521.0,1754420.0,2861307.0,19150.0,31557.0,estime_ajuste_mrc,1.028,2179639.0,True
+12057,"Cacouna, Municipalité (MÉ)",1848.0,954.0,855.0,4481.0,16169661.0,16169661.0,16169661.0,16949.0,8750.0,mesure,,16756164.0,False
+12065,"Saint-Arsène, Paroisse (municipalité de) (PE)",1245.0,479.0,468.0,4481.0,8949866.0,7008113.0,11429624.0,18684.0,7189.0,estime_ajuste_mrc,1.028,8706669.0,False
+12072,"Rivière-du-Loup, Ville (V)",20118.0,10045.0,9482.0,4481.0,154151249.0,120706771.0,196862259.0,15346.0,7662.0,estime_ajuste_mrc,1.028,149962457.0,False
+12080,"Notre-Dame-du-Portage, Municipalité (MÉ)",1296.0,748.0,597.0,4481.0,15136317.0,15136317.0,15136317.0,20236.0,11679.0,mesure,,15191335.0,False
+13005,"Dégelis, Ville (V)",2884.0,1518.0,1385.0,4667.0,23501399.0,18402563.0,30012981.0,15482.0,8149.0,estime_ajuste_mrc,1.068,22001837.0,False
+13010,"Saint-Jean-de-la-Lande, Municipalité (MÉ)",232.0,178.0,126.0,4667.0,3345666.0,2619794.0,4272657.0,18796.0,14421.0,estime_ajuste_mrc,1.068,3132188.0,True
+13015,"Packington, Paroisse (municipalité de) (PE)",578.0,419.0,273.0,4889.0,6620529.0,5184146.0,8454893.0,15801.0,11454.0,estime_ajuste_mrc,1.068,6198090.0,False
+13020,"Saint-Marc-du-Lac-Long, Paroisse (municipalité de) (PE)",365.0,263.0,178.0,4889.0,4168812.0,3264351.0,5323873.0,15851.0,11421.0,estime_ajuste_mrc,1.068,3902811.0,False
+13025,"Rivière-Bleue, Municipalité (MÉ)",1261.0,732.0,611.0,4889.0,10100491.0,7909100.0,12899055.0,13798.0,8010.0,estime_ajuste_mrc,1.068,9456005.0,False
+13030,"Saint-Eusèbe, Paroisse (municipalité de) (PE)",587.0,276.0,244.0,4889.0,4989374.0,3906885.0,6371790.0,18077.0,8500.0,estime_ajuste_mrc,1.068,4671015.0,False
+13040,"Saint-Juste-du-Lac, Municipalité (MÉ)",543.0,348.0,269.0,4667.0,5400822.0,4229066.0,6897239.0,15520.0,9946.0,estime_ajuste_mrc,1.068,5056210.0,False
+13045,"Auclair, Municipalité (MÉ)",447.0,264.0,212.0,4667.0,4027895.0,4027895.0,4027895.0,15257.0,9011.0,mesure,,3911629.0,False
+13050,"Lejeune, Municipalité (MÉ)",246.0,165.0,132.0,5129.0,2869516.0,2246949.0,3664579.0,17391.0,11665.0,estime_ajuste_mrc,1.068,2686420.0,True
+13055,"Biencourt, Municipalité (MÉ)",433.0,283.0,235.0,5129.0,3940802.0,3085810.0,5032689.0,13925.0,9101.0,estime_ajuste_mrc,1.068,3689350.0,False
+13060,"Lac-des-Aigles, Municipalité (MÉ)",495.0,289.0,240.0,,4539354.0,3554501.0,5797083.0,15707.0,9170.0,estime_non_ajuste,,4539354.0,True
+13065,"Saint-Michel-du-Squatec, Municipalité (MÉ)",1076.0,576.0,501.0,5129.0,8364206.0,6549517.0,10681694.0,14521.0,7773.0,estime_ajuste_mrc,1.068,7830508.0,False
+13073,"Témiscouata-sur-le-Lac, Ville (V)",5054.0,2699.0,2356.0,4889.0,43631042.0,34164901.0,55719986.0,16166.0,8633.0,estime_ajuste_mrc,1.068,40847060.0,False
+13075,"Saint-Pierre-de-Lamy, Municipalité (MÉ)",122.0,100.0,60.0,4897.0,1765585.0,1382526.0,2254779.0,17656.0,14472.0,estime_ajuste_mrc,1.068,1652928.0,True
+13080,"Saint-Louis-du-Ha! Ha!, Paroisse (municipalité de) (PE)",1311.0,594.0,552.0,4889.0,9555681.0,7482491.0,12203294.0,16087.0,7289.0,estime_ajuste_mrc,1.068,8945958.0,False
+13085,"Saint-Elzéar-de-Témiscouata, Municipalité (MÉ)",311.0,154.0,138.0,4889.0,2345819.0,1836873.0,2995780.0,15233.0,7543.0,estime_ajuste_mrc,1.068,2196139.0,False
+13090,"Saint-Honoré-de-Témiscouata, Municipalité (MÉ)",763.0,356.0,327.0,4889.0,5829449.0,5829449.0,5829449.0,16375.0,7640.0,mesure,,5492523.0,False
+13095,"Pohénégamook, Ville (V)",2481.0,1393.0,1171.0,5060.0,22387584.0,17530400.0,28590559.0,16071.0,9024.0,estime_ajuste_mrc,1.068,20959091.0,False
+13100,"Saint-Athanase, Municipalité (MÉ)",303.0,171.0,136.0,5060.0,2641249.0,2068207.0,3373066.0,15446.0,8717.0,estime_ajuste_mrc,1.068,2472718.0,False
+14005,"Mont-Carmel, Municipalité (MÉ)",1160.0,713.0,534.0,5060.0,13962858.0,10933492.0,17831576.0,19583.0,12037.0,estime_ajuste_mrc,1.312,10643465.0,False
+14010,"Saint-Bruno-de-Kamouraska, Municipalité (MÉ)",515.0,270.0,238.0,5060.0,5536167.0,4335047.0,7070084.0,20504.0,10750.0,estime_ajuste_mrc,1.312,4220053.0,False
+14018,"Saint-Pascal, Ville (V)",3530.0,1635.0,1559.0,4302.0,34224305.0,26799039.0,43706905.0,20932.0,9695.0,estime_ajuste_mrc,1.312,26088155.0,False
+14025,"Sainte-Hélène-de-Kamouraska, Municipalité (MÉ)",891.0,410.0,382.0,5060.0,8267366.0,6473688.0,10558022.0,20164.0,9279.0,estime_ajuste_mrc,1.312,6301964.0,False
+14030,"Saint-Joseph-de-Kamouraska, Paroisse (municipalité de) (PE)",398.0,176.0,165.0,5060.0,3802902.0,2977829.0,4856580.0,21607.0,9555.0,estime_ajuste_mrc,1.312,2898838.0,False
+14035,"Saint-Alexandre-de-Kamouraska, Municipalité (MÉ)",2255.0,927.0,868.0,5060.0,19778596.0,15487454.0,25258693.0,21336.0,8771.0,estime_ajuste_mrc,1.312,15076627.0,False
+14040,"Saint-André-de-Kamouraska, Municipalité (MÉ)",658.0,276.0,253.0,4481.0,6215043.0,4866634.0,7937058.0,22518.0,9445.0,estime_ajuste_mrc,1.312,4737540.0,False
+14045,"Saint-Germain, Paroisse (municipalité de) (PE)",294.0,163.0,140.0,4302.0,3617442.0,2832606.0,4619735.0,22193.0,12304.0,estime_ajuste_mrc,1.312,2757467.0,False
+14050,"Kamouraska, Municipalité (MÉ)",607.0,393.0,284.0,4302.0,9336428.0,7310807.0,11923291.0,23757.0,15381.0,estime_ajuste_mrc,1.312,7116877.0,False
+14055,"Saint-Denis-De La Bouteillerie, Municipalité (MÉ)",518.0,367.0,238.0,4302.0,8838146.0,6920632.0,11286950.0,24082.0,17062.0,estime_ajuste_mrc,1.312,6737052.0,False
+14060,"Saint-Philippe-de-Néri, Paroisse (municipalité de) (PE)",818.0,385.0,370.0,4302.0,8214570.0,6432346.0,10490598.0,21337.0,10042.0,estime_ajuste_mrc,1.312,6261719.0,False
+14065,"Rivière-Ouelle, Municipalité (MÉ)",995.0,626.0,446.0,4302.0,15276356.0,11962016.0,19509008.0,24403.0,15353.0,estime_ajuste_mrc,1.312,11644706.0,False
+14070,"Saint-Pacôme, Municipalité (MÉ)",1806.0,748.0,702.0,4302.0,16594264.0,12993991.0,21192071.0,22185.0,9188.0,estime_ajuste_mrc,1.312,12649307.0,False
+14075,"Saint-Gabriel-Lalemant, Municipalité (MÉ)",660.0,359.0,315.0,4302.0,7817860.0,6121706.0,9983971.0,21777.0,11845.0,estime_ajuste_mrc,1.312,5959319.0,False
+14080,"Saint-Onésime-d'Ixworth, Municipalité (MÉ)",522.0,305.0,258.0,,4742471.0,3713550.0,6056477.0,15549.0,9085.0,estime_non_ajuste,,4742471.0,True
+14085,"La Pocatière, Ville (V)",4078.0,2201.0,1981.0,,31604908.0,24747943.0,40361746.0,14359.0,7750.0,estime_non_ajuste,,31604908.0,True
+14090,"Sainte-Anne-de-la-Pocatière, Paroisse (municipalité de) (PE)",1597.0,717.0,681.0,,13486254.0,10560292.0,17222918.0,18809.0,8445.0,estime_non_ajuste,,13486254.0,True
+14902,"Picard, Non organisé (NO)",5.0,3.0,0.0,5060.0,62969.0,49307.0,80416.0,20990.0,12594.0,estime_ajuste_mrc,1.312,47999.0,True
+14904,"Petit-Lac-Sainte-Anne, Non organisé (NO)",0.0,0.0,0.0,4839.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.312,0.0,True
+15005,"Saint-Irénée, Paroisse (municipalité de) (PE)",678.0,482.0,333.0,4302.0,9217492.0,7217676.0,11771402.0,19123.0,13595.0,estime_ajuste_mrc,1.02,9040515.0,False
+15013,"La Malbaie, Ville (V)",8235.0,4563.0,3826.0,4302.0,82181695.0,82181695.0,82181695.0,18010.0,9980.0,mesure,,73566475.0,False
+15025,"Notre-Dame-des-Monts, Municipalité (MÉ)",789.0,376.0,337.0,4384.0,5523380.0,5523380.0,5523380.0,14690.0,7000.0,mesure,,6682833.0,False
+15030,"Saint-Aimé-des-Lacs, Municipalité (MÉ)",1158.0,739.0,517.0,4384.0,13931158.0,10908670.0,17791094.0,18851.0,12030.0,estime_ajuste_mrc,1.02,13663678.0,False
+15035,"Clermont, Ville (V)",3065.0,1490.0,1429.0,4302.0,24857967.0,19464811.0,31745417.0,16683.0,8110.0,estime_ajuste_mrc,1.02,24380690.0,False
+15058,"Saint-Siméon, Municipalité (MÉ)",1139.0,713.0,518.0,4944.0,10614908.0,8311910.0,13556002.0,14888.0,9319.0,estime_ajuste_mrc,1.02,10411100.0,False
+15065,"Baie-Sainte-Catherine, Municipalité (MÉ)",184.0,125.0,97.0,4944.0,2106700.0,1649633.0,2690407.0,16854.0,11449.0,estime_ajuste_mrc,1.02,2066251.0,True
+15902,"Mont-Élie, Non organisé (NO)",51.0,85.0,27.0,5805.0,1350794.0,1057727.0,1725061.0,15892.0,26486.0,estime_ajuste_mrc,1.02,1324858.0,True
+15904,"Sagard, Non organisé (NO)",110.0,91.0,54.0,4944.0,1632136.0,1278030.0,2084355.0,17936.0,14838.0,estime_ajuste_mrc,0.996,1638835.0,True
+16005,"Petite-Rivière-Saint-François, Municipalité (MÉ)",953.0,858.0,455.0,4384.0,19601527.0,15348803.0,25032564.0,22846.0,20568.0,estime_ajuste_mrc,1.141,17173528.0,False
+16013,"Baie-Saint-Paul, Ville (V)",7371.0,3782.0,3427.0,4384.0,68968919.0,68968919.0,68968919.0,18236.0,9357.0,mesure,,60424589.0,False
+16023,"L'Isle-aux-Coudres, Municipalité (MÉ)",1116.0,760.0,583.0,4384.0,14752594.0,11551888.0,18840126.0,19411.0,13219.0,estime_ajuste_mrc,1.141,12925222.0,False
+16048,"Les Éboulements, Municipalité (MÉ)",1465.0,925.0,643.0,4384.0,19580527.0,15332358.0,25005745.0,21168.0,13366.0,estime_ajuste_mrc,1.141,17155129.0,False
+16050,"Saint-Hilarion, Paroisse (municipalité de) (PE)",1146.0,533.0,492.0,4384.0,10695887.0,8375319.0,13659419.0,20067.0,9333.0,estime_ajuste_mrc,1.141,9371010.0,False
+16055,"Saint-Urbain, Paroisse (municipalité de) (PE)",1320.0,657.0,585.0,4384.0,12896534.0,10098517.0,16469804.0,19629.0,9770.0,estime_ajuste_mrc,1.141,11299068.0,False
+16902,"Lac-Pikauba, Non organisé (NO)",0.0,1.0,1.0,5196.0,15460.0,12106.0,19744.0,15460.0,,estime_ajuste_mrc,0.996,15524.0,True
+17005,"Saint-Omer, Municipalité (MÉ)",294.0,203.0,144.0,4839.0,2730979.0,2138469.0,3487657.0,13453.0,9289.0,estime_ajuste_mrc,0.918,2974495.0,False
+17010,"Saint-Pamphile, Ville (V)",2274.0,1188.0,1097.0,4882.0,17172466.0,17172466.0,17172466.0,14455.0,7552.0,mesure,,17841141.0,False
+17015,"Saint-Adalbert, Municipalité (MÉ)",460.0,251.0,217.0,4882.0,3585405.0,3585405.0,3585405.0,14284.0,7794.0,mesure,,3785632.0,False
+17020,"Saint-Marcel, Municipalité (MÉ)",422.0,279.0,205.0,4882.0,3515903.0,3515903.0,3515903.0,12602.0,8332.0,mesure,,4367950.0,False
+17025,"Sainte-Félicité, Municipalité (MÉ)",350.0,189.0,173.0,4882.0,2463214.0,1928798.0,3145702.0,13033.0,7038.0,estime_ajuste_mrc,0.918,2682854.0,False
+17030,"Sainte-Perpétue, Municipalité (MÉ)",1715.0,854.0,753.0,4882.0,12151212.0,12151212.0,12151212.0,14229.0,7085.0,mesure,,12633603.0,False
+17035,"Tourville, Municipalité (MÉ)",576.0,337.0,281.0,4882.0,4323600.0,3385557.0,5521549.0,12830.0,7506.0,estime_ajuste_mrc,0.918,4709127.0,False
+17040,"Saint-Damase-de-L'Islet, Municipalité (MÉ)",563.0,321.0,277.0,4882.0,3935679.0,3935679.0,3935679.0,12261.0,6991.0,mesure,,5065705.0,False
+17045,"Saint-Cyrille-de-Lessard, Paroisse (municipalité de) (PE)",742.0,559.0,385.0,4882.0,7049370.0,7049370.0,7049370.0,12611.0,9500.0,mesure,,8419919.0,False
+17055,"Saint-Aubert, Municipalité (MÉ)",1441.0,806.0,651.0,4882.0,12273481.0,9610641.0,15674120.0,15228.0,8517.0,estime_ajuste_mrc,0.918,13367883.0,False
+17060,"Sainte-Louise, Paroisse (municipalité de) (PE)",674.0,328.0,301.0,4302.0,4861987.0,4861987.0,4861987.0,14823.0,7214.0,mesure,,5304219.0,False
+17065,"Saint-Roch-des-Aulnaies, Municipalité (MÉ)",955.0,552.0,449.0,4302.0,9206970.0,7209436.0,11757965.0,16679.0,9641.0,estime_ajuste_mrc,0.918,10027937.0,False
+17070,"Saint-Jean-Port-Joli, Municipalité (MÉ)",3329.0,1737.0,1538.0,4256.0,26646191.0,26646191.0,26646191.0,15340.0,8004.0,mesure,,28520034.0,False
+17078,"L'Islet, Municipalité (MÉ)",3803.0,1871.0,1735.0,4256.0,28443671.0,28443671.0,28443671.0,15202.0,7479.0,mesure,,31616900.0,False
+18005,"Saint-Just-de-Bretenières, Municipalité (MÉ)",639.0,412.0,345.0,4732.0,5637919.0,5637919.0,5637919.0,13684.0,8823.0,mesure,,5600440.0,False
+18010,"Lac-Frontière, Municipalité (MÉ)",175.0,154.0,90.0,4732.0,2482748.0,1944094.0,3170649.0,16122.0,14187.0,estime_ajuste_mrc,0.901,2755669.0,True
+18015,"Saint-Fabien-de-Panet, Paroisse (municipalité de) (PE)",945.0,611.0,462.0,4732.0,7689468.0,6021170.0,9820005.0,12585.0,8137.0,estime_ajuste_mrc,0.901,8534747.0,False
+18020,"Sainte-Lucie-de-Beauregard, Municipalité (MÉ)",275.0,200.0,148.0,4882.0,2568596.0,2011317.0,3280283.0,12843.0,9340.0,estime_ajuste_mrc,0.901,2850954.0,False
+18025,"Sainte-Apolline-de-Patton, Paroisse (municipalité de) (PE)",505.0,423.0,257.0,4882.0,3416408.0,3416408.0,3416408.0,8077.0,6765.0,mesure,,5698589.0,False
+18030,"Saint-Paul-de-Montminy, Municipalité (MÉ)",849.0,520.0,409.0,5095.0,6597974.0,5166485.0,8426088.0,12688.0,7771.0,estime_ajuste_mrc,0.901,7323268.0,False
+18035,"Sainte-Euphémie-sur-Rivière-du-Sud, Municipalité (MÉ)",338.0,209.0,171.0,4256.0,2784521.0,2784521.0,2784521.0,13323.0,8238.0,mesure,,3120341.0,False
+18040,"Notre-Dame-du-Rosaire, Municipalité (MÉ)",371.0,242.0,200.0,4256.0,3355956.0,3355956.0,3355956.0,13868.0,9046.0,mesure,,3671168.0,False
+18045,"Cap-Saint-Ignace, Municipalité (MÉ)",3099.0,1521.0,1356.0,4256.0,23090529.0,18080835.0,29488271.0,15181.0,7451.0,estime_ajuste_mrc,0.901,25628800.0,False
+18050,"Montmagny, Ville (V)",10999.0,5801.0,5464.0,4256.0,91595646.0,91595646.0,91595646.0,15790.0,8328.0,mesure,,85474965.0,False
+18055,"Saint-Pierre-de-la-Rivière-du-Sud, Paroisse (municipalité de) (PE)",840.0,430.0,370.0,4256.0,7301296.0,5717215.0,9324281.0,16980.0,8692.0,estime_ajuste_mrc,0.901,8103905.0,False
+18060,"Saint-François-de-la-Rivière-du-Sud, Municipalité (MÉ)",1580.0,692.0,660.0,4256.0,11667230.0,11667230.0,11667230.0,16860.0,7384.0,mesure,,11986886.0,False
+18065,"Berthier-sur-Mer, Municipalité (MÉ)",1744.0,939.0,789.0,4256.0,16757121.0,13121516.0,21400052.0,17846.0,9608.0,estime_ajuste_mrc,0.901,18599180.0,False
+18070,"Saint-Antoine-de-l'Isle-aux-Grues, Paroisse (municipalité de) (PE)",122.0,102.0,72.0,4256.0,1665020.0,1303779.0,2126351.0,16324.0,13648.0,estime_ajuste_mrc,0.901,1848050.0,True
+19005,"Saint-Philémon, Paroisse (municipalité de) (PE)",680.0,533.0,364.0,5095.0,6978920.0,5464781.0,8912584.0,13094.0,10263.0,estime_ajuste_mrc,0.952,7328349.0,False
+19010,"Notre-Dame-Auxiliatrice-de-Buckland, Paroisse (municipalité de) (PE)",767.0,519.0,381.0,5095.0,7544881.0,5907952.0,9635357.0,14537.0,9837.0,estime_ajuste_mrc,0.952,7922647.0,False
+19015,"Saint-Nazaire-de-Dorchester, Paroisse (municipalité de) (PE)",338.0,178.0,149.0,5095.0,2542732.0,2542732.0,2542732.0,14285.0,7523.0,mesure,,2890214.0,False
+19020,"Saint-Léon-de-Standon, Paroisse (municipalité de) (PE)",1042.0,678.0,543.0,5095.0,9057317.0,7092252.0,11566847.0,13359.0,8692.0,estime_ajuste_mrc,0.952,9510810.0,False
+19025,"Saint-Malachie, Paroisse (municipalité de) (PE)",1667.0,812.0,699.0,5095.0,12031058.0,9420814.0,15364529.0,14817.0,7217.0,estime_ajuste_mrc,0.952,12633444.0,False
+19030,"Saint-Damien-de-Buckland, Paroisse (municipalité de) (PE)",1893.0,949.0,828.0,5095.0,13598902.0,10648500.0,17366779.0,14330.0,7184.0,estime_ajuste_mrc,0.952,14279789.0,False
+19037,"Armagh, Municipalité (MÉ)",1439.0,785.0,686.0,5095.0,10611760.0,8309444.0,13551982.0,13518.0,7374.0,estime_ajuste_mrc,0.952,11143082.0,False
+19045,"Saint-Nérée-de-Bellechasse, Municipalité (MÉ)",744.0,451.0,355.0,5095.0,6722360.0,5263884.0,8584938.0,14905.0,9035.0,estime_ajuste_mrc,0.952,7058943.0,False
+19050,"Saint-Lazare-de-Bellechasse, Municipalité (MÉ)",1332.0,571.0,540.0,4556.0,9252763.0,7245294.0,11816445.0,16204.0,6947.0,estime_ajuste_mrc,0.952,9716041.0,False
+19055,"Sainte-Claire, Municipalité (MÉ)",3526.0,1704.0,1583.0,4556.0,26544214.0,26544214.0,26544214.0,15578.0,7528.0,mesure,,29468121.0,False
+19062,"Saint-Anselme, Municipalité (MÉ)",4047.0,1772.0,1697.0,4556.0,30521191.0,23899348.0,38977761.0,17224.0,7542.0,estime_ajuste_mrc,0.952,32049362.0,False
+19068,"Saint-Henri, Municipalité (MÉ)",5813.0,2472.0,2358.0,4556.0,44427094.0,44427094.0,44427094.0,17972.0,7643.0,mesure,,47288747.0,False
+19070,"Honfleur, Municipalité (MÉ)",881.0,362.0,338.0,4556.0,6404403.0,5014911.0,8178884.0,17692.0,7269.0,estime_ajuste_mrc,0.952,6725066.0,False
+19075,"Saint-Gervais, Municipalité (MÉ)",2138.0,896.0,861.0,4556.0,14903354.0,11669940.0,19032658.0,16633.0,6971.0,estime_ajuste_mrc,0.952,15649553.0,False
+19082,"Saint-Raphaël, Municipalité (MÉ)",2458.0,1237.0,1084.0,4256.0,21187317.0,16590541.0,27057731.0,17128.0,8620.0,estime_ajuste_mrc,0.952,22248149.0,False
+19090,"La Durantaye, Paroisse (municipalité de) (PE)",782.0,374.0,339.0,4333.0,6456689.0,5055853.0,8245657.0,17264.0,8257.0,estime_ajuste_mrc,0.952,6779970.0,False
+19097,"Saint-Charles-de-Bellechasse, Municipalité (MÉ)",2583.0,1121.0,1064.0,4333.0,20037760.0,15690391.0,25589664.0,17875.0,7758.0,estime_ajuste_mrc,0.952,21041035.0,False
+19105,"Beaumont, Municipalité (MÉ)",2968.0,1171.0,1120.0,4333.0,27415341.0,27415341.0,27415341.0,23412.0,9237.0,mesure,,25247580.0,False
+19110,"Saint-Michel-de-Bellechasse, Municipalité (MÉ)",1871.0,896.0,783.0,4333.0,16866973.0,13207534.0,21540340.0,18825.0,9015.0,estime_ajuste_mrc,0.952,17711489.0,False
+19117,"Saint-Vallier, Municipalité (MÉ)",1031.0,519.0,457.0,4333.0,8811486.0,6899756.0,11252903.0,16978.0,8547.0,estime_ajuste_mrc,0.952,9252670.0,False
+20005,"Saint-François-de-l'Île-d'Orléans, Municipalité (MÉ)",536.0,359.0,253.0,4333.0,8142217.0,6375691.0,10398198.0,22680.0,15191.0,estime_ajuste_mrc,1.128,7217152.0,False
+20010,"Sainte-Famille-de-l'Île-d'Orléans, Municipalité (MÉ)",850.0,371.0,343.0,4333.0,8463434.0,6627217.0,10808416.0,22812.0,9957.0,estime_ajuste_mrc,1.128,7501875.0,False
+20015,"Saint-Jean-de-l'Île-d'Orléans, Municipalité (MÉ)",1026.0,639.0,493.0,4333.0,14089653.0,11032778.0,17993503.0,22050.0,13733.0,estime_ajuste_mrc,1.128,12488879.0,False
+20020,"Saint-Laurent-de-l'Île-d'Orléans, Municipalité (MÉ)",1607.0,824.0,713.0,4333.0,20141562.0,15771672.0,25722227.0,24444.0,12534.0,estime_ajuste_mrc,1.128,17853210.0,False
+20025,"Saint-Pierre-de-l'Île-d'Orléans, Municipalité (MÉ)",1743.0,811.0,768.0,4333.0,17318005.0,13560710.0,22116340.0,21354.0,9936.0,estime_ajuste_mrc,1.128,15350447.0,False
+20030,"Sainte-Pétronille, Village (VL)",1055.0,509.0,463.0,4333.0,13626342.0,10669986.0,17401821.0,26771.0,12916.0,estime_ajuste_mrc,1.128,12078206.0,False
+21005,"Saint-Tite-des-Caps, Municipalité (MÉ)",1504.0,887.0,720.0,4333.0,14390260.0,11268166.0,18377400.0,16224.0,9568.0,estime_ajuste_mrc,1.029,13979515.0,False
+21010,"Saint-Ferréol-les-Neiges, Municipalité (MÉ)",3806.0,2697.0,1806.0,4333.0,56244265.0,44041574.0,71827982.0,20854.0,14778.0,estime_ajuste_mrc,1.029,54638869.0,False
+21015,"Saint-Louis-de-Gonzague-du-Cap-Tourmente, Paroisse (municipalité de) (PE)",0.0,1.0,1.0,4333.0,17843.0,13972.0,22787.0,17843.0,,estime_ajuste_mrc,1.029,17334.0,True
+21020,"Saint-Joachim, Paroisse (municipalité de) (PE)",1427.0,682.0,629.0,4333.0,12949471.0,10139969.0,16537409.0,18987.0,9075.0,estime_ajuste_mrc,1.029,12579851.0,False
+21025,"Beaupré, Ville (V)",4117.0,2812.0,1859.0,4333.0,50433007.0,39491119.0,64406586.0,17935.0,12250.0,estime_ajuste_mrc,1.029,48993483.0,False
+21030,"Sainte-Anne-de-Beaupré, Ville (V)",2888.0,1499.0,1412.0,4333.0,26211357.0,26211357.0,26211357.0,17486.0,9076.0,mesure,,22365819.0,False
+21035,"Château-Richer, Ville (V)",4425.0,2064.0,1918.0,4333.0,41985729.0,32876554.0,53618804.0,20342.0,9488.0,estime_ajuste_mrc,1.029,40787319.0,False
+21040,"L'Ange-Gardien, Municipalité (MÉ)",3842.0,1717.0,1632.0,4333.0,34368975.0,34368975.0,34368975.0,20017.0,8946.0,mesure,,34758443.0,False
+21045,"Boischatel, Municipalité (MÉ)",8231.0,3128.0,3050.0,4333.0,76363181.0,59795513.0,97521288.0,24413.0,9278.0,estime_ajuste_mrc,1.029,74183525.0,False
+21902,"Sault-au-Cochon, Non organisé (NO)",0.0,0.0,0.0,4256.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.029,0.0,True
+21904,"Lac-Jacques-Cartier, Non organisé (NO)",0.0,0.0,0.0,5624.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.029,0.0,True
+22005,"Sainte-Catherine-de-la-Jacques-Cartier, Ville (V)",8442.0,3407.0,3298.0,4643.0,76544565.0,59937544.0,97752929.0,22467.0,9067.0,estime_ajuste_mrc,1.083,70692985.0,False
+22010,"Fossambault-sur-le-Lac, Ville (V)",2327.0,1282.0,994.0,4643.0,28967754.0,28967754.0,28967754.0,22596.0,12449.0,mesure,,29357329.0,False
+22015,"Lac-Saint-Joseph, Ville (V)",304.0,334.0,167.0,4643.0,8865235.0,6941843.0,11321544.0,26543.0,29162.0,estime_ajuste_mrc,1.083,8187516.0,False
+22020,"Shannon, Ville (V)",6432.0,2437.0,2332.0,4643.0,57355137.0,44911432.0,73246645.0,23535.0,8917.0,estime_ajuste_mrc,1.083,52970525.0,False
+22025,"Saint-Gabriel-de-Valcartier, Municipalité (MÉ)",3223.0,1136.0,1067.0,4643.0,26600226.0,20829071.0,33970406.0,23416.0,8253.0,estime_ajuste_mrc,1.083,24566726.0,False
+22030,"Lac-Delage, Ville (V)",771.0,316.0,308.0,4643.0,7705748.0,6033918.0,9840796.0,24385.0,9994.0,estime_ajuste_mrc,1.083,7116669.0,False
+22035,"Stoneham-et-Tewkesbury, Cantons unis (municipalité de) (CU)",9682.0,4421.0,3862.0,4643.0,103055417.0,80696632.0,131609197.0,23310.0,10644.0,estime_ajuste_mrc,1.083,95177169.0,False
+22040,"Lac-Beauport, Municipalité (MÉ)",8164.0,3201.0,3070.0,4643.0,87745866.0,68708624.0,112057797.0,27412.0,10748.0,estime_ajuste_mrc,1.083,81037983.0,False
+22045,"Sainte-Brigitte-de-Laval, Ville (V)",8468.0,3343.0,3203.0,4333.0,79108440.0,61945164.0,101027182.0,23664.0,9342.0,estime_ajuste_mrc,1.083,73060860.0,False
+22902,"Lac-Croche, Non organisé (NO)",0.0,0.0,0.0,5019.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.083,0.0,True
+23015,"Notre-Dame-des-Anges, Paroisse (municipalité de) (PE)",241.0,0.0,0.0,4333.0,0.0,0.0,0.0,,0.0,estime_ajuste_mrc,0.996,0.0,True
+23027,"Québec, Ville (V)",549459.0,283219.0,265711.0,4643.0,4344057604.0,3401575851.0,5547674752.0,15338.0,7906.0,estime_ajuste_mrc,0.996,4361888425.0,False
+23057,"L'Ancienne-Lorette, Ville (V)",16970.0,7516.0,7314.0,4643.0,137416822.0,107603026.0,175491189.0,18283.0,8098.0,estime_ajuste_mrc,0.996,137980869.0,False
+23072,"Saint-Augustin-de-Desmaures, Ville (V)",19907.0,8453.0,8143.0,4389.0,185141462.0,185141462.0,185141462.0,21902.0,9300.0,mesure,,190601330.0,False
+23802,"Wendake, Réserve indienne (IRI)",2200.0,1059.0,1019.0,4643.0,22453109.0,22453109.0,22453109.0,21202.0,10206.0,mesure,,16844290.0,False
+25213,"Lévis, Ville (V)",149683.0,68205.0,65751.0,4556.0,1252620896.0,1252620896.0,1252620896.0,18366.0,8368.0,mesure,,1258017924.0,False
+26005,"Frampton, Municipalité (MÉ)",1309.0,655.0,591.0,4556.0,11546530.0,9041408.0,14745751.0,17628.0,8821.0,estime_ajuste_mrc,0.995,11606713.0,False
+26010,"Saints-Anges, Paroisse (municipalité de) (PE)",1239.0,522.0,487.0,4556.0,10119484.0,7923973.0,12923311.0,19386.0,8167.0,estime_ajuste_mrc,0.995,10172230.0,False
+26015,"Vallée-Jonction, Municipalité (MÉ)",1864.0,862.0,830.0,4556.0,14686539.0,11500165.0,18755769.0,17038.0,7879.0,estime_ajuste_mrc,0.995,14763089.0,False
+26022,"Saint-Elzéar, Municipalité (MÉ)",2623.0,1031.0,1001.0,4556.0,20170891.0,15794637.0,25759682.0,19564.0,7690.0,estime_ajuste_mrc,0.995,20276026.0,False
+26030,"Sainte-Marie, Ville (V)",13134.0,5630.0,5500.0,4556.0,106004517.0,106004517.0,106004517.0,18829.0,8071.0,mesure,,100070369.0,False
+26035,"Sainte-Marguerite, Paroisse (municipalité de) (PE)",1175.0,531.0,491.0,4556.0,9078618.0,9078618.0,9078618.0,17097.0,7726.0,mesure,,9443183.0,False
+26040,"Sainte-Hénédine, Paroisse (municipalité de) (PE)",1440.0,564.0,544.0,4556.0,10329540.0,8088455.0,13191568.0,18315.0,7173.0,estime_ajuste_mrc,0.995,10383380.0,False
+26048,"Scott, Municipalité (MÉ)",2566.0,1101.0,1035.0,4556.0,21751290.0,17032155.0,27777965.0,19756.0,8477.0,estime_ajuste_mrc,0.995,21864663.0,False
+26055,"Saint-Bernard, Municipalité (MÉ)",2535.0,1048.0,978.0,4556.0,19002272.0,19002272.0,19002272.0,18132.0,7496.0,mesure,,19510798.0,False
+26063,"Saint-Isidore, Municipalité (MÉ)",3286.0,1406.0,1337.0,4556.0,26869713.0,21040091.0,34314560.0,19111.0,8177.0,estime_ajuste_mrc,0.995,27009765.0,False
+26070,"Saint-Lambert-de-Lauzon, Municipalité (MÉ)",6817.0,2752.0,2671.0,4556.0,56023207.0,56023207.0,56023207.0,20357.0,8218.0,mesure,,58868957.0,False
+27008,"Saint-Victor, Municipalité (MÉ)",2313.0,1198.0,1025.0,4573.0,18902763.0,14801641.0,24140191.0,15779.0,8172.0,estime_ajuste_mrc,0.921,20517189.0,False
+27015,"Saint-Alfred, Municipalité (MÉ)",519.0,241.0,208.0,4573.0,4048140.0,3169860.0,5169766.0,16797.0,7800.0,estime_ajuste_mrc,0.921,4393879.0,False
+27028,"Beauceville, Ville (V)",6185.0,2875.0,2723.0,4573.0,49510649.0,49510649.0,49510649.0,17221.0,8005.0,mesure,,46729270.0,False
+27035,"Saint-Odilon-de-Cranbourne, Paroisse (municipalité de) (PE)",1407.0,604.0,565.0,5095.0,9802782.0,9802782.0,9802782.0,16230.0,6967.0,mesure,,9481780.0,False
+27043,"Saint-Joseph-de-Beauce, Ville (V)",5014.0,2219.0,2130.0,4556.0,39342281.0,39342281.0,39342281.0,17730.0,7846.0,mesure,,37944964.0,False
+27050,"Saint-Joseph-des-Érables, Municipalité (MÉ)",377.0,154.0,148.0,4556.0,2568953.0,2011596.0,3280738.0,16682.0,6814.0,estime_ajuste_mrc,0.921,2788359.0,False
+27055,"Saint-Jules, Paroisse (municipalité de) (PE)",547.0,215.0,204.0,4573.0,3470626.0,2717643.0,4432240.0,16142.0,6345.0,estime_ajuste_mrc,0.921,3767041.0,False
+27060,"Tring-Jonction, Village (VL)",1526.0,687.0,657.0,4556.0,11923184.0,11923184.0,11923184.0,17355.0,7813.0,mesure,,12016671.0,False
+27065,"Saint-Frédéric, Paroisse (municipalité de) (PE)",1065.0,443.0,422.0,4556.0,7152341.0,5600577.0,9134055.0,16145.0,6716.0,estime_ajuste_mrc,0.921,7763200.0,False
+27070,"Saint-Séverin, Paroisse (municipalité de) (PE)",300.0,191.0,143.0,4556.0,3017340.0,3017340.0,3017340.0,15798.0,10058.0,mesure,,3033973.0,False
+28005,"Saint-Zacharie, Municipalité (MÉ)",1684.0,825.0,760.0,4634.0,13063640.0,10229368.0,16683210.0,15835.0,7758.0,estime_ajuste_mrc,0.986,13246326.0,False
+28015,"Sainte-Aurélie, Municipalité (MÉ)",856.0,507.0,423.0,4634.0,8379405.0,8379405.0,8379405.0,16527.0,9789.0,mesure,,8298685.0,False
+28020,"Saint-Prosper, Municipalité (MÉ)",3596.0,1646.0,1561.0,4634.0,27312373.0,21386712.0,34879870.0,16593.0,7595.0,estime_ajuste_mrc,0.986,27694318.0,False
+28025,"Saint-Benjamin, Municipalité (MÉ)",1090.0,493.0,461.0,5095.0,7832339.0,6133043.0,10002461.0,15887.0,7186.0,estime_ajuste_mrc,0.986,7941868.0,False
+28030,"Sainte-Rose-de-Watford, Municipalité (MÉ)",740.0,399.0,334.0,5095.0,6256607.0,6256607.0,6256607.0,15681.0,8455.0,mesure,,6427253.0,False
+28035,"Saint-Louis-de-Gonzague, Municipalité (MÉ)",390.0,221.0,183.0,5095.0,3295799.0,2580746.0,4208973.0,14913.0,8451.0,estime_ajuste_mrc,0.986,3341888.0,False
+28040,"Saint-Cyprien, Paroisse (municipalité de) (PE)",474.0,290.0,238.0,4732.0,4147830.0,4147830.0,4147830.0,14303.0,8751.0,mesure,,4311120.0,False
+28045,"Sainte-Justine, Municipalité (MÉ)",1828.0,844.0,786.0,5095.0,12921076.0,10117734.0,16501146.0,15309.0,7068.0,estime_ajuste_mrc,0.986,13101768.0,False
+28053,"Lac-Etchemin, Municipalité (MÉ)",4028.0,2075.0,1741.0,5095.0,38858427.0,38858427.0,38858427.0,18727.0,9647.0,mesure,,31423705.0,False
+28060,"Saint-Luc-de-Bellechasse, Municipalité (MÉ)",449.0,325.0,231.0,5095.0,4238605.0,3319002.0,5413004.0,13042.0,9440.0,estime_ajuste_mrc,0.986,4297879.0,False
+28065,"Sainte-Sabine, Paroisse (municipalité de) (PE)",343.0,237.0,195.0,5095.0,3141335.0,3141335.0,3141335.0,13255.0,9158.0,mesure,,3117681.0,False
+28070,"Saint-Camille-de-Lellis, Paroisse (municipalité de) (PE)",737.0,458.0,380.0,4732.0,6124932.0,4796074.0,7821980.0,13373.0,8311.0,estime_ajuste_mrc,0.986,6210585.0,False
+28075,"Saint-Magloire, Municipalité (MÉ)",712.0,471.0,346.0,5095.0,6152227.0,4817447.0,7856838.0,13062.0,8641.0,estime_ajuste_mrc,0.986,6238262.0,False
+29005,"Saint-Théophile, Municipalité (MÉ)",702.0,354.0,322.0,4634.0,5354794.0,5354794.0,5354794.0,15127.0,7628.0,mesure,,5736320.0,False
+29013,"Saint-Gédéon-de-Beauce, Municipalité (MÉ)",2093.0,956.0,911.0,4634.0,17196158.0,13465299.0,21960734.0,17988.0,8216.0,estime_ajuste_mrc,1.025,16780269.0,False
+29020,"Saint-Hilaire-de-Dorset, Paroisse (municipalité de) (PE)",96.0,56.0,44.0,4573.0,985218.0,771466.0,1258194.0,17593.0,10263.0,estime_ajuste_mrc,1.025,961390.0,True
+29025,"Saint-Évariste-de-Forsyth, Municipalité (MÉ)",511.0,311.0,230.0,,4901493.0,3838071.0,6259560.0,15760.0,9592.0,estime_non_ajuste,,4901493.0,True
+29030,"La Guadeloupe, Village (VL)",1805.0,860.0,814.0,4573.0,13453223.0,13453223.0,13453223.0,15643.0,7453.0,mesure,,12793987.0,False
+29038,"Saint-Honoré-de-Shenley, Municipalité (MÉ)",1555.0,678.0,637.0,4573.0,12042362.0,9429665.0,15378965.0,17762.0,7744.0,estime_ajuste_mrc,1.025,11751117.0,False
+29045,"Saint-Martin, Paroisse (municipalité de) (PE)",2588.0,1226.0,1136.0,4634.0,20302328.0,15897558.0,25927536.0,16560.0,7845.0,estime_ajuste_mrc,1.025,19811315.0,False
+29050,"Saint-René, Paroisse (municipalité de) (PE)",946.0,373.0,351.0,4634.0,7926812.0,6207020.0,10123110.0,21252.0,8379.0,estime_ajuste_mrc,1.025,7735102.0,False
+29057,"Saint-Côme--Linière, Municipalité (MÉ)",3278.0,1537.0,1388.0,4634.0,25926821.0,20301767.0,33110419.0,16868.0,7909.0,estime_ajuste_mrc,1.025,25299780.0,False
+29065,"Saint-Philibert, Municipalité (MÉ)",379.0,160.0,148.0,4634.0,2545748.0,2545748.0,2545748.0,15911.0,6717.0,mesure,,2907020.0,False
+29073,"Saint-Georges, Ville (V)",32935.0,16058.0,15415.0,4634.0,271004000.0,271004000.0,271004000.0,16877.0,8228.0,mesure,,250213687.0,False
+29095,"Lac-Poulin, Village (VL)",171.0,154.0,75.0,4573.0,2847279.0,2229537.0,3636180.0,18489.0,16651.0,estime_ajuste_mrc,1.025,2778417.0,True
+29100,"Saint-Benoît-Labre, Municipalité (MÉ)",1617.0,820.0,710.0,4573.0,13670863.0,13670863.0,13670863.0,16672.0,8454.0,mesure,,14439007.0,False
+29112,"Saint-Éphrem-de-Beauce, Municipalité (MÉ)",2323.0,1054.0,987.0,4573.0,17615439.0,17615439.0,17615439.0,16713.0,7583.0,mesure,,18352740.0,False
+29120,"Notre-Dame-des-Pins, Paroisse (municipalité de) (PE)",1812.0,763.0,745.0,4634.0,14336667.0,11226200.0,18308957.0,18790.0,7912.0,estime_ajuste_mrc,1.025,13989934.0,False
+29125,"Saint-Simon-les-Mines, Municipalité (MÉ)",573.0,231.0,223.0,4634.0,4731934.0,3705299.0,6043021.0,20485.0,8258.0,estime_ajuste_mrc,1.025,4617492.0,False
+30005,"Saint-Augustin-de-Woburn, Paroisse (municipalité de) (PE)",667.0,354.0,309.0,4945.0,6146009.0,4812578.0,7848897.0,17362.0,9214.0,estime_ajuste_mrc,1.085,5664838.0,False
+30010,"Notre-Dame-des-Bois, Municipalité (MÉ)",1028.0,817.0,470.0,4945.0,10360654.0,10360654.0,10360654.0,12681.0,10078.0,mesure,,11959775.0,False
+30015,"Val-Racine, Municipalité (MÉ)",183.0,132.0,91.0,4945.0,2500449.0,1957954.0,3193253.0,18943.0,13664.0,estime_ajuste_mrc,1.085,2304689.0,True
+30020,"Piopolis, Municipalité (MÉ)",398.0,315.0,208.0,4945.0,5621771.0,4402078.0,7179406.0,17847.0,14125.0,estime_ajuste_mrc,1.085,5181642.0,False
+30025,"Frontenac, Municipalité (MÉ)",1811.0,922.0,769.0,4945.0,18089776.0,14165039.0,23101948.0,19620.0,9989.0,estime_ajuste_mrc,1.085,16673528.0,False
+30030,"Lac-Mégantic, Ville (V)",5747.0,3143.0,2938.0,4945.0,44032535.0,34479286.0,56232721.0,14010.0,7662.0,estime_ajuste_mrc,1.085,40585228.0,False
+30035,"Marston, Canton (municipalité de) (CT)",777.0,419.0,341.0,4945.0,6966139.0,6966139.0,6966139.0,16626.0,8965.0,mesure,,7104161.0,False
+30040,"Milan, Municipalité (MÉ)",318.0,212.0,156.0,4945.0,3573154.0,2797926.0,4563175.0,16854.0,11236.0,estime_ajuste_mrc,1.085,3293412.0,False
+30045,"Nantes, Municipalité (MÉ)",1388.0,668.0,609.0,4945.0,11928840.0,9340773.0,15233989.0,17858.0,8594.0,estime_ajuste_mrc,1.085,10994932.0,False
+30050,"Sainte-Cécile-de-Whitton, Municipalité (MÉ)",853.0,491.0,359.0,4945.0,8681572.0,6798028.0,11086994.0,17681.0,10178.0,estime_ajuste_mrc,1.085,8001892.0,False
+30055,"Audet, Municipalité (MÉ)",708.0,317.0,284.0,4564.0,5711966.0,4472705.0,7294593.0,18019.0,8068.0,estime_ajuste_mrc,1.085,5264776.0,False
+30070,"Saint-Robert-Bellarmin, Municipalité (MÉ)",529.0,237.0,224.0,4564.0,4719038.0,3695201.0,6026552.0,19912.0,8921.0,estime_ajuste_mrc,1.085,4349585.0,False
+30072,"Saint-Ludger, Municipalité (MÉ)",1074.0,507.0,449.0,4564.0,8328694.0,8328694.0,8328694.0,16427.0,7755.0,mesure,,8406850.0,False
+30080,"Lac-Drolet, Municipalité (MÉ)",1067.0,600.0,492.0,4945.0,10038299.0,7860401.0,12819632.0,16730.0,9408.0,estime_ajuste_mrc,1.085,9252401.0,False
+30085,"Saint-Sébastien, Municipalité (MÉ)",674.0,329.0,301.0,4573.0,6053213.0,4739915.0,7730389.0,18399.0,8981.0,estime_ajuste_mrc,1.085,5579307.0,False
+30090,"Courcelles, Municipalité (MÉ)",814.0,430.0,391.0,,6071564.0,4754284.0,7753825.0,14120.0,7459.0,estime_non_ajuste,,6071564.0,True
+30095,"Lambton, Municipalité (MÉ)",1630.0,1143.0,755.0,4573.0,18826548.0,18826548.0,18826548.0,16471.0,11550.0,mesure,,19123054.0,False
+30100,"Saint-Romain, Municipalité (MÉ)",711.0,425.0,328.0,4573.0,7763565.0,6079191.0,9914632.0,18267.0,10919.0,estime_ajuste_mrc,1.085,7155755.0,False
+30105,"Stornoway, Municipalité (MÉ)",535.0,272.0,247.0,4945.0,4805261.0,3762717.0,6136665.0,17666.0,8982.0,estime_ajuste_mrc,1.085,4429057.0,False
+30110,"Stratford, Canton (municipalité de) (CT)",1036.0,946.0,533.0,4604.0,17485670.0,13691999.0,22330461.0,18484.0,16878.0,estime_ajuste_mrc,1.085,16116717.0,False
+31008,"Beaulac-Garthby, Municipalité (MÉ)",931.0,814.0,478.0,4604.0,13657007.0,10693999.0,17440983.0,16778.0,14669.0,estime_ajuste_mrc,1.015,13452863.0,False
+31015,"Disraeli, Ville (V)",2360.0,1311.0,1226.0,4604.0,17746549.0,13896278.0,22663623.0,13537.0,7520.0,estime_ajuste_mrc,1.015,17481275.0,False
+31020,"Disraeli, Paroisse (municipalité de) (PE)",1163.0,754.0,540.0,4604.0,13298198.0,10413036.0,16982757.0,17637.0,11434.0,estime_ajuste_mrc,1.015,13099417.0,False
+31025,"Saint-Jacques-le-Majeur-de-Wolfestown, Paroisse (municipalité de) (PE)",186.0,134.0,90.0,4604.0,2428150.0,1901341.0,3100922.0,18121.0,13055.0,estime_ajuste_mrc,1.015,2391854.0,True
+31030,"Saint-Fortunat, Municipalité (MÉ)",255.0,164.0,133.0,4604.0,2429956.0,1902756.0,3103229.0,14817.0,9529.0,estime_ajuste_mrc,1.015,2393634.0,False
+31035,"Saint-Julien, Municipalité (MÉ)",378.0,203.0,172.0,4604.0,3391727.0,2655862.0,4331480.0,16708.0,8973.0,estime_ajuste_mrc,1.015,3341027.0,False
+31040,"Irlande, Municipalité (MÉ)",897.0,435.0,383.0,4604.0,7846668.0,6144264.0,10020761.0,18038.0,8748.0,estime_ajuste_mrc,1.015,7729376.0,False
+31045,"Saint-Joseph-de-Coleraine, Municipalité (MÉ)",1820.0,1124.0,866.0,4604.0,18542333.0,14519410.0,23679896.0,16497.0,10188.0,estime_ajuste_mrc,1.015,18265163.0,False
+31050,"Sainte-Praxède, Paroisse (municipalité de) (PE)",351.0,290.0,157.0,4573.0,4968919.0,4968919.0,4968919.0,17134.0,14156.0,mesure,,4877787.0,False
+31056,"Adstock, Municipalité (MÉ)",2903.0,1767.0,1276.0,4573.0,32568325.0,25502339.0,41592099.0,18431.0,11219.0,estime_ajuste_mrc,1.015,32081496.0,False
+31060,"Sainte-Clotilde-de-Beauce, Municipalité (MÉ)",569.0,261.0,233.0,4573.0,4843599.0,3792737.0,6185625.0,18558.0,8512.0,estime_ajuste_mrc,1.015,4771197.0,False
+31084,"Thetford Mines, Ville (V)",26072.0,13059.0,12216.0,4604.0,239879545.0,239879545.0,239879545.0,18369.0,9201.0,mesure,,195305382.0,False
+31095,"Saint-Adrien-d'Irlande, Municipalité (MÉ)",395.0,209.0,178.0,4604.0,3530250.0,3530250.0,3530250.0,16891.0,8937.0,mesure,,3546626.0,False
+31100,"Saint-Jean-de-Brébeuf, Municipalité (MÉ)",351.0,171.0,157.0,4604.0,2917231.0,2284312.0,3725514.0,17060.0,8311.0,estime_ajuste_mrc,1.015,2873624.0,False
+31105,"Kinnear's Mills, Municipalité (MÉ)",397.0,194.0,168.0,4604.0,3666639.0,2871129.0,4682562.0,18900.0,9236.0,estime_ajuste_mrc,1.015,3611830.0,False
+31122,"East Broughton, Municipalité (MÉ)",2248.0,1059.0,1014.0,4573.0,18817914.0,18817914.0,18817914.0,17770.0,8371.0,mesure,,17266651.0,False
+31130,"Sacré-Coeur-de-Jésus, Paroisse (municipalité de) (PE)",536.0,277.0,223.0,4573.0,4763295.0,3729856.0,6083072.0,17196.0,8887.0,estime_ajuste_mrc,1.015,4692094.0,False
+31135,"Saint-Pierre-de-Broughton, Municipalité (MÉ)",889.0,453.0,396.0,4573.0,8073444.0,6321839.0,10310371.0,17822.0,9081.0,estime_ajuste_mrc,1.015,7952763.0,False
+31140,"Saint-Jacques-de-Leeds, Municipalité (MÉ)",711.0,357.0,315.0,4389.0,5779889.0,4525891.0,7381335.0,16190.0,8129.0,estime_ajuste_mrc,1.015,5693492.0,False
+32013,"Saint-Ferdinand, Municipalité (MÉ)",2007.0,1277.0,988.0,4604.0,46582594.0,36476088.0,59489331.0,36478.0,23210.0,estime_ajuste_mrc,2.113,22049529.0,False
+32023,"Sainte-Sophie-d'Halifax, Municipalité (MÉ)",595.0,258.0,241.0,4604.0,9596459.0,7514422.0,12255370.0,37196.0,16129.0,estime_ajuste_mrc,2.113,4542413.0,False
+32033,"Princeville, Ville (V)",6218.0,2903.0,2781.0,4202.0,46712860.0,46712860.0,46712860.0,16091.0,7513.0,mesure,,47093499.0,False
+32040,"Plessisville, Ville (V)",6414.0,3456.0,3158.0,,48031694.0,37610792.0,61339936.0,13898.0,7489.0,estime_non_ajuste,,48031694.0,True
+32045,"Plessisville, Paroisse (municipalité de) (PE)",2655.0,1091.0,1062.0,,20321061.0,15912227.0,25951460.0,18626.0,7654.0,estime_non_ajuste,,20321061.0,True
+32050,"Saint-Pierre-Baptiste, Paroisse (municipalité de) (PE)",560.0,318.0,237.0,4604.0,10998732.0,8612460.0,14046174.0,34587.0,19641.0,estime_ajuste_mrc,2.113,5206169.0,False
+32058,"Inverness, Municipalité (MÉ)",910.0,559.0,422.0,4389.0,19671821.0,15403845.0,25122334.0,35191.0,21617.0,estime_ajuste_mrc,2.113,9311512.0,False
+32065,"Lyster, Municipalité (MÉ)",1587.0,776.0,681.0,4389.0,25717946.0,20138210.0,32843672.0,33142.0,16205.0,estime_ajuste_mrc,2.113,12173401.0,False
+32072,"Laurierville, Municipalité (MÉ)",1313.0,605.0,580.0,4389.0,9635287.0,9635287.0,9635287.0,15926.0,7338.0,mesure,,10099657.0,False
+32080,"Notre-Dame-de-Lourdes, Paroisse (municipalité de) (PE)",787.0,361.0,332.0,4277.0,14228841.0,11141768.0,18171256.0,39415.0,18080.0,estime_ajuste_mrc,2.113,6735118.0,False
+32085,"Villeroy, Municipalité (MÉ)",488.0,235.0,211.0,4277.0,7709263.0,6036670.0,9845285.0,32805.0,15798.0,estime_ajuste_mrc,2.113,3649123.0,False
+33007,"Saint-Sylvestre, Municipalité (MÉ)",1019.0,488.0,436.0,4556.0,7661295.0,5999109.0,9784026.0,15699.0,7518.0,estime_ajuste_mrc,0.933,8211190.0,False
+33017,"Sainte-Agathe-de-Lotbinière, Municipalité (MÉ)",1049.0,515.0,473.0,4389.0,7855771.0,7855771.0,7855771.0,15254.0,7489.0,mesure,,8662168.0,False
+33025,"Saint-Patrice-de-Beaurivage, Municipalité (MÉ)",1109.0,474.0,452.0,4389.0,7759646.0,6076122.0,9909628.0,16371.0,6997.0,estime_ajuste_mrc,0.933,8316600.0,False
+33030,"Saint-Narcisse-de-Beaurivage, Paroisse (municipalité de) (PE)",1152.0,466.0,446.0,4389.0,8259622.0,8259622.0,8259622.0,17725.0,7170.0,mesure,,8460016.0,False
+33035,"Saint-Gilles, Municipalité (MÉ)",2910.0,1264.0,1202.0,4389.0,21499223.0,16834776.0,27456058.0,17009.0,7388.0,estime_ajuste_mrc,0.933,23042345.0,False
+33040,"Dosquet, Municipalité (MÉ)",935.0,454.0,427.0,4389.0,7345442.0,5751783.0,9380659.0,16179.0,7856.0,estime_ajuste_mrc,0.933,7872666.0,False
+33045,"Saint-Agapit, Municipalité (MÉ)",4526.0,1967.0,1914.0,4389.0,33612319.0,33612319.0,33612319.0,17088.0,7426.0,mesure,,34950857.0,False
+33052,"Saint-Flavien, Municipalité (MÉ)",1619.0,735.0,663.0,4389.0,11165249.0,11165249.0,11165249.0,15191.0,6896.0,mesure,,12659800.0,False
+33060,"Laurier-Station, Village (VL)",2570.0,1164.0,1126.0,4389.0,19567122.0,19567122.0,19567122.0,16810.0,7614.0,mesure,,19537970.0,False
+33065,"Saint-Janvier-de-Joly, Municipalité (MÉ)",1079.0,500.0,471.0,4389.0,8615963.0,6746654.0,11003206.0,17232.0,7985.0,estime_ajuste_mrc,0.933,9234380.0,False
+33070,"Val-Alain, Municipalité (MÉ)",986.0,468.0,437.0,4277.0,7402046.0,5796107.0,9452947.0,15816.0,7507.0,estime_ajuste_mrc,0.933,7933333.0,False
+33080,"Saint-Édouard-de-Lotbinière, Paroisse (municipalité de) (PE)",1240.0,557.0,520.0,4277.0,9717394.0,9717394.0,9717394.0,17446.0,7837.0,mesure,,9861337.0,False
+33085,"Notre-Dame-du-Sacré-Coeur-d'Issoudun, Paroisse (municipalité de) (PE)",867.0,370.0,351.0,4389.0,6787628.0,5314992.0,8668290.0,18345.0,7829.0,estime_ajuste_mrc,0.933,7274815.0,False
+33090,"Saint-Apollinaire, Municipalité (MÉ)",7968.0,3449.0,3307.0,4389.0,63255901.0,63255901.0,63255901.0,18340.0,7939.0,mesure,,67077543.0,False
+33095,"Saint-Antoine-de-Tilly, Municipalité (MÉ)",1682.0,853.0,737.0,4389.0,16251252.0,12725399.0,20754020.0,19052.0,9662.0,estime_ajuste_mrc,0.933,17417697.0,False
+33102,"Sainte-Croix, Municipalité (MÉ)",2529.0,1287.0,1125.0,4389.0,22308686.0,22308686.0,22308686.0,17334.0,8821.0,mesure,,20774199.0,False
+33115,"Lotbinière, Municipalité (MÉ)",855.0,562.0,424.0,4277.0,8534418.0,6682801.0,10899067.0,15186.0,9982.0,estime_ajuste_mrc,0.933,9146982.0,False
+33123,"Leclercville, Municipalité (MÉ)",491.0,270.0,230.0,4277.0,4456952.0,4456952.0,4456952.0,16507.0,9077.0,mesure,,4542933.0,False
+34007,"Neuville, Ville (V)",4475.0,1967.0,1889.0,4389.0,42710897.0,42710897.0,42710897.0,21714.0,9544.0,mesure,,42999998.0,False
+34017,"Pont-Rouge, Ville (V)",10121.0,4344.0,4178.0,4643.0,86927972.0,68068179.0,111013288.0,20011.0,8589.0,estime_ajuste_mrc,1.056,82287385.0,False
+34025,"Donnacona, Ville (V)",7436.0,3410.0,3300.0,4389.0,59087315.0,46267799.0,75458761.0,17328.0,7946.0,estime_ajuste_mrc,1.056,55932981.0,False
+34030,"Cap-Santé, Ville (V)",3594.0,1589.0,1509.0,4277.0,34214299.0,26791204.0,43694126.0,21532.0,9520.0,estime_ajuste_mrc,1.056,32387793.0,False
+34038,"Saint-Basile, Ville (V)",2709.0,1327.0,1262.0,5190.0,21882188.0,17134654.0,27945132.0,16490.0,8078.0,estime_ajuste_mrc,1.056,20714024.0,False
+34048,"Portneuf, Ville (V)",3329.0,1696.0,1609.0,5190.0,26817104.0,20998896.0,34247375.0,15812.0,8056.0,estime_ajuste_mrc,1.056,25385492.0,False
+34058,"Deschambault-Grondines, Municipalité (MÉ)",2235.0,1169.0,1044.0,4277.0,21943593.0,17182736.0,28023550.0,18771.0,9818.0,estime_ajuste_mrc,1.056,20772150.0,False
+34060,"Saint-Gilbert, Paroisse (municipalité de) (PE)",283.0,122.0,117.0,4277.0,2480178.0,1942081.0,3167366.0,20329.0,8764.0,estime_ajuste_mrc,1.056,2347776.0,False
+34065,"Saint-Marc-des-Carrières, Ville (V)",2901.0,1393.0,1342.0,4277.0,26030334.0,26030334.0,26030334.0,18687.0,8973.0,mesure,,22064101.0,False
+34078,"Saint-Casimir, Municipalité (MÉ)",1449.0,755.0,693.0,4277.0,12323911.0,9650129.0,15738523.0,16323.0,8505.0,estime_ajuste_mrc,1.056,11666008.0,False
+34085,"Saint-Thuribe, Paroisse (municipalité de) (PE)",298.0,158.0,133.0,4277.0,2739147.0,2144865.0,3498089.0,17336.0,9192.0,estime_ajuste_mrc,1.056,2592920.0,False
+34090,"Saint-Ubalde, Municipalité (MÉ)",1456.0,1055.0,735.0,4822.0,15899046.0,12449607.0,20304227.0,15070.0,10920.0,estime_ajuste_mrc,1.056,15050286.0,False
+34097,"Saint-Alban, Municipalité (MÉ)",1196.0,776.0,582.0,5190.0,12418544.0,9724231.0,15859376.0,16003.0,10383.0,estime_ajuste_mrc,1.056,11755589.0,False
+34105,"Sainte-Christine-d'Auvergne, Municipalité (MÉ)",617.0,485.0,323.0,5190.0,8140575.0,6374405.0,10396102.0,16785.0,13194.0,estime_ajuste_mrc,1.056,7705997.0,False
+34115,"Saint-Léonard-de-Portneuf, Municipalité (MÉ)",1140.0,659.0,523.0,5190.0,11148097.0,8729419.0,14236924.0,16917.0,9779.0,estime_ajuste_mrc,1.056,10552964.0,False
+34120,"Lac-Sergent, Ville (V)",541.0,432.0,263.0,4643.0,9461303.0,7408590.0,12082766.0,21901.0,17489.0,estime_ajuste_mrc,1.056,8956218.0,False
+34128,"Saint-Raymond, Ville (V)",11108.0,5752.0,4972.0,5190.0,99493934.0,99493934.0,99493934.0,17297.0,8957.0,mesure,,91849211.0,False
+34135,"Rivière-à-Pierre, Municipalité (MÉ)",625.0,609.0,328.0,5190.0,9047390.0,7084478.0,11554169.0,14856.0,14476.0,estime_ajuste_mrc,1.056,8564401.0,False
+34902,"Lac-Blanc, Non organisé (NO)",0.0,6.0,0.0,5190.0,98867.0,77417.0,126261.0,16478.0,,estime_ajuste_mrc,1.056,93589.0,True
+34904,"Linton, Non organisé (NO)",10.0,49.0,7.0,5190.0,807417.0,632241.0,1031129.0,16478.0,80742.0,estime_ajuste_mrc,1.056,764313.0,True
+34906,"Lac-Lapeyrère, Non organisé (NO)",0.0,0.0,0.0,4822.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.056,0.0,True
+35005,"Notre-Dame-de-Montauban, Municipalité (MÉ)",815.0,731.0,443.0,4822.0,10373058.0,8122532.0,13247143.0,14190.0,12728.0,estime_ajuste_mrc,1.036,10015110.0,False
+35010,"Lac-aux-Sables, Paroisse (municipalité de) (PE)",1380.0,1157.0,744.0,4822.0,18103840.0,14176052.0,23119909.0,15647.0,13119.0,estime_ajuste_mrc,1.036,17479122.0,False
+35015,"Saint-Adelphe, Paroisse (municipalité de) (PE)",922.0,557.0,453.0,4337.0,9391639.0,7354040.0,11993800.0,16861.0,10186.0,estime_ajuste_mrc,1.036,9067557.0,False
+35020,"Saint-Séverin, Paroisse (municipalité de) (PE)",812.0,396.0,365.0,4337.0,6748411.0,5284283.0,8618207.0,17041.0,8311.0,estime_ajuste_mrc,1.036,6515540.0,False
+35027,"Saint-Tite, Ville (V)",3672.0,2271.0,1915.0,4337.0,34371344.0,34371344.0,34371344.0,15135.0,9360.0,mesure,,31942880.0,False
+35035,"Hérouxville, Paroisse (municipalité de) (PE)",1367.0,685.0,626.0,4337.0,12610290.0,9874376.0,16104250.0,18409.0,9225.0,estime_ajuste_mrc,1.036,12175141.0,False
+35040,"Grandes-Piles, Village (VL)",493.0,324.0,258.0,4337.0,6162001.0,4825100.0,7869319.0,19019.0,12499.0,estime_ajuste_mrc,1.036,5949365.0,False
+35045,"Saint-Roch-de-Mékinac, Paroisse (municipalité de) (PE)",304.0,295.0,174.0,4840.0,4428724.0,3467873.0,5655800.0,15013.0,14568.0,estime_ajuste_mrc,1.036,4275900.0,False
+35050,"Sainte-Thècle, Municipalité (MÉ)",2415.0,1421.0,1182.0,4822.0,19882135.0,15568530.0,25390920.0,13992.0,8233.0,estime_ajuste_mrc,1.036,19196052.0,False
+35055,"Trois-Rives, Municipalité (MÉ)",512.0,544.0,288.0,4840.0,8075656.0,6323571.0,10313196.0,14845.0,15773.0,estime_ajuste_mrc,1.036,7796986.0,False
+35902,"Lac-Masketsi, Non organisé (NO)",0.0,0.0,0.0,4822.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.036,0.0,True
+35904,"Lac-Normand, Non organisé (NO)",29.0,113.0,21.0,4984.0,1862120.0,1458117.0,2378062.0,16479.0,64211.0,estime_ajuste_mrc,1.036,1797863.0,True
+35906,"Rivière-de-la-Savane, Non organisé (NO)",41.0,223.0,31.0,4984.0,4030591.0,3156118.0,5147355.0,18074.0,98307.0,estime_ajuste_mrc,1.036,3891505.0,True
+35908,"Lac-Boulé, Non organisé (NO)",0.0,6.0,2.0,4984.0,98874.0,77422.0,126269.0,16479.0,,estime_ajuste_mrc,1.036,95462.0,True
+36033,"Shawinigan, Ville (V)",49620.0,27444.0,25060.0,4440.0,462141417.0,462141417.0,462141417.0,16839.0,9314.0,mesure,,379814053.0,False
+37067,"Trois-Rivières, Ville (V)",139163.0,70411.0,66822.0,4337.0,1051892856.0,823675389.0,1343343014.0,14939.0,7559.0,estime_non_ajuste,,1051892856.0,False
+37205,"Sainte-Anne-de-la-Pérade, Municipalité (MÉ)",2031.0,1109.0,978.0,4277.0,18610316.0,14572643.0,23766715.0,16781.0,9163.0,estime_ajuste_mrc,1.077,17279664.0,False
+37210,"Batiscan, Municipalité (MÉ)",958.0,545.0,476.0,4337.0,9889138.0,7743602.0,12629143.0,18145.0,10323.0,estime_ajuste_mrc,1.077,9182057.0,False
+37215,"Sainte-Geneviève-de-Batiscan, Paroisse (municipalité de) (PE)",1028.0,571.0,514.0,4337.0,10434228.0,8170430.0,13325262.0,18274.0,10150.0,estime_ajuste_mrc,1.077,9688173.0,False
+37220,"Champlain, Municipalité (MÉ)",1807.0,957.0,862.0,4337.0,18697053.0,14640562.0,23877485.0,19537.0,10347.0,estime_ajuste_mrc,1.077,17360199.0,False
+37225,"Saint-Luc-de-Vincennes, Municipalité (MÉ)",519.0,263.0,252.0,4337.0,4952401.0,3877934.0,6324573.0,18830.0,9542.0,estime_ajuste_mrc,1.077,4598300.0,False
+37230,"Saint-Maurice, Paroisse (municipalité de) (PE)",3432.0,1409.0,1360.0,4337.0,29746291.0,29746291.0,29746291.0,21112.0,8667.0,mesure,,27418866.0,False
+37235,"Notre-Dame-du-Mont-Carmel, Paroisse (municipalité de) (PE)",6121.0,2678.0,2558.0,4337.0,54640497.0,42785758.0,69779854.0,20403.0,8927.0,estime_ajuste_mrc,1.077,50733659.0,False
+37240,"Saint-Narcisse, Paroisse (municipalité de) (PE)",1801.0,916.0,851.0,4337.0,14688596.0,14688596.0,14688596.0,16036.0,8156.0,mesure,,14721024.0,False
+37245,"Saint-Stanislas, Municipalité (MÉ)",1001.0,578.0,506.0,4337.0,9549275.0,7477476.0,12195113.0,16521.0,9540.0,estime_ajuste_mrc,1.077,8866495.0,False
+37250,"Saint-Prosper-de-Champlain, Municipalité (MÉ)",482.0,264.0,244.0,4337.0,4511314.0,3532545.0,5761274.0,17088.0,9360.0,estime_ajuste_mrc,1.077,4188752.0,False
+38005,"Saint-Sylvère, Municipalité (MÉ)",786.0,367.0,346.0,4202.0,6400534.0,5011882.0,8173943.0,17440.0,8143.0,estime_ajuste_mrc,0.988,6479443.0,False
+38010,"Bécancour, Ville (V)",13561.0,6348.0,6034.0,4337.0,113327669.0,88740228.0,144727604.0,17852.0,8357.0,estime_ajuste_mrc,0.988,114724831.0,False
+38015,"Sainte-Marie-de-Blandford, Municipalité (MÉ)",443.0,290.0,223.0,4277.0,5112575.0,4003357.0,6529127.0,17630.0,11541.0,estime_ajuste_mrc,0.988,5175606.0,False
+38020,"Lemieux, Municipalité (MÉ)",292.0,132.0,126.0,4277.0,1928425.0,1510036.0,2462738.0,14609.0,6604.0,estime_ajuste_mrc,0.988,1952200.0,False
+38028,"Manseau, Municipalité (MÉ)",807.0,422.0,385.0,4277.0,6212099.0,4864329.0,7933299.0,14721.0,7698.0,estime_ajuste_mrc,0.988,6288685.0,False
+38035,"Sainte-Françoise, Municipalité (MÉ)",467.0,238.0,216.0,4277.0,4001658.0,3133463.0,5110406.0,16814.0,8569.0,estime_ajuste_mrc,0.988,4050992.0,False
+38040,"Sainte-Sophie-de-Lévrard, Paroisse (municipalité de) (PE)",704.0,415.0,357.0,4277.0,6363647.0,4982998.0,8126836.0,15334.0,9039.0,estime_ajuste_mrc,0.988,6442101.0,False
+38047,"Fortierville, Municipalité (MÉ)",660.0,301.0,282.0,4277.0,4598106.0,3600506.0,5872113.0,15276.0,6967.0,estime_ajuste_mrc,0.988,4654794.0,False
+38055,"Parisville, Paroisse (municipalité de) (PE)",396.0,198.0,179.0,4277.0,3214998.0,2517476.0,4105785.0,16237.0,8119.0,estime_ajuste_mrc,0.988,3254634.0,False
+38060,"Sainte-Cécile-de-Lévrard, Paroisse (municipalité de) (PE)",349.0,163.0,153.0,4277.0,2573887.0,2573887.0,2573887.0,15791.0,7375.0,mesure,,2903713.0,False
+38065,"Saint-Pierre-les-Becquets, Municipalité (MÉ)",1183.0,627.0,533.0,4277.0,10451709.0,8184118.0,13347586.0,16669.0,8835.0,estime_ajuste_mrc,0.988,10580563.0,False
+38070,"Deschaillons-sur-Saint-Laurent, Municipalité (MÉ)",906.0,541.0,460.0,4277.0,8588185.0,6724902.0,10967731.0,15875.0,9479.0,estime_ajuste_mrc,0.988,8694064.0,False
+38802,"Wôlinak, Réserve indienne (IRI)",194.0,106.0,97.0,4337.0,2246620.0,1759196.0,2869096.0,21195.0,11581.0,estime_ajuste_mrc,1.25,1796993.0,True
+39005,"Saints-Martyrs-Canadiens, Paroisse (municipalité de) (PE)",277.0,269.0,148.0,4604.0,5362987.0,5362987.0,5362987.0,19937.0,19361.0,mesure,,4753684.0,False
+39010,"Ham-Nord, Canton (municipalité de) (CT)",857.0,446.0,393.0,4604.0,5951787.0,4660494.0,7600861.0,13345.0,6945.0,estime_ajuste_mrc,0.928,6411253.0,False
+39015,"Notre-Dame-de-Ham, Municipalité (MÉ)",414.0,233.0,204.0,4604.0,3399751.0,2662145.0,4341728.0,14591.0,8212.0,estime_ajuste_mrc,0.928,3662206.0,False
+39020,"Saint-Rémi-de-Tingwick, Municipalité (MÉ)",446.0,269.0,208.0,4202.0,4820815.0,3774896.0,6156528.0,17921.0,10809.0,estime_ajuste_mrc,0.928,5192972.0,False
+39025,"Tingwick, Municipalité (MÉ)",1484.0,759.0,650.0,4202.0,13298317.0,10413129.0,16982909.0,17521.0,8961.0,estime_ajuste_mrc,0.928,14324921.0,False
+39030,"Chesterville, Municipalité (MÉ)",877.0,422.0,363.0,4202.0,7455834.0,5838225.0,9521638.0,17668.0,8502.0,estime_ajuste_mrc,0.928,8031410.0,False
+39035,"Sainte-Hélène-de-Chester, Municipalité (MÉ)",384.0,204.0,169.0,4604.0,3234180.0,2532496.0,4130281.0,15854.0,8422.0,estime_ajuste_mrc,0.928,3483853.0,False
+39043,"Saint-Norbert-d'Arthabaska, Municipalité (MÉ)",1247.0,509.0,481.0,4202.0,9105097.0,7129666.0,11627866.0,17888.0,7302.0,estime_ajuste_mrc,0.928,9807993.0,False
+39060,"Saint-Christophe-d'Arthabaska, Paroisse (municipalité de) (PE)",3111.0,1222.0,1178.0,4202.0,24819313.0,19434543.0,31696052.0,20310.0,7978.0,estime_ajuste_mrc,0.928,26735315.0,False
+39062,"Victoriaville, Ville (V)",47760.0,23106.0,21864.0,4202.0,377556312.0,377556312.0,377556312.0,16340.0,7905.0,mesure,,364484520.0,False
+39077,"Warwick, Ville (V)",4729.0,2136.0,2063.0,4202.0,37642760.0,37642760.0,37642760.0,17623.0,7960.0,mesure,,36875851.0,False
+39085,"Saint-Albert, Municipalité (MÉ)",1640.0,692.0,661.0,4202.0,12860428.0,10070245.0,16423694.0,18584.0,7842.0,estime_ajuste_mrc,0.928,13853228.0,False
+39090,"Sainte-Élizabeth-de-Warwick, Municipalité (MÉ)",383.0,151.0,145.0,4202.0,2691957.0,2107913.0,3437823.0,17828.0,7029.0,estime_ajuste_mrc,0.928,2899771.0,False
+39097,"Kingsey Falls, Ville (V)",1986.0,837.0,800.0,4202.0,16428679.0,12864332.0,20980607.0,19628.0,8272.0,estime_ajuste_mrc,0.928,17696941.0,False
+39105,"Sainte-Séraphine, Paroisse (municipalité de) (PE)",441.0,224.0,176.0,4202.0,3671769.0,2875146.0,4689113.0,16392.0,8326.0,estime_ajuste_mrc,0.928,3955222.0,False
+39117,"Sainte-Clotilde-de-Horton, Municipalité (MÉ)",1563.0,820.0,684.0,4202.0,13830400.0,10829772.0,17662418.0,16866.0,8849.0,estime_ajuste_mrc,0.928,14898080.0,False
+39130,"Saint-Samuel, Municipalité (MÉ)",765.0,368.0,330.0,4202.0,6203521.0,4857612.0,7922343.0,16857.0,8109.0,estime_ajuste_mrc,0.928,6682420.0,False
+39135,"Saint-Valère, Municipalité (MÉ)",1188.0,529.0,505.0,4202.0,9540063.0,7470262.0,12183348.0,18034.0,8030.0,estime_ajuste_mrc,0.928,10276537.0,False
+39145,"Saint-Rosaire, Paroisse (municipalité de) (PE)",932.0,395.0,363.0,4202.0,7056698.0,5525685.0,9011912.0,17865.0,7572.0,estime_ajuste_mrc,0.928,7601461.0,False
+39152,"Daveluyville, Ville (V)",2360.0,1154.0,1077.0,4202.0,19587608.0,19587608.0,19587608.0,16974.0,8300.0,mesure,,18639222.0,False
+39165,"Maddington Falls, Municipalité (MÉ)",428.0,228.0,213.0,4202.0,3409015.0,2669399.0,4353558.0,14952.0,7965.0,estime_ajuste_mrc,0.928,3672185.0,False
+39170,"Saint-Louis-de-Blandford, Municipalité (MÉ)",1076.0,583.0,491.0,4277.0,9817902.0,7687821.0,12538169.0,16840.0,9124.0,estime_ajuste_mrc,0.928,10575825.0,False
+40005,"Ham-Sud, Municipalité (MÉ)",214.0,147.0,112.0,4604.0,2977773.0,2331718.0,3802830.0,20257.0,13915.0,estime_ajuste_mrc,1.118,2664303.0,True
+40010,"Saint-Adrien, Municipalité (MÉ)",522.0,262.0,235.0,4604.0,4398353.0,3444091.0,5617013.0,16788.0,8426.0,estime_ajuste_mrc,1.118,3935339.0,False
+40017,"Wotton, Municipalité (MÉ)",1402.0,680.0,601.0,4202.0,12946713.0,10137809.0,16533886.0,19039.0,9234.0,estime_ajuste_mrc,1.118,11583814.0,False
+40025,"Saint-Camille, Canton (municipalité de) (CT)",551.0,245.0,225.0,4401.0,4927433.0,3858383.0,6292687.0,20112.0,8943.0,estime_ajuste_mrc,1.118,4408723.0,False
+40032,"Saint-Georges-de-Windsor, Municipalité (MÉ)",958.0,460.0,398.0,4213.0,10003648.0,7833268.0,12775380.0,21747.0,10442.0,estime_ajuste_mrc,1.118,8950565.0,False
+40043,"Val-des-Sources, Ville (V)",7088.0,3691.0,3460.0,4202.0,56426426.0,44184213.0,72060614.0,15288.0,7961.0,estime_ajuste_mrc,1.118,50486424.0,False
+40047,"Danville, Ville (V)",3888.0,1878.0,1778.0,4202.0,35335539.0,27669181.0,45126031.0,18816.0,9088.0,estime_ajuste_mrc,1.118,31615772.0,False
+41012,"Saint-Isidore-de-Clifton, Municipalité (MÉ)",673.0,353.0,316.0,4401.0,4540341.0,3555274.0,5798343.0,12862.0,6746.0,estime_ajuste_mrc,0.8,5678669.0,False
+41020,"Chartierville, Municipalité (MÉ)",319.0,231.0,167.0,4945.0,2860678.0,2240029.0,3653292.0,12384.0,8968.0,estime_ajuste_mrc,0.8,3577891.0,False
+41027,"La Patrie, Municipalité (MÉ)",805.0,425.0,362.0,4945.0,4794735.0,3754475.0,6123223.0,11282.0,5956.0,estime_ajuste_mrc,0.8,5996844.0,False
+41037,"Newport, Municipalité (MÉ)",698.0,401.0,316.0,4401.0,5056712.0,3959613.0,6457785.0,12610.0,7245.0,estime_ajuste_mrc,0.8,6324501.0,False
+41038,"Cookshire-Eaton, Ville (V)",5344.0,2283.0,2190.0,4401.0,43602690.0,43602690.0,43602690.0,19099.0,8159.0,mesure,,40064266.0,False
+41055,"Ascot Corner, Municipalité (MÉ)",3368.0,1364.0,1310.0,4213.0,22807946.0,17859560.0,29127391.0,16721.0,6772.0,estime_ajuste_mrc,0.8,28526222.0,False
+41060,"East Angus, Ville (V)",3840.0,1718.0,1653.0,4401.0,21406394.0,16762087.0,27337508.0,12460.0,5575.0,estime_ajuste_mrc,0.8,26773281.0,False
+41065,"Westbury, Canton (municipalité de) (CT)",1097.0,440.0,424.0,4401.0,6939569.0,5433968.0,8862330.0,15772.0,6326.0,estime_ajuste_mrc,0.8,8679418.0,False
+41070,"Bury, Municipalité (MÉ)",1252.0,607.0,519.0,4401.0,9870615.0,9870615.0,9870615.0,16261.0,7884.0,mesure,,10855777.0,False
+41075,"Hampden, Canton (municipalité de) (CT)",193.0,114.0,87.0,4945.0,1589984.0,1245023.0,2030525.0,13947.0,8238.0,estime_ajuste_mrc,0.8,1988616.0,True
+41080,"Scotstown, Ville (V)",459.0,272.0,230.0,4401.0,3267528.0,2558609.0,4172869.0,12013.0,7119.0,estime_ajuste_mrc,0.8,4086744.0,False
+41085,"Lingwick, Canton (municipalité de) (CT)",456.0,334.0,222.0,4401.0,3698838.0,3698838.0,3698838.0,11074.0,8111.0,mesure,,5385473.0,False
+41098,"Weedon, Municipalité (MÉ)",2667.0,1633.0,1283.0,4401.0,26277516.0,26277516.0,26277516.0,16092.0,9853.0,mesure,,25450105.0,False
+41117,"Dudswell, Municipalité (MÉ)",1755.0,1062.0,801.0,4401.0,15680259.0,12278288.0,20024821.0,14765.0,8935.0,estime_ajuste_mrc,0.8,19611523.0,False
+42005,"Stoke, Municipalité (MÉ)",3014.0,1283.0,1221.0,4213.0,21748635.0,17030076.0,27774574.0,16951.0,7216.0,estime_ajuste_mrc,0.8,27190146.0,False
+42020,"Saint-François-Xavier-de-Brompton, Municipalité (MÉ)",2469.0,1058.0,1020.0,4213.0,16311850.0,12772850.0,20831409.0,15418.0,6607.0,estime_ajuste_mrc,0.8,20393077.0,False
+42025,"Saint-Denis-de-Brompton, Municipalité (MÉ)",4594.0,2095.0,1838.0,4213.0,38636153.0,30253698.0,49341153.0,18442.0,8410.0,estime_ajuste_mrc,0.8,48302924.0,False
+42032,"Racine, Municipalité (MÉ)",1340.0,706.0,583.0,4213.0,11927122.0,9339428.0,15231795.0,16894.0,8901.0,estime_ajuste_mrc,0.8,14911290.0,False
+42040,"Bonsecours, Municipalité (MÉ)",650.0,326.0,293.0,4098.0,4840075.0,3789978.0,6181124.0,14847.0,7446.0,estime_ajuste_mrc,0.8,6051062.0,False
+42045,"Lawrenceville, Village (VL)",618.0,295.0,283.0,4098.0,4027397.0,3153618.0,5143277.0,13652.0,6517.0,estime_ajuste_mrc,0.8,5035053.0,False
+42050,"Sainte-Anne-de-la-Rochelle, Municipalité (MÉ)",625.0,277.0,254.0,4098.0,4057197.0,3176952.0,5181333.0,14647.0,6492.0,estime_ajuste_mrc,0.8,5072308.0,False
+42055,"Valcourt, Ville (V)",2139.0,1123.0,1052.0,4098.0,18097841.0,18097841.0,18097841.0,16116.0,8461.0,mesure,,17496465.0,False
+42060,"Valcourt, Canton (municipalité de) (CT)",1029.0,493.0,461.0,4098.0,10116400.0,10116400.0,10116400.0,20520.0,9831.0,mesure,,9780240.0,False
+42065,"Maricourt, Municipalité (MÉ)",456.0,204.0,193.0,4098.0,2922748.0,2288632.0,3732559.0,14327.0,6410.0,estime_ajuste_mrc,0.8,3654019.0,False
+42070,"Kingsbury, Village (VL)",142.0,75.0,70.0,4213.0,1070555.0,838288.0,1367176.0,14274.0,7539.0,estime_ajuste_mrc,0.8,1338408.0,True
+42075,"Melbourne, Canton (municipalité de) (CT)",1096.0,494.0,439.0,4213.0,7807810.0,6113837.0,9971136.0,15805.0,7124.0,estime_ajuste_mrc,0.8,9761325.0,False
+42078,"Ulverton, Municipalité (MÉ)",433.0,214.0,183.0,4213.0,3518829.0,2755388.0,4493799.0,16443.0,8127.0,estime_ajuste_mrc,0.8,4399241.0,False
+42088,"Windsor, Ville (V)",5294.0,2446.0,2362.0,4213.0,31264827.0,24481646.0,39927438.0,12782.0,5906.0,estime_ajuste_mrc,0.8,39087291.0,False
+42095,"Val-Joli, Municipalité (MÉ)",1671.0,723.0,695.0,4213.0,11560894.0,9052656.0,14764095.0,15990.0,6919.0,estime_ajuste_mrc,0.8,14453431.0,False
+42098,"Richmond, Ville (V)",3259.0,1720.0,1609.0,4213.0,19372640.0,15169574.0,24740258.0,11263.0,5944.0,estime_ajuste_mrc,0.8,24219677.0,False
+42100,"Saint-Claude, Municipalité (MÉ)",1141.0,585.0,491.0,4213.0,9580668.0,7502058.0,12235204.0,16377.0,8397.0,estime_ajuste_mrc,0.8,11977753.0,False
+42110,"Cleveland, Canton (municipalité de) (CT)",1581.0,696.0,588.0,4213.0,10682792.0,8365066.0,13642695.0,15349.0,6757.0,estime_ajuste_mrc,0.8,13355628.0,False
+43027,"Sherbrooke, Ville (V)",172950.0,86019.0,80476.0,4213.0,1340250962.0,1049471651.0,1711597105.0,15581.0,7749.0,estime_non_ajuste,,1340250962.0,False
+44003,"Saint-Malo, Municipalité (MÉ)",514.0,265.0,202.0,4569.0,2510372.0,1965725.0,3205927.0,9473.0,4884.0,estime_ajuste_mrc,0.544,4613383.0,False
+44005,"Saint-Venant-de-Paquette, Municipalité (MÉ)",69.0,61.0,37.0,4569.0,615365.0,481856.0,785866.0,10088.0,8918.0,estime_ajuste_mrc,0.544,1130874.0,True
+44010,"East Hereford, Municipalité (MÉ)",282.0,158.0,125.0,4569.0,1340263.0,1049481.0,1711613.0,8483.0,4753.0,estime_ajuste_mrc,0.544,2463040.0,False
+44015,"Saint-Herménégilde, Municipalité (MÉ)",690.0,543.0,329.0,4569.0,8187212.0,8187212.0,8187212.0,15078.0,11866.0,mesure,,8905187.0,False
+44023,"Dixville, Municipalité (MÉ)",732.0,303.0,282.0,4414.0,4800288.0,4800288.0,4800288.0,15843.0,6558.0,mesure,,5590114.0,False
+44037,"Coaticook, Ville (V)",8867.0,4282.0,4023.0,4414.0,36771083.0,28793271.0,46959325.0,8587.0,4147.0,estime_ajuste_mrc,0.544,67575264.0,False
+44045,"Barnston-Ouest, Municipalité (MÉ)",546.0,259.0,214.0,4414.0,2547916.0,1995123.0,3253873.0,9838.0,4667.0,estime_ajuste_mrc,0.544,4682378.0,False
+44050,"Stanstead-Est, Municipalité (MÉ)",642.0,314.0,264.0,4414.0,3126127.0,2447886.0,3992290.0,9956.0,4869.0,estime_ajuste_mrc,0.544,5744972.0,False
+44055,"Sainte-Edwidge-de-Clifton, Canton (municipalité de) (CT)",546.0,208.0,200.0,4569.0,2056719.0,1610496.0,2626578.0,9888.0,3767.0,estime_ajuste_mrc,0.544,3779691.0,False
+44060,"Martinville, Municipalité (MÉ)",441.0,191.0,181.0,4401.0,1799781.0,1409302.0,2298450.0,9423.0,4081.0,estime_ajuste_mrc,0.544,3307508.0,False
+44071,"Compton, Municipalité (MÉ)",3270.0,1379.0,1304.0,4414.0,13711548.0,10736706.0,17510635.0,9943.0,4193.0,estime_ajuste_mrc,0.544,25198101.0,False
+44080,"Waterville, Ville (V)",2307.0,950.0,909.0,4213.0,16891509.0,16891509.0,16891509.0,17781.0,7322.0,mesure,,17519559.0,False
+45008,"Stanstead, Ville (V)",2824.0,1381.0,1274.0,4414.0,26325408.0,26325408.0,26325408.0,19063.0,9322.0,mesure,,20550471.0,False
+45020,"Ogden, Municipalité (MÉ)",761.0,563.0,352.0,4414.0,7555075.0,5915935.0,9648376.0,13419.0,9928.0,estime_ajuste_mrc,0.721,10475023.0,False
+45025,"Stanstead, Canton (municipalité de) (CT)",1148.0,957.0,553.0,4414.0,24544005.0,24544005.0,24544005.0,25647.0,21380.0,mesure,,19159850.0,False
+45030,"Potton, Canton (municipalité de) (CT)",2012.0,1965.0,1027.0,4763.0,24064474.0,18843473.0,30732068.0,12247.0,11960.0,estime_ajuste_mrc,0.721,33365109.0,False
+45035,"Ayer's Cliff, Village (VL)",1180.0,643.0,531.0,4414.0,8723045.0,6830503.0,11139957.0,13566.0,7392.0,estime_ajuste_mrc,0.721,12094399.0,False
+45043,"Hatley, Municipalité (MÉ)",771.0,472.0,340.0,4414.0,9402212.0,9402212.0,9402212.0,19920.0,12195.0,mesure,,9694900.0,False
+45050,"North Hatley, Village (VL)",675.0,450.0,319.0,4213.0,11519459.0,11519459.0,11519459.0,25599.0,17066.0,mesure,,8546488.0,False
+45055,"Hatley, Canton (municipalité de) (CT)",2230.0,954.0,895.0,4213.0,21787883.0,21787883.0,21787883.0,22838.0,9770.0,mesure,,22466132.0,False
+45060,"Sainte-Catherine-de-Hatley, Municipalité (MÉ)",2741.0,1429.0,1175.0,4414.0,22465230.0,17591200.0,28689719.0,15721.0,8196.0,estime_ajuste_mrc,0.721,31147776.0,False
+45072,"Magog, Ville (V)",28312.0,15009.0,13439.0,4414.0,171880102.0,134589192.0,219503282.0,11452.0,6071.0,estime_ajuste_mrc,0.721,238309732.0,False
+45080,"Saint-Benoît-du-Lac, Municipalité (MÉ)",43.0,13.0,6.0,4763.0,159422.0,124834.0,203594.0,12263.0,3707.0,estime_ajuste_mrc,0.721,221037.0,True
+45085,"Austin, Municipalité (MÉ)",1748.0,1410.0,868.0,4763.0,35522858.0,35522858.0,35522858.0,25194.0,20322.0,mesure,,29009297.0,False
+45093,"Eastman, Municipalité (MÉ)",2279.0,1548.0,1095.0,4098.0,24492535.0,19178663.0,31278733.0,15822.0,10747.0,estime_ajuste_mrc,0.721,33958611.0,False
+45095,"Bolton-Est, Municipalité (MÉ)",1108.0,856.0,558.0,4763.0,11178563.0,8753275.0,14275831.0,13059.0,10089.0,estime_ajuste_mrc,0.721,15498946.0,False
+45100,"Saint-Étienne-de-Bolton, Municipalité (MÉ)",816.0,572.0,414.0,4098.0,8791343.0,6883983.0,11227178.0,15369.0,10774.0,estime_ajuste_mrc,0.721,12189093.0,False
+45105,"Stukely-Sud, Village (VL)",1142.0,599.0,510.0,4098.0,8719916.0,6828053.0,11135962.0,14557.0,7636.0,estime_ajuste_mrc,0.721,12090061.0,False
+45115,"Orford, Canton (municipalité de) (CT)",5007.0,3099.0,2244.0,4213.0,66522398.0,66522398.0,66522398.0,21466.0,13286.0,mesure,,72342357.0,False
+46005,"Abercorn, Village (VL)",341.0,240.0,180.0,4763.0,4668154.0,3655357.0,5961570.0,19451.0,13690.0,estime_ajuste_mrc,1.073,4349287.0,False
+46010,"Frelighsburg, Municipalité (MÉ)",1123.0,622.0,515.0,3857.0,14068549.0,14068549.0,14068549.0,22618.0,12528.0,mesure,,12307510.0,False
+46017,"Saint-Armand, Municipalité (MÉ)",1228.0,682.0,590.0,3857.0,13910672.0,10892629.0,17764932.0,20397.0,11328.0,estime_ajuste_mrc,1.073,12960476.0,False
+46025,"Pike River, Municipalité (MÉ)",503.0,249.0,216.0,3857.0,5388515.0,4219429.0,6881522.0,21641.0,10713.0,estime_ajuste_mrc,1.073,5020442.0,False
+46030,"Stanbridge Station, Municipalité (MÉ)",291.0,129.0,119.0,3857.0,2629563.0,2059056.0,3358141.0,20384.0,9036.0,estime_ajuste_mrc,1.073,2449945.0,False
+46035,"Bedford, Ville (V)",2558.0,1324.0,1233.0,3857.0,22390224.0,17532467.0,28593931.0,16911.0,8753.0,estime_ajuste_mrc,1.073,20860815.0,False
+46040,"Bedford, Canton (municipalité de) (CT)",658.0,282.0,273.0,3857.0,6329533.0,4956285.0,8083270.0,22445.0,9619.0,estime_ajuste_mrc,1.073,5897182.0,False
+46045,"Stanbridge East, Municipalité (MÉ)",834.0,394.0,364.0,3857.0,7409827.0,7409827.0,7409827.0,18807.0,8885.0,mesure,,7821477.0,False
+46050,"Dunham, Ville (V)",3599.0,1758.0,1529.0,3857.0,36982823.0,36982823.0,36982823.0,21037.0,10276.0,mesure,,36473076.0,False
+46058,"Sutton, Ville (V)",4548.0,3767.0,2388.0,4763.0,67571309.0,52911115.0,86293433.0,17938.0,14857.0,estime_ajuste_mrc,1.073,62955714.0,False
+46065,"Bolton-Ouest, Municipalité (MÉ)",732.0,522.0,347.0,4763.0,10635409.0,8327963.0,13582185.0,20374.0,14529.0,estime_ajuste_mrc,1.073,9908936.0,False
+46070,"Brome, Village (VL)",341.0,169.0,151.0,4763.0,3025178.0,2368839.0,3863370.0,17900.0,8871.0,estime_ajuste_mrc,1.073,2818537.0,False
+46075,"Lac-Brome, Ville (V)",5923.0,3683.0,2828.0,4763.0,95982886.0,95982886.0,95982886.0,26061.0,16205.0,mesure,,67611331.0,False
+46078,"Bromont, Ville (V)",11357.0,6249.0,5062.0,4098.0,123760024.0,123760024.0,123760024.0,19805.0,10897.0,mesure,,140974452.0,False
+46080,"Cowansville, Ville (V)",15234.0,7247.0,6980.0,3857.0,119887322.0,119887322.0,119887322.0,16543.0,7870.0,mesure,,116393762.0,False
+46085,"East Farnham, Municipalité (MÉ)",612.0,271.0,266.0,3857.0,6065299.0,4749379.0,7745824.0,22381.0,9911.0,estime_ajuste_mrc,1.073,5650997.0,False
+46090,"Brigham, Municipalité (MÉ)",2282.0,1027.0,958.0,3964.0,23191141.0,18159618.0,29616759.0,22581.0,10163.0,estime_ajuste_mrc,1.073,21607023.0,False
+46095,"Saint-Ignace-de-Stanbridge, Municipalité (MÉ)",677.0,285.0,265.0,3857.0,6447152.0,5048385.0,8233478.0,22622.0,9523.0,estime_ajuste_mrc,1.073,6006766.0,False
+46100,"Notre-Dame-de-Stanbridge, Municipalité (MÉ)",691.0,294.0,281.0,3857.0,6203190.0,4857353.0,7921921.0,21099.0,8977.0,estime_ajuste_mrc,1.073,5779468.0,False
+46105,"Sainte-Sabine, Municipalité (MÉ)",1105.0,440.0,423.0,3857.0,10587196.0,8290210.0,13520612.0,24062.0,9581.0,estime_ajuste_mrc,1.073,9864016.0,False
+46112,"Farnham, Ville (V)",10149.0,4697.0,4446.0,3964.0,88027498.0,68929153.0,112417462.0,18741.0,8674.0,estime_ajuste_mrc,1.073,82014602.0,False
+47010,"Saint-Alphonse-de-Granby, Municipalité (MÉ)",3341.0,1289.0,1261.0,3964.0,28560009.0,28560009.0,28560009.0,22157.0,8548.0,mesure,,29714516.0,False
+47017,"Granby, Ville (V)",69025.0,32766.0,31850.0,4098.0,541616900.0,541616900.0,541616900.0,16530.0,7847.0,mesure,,528471373.0,False
+47025,"Waterloo, Ville (V)",4920.0,2404.0,2242.0,4098.0,40460097.0,31681921.0,51670461.0,16830.0,8224.0,estime_ajuste_mrc,1.077,37582910.0,False
+47030,"Warden, Village (VL)",362.0,163.0,155.0,4098.0,3133215.0,2453437.0,4001342.0,19222.0,8655.0,estime_ajuste_mrc,1.077,2910407.0,False
+47035,"Shefford, Canton (municipalité de) (CT)",7253.0,3095.0,2909.0,4098.0,78720099.0,61641077.0,100531242.0,25435.0,10853.0,estime_ajuste_mrc,1.077,73122178.0,False
+47040,"Saint-Joachim-de-Shefford, Municipalité (MÉ)",1476.0,609.0,571.0,4098.0,12916288.0,10113985.0,16495031.0,21209.0,8751.0,estime_ajuste_mrc,1.077,11997788.0,False
+47047,"Roxton Pond, Municipalité (MÉ)",4224.0,1840.0,1743.0,4098.0,39635143.0,31035948.0,50616936.0,21541.0,9383.0,estime_ajuste_mrc,1.077,36816620.0,False
+47055,"Sainte-Cécile-de-Milton, Municipalité (MÉ)",2195.0,864.0,832.0,3964.0,18274205.0,18274205.0,18274205.0,21151.0,8325.0,mesure,,18792299.0,False
+48005,"Béthanie, Municipalité (MÉ)",350.0,155.0,142.0,4098.0,2753029.0,2155735.0,3515817.0,17761.0,7866.0,estime_ajuste_mrc,0.976,2821233.0,False
+48010,"Roxton Falls, Village (VL)",1322.0,641.0,615.0,4098.0,10191505.0,7980368.0,13015287.0,15899.0,7709.0,estime_ajuste_mrc,0.976,10443992.0,False
+48015,"Roxton, Canton (municipalité de) (CT)",1115.0,483.0,445.0,4098.0,8693108.0,6807062.0,11101726.0,17998.0,7797.0,estime_ajuste_mrc,0.976,8908473.0,False
+48020,"Sainte-Christine, Paroisse (municipalité de) (PE)",772.0,341.0,313.0,4098.0,6347697.0,6347697.0,6347697.0,18615.0,8222.0,mesure,,6219170.0,False
+48028,"Acton Vale, Ville (V)",7605.0,3628.0,3479.0,4098.0,62738751.0,62738751.0,62738751.0,17293.0,8250.0,mesure,,57781684.0,False
+48038,"Upton, Municipalité (MÉ)",2046.0,921.0,869.0,4098.0,16956237.0,13277432.0,21654338.0,18411.0,8288.0,estime_ajuste_mrc,0.976,17376315.0,False
+48045,"Saint-Théodore-d'Acton, Municipalité (MÉ)",1564.0,642.0,620.0,4098.0,11661255.0,9131243.0,14892263.0,18164.0,7456.0,estime_ajuste_mrc,0.976,11950153.0,False
+48050,"Saint-Nazaire-d'Acton, Paroisse (municipalité de) (PE)",880.0,374.0,361.0,4098.0,6963664.0,5452835.0,8893101.0,18619.0,7913.0,estime_ajuste_mrc,0.976,7136183.0,False
+49005,"Saint-Félix-de-Kingsey, Municipalité (MÉ)",1493.0,744.0,658.0,4202.0,12885677.0,12885677.0,12885677.0,17319.0,8631.0,mesure,,12956359.0,False
+49015,"Durham-Sud, Municipalité (MÉ)",1051.0,455.0,428.0,4098.0,8065775.0,6315834.0,10300576.0,17727.0,7674.0,estime_ajuste_mrc,1.022,7890345.0,False
+49020,"Lefebvre, Municipalité (MÉ)",925.0,388.0,360.0,4098.0,7693061.0,6023983.0,9824593.0,19827.0,8317.0,estime_ajuste_mrc,1.022,7525737.0,False
+49025,"L'Avenir, Municipalité (MÉ)",1350.0,558.0,532.0,4073.0,11018682.0,8628081.0,14071651.0,19747.0,8162.0,estime_ajuste_mrc,1.022,10779027.0,False
+49030,"Saint-Lucien, Municipalité (MÉ)",1801.0,917.0,797.0,4073.0,17976325.0,14076202.0,22957063.0,19603.0,9981.0,estime_ajuste_mrc,1.022,17585342.0,False
+49040,"Wickham, Municipalité (MÉ)",2587.0,1074.0,1038.0,4073.0,20915363.0,16377590.0,26710426.0,19474.0,8085.0,estime_ajuste_mrc,1.022,20460456.0,False
+49048,"Saint-Germain-de-Grantham, Municipalité (MÉ)",4922.0,2062.0,2016.0,4073.0,39617199.0,39617199.0,39617199.0,19213.0,8049.0,mesure,,39949746.0,False
+49058,"Drummondville, Ville (V)",79258.0,37931.0,36727.0,4073.0,634169646.0,634169646.0,634169646.0,16719.0,8001.0,mesure,,602115811.0,False
+49070,"Saint-Cyrille-de-Wendover, Municipalité (MÉ)",4920.0,1937.0,1871.0,4073.0,39099488.0,39099488.0,39099488.0,20186.0,7947.0,mesure,,38712041.0,False
+49075,"Notre-Dame-du-Bon-Conseil, Village (VL)",1708.0,730.0,711.0,4073.0,13503292.0,10573633.0,17244677.0,18498.0,7906.0,estime_ajuste_mrc,1.022,13209597.0,False
+49080,"Notre-Dame-du-Bon-Conseil, Paroisse (municipalité de) (PE)",885.0,409.0,391.0,4073.0,7758782.0,6075446.0,9908524.0,18970.0,8767.0,estime_ajuste_mrc,1.022,7590030.0,False
+49085,"Sainte-Brigitte-des-Saults, Paroisse (municipalité de) (PE)",737.0,321.0,305.0,4073.0,6544575.0,5124671.0,8357894.0,20388.0,8880.0,estime_ajuste_mrc,1.022,6402231.0,False
+49095,"Saint-Majorique-de-Grantham, Paroisse (municipalité de) (PE)",1384.0,536.0,524.0,4073.0,11662317.0,9132074.0,14893620.0,21758.0,8427.0,estime_ajuste_mrc,1.022,11408663.0,False
+49100,"Saint-Edmond-de-Grantham, Paroisse (municipalité de) (PE)",804.0,324.0,301.0,4073.0,6373784.0,6373784.0,6373784.0,19672.0,7928.0,mesure,,7258332.0,False
+49105,"Saint-Eugène, Municipalité (MÉ)",1139.0,536.0,488.0,4073.0,9924421.0,7771230.0,12674201.0,18516.0,8713.0,estime_ajuste_mrc,1.022,9708566.0,False
+49113,"Saint-Guillaume, Municipalité (MÉ)",1491.0,700.0,655.0,4045.0,12358901.0,9677528.0,15783208.0,17656.0,8289.0,estime_ajuste_mrc,1.022,12090097.0,False
+49125,"Saint-Bonaventure, Municipalité (MÉ)",1066.0,457.0,429.0,4073.0,8130237.0,8130237.0,8130237.0,17790.0,7627.0,mesure,,8722120.0,False
+49130,"Saint-Pie-de-Guire, Paroisse (municipalité de) (PE)",446.0,206.0,185.0,4073.0,4310795.0,3375530.0,5505196.0,20926.0,9665.0,estime_ajuste_mrc,1.022,4217036.0,False
+50005,"Sainte-Eulalie, Municipalité (MÉ)",984.0,448.0,416.0,4202.0,7787453.0,6097896.0,9945138.0,17383.0,7914.0,estime_ajuste_mrc,0.978,7961088.0,False
+50013,"Aston-Jonction, Municipalité (MÉ)",441.0,180.0,170.0,4202.0,3069192.0,2403304.0,3919580.0,17051.0,6960.0,estime_ajuste_mrc,0.978,3137625.0,False
+50023,"Saint-Wenceslas, Municipalité (MÉ)",1167.0,551.0,499.0,4073.0,10182967.0,7973682.0,13004383.0,18481.0,8726.0,estime_ajuste_mrc,0.978,10410014.0,False
+50030,"Saint-Célestin, Village (VL)",892.0,403.0,382.0,4073.0,6919316.0,5418109.0,8836466.0,17170.0,7757.0,estime_ajuste_mrc,0.978,7073595.0,False
+50035,"Saint-Célestin, Municipalité (MÉ)",594.0,260.0,245.0,4073.0,5030429.0,3939033.0,6424220.0,19348.0,8469.0,estime_ajuste_mrc,0.978,5142591.0,False
+50042,"Saint-Léonard-d'Aston, Municipalité (MÉ)",2530.0,1163.0,1102.0,4073.0,20595427.0,16127067.0,26301845.0,17709.0,8140.0,estime_ajuste_mrc,0.978,21054638.0,False
+50050,"Sainte-Perpétue, Paroisse (municipalité de) (PE)",916.0,407.0,384.0,4073.0,7342398.0,5749400.0,9376771.0,18040.0,8016.0,estime_ajuste_mrc,0.978,7506110.0,False
+50057,"Sainte-Monique, Municipalité (MÉ)",519.0,232.0,218.0,4073.0,4044665.0,3167139.0,5165328.0,17434.0,7793.0,estime_ajuste_mrc,0.978,4134848.0,False
+50065,"Grand-Saint-Esprit, Municipalité (MÉ)",488.0,214.0,204.0,4073.0,4007326.0,3137901.0,5117644.0,18726.0,8212.0,estime_ajuste_mrc,0.978,4096676.0,False
+50072,"Nicolet, Ville (V)",8620.0,3923.0,3752.0,4073.0,69509198.0,69509198.0,69509198.0,17718.0,8064.0,mesure,,67334049.0,False
+50085,"La Visitation-de-Yamaska, Municipalité (MÉ)",295.0,149.0,139.0,4073.0,2819808.0,2208026.0,3601098.0,18925.0,9559.0,estime_ajuste_mrc,0.978,2882681.0,False
+50090,"Saint-Zéphirin-de-Courval, Paroisse (municipalité de) (PE)",707.0,310.0,291.0,4073.0,5352255.0,5352255.0,5352255.0,17265.0,7570.0,mesure,,5804445.0,False
+50095,"Saint-Elphège, Paroisse (municipalité de) (PE)",251.0,110.0,102.0,4073.0,1992265.0,1560026.0,2544266.0,18112.0,7937.0,estime_ajuste_mrc,0.978,2036686.0,False
+50100,"Baie-du-Febvre, Municipalité (MÉ)",961.0,517.0,447.0,4073.0,8099305.0,8099305.0,8099305.0,15666.0,8428.0,mesure,,9118021.0,False
+50113,"Pierreville, Municipalité (MÉ)",2104.0,1196.0,1051.0,4045.0,20963282.0,20963282.0,20963282.0,17528.0,9964.0,mesure,,18166350.0,False
+50128,"Saint-François-du-Lac, Municipalité (MÉ)",1898.0,1065.0,924.0,4045.0,17601812.0,13782943.0,22478783.0,16528.0,9274.0,estime_ajuste_mrc,0.978,17994276.0,False
+50802,"Odanak, Réserve indienne (IRI)",481.0,243.0,226.0,4045.0,4885071.0,3825211.0,6238588.0,20103.0,10156.0,estime_ajuste_mrc,1.25,3907397.0,False
+51008,"Maskinongé, Municipalité (MÉ)",2323.0,1145.0,1087.0,4045.0,20294260.0,20294260.0,20294260.0,17724.0,8736.0,mesure,,18908122.0,False
+51015,"Louiseville, Ville (V)",7340.0,3857.0,3659.0,4440.0,60038197.0,60038197.0,60038197.0,15566.0,8180.0,mesure,,48994389.0,False
+51020,"Yamachiche, Municipalité (MÉ)",2813.0,1273.0,1208.0,4440.0,24006472.0,24006472.0,24006472.0,18858.0,8534.0,mesure,,21023601.0,False
+51025,"Saint-Barnabé, Paroisse (municipalité de) (PE)",1186.0,562.0,535.0,4440.0,10299446.0,10299446.0,10299446.0,18326.0,8684.0,mesure,,9345288.0,False
+51030,"Saint-Sévère, Paroisse (municipalité de) (PE)",337.0,155.0,144.0,4440.0,3107454.0,2433265.0,3968443.0,20048.0,9221.0,estime_ajuste_mrc,1.08,2876536.0,False
+51035,"Saint-Léon-le-Grand, Paroisse (municipalité de) (PE)",863.0,393.0,369.0,4440.0,7304999.0,7304999.0,7304999.0,18588.0,8465.0,mesure,,6789211.0,False
+51040,"Sainte-Ursule, Municipalité (MÉ)",1355.0,722.0,650.0,4440.0,12760441.0,12760441.0,12760441.0,17674.0,9417.0,mesure,,10439355.0,False
+51045,"Saint-Justin, Municipalité (MÉ)",961.0,511.0,460.0,4440.0,8790739.0,8790739.0,8790739.0,17203.0,9147.0,mesure,,8400111.0,False
+51050,"Saint-Édouard-de-Maskinongé, Municipalité (MÉ)",798.0,402.0,359.0,4440.0,7117479.0,5573279.0,9089534.0,17705.0,8919.0,estime_ajuste_mrc,1.08,6588571.0,False
+51055,"Sainte-Angèle-de-Prémont, Municipalité (MÉ)",631.0,349.0,310.0,4440.0,5729703.0,4486593.0,7317244.0,16417.0,9080.0,estime_ajuste_mrc,1.08,5303922.0,False
+51060,"Saint-Paulin, Municipalité (MÉ)",1541.0,794.0,717.0,4440.0,13152020.0,10298573.0,16796078.0,16564.0,8535.0,estime_ajuste_mrc,1.08,12174677.0,False
+51065,"Saint-Alexis-des-Monts, Paroisse (municipalité de) (PE)",2999.0,2136.0,1593.0,4440.0,33365059.0,26126214.0,42609585.0,15620.0,11125.0,estime_ajuste_mrc,1.08,30885659.0,False
+51070,"Saint-Mathieu-du-Parc, Municipalité (MÉ)",1482.0,1164.0,766.0,4440.0,22660178.0,17743852.0,28938681.0,19468.0,15290.0,estime_ajuste_mrc,1.08,20976272.0,False
+51075,"Saint-Élie-de-Caxton, Municipalité (MÉ)",1934.0,1248.0,927.0,4440.0,22924339.0,17950701.0,29276033.0,18369.0,11853.0,estime_ajuste_mrc,1.08,21220802.0,False
+51080,"Charette, Municipalité (MÉ)",1034.0,519.0,485.0,4440.0,8982700.0,7033824.0,11471556.0,17308.0,8687.0,estime_ajuste_mrc,1.08,8315184.0,False
+51085,"Saint-Boniface, Municipalité (MÉ)",5156.0,2205.0,2098.0,4440.0,44887509.0,35148766.0,57324585.0,20357.0,8706.0,estime_ajuste_mrc,1.08,41551861.0,False
+51090,"Saint-Étienne-des-Grès, Paroisse (municipalité de) (PE)",4539.0,1945.0,1874.0,4440.0,39914080.0,31254367.0,50973158.0,20521.0,8794.0,estime_ajuste_mrc,1.08,36948014.0,False
+52007,"Lavaltrie, Ville (V)",14425.0,5973.0,5838.0,4125.0,127479207.0,127479207.0,127479207.0,21343.0,8837.0,mesure,,118121152.0,False
+52017,"Lanoraie, Municipalité (MÉ)",5134.0,2199.0,2123.0,4125.0,48543880.0,38011855.0,61994034.0,22075.0,9455.0,estime_ajuste_mrc,1.157,41956142.0,False
+52030,"Sainte-Élisabeth, Municipalité (MÉ)",1390.0,628.0,605.0,4125.0,13346376.0,10450762.0,17044284.0,21252.0,9602.0,estime_ajuste_mrc,1.157,11535181.0,False
+52035,"Berthierville, Ville (V)",4386.0,2225.0,2166.0,4045.0,36268036.0,36268036.0,36268036.0,16300.0,8269.0,mesure,,30322559.0,False
+52040,"Sainte-Geneviève-de-Berthier, Municipalité (MÉ)",2253.0,977.0,947.0,4045.0,20753310.0,20753310.0,20753310.0,21242.0,9211.0,mesure,,19225508.0,False
+52045,"Saint-Ignace-de-Loyola, Municipalité (MÉ)",2048.0,997.0,941.0,4045.0,21738191.0,17021898.0,27761237.0,21804.0,10614.0,estime_ajuste_mrc,1.157,18788169.0,False
+52050,"La Visitation-de-l'Île-Dupas, Municipalité (MÉ)",684.0,338.0,308.0,4045.0,8129245.0,6365533.0,10381632.0,24051.0,11885.0,estime_ajuste_mrc,1.157,7026051.0,False
+52055,"Saint-Barthélemy, Paroisse (municipalité de) (PE)",2087.0,1072.0,951.0,4045.0,21245273.0,16635923.0,27131745.0,19818.0,10180.0,estime_ajuste_mrc,1.157,18362143.0,False
+52062,"Saint-Cuthbert, Municipalité (MÉ)",1821.0,917.0,843.0,4045.0,18668062.0,14617861.0,23840462.0,20358.0,10252.0,estime_ajuste_mrc,1.157,16134678.0,False
+52070,"Saint-Norbert, Paroisse (municipalité de) (PE)",1060.0,487.0,459.0,4125.0,10107218.0,7914367.0,12907646.0,20754.0,9535.0,estime_ajuste_mrc,1.157,8735599.0,False
+52075,"Saint-Cléophas-de-Brandon, Municipalité (MÉ)",254.0,112.0,105.0,4125.0,2351394.0,1841238.0,3002900.0,20995.0,9257.0,estime_ajuste_mrc,1.157,2032294.0,True
+52080,"Saint-Gabriel, Ville (V)",2803.0,1502.0,1366.0,4879.0,19565520.0,15320607.0,24986579.0,13026.0,6980.0,estime_ajuste_mrc,1.157,16910344.0,False
+52085,"Saint-Gabriel-de-Brandon, Municipalité (MÉ)",2684.0,1585.0,1304.0,4879.0,32567623.0,32567623.0,32567623.0,20547.0,12134.0,mesure,,23906186.0,False
+52090,"Saint-Didace, Paroisse (municipalité de) (PE)",688.0,523.0,357.0,4440.0,9812782.0,7683812.0,12531630.0,18762.0,14263.0,estime_ajuste_mrc,1.157,8481120.0,False
+52095,"Mandeville, Municipalité (MÉ)",2363.0,1860.0,1242.0,4879.0,31173946.0,24410482.0,39811376.0,16760.0,13193.0,estime_ajuste_mrc,1.157,26943427.0,False
+53005,"Saint-David, Municipalité (MÉ)",872.0,398.0,379.0,4045.0,6825625.0,6825625.0,6825625.0,17150.0,7828.0,mesure,,6980077.0,False
+53010,"Massueville, Village (VL)",547.0,261.0,249.0,4045.0,4759334.0,3726755.0,6078013.0,18235.0,8701.0,estime_ajuste_mrc,1.07,4449144.0,False
+53015,"Saint-Aimé, Municipalité (MÉ)",405.0,184.0,177.0,4045.0,3815638.0,2987801.0,4872844.0,20737.0,9421.0,estime_ajuste_mrc,1.07,3566953.0,False
+53020,"Saint-Robert, Municipalité (MÉ)",1813.0,802.0,786.0,4045.0,17391700.0,13618417.0,22210455.0,21685.0,9593.0,estime_ajuste_mrc,1.07,16258195.0,False
+53025,"Sainte-Victoire-de-Sorel, Municipalité (MÉ)",2457.0,1157.0,1112.0,4045.0,23090759.0,23090759.0,23090759.0,19957.0,9398.0,mesure,,23370281.0,False
+53032,"Saint-Ours, Ville (V)",1723.0,858.0,797.0,4045.0,18176058.0,14232601.0,23212136.0,21184.0,10549.0,estime_ajuste_mrc,1.07,16991432.0,False
+53040,"Saint-Roch-de-Richelieu, Municipalité (MÉ)",2573.0,1172.0,1125.0,4045.0,26284356.0,20581732.0,33567018.0,22427.0,10215.0,estime_ajuste_mrc,1.07,24571271.0,False
+53050,"Saint-Joseph-de-Sorel, Ville (V)",1581.0,917.0,861.0,4045.0,12248965.0,9591444.0,15642811.0,13358.0,7748.0,estime_ajuste_mrc,1.07,11450638.0,False
+53052,"Sorel-Tracy, Ville (V)",35165.0,17749.0,17069.0,4045.0,313847962.0,313847962.0,313847962.0,17683.0,8925.0,mesure,,285757141.0,False
+53065,"Sainte-Anne-de-Sorel, Municipalité (MÉ)",2731.0,1350.0,1267.0,4045.0,28087608.0,28087608.0,28087608.0,20806.0,10285.0,mesure,,27568233.0,False
+53072,"Yamaska, Municipalité (MÉ)",1736.0,932.0,799.0,4045.0,17062856.0,13360918.0,21790497.0,18308.0,9829.0,estime_ajuste_mrc,1.07,15950783.0,False
+53085,"Saint-Gérard-Majella, Paroisse (municipalité de) (PE)",240.0,105.0,103.0,4045.0,2045249.0,1601514.0,2611930.0,19479.0,8522.0,estime_ajuste_mrc,1.07,1911950.0,True
+54008,"Saint-Pie, Ville (V)",5847.0,2511.0,2413.0,3964.0,29184805.0,29184805.0,29184805.0,11623.0,4991.0,mesure,,50476947.0,False
+54017,"Saint-Damase, Municipalité (MÉ)",2447.0,1056.0,1022.0,3964.0,17424572.0,13644157.0,22252435.0,16501.0,7121.0,estime_ajuste_mrc,0.804,21666284.0,False
+54025,"Sainte-Madeleine, Village (VL)",2268.0,983.0,957.0,3964.0,15694021.0,12289065.0,20042397.0,15965.0,6920.0,estime_ajuste_mrc,0.804,19514460.0,False
+54030,"Sainte-Marie-Madeleine, Paroisse (municipalité de) (PE)",2876.0,1190.0,1169.0,3964.0,20793674.0,16282303.0,26555021.0,17474.0,7230.0,estime_ajuste_mrc,0.804,25855536.0,False
+54035,"La Présentation, Municipalité (MÉ)",2638.0,1096.0,1066.0,3964.0,18838317.0,14751178.0,24057889.0,17188.0,7141.0,estime_ajuste_mrc,0.804,23424181.0,False
+54048,"Saint-Hyacinthe, Ville (V)",57239.0,28096.0,26870.0,3964.0,429346010.0,429346010.0,429346010.0,15281.0,7501.0,mesure,,444593552.0,False
+54060,"Saint-Dominique, Municipalité (MÉ)",2741.0,1119.0,1090.0,3964.0,18944863.0,14834608.0,24193956.0,16930.0,6912.0,estime_ajuste_mrc,0.804,23556664.0,False
+54065,"Saint-Valérien-de-Milton, Municipalité (MÉ)",1767.0,751.0,702.0,4098.0,13780331.0,13780331.0,13780331.0,18349.0,7799.0,mesure,,15318490.0,False
+54072,"Saint-Liboire, Municipalité (MÉ)",3036.0,1178.0,1150.0,3964.0,20331310.0,15920252.0,25964549.0,17259.0,6697.0,estime_ajuste_mrc,0.804,25280617.0,False
+54090,"Saint-Simon, Municipalité (MÉ)",1386.0,550.0,539.0,3964.0,9083670.0,7112887.0,11600501.0,16516.0,6554.0,estime_ajuste_mrc,0.804,11294932.0,False
+54095,"Sainte-Hélène-de-Bagot, Municipalité (MÉ)",1696.0,741.0,716.0,4098.0,11251049.0,8810034.0,14368401.0,15184.0,6634.0,estime_ajuste_mrc,0.804,13989923.0,False
+54100,"Saint-Hugues, Municipalité (MÉ)",1340.0,571.0,540.0,4045.0,8901551.0,6970281.0,11367922.0,15589.0,6643.0,estime_ajuste_mrc,0.804,11068480.0,False
+54105,"Saint-Barnabé-Sud, Municipalité (MÉ)",962.0,389.0,373.0,3964.0,6660162.0,6660162.0,6660162.0,17121.0,6923.0,mesure,,7954349.0,False
+54110,"Saint-Jude, Municipalité (MÉ)",1326.0,542.0,523.0,4045.0,11266337.0,11266337.0,11266337.0,20787.0,8496.0,mesure,,10992542.0,False
+54115,"Saint-Bernard-de-Michaudville, Municipalité (MÉ)",616.0,275.0,261.0,4045.0,4357426.0,3412044.0,5564747.0,15845.0,7074.0,estime_ajuste_mrc,0.804,5418166.0,False
+54120,"Saint-Louis, Municipalité (MÉ)",740.0,352.0,330.0,4045.0,5505172.0,4310776.0,7030501.0,15640.0,7439.0,estime_ajuste_mrc,0.804,6845311.0,False
+54125,"Saint-Marcel-de-Richelieu, Municipalité (MÉ)",507.0,225.0,210.0,4045.0,3354007.0,2626325.0,4283308.0,14907.0,6615.0,estime_ajuste_mrc,0.804,4170482.0,False
+55008,"Ange-Gardien, Municipalité (MÉ)",2889.0,1143.0,1114.0,3964.0,21506252.0,16840280.0,27465034.0,18816.0,7444.0,estime_ajuste_mrc,0.962,22352637.0,False
+55015,"Saint-Paul-d'Abbotsford, Municipalité (MÉ)",2886.0,1216.0,1181.0,3964.0,24855142.0,19462599.0,31741808.0,20440.0,8612.0,estime_ajuste_mrc,0.962,25833323.0,False
+55023,"Saint-Césaire, Ville (V)",5972.0,2641.0,2548.0,3964.0,48462352.0,48462352.0,48462352.0,18350.0,8115.0,mesure,,48808005.0,False
+55030,"Sainte-Angèle-de-Monnoir, Municipalité (MÉ)",1828.0,746.0,729.0,3964.0,15285066.0,11968836.0,19520132.0,20489.0,8362.0,estime_ajuste_mrc,0.962,15886614.0,False
+55037,"Rougemont, Municipalité (MÉ)",2696.0,1149.0,1117.0,3964.0,22079526.0,22079526.0,22079526.0,19216.0,8190.0,mesure,,22704447.0,False
+55048,"Marieville, Ville (V)",11332.0,4776.0,4678.0,3964.0,87610791.0,68602854.0,111885296.0,18344.0,7731.0,estime_ajuste_mrc,0.962,91058739.0,False
+55057,"Richelieu, Ville (V)",5742.0,2506.0,2414.0,3964.0,45555921.0,35672161.0,58178196.0,18179.0,7934.0,estime_ajuste_mrc,0.962,47348788.0,False
+55065,"Saint-Mathias-sur-Richelieu, Municipalité (MÉ)",4544.0,2022.0,1974.0,3964.0,41021452.0,32121485.0,52387351.0,20288.0,9028.0,estime_ajuste_mrc,0.962,42635863.0,False
+56005,"Venise-en-Québec, Municipalité (MÉ)",1899.0,1173.0,940.0,3857.0,22665916.0,17748345.0,28946009.0,19323.0,11936.0,estime_ajuste_mrc,0.948,23919625.0,False
+56010,"Saint-Georges-de-Clarenceville, Municipalité (MÉ)",1154.0,732.0,538.0,3857.0,13550665.0,10610728.0,17305176.0,18512.0,11742.0,estime_ajuste_mrc,0.948,14300187.0,False
+56015,"Noyan, Municipalité (MÉ)",1418.0,823.0,645.0,3841.0,15077911.0,11806625.0,19255579.0,18321.0,10633.0,estime_ajuste_mrc,0.948,15911908.0,False
+56023,"Lacolle, Municipalité (MÉ)",2708.0,1278.0,1188.0,3841.0,23527761.0,18423205.0,30046647.0,18410.0,8688.0,estime_ajuste_mrc,0.948,24829141.0,False
+56030,"Saint-Valentin, Municipalité (MÉ)",418.0,181.0,164.0,3841.0,3484722.0,2728681.0,4450241.0,19253.0,8337.0,estime_ajuste_mrc,0.948,3677471.0,False
+56035,"Saint-Paul-de-l'Île-aux-Noix, Municipalité (MÉ)",2141.0,1112.0,964.0,3841.0,21823087.0,17088375.0,27869655.0,19625.0,10193.0,estime_ajuste_mrc,0.948,23030177.0,False
+56042,"Henryville, Municipalité (MÉ)",1497.0,702.0,612.0,3857.0,12814960.0,10034641.0,16365628.0,18255.0,8560.0,estime_ajuste_mrc,0.948,13523788.0,False
+56050,"Saint-Sébastien, Municipalité (MÉ)",692.0,284.0,268.0,3857.0,5510415.0,4314881.0,7037197.0,19403.0,7963.0,estime_ajuste_mrc,0.948,5815210.0,False
+56055,"Saint-Alexandre, Municipalité (MÉ)",2678.0,1028.0,1003.0,3857.0,22039915.0,17258160.0,28146560.0,21440.0,8230.0,estime_ajuste_mrc,0.948,23258998.0,False
+56060,"Sainte-Anne-de-Sabrevois, Paroisse (municipalité de) (PE)",2143.0,932.0,881.0,3857.0,19294976.0,15108760.0,24641076.0,20703.0,9004.0,estime_ajuste_mrc,0.948,20362230.0,False
+56065,"Saint-Blaise-sur-Richelieu, Municipalité (MÉ)",2092.0,905.0,854.0,3841.0,19129774.0,14979400.0,24430101.0,21138.0,9144.0,estime_ajuste_mrc,0.948,20187891.0,False
+56083,"Saint-Jean-sur-Richelieu, Ville (V)",97873.0,44255.0,42913.0,3889.0,798627257.0,798627257.0,798627257.0,18046.0,8160.0,mesure,,825006541.0,False
+56097,"Mont-Saint-Grégoire, Municipalité (MÉ)",3136.0,1226.0,1187.0,3964.0,26832731.0,21011133.0,34267333.0,21886.0,8556.0,estime_ajuste_mrc,0.948,28316918.0,False
+56105,"Sainte-Brigide-d'Iberville, Municipalité (MÉ)",1428.0,577.0,566.0,3964.0,11088634.0,8682857.0,14160986.0,19218.0,7765.0,estime_ajuste_mrc,0.948,11701975.0,False
+57005,"Chambly, Ville (V)",31444.0,12609.0,12405.0,3889.0,236276453.0,236276453.0,236276453.0,18739.0,7514.0,mesure,,284025968.0,False
+57010,"Carignan, Ville (V)",11740.0,4375.0,4274.0,3889.0,103561659.0,81093041.0,132255706.0,23671.0,8821.0,estime_ajuste_mrc,0.895,115685141.0,False
+57020,"Saint-Basile-le-Grand, Ville (V)",17053.0,6635.0,6561.0,3889.0,140857901.0,140857901.0,140857901.0,21230.0,8260.0,mesure,,162237060.0,False
+57025,"McMasterville, Municipalité (MÉ)",5936.0,2459.0,2408.0,3964.0,45706180.0,45706180.0,45706180.0,18587.0,7700.0,mesure,,49526747.0,False
+57030,"Otterburn Park, Ville (V)",8479.0,3381.0,3335.0,3964.0,72631723.0,56873628.0,92755947.0,21482.0,8566.0,estime_ajuste_mrc,0.895,81134381.0,False
+57033,"Saint-Jean-Baptiste, Municipalité (MÉ)",3179.0,1386.0,1346.0,3964.0,25685460.0,20112772.0,32802185.0,18532.0,8080.0,estime_ajuste_mrc,0.895,28692338.0,False
+57035,"Mont-Saint-Hilaire, Ville (V)",18859.0,7917.0,7766.0,3964.0,166053135.0,130026438.0,212061825.0,20974.0,8805.0,estime_ajuste_mrc,0.895,185492203.0,False
+57040,"Beloeil, Ville (V)",24104.0,10338.0,10140.0,3964.0,191761468.0,191761468.0,191761468.0,18549.0,7956.0,mesure,,217755257.0,False
+57045,"Saint-Mathieu-de-Beloeil, Municipalité (MÉ)",2952.0,1197.0,1169.0,3889.0,29456307.0,29456307.0,29456307.0,24608.0,9978.0,mesure,,30707737.0,False
+57050,"Saint-Marc-sur-Richelieu, Municipalité (MÉ)",2245.0,908.0,880.0,3964.0,20080192.0,15723617.0,25643853.0,22115.0,8944.0,estime_ajuste_mrc,0.895,22430887.0,False
+57057,"Saint-Charles-sur-Richelieu, Municipalité (MÉ)",1735.0,794.0,761.0,3964.0,16438411.0,12871952.0,20993036.0,20703.0,9475.0,estime_ajuste_mrc,0.895,18362780.0,False
+57068,"Saint-Denis-sur-Richelieu, Municipalité (MÉ)",2339.0,1045.0,1011.0,4045.0,18886854.0,14789184.0,24119874.0,18074.0,8075.0,estime_ajuste_mrc,0.895,21097850.0,False
+57075,"Saint-Antoine-sur-Richelieu, Municipalité (MÉ)",1738.0,752.0,729.0,4045.0,14259196.0,11165537.0,18210022.0,18962.0,8204.0,estime_ajuste_mrc,0.895,15928454.0,False
+58007,"Brossard, Ville (V)",91525.0,37275.0,35885.0,3889.0,682785333.0,534649011.0,871966097.0,18318.0,7460.0,estime_ajuste_mrc,0.94,726438264.0,False
+58012,"Saint-Lambert, Ville (V)",22761.0,11058.0,10552.0,3889.0,208472011.0,163242162.0,266233788.0,18853.0,9159.0,estime_ajuste_mrc,0.94,221800379.0,False
+58033,"Boucherville, Ville (V)",41743.0,17733.0,17291.0,3889.0,377547848.0,377547848.0,377547848.0,21291.0,9045.0,mesure,,432302700.0,False
+58037,"Saint-Bruno-de-Montarville, Ville (V)",26273.0,10629.0,10446.0,3889.0,254645985.0,199398285.0,325201282.0,23958.0,9692.0,estime_ajuste_mrc,0.94,270926422.0,False
+58227,"Longueuil, Ville (V)",254483.0,117006.0,113086.0,3889.0,1762727629.0,1762727629.0,1762727629.0,15065.0,6927.0,mesure,,2037244594.0,False
+59010,"Sainte-Julie, Ville (V)",30045.0,11761.0,11609.0,3889.0,258503719.0,258503719.0,258503719.0,21980.0,8604.0,mesure,,280961401.0,False
+59015,"Saint-Amable, Ville (V)",13322.0,5190.0,5105.0,3889.0,105995898.0,105995898.0,105995898.0,20423.0,7956.0,mesure,,113113568.0,False
+59020,"Varennes, Ville (V)",21198.0,8538.0,8412.0,3889.0,182520620.0,142921156.0,233091991.0,21377.0,8610.0,estime_ajuste_mrc,0.919,198543230.0,False
+59025,"Verchères, Municipalité (MÉ)",5759.0,2453.0,2394.0,4125.0,46654383.0,36532301.0,59581010.0,19019.0,8101.0,estime_ajuste_mrc,0.919,50749947.0,False
+59030,"Calixa-Lavallée, Municipalité (MÉ)",509.0,220.0,212.0,4125.0,4447687.0,3482722.0,5680017.0,20217.0,8738.0,estime_ajuste_mrc,0.919,4838128.0,False
+59035,"Contrecoeur, Ville (V)",9480.0,4252.0,4116.0,4045.0,76676843.0,60041123.0,97921857.0,18033.0,8088.0,estime_ajuste_mrc,0.919,83407935.0,False
+60005,"Charlemagne, Ville (V)",6302.0,3217.0,3149.0,3889.0,53684632.0,42037276.0,68559145.0,16688.0,8519.0,estime_non_ajuste,,53684632.0,False
+60013,"Repentigny, Ville (V)",86100.0,34710.0,34174.0,4125.0,706741361.0,553407567.0,902559672.0,20361.0,8208.0,estime_non_ajuste,,706741361.0,False
+60020,"Saint-Sulpice, Paroisse (municipalité de) (PE)",3360.0,1517.0,1466.0,4125.0,31030933.0,31030933.0,31030933.0,20455.0,9235.0,mesure,,29473594.0,False
+60028,"L'Assomption, Ville (V)",23442.0,9369.0,9206.0,4125.0,195475140.0,195475140.0,195475140.0,20864.0,8339.0,mesure,,186627600.0,False
+60037,"L'Épiphanie, Ville (V)",8883.0,3695.0,3583.0,4125.0,76693891.0,76693891.0,76693891.0,20756.0,8634.0,mesure,,68395806.0,False
+61005,"Saint-Paul, Municipalité (MÉ)",6566.0,2755.0,2701.0,4125.0,55586539.0,55586539.0,55586539.0,20177.0,8466.0,mesure,,56997696.0,False
+61013,"Crabtree, Municipalité (MÉ)",4155.0,1826.0,1757.0,4125.0,25949483.0,20319513.0,33139361.0,14211.0,6245.0,estime_ajuste_mrc,0.833,31136976.0,False
+61020,"Saint-Pierre, Village (VL)",286.0,132.0,129.0,4125.0,1971908.0,1544085.0,2518269.0,14939.0,6895.0,estime_ajuste_mrc,0.833,2366107.0,False
+61025,"Joliette, Ville (V)",21384.0,11153.0,10568.0,4125.0,127191390.0,99596092.0,162432576.0,11404.0,5948.0,estime_ajuste_mrc,0.833,152617889.0,False
+61027,"Saint-Thomas, Municipalité (MÉ)",3496.0,1521.0,1475.0,4125.0,23862310.0,18685171.0,30473891.0,15689.0,6826.0,estime_ajuste_mrc,0.833,28632563.0,False
+61030,"Notre-Dame-des-Prairies, Ville (V)",9471.0,4547.0,4446.0,4125.0,66677007.0,52210840.0,85151345.0,14664.0,7040.0,estime_ajuste_mrc,0.833,80006233.0,False
+61035,"Saint-Charles-Borromée, Ville (V)",15285.0,7259.0,6850.0,4125.0,92990071.0,72815052.0,118755025.0,12810.0,6084.0,estime_ajuste_mrc,0.833,111579473.0,False
+61040,"Saint-Ambroise-de-Kildare, Municipalité (MÉ)",4090.0,1749.0,1694.0,4125.0,28025589.0,21945189.0,35790698.0,16024.0,6852.0,estime_ajuste_mrc,0.833,33628111.0,False
+61045,"Notre-Dame-de-Lourdes, Municipalité (MÉ)",3141.0,1352.0,1298.0,4125.0,20835148.0,16314778.0,26607986.0,15411.0,6633.0,estime_ajuste_mrc,0.833,25000248.0,False
+61050,"Sainte-Mélanie, Municipalité (MÉ)",3250.0,1518.0,1394.0,4125.0,24176706.0,18931355.0,30875396.0,15927.0,7439.0,estime_ajuste_mrc,0.833,29009808.0,False
+62007,"Saint-Félix-de-Valois, Municipalité (MÉ)",6975.0,3190.0,3057.0,4125.0,60968702.0,60968702.0,60968702.0,19112.0,8741.0,mesure,,55298877.0,False
+62015,"Saint-Jean-de-Matha, Municipalité (MÉ)",4838.0,2851.0,2259.0,4125.0,54873896.0,54873896.0,54873896.0,19247.0,11342.0,mesure,,49770969.0,False
+62020,"Sainte-Béatrix, Municipalité (MÉ)",2170.0,1300.0,1041.0,4125.0,29235721.0,22892773.0,37336124.0,22489.0,13473.0,estime_ajuste_mrc,1.265,23118942.0,False
+62025,"Saint-Alphonse-Rodriguez, Municipalité (MÉ)",3339.0,2350.0,1718.0,4125.0,51896944.0,40637442.0,66276139.0,22084.0,15543.0,estime_ajuste_mrc,1.265,41038920.0,False
+62030,"Sainte-Marcelline-de-Kildare, Municipalité (MÉ)",1795.0,1019.0,829.0,4125.0,23919678.0,18730092.0,30547153.0,23474.0,13326.0,estime_ajuste_mrc,1.265,18915136.0,False
+62037,"Rawdon, Municipalité (MÉ)",11719.0,6109.0,5447.0,4125.0,129973623.0,101774695.0,165985687.0,21276.0,11091.0,estime_ajuste_mrc,1.265,102780177.0,False
+62047,"Chertsey, Municipalité (MÉ)",5295.0,4255.0,2720.0,4532.0,85866542.0,67237036.0,109657765.0,20180.0,16217.0,estime_ajuste_mrc,1.265,67901304.0,False
+62053,"Entrelacs, Municipalité (MÉ)",1054.0,1131.0,587.0,4532.0,22858121.0,17898850.0,29191469.0,20211.0,21687.0,estime_ajuste_mrc,1.265,18075681.0,False
+62055,"Notre-Dame-de-la-Merci, Municipalité (MÉ)",1097.0,1206.0,619.0,4532.0,25814635.0,25814635.0,25814635.0,21405.0,23532.0,mesure,,19760182.0,False
+62060,"Saint-Donat, Municipalité (MÉ)",4561.0,4527.0,2434.0,4957.0,93246337.0,73015718.0,119082294.0,20598.0,20444.0,estime_ajuste_mrc,1.265,73737077.0,False
+62065,"Saint-Côme, Municipalité (MÉ)",2583.0,2365.0,1319.0,4957.0,44111346.0,34540999.0,56333369.0,18652.0,17078.0,estime_ajuste_mrc,1.265,34882246.0,False
+62070,"Sainte-Émélie-de-l'Énergie, Municipalité (MÉ)",1741.0,1142.0,841.0,4879.0,21332554.0,16704268.0,27243210.0,18680.0,12253.0,estime_ajuste_mrc,1.265,16869297.0,False
+62075,"Saint-Damien, Paroisse (municipalité de) (PE)",2393.0,1891.0,1220.0,4879.0,36618973.0,28674163.0,46765069.0,19365.0,15303.0,estime_ajuste_mrc,1.265,28957449.0,False
+62080,"Saint-Zénon, Municipalité (MÉ)",1317.0,1347.0,721.0,4879.0,24300520.0,19028307.0,31033517.0,18040.0,18451.0,estime_ajuste_mrc,1.265,19216297.0,False
+62085,"Saint-Michel-des-Saints, Municipalité (MÉ)",2496.0,2020.0,1268.0,4957.0,37975064.0,29736037.0,48496894.0,18800.0,15214.0,estime_ajuste_mrc,1.265,30029814.0,False
+62802,"Communauté Atikamekw de Manawan, Réserve indienne (IRI)",2000.0,402.0,353.0,5092.0,7117635.0,5573401.0,9089733.0,17706.0,3559.0,estime_ajuste_mrc,1.287,5529591.0,False
+62902,"Lac-Minaki, Non organisé (NO)",0.0,0.0,0.0,4984.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.265,0.0,True
+62904,"Lac-Devenyns, Non organisé (NO)",5.0,27.0,4.0,4979.0,543690.0,425731.0,694331.0,20137.0,108738.0,estime_ajuste_mrc,1.265,429937.0,True
+62906,"Baie-de-la-Bouteille, Non organisé (NO)",10.0,17.0,3.0,4979.0,342323.0,268053.0,437171.0,20137.0,34232.0,estime_ajuste_mrc,1.265,270701.0,True
+62908,"Lac-Matawin, Non organisé (NO)",10.0,53.0,6.0,5092.0,1051592.0,823440.0,1342959.0,19841.0,105159.0,estime_ajuste_mrc,1.265,831575.0,True
+62910,"Lac-Legendre, Non organisé (NO)",0.0,0.0,0.0,4856.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.265,0.0,True
+62912,"Saint-Guillaume-Nord, Non organisé (NO)",102.0,153.0,64.0,4957.0,3394466.0,2658007.0,4334978.0,22186.0,33279.0,estime_ajuste_mrc,1.287,2637113.0,True
+62914,"Lac-des-Dix-Milles, Non organisé (NO)",0.0,1.0,0.0,4856.0,20520.0,16068.0,26205.0,20520.0,,estime_ajuste_mrc,1.265,16227.0,True
+62916,"Lac-Santé, Non organisé (NO)",0.0,0.0,0.0,4856.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.265,0.0,True
+62918,"Baie-Obaoca, Non organisé (NO)",0.0,0.0,0.0,5092.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.265,0.0,True
+62919,"Lac-Cabasta, Non organisé (NO)",0.0,0.0,0.0,5092.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.265,0.0,True
+62920,"Baie-Atibenne, Non organisé (NO)",0.0,1.0,0.0,5092.0,19841.0,15537.0,25339.0,19841.0,,estime_ajuste_mrc,1.265,15690.0,True
+62922,"Lac-du-Taureau, Non organisé (NO)",0.0,0.0,0.0,5092.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.265,0.0,True
+63005,"Sainte-Marie-Salomé, Municipalité (MÉ)",1221.0,542.0,516.0,4125.0,12029029.0,9419225.0,15361937.0,22194.0,9852.0,estime_ajuste_mrc,1.211,9932773.0,False
+63013,"Saint-Jacques, Municipalité (MÉ)",4302.0,1939.0,1892.0,4125.0,36009563.0,36009563.0,36009563.0,18571.0,8370.0,mesure,,34074379.0,False
+63023,"Saint-Alexis, Municipalité (MÉ)",1370.0,581.0,554.0,4125.0,14237686.0,11148694.0,18182552.0,24505.0,10392.0,estime_ajuste_mrc,1.211,11756535.0,False
+63030,"Saint-Esprit, Municipalité (MÉ)",2011.0,933.0,900.0,4125.0,20375213.0,15954631.0,26020617.0,21838.0,10132.0,estime_ajuste_mrc,1.211,16824497.0,False
+63035,"Saint-Roch-de-l'Achigan, Municipalité (MÉ)",5453.0,2226.0,2165.0,4125.0,47801109.0,47801109.0,47801109.0,21474.0,8766.0,mesure,,43042645.0,False
+63040,"Saint-Roch-Ouest, Municipalité (MÉ)",262.0,99.0,95.0,4125.0,2411317.0,1888160.0,3079426.0,24357.0,9204.0,estime_ajuste_mrc,1.211,1991105.0,False
+63048,"Saint-Lin--Laurentides, Ville (V)",24030.0,9615.0,9289.0,4532.0,205829357.0,161172856.0,262858929.0,21407.0,8566.0,estime_ajuste_mrc,1.211,169960206.0,False
+63055,"Saint-Calixte, Municipalité (MÉ)",6792.0,3791.0,3149.0,4532.0,73024498.0,57181186.0,93257548.0,19263.0,10752.0,estime_ajuste_mrc,1.211,60298778.0,False
+63060,"Sainte-Julienne, Municipalité (MÉ)",11173.0,4930.0,4573.0,4125.0,113814603.0,89121518.0,145349454.0,23086.0,10187.0,estime_ajuste_mrc,1.211,93980537.0,False
+63065,"Saint-Liguori, Municipalité (MÉ)",2066.0,901.0,856.0,4125.0,21886988.0,17138412.0,27951261.0,24292.0,10594.0,estime_ajuste_mrc,1.211,18072820.0,False
+64008,"Terrebonne, Ville (V)",119944.0,46056.0,45247.0,3889.0,982462730.0,982462730.0,982462730.0,21332.0,8191.0,mesure,,1009037418.0,False
+64015,"Mascouche, Ville (V)",51183.0,20290.0,19981.0,4125.0,405266088.0,405266088.0,405266088.0,19974.0,7918.0,mesure,,417582827.0,False
+65005,"Laval, Ville (V)",438366.0,176115.0,169785.0,3889.0,3359631037.0,3359631037.0,3359631037.0,19076.0,7664.0,mesure,,3464137950.0,False
+66007,"Montréal-Est, Ville (V)",4394.0,2124.0,2018.0,3889.0,27372854.0,21434071.0,34957108.0,12887.0,6230.0,estime_ajuste_mrc,0.814,33644538.0,False
+66023,"Montréal, Ville (V)",1762949.0,878542.0,816338.0,3889.0,11374140779.0,11374140779.0,11374140779.0,12947.0,6452.0,mesure,,13481529160.0,False
+66032,"Westmount, Ville (V)",19658.0,9423.0,8591.0,3889.0,175317720.0,137280989.0,223893368.0,18605.0,8918.0,estime_ajuste_mrc,0.814,215486614.0,False
+66047,"Montréal-Ouest, Ville (V)",5115.0,2031.0,1943.0,3889.0,41460503.0,32465280.0,52948051.0,20414.0,8106.0,estime_ajuste_mrc,0.814,50959956.0,False
+66058,"Côte-Saint-Luc, Ville (V)",34504.0,15548.0,14603.0,3889.0,212479920.0,166380520.0,271352176.0,13666.0,6158.0,estime_ajuste_mrc,0.814,261163438.0,False
+66062,"Hampstead, Ville (V)",7037.0,2622.0,2493.0,3889.0,85431052.0,85431052.0,85431052.0,32582.0,12140.0,mesure,,72568730.0,False
+66072,"Mont-Royal, Ville (V)",20953.0,8192.0,7732.0,3889.0,194126275.0,194126275.0,194126275.0,23697.0,9265.0,mesure,,196410689.0,False
+66087,"Dorval, Ville (V)",19302.0,9058.0,8716.0,3936.0,137911431.0,107990325.0,176122840.0,15225.0,7145.0,estime_ajuste_mrc,0.814,169509775.0,False
+66092,"L'Île-Dorval, Ville (V)",30.0,79.0,25.0,3889.0,1218578.0,954197.0,1556212.0,15425.0,40619.0,estime_ajuste_mrc,0.814,1497779.0,True
+66097,"Pointe-Claire, Ville (V)",33488.0,13823.0,13313.0,3936.0,235702208.0,184564527.0,301008713.0,17051.0,7038.0,estime_ajuste_mrc,0.814,289706429.0,False
+66102,"Kirkland, Ville (V)",19413.0,6790.0,6666.0,3936.0,149774484.0,117279584.0,191272814.0,22058.0,7715.0,estime_ajuste_mrc,0.814,184090897.0,False
+66107,"Beaconsfield, Ville (V)",19277.0,6915.0,6753.0,3936.0,159293458.0,124733332.0,203429230.0,23036.0,8263.0,estime_ajuste_mrc,0.814,195790864.0,False
+66112,"Baie-D'Urfé, Ville (V)",3764.0,1375.0,1325.0,3936.0,47038854.0,47038854.0,47038854.0,34210.0,12497.0,mesure,,41090892.0,False
+66117,"Sainte-Anne-de-Bellevue, Ville (V)",5027.0,2304.0,2108.0,3936.0,35701797.0,27955976.0,45593768.0,15496.0,7102.0,estime_ajuste_mrc,0.814,43881812.0,False
+66127,"Senneville, Village (VL)",951.0,377.0,352.0,3936.0,9066489.0,7099434.0,11578560.0,24049.0,9534.0,estime_ajuste_mrc,0.814,11143808.0,False
+66142,"Dollard-Des Ormeaux, Ville (V)",48403.0,17763.0,17383.0,3936.0,308295679.0,241408203.0,393715810.0,17356.0,6369.0,estime_ajuste_mrc,0.814,378932557.0,False
+67005,"Saint-Mathieu, Municipalité (MÉ)",2339.0,951.0,937.0,3889.0,20317797.0,15909671.0,25947292.0,21365.0,8687.0,estime_ajuste_mrc,0.879,23116604.0,False
+67010,"Saint-Philippe, Ville (V)",7597.0,2921.0,2856.0,3889.0,62159186.0,48673201.0,79381762.0,21280.0,8182.0,estime_ajuste_mrc,0.879,70721707.0,False
+67015,"La Prairie, Ville (V)",26406.0,11309.0,11049.0,3889.0,208014027.0,208014027.0,208014027.0,18394.0,7878.0,mesure,,239238338.0,False
+67020,"Candiac, Ville (V)",22997.0,8960.0,8731.0,3889.0,188940988.0,147948568.0,241291263.0,21087.0,8216.0,estime_ajuste_mrc,0.879,214967890.0,False
+67025,"Delson, Ville (V)",8328.0,3561.0,3479.0,3889.0,64454904.0,50470842.0,82313559.0,18100.0,7740.0,estime_ajuste_mrc,0.879,73333663.0,False
+67030,"Sainte-Catherine, Ville (V)",17347.0,7016.0,6909.0,3889.0,129179997.0,101153253.0,164972169.0,18412.0,7447.0,estime_ajuste_mrc,0.879,146974734.0,False
+67035,"Saint-Constant, Ville (V)",29954.0,11502.0,11313.0,3889.0,229288534.0,179542356.0,292817988.0,19935.0,7655.0,estime_ajuste_mrc,0.879,260873371.0,False
+67040,"Saint-Isidore, Paroisse (municipalité de) (PE)",2769.0,1094.0,1072.0,3889.0,24942266.0,24942266.0,24942266.0,22799.0,9008.0,mesure,,24553603.0,False
+67045,"Mercier, Ville (V)",14626.0,5472.0,5398.0,3889.0,121586884.0,121586884.0,121586884.0,22220.0,8313.0,mesure,,124891058.0,False
+67050,"Châteauguay, Ville (V)",50815.0,20412.0,19917.0,3936.0,395909662.0,395909662.0,395909662.0,19396.0,7791.0,mesure,,394633797.0,False
+67055,"Léry, Ville (V)",2390.0,1034.0,989.0,3936.0,20795107.0,16283424.0,26556851.0,20111.0,8701.0,estime_ajuste_mrc,0.879,23659664.0,False
+67802,"Kahnawake, Réserve indienne (IRI)",,,,3889.0,,,,,,estime_ajuste_mrc,0.94,,True
+68005,"Saint-Bernard-de-Lacolle, Municipalité (MÉ)",1542.0,674.0,618.0,3841.0,15192444.0,11896309.0,19401846.0,22541.0,9852.0,estime_ajuste_mrc,1.048,14502176.0,False
+68010,"Hemmingford, Village (VL)",829.0,403.0,379.0,3841.0,6979038.0,6979038.0,6979038.0,17318.0,8419.0,mesure,,6847604.0,False
+68015,"Hemmingford, Canton (municipalité de) (CT)",1995.0,899.0,821.0,3841.0,19264960.0,19264960.0,19264960.0,21429.0,9657.0,mesure,,18902149.0,False
+68020,"Sainte-Clotilde, Municipalité (MÉ)",2646.0,829.0,783.0,3841.0,17793168.0,13932783.0,22723158.0,21463.0,6725.0,estime_ajuste_mrc,1.048,16984736.0,False
+68025,"Saint-Patrice-de-Sherrington, Municipalité (MÉ)",1963.0,805.0,769.0,3841.0,17378253.0,13607887.0,22193282.0,21588.0,8853.0,estime_ajuste_mrc,1.048,16588672.0,False
+68030,"Napierville, Municipalité (MÉ)",4020.0,1740.0,1638.0,3841.0,36684495.0,28725469.0,46848745.0,21083.0,9125.0,estime_ajuste_mrc,1.048,35017736.0,False
+68035,"Saint-Cyprien-de-Napierville, Municipalité (MÉ)",1735.0,717.0,681.0,3841.0,16745135.0,16745135.0,16745135.0,23354.0,9651.0,mesure,,16749245.0,False
+68040,"Saint-Jacques-le-Mineur, Municipalité (MÉ)",1766.0,739.0,714.0,3889.0,17491176.0,13696311.0,22337493.0,23669.0,9904.0,estime_ajuste_mrc,1.048,16696465.0,False
+68045,"Saint-Édouard, Municipalité (MÉ)",1365.0,548.0,515.0,3841.0,13098589.0,10256734.0,16727842.0,23903.0,9596.0,estime_ajuste_mrc,1.048,12503455.0,False
+68050,"Saint-Michel, Municipalité (MÉ)",3521.0,1296.0,1259.0,3841.0,32239269.0,25244675.0,41171871.0,24876.0,9156.0,estime_ajuste_mrc,1.048,30774479.0,False
+68055,"Saint-Rémi, Ville (V)",8957.0,3796.0,3682.0,3889.0,69942936.0,69942936.0,69942936.0,18425.0,7809.0,mesure,,71021049.0,False
+69005,"Havelock, Canton (municipalité de) (CT)",756.0,407.0,352.0,3869.0,7557813.0,5918079.0,9651872.0,18570.0,9997.0,estime_ajuste_mrc,1.014,7456342.0,False
+69010,"Franklin, Municipalité (MÉ)",1635.0,800.0,717.0,3869.0,15372595.0,12037374.0,19631912.0,19216.0,9402.0,estime_ajuste_mrc,1.014,15166204.0,False
+69017,"Saint-Chrysostome, Municipalité (MÉ)",2582.0,1184.0,1105.0,3869.0,23743893.0,23743893.0,23743893.0,20054.0,9196.0,mesure,,21170785.0,False
+69025,"Howick, Municipalité (MÉ)",850.0,366.0,347.0,3869.0,7011607.0,5490377.0,8954328.0,19157.0,8249.0,estime_ajuste_mrc,1.014,6917470.0,False
+69030,"Très-Saint-Sacrement, Paroisse (municipalité de) (PE)",1189.0,506.0,473.0,3869.0,10588321.0,8291091.0,13522049.0,20926.0,8905.0,estime_ajuste_mrc,1.014,10446162.0,False
+69037,"Ormstown, Municipalité (MÉ)",3917.0,1788.0,1706.0,3869.0,35287700.0,35287700.0,35287700.0,19736.0,9009.0,mesure,,32505070.0,False
+69045,"Hinchinbrooke, Municipalité (MÉ)",2187.0,1177.0,1026.0,3869.0,21667910.0,16966865.0,27671483.0,18409.0,9908.0,estime_ajuste_mrc,1.014,21376998.0,False
+69050,"Elgin, Municipalité (MÉ)",389.0,206.0,175.0,3869.0,3751099.0,2937265.0,4790424.0,18209.0,9643.0,estime_ajuste_mrc,1.014,3700737.0,False
+69055,"Huntingdon, Ville (V)",2556.0,1273.0,1202.0,3869.0,19257292.0,15079252.0,24592950.0,15127.0,7534.0,estime_ajuste_mrc,1.014,18998745.0,False
+69060,"Godmanchester, Canton (municipalité de) (CT)",1403.0,621.0,582.0,3869.0,11601468.0,9084427.0,14815911.0,18682.0,8269.0,estime_ajuste_mrc,1.014,11445707.0,False
+69065,"Sainte-Barbe, Municipalité (MÉ)",1609.0,895.0,733.0,3869.0,18912603.0,14809347.0,24152758.0,21131.0,11754.0,estime_ajuste_mrc,1.014,18658684.0,False
+69070,"Saint-Anicet, Municipalité (MÉ)",2754.0,1913.0,1309.0,3699.0,38595368.0,30221761.0,49289068.0,20175.0,14014.0,estime_ajuste_mrc,1.014,38077189.0,False
+69075,"Dundee, Canton (municipalité de) (CT)",386.0,310.0,168.0,3699.0,5066108.0,5066108.0,5066108.0,16342.0,13125.0,mesure,,5848974.0,False
+69802,"Akwesasne, Réserve indienne (IRI)",,,,3699.0,,,,,,estime_ajuste_mrc,0.94,,True
+70005,"Saint-Urbain-Premier, Municipalité (MÉ)",1332.0,538.0,504.0,3841.0,12530071.0,9811561.0,16001804.0,23290.0,9407.0,estime_ajuste_mrc,1.073,11682050.0,False
+70012,"Sainte-Martine, Municipalité (MÉ)",5664.0,2469.0,2407.0,3869.0,48413058.0,48413058.0,48413058.0,19608.0,8548.0,mesure,,48869112.0,False
+70022,"Beauharnois, Ville (V)",13638.0,6451.0,6293.0,3936.0,124125198.0,97195138.0,158516827.0,19241.0,9101.0,estime_ajuste_mrc,1.073,115724548.0,False
+70030,"Saint-Étienne-de-Beauharnois, Municipalité (MÉ)",1099.0,431.0,423.0,3869.0,11271701.0,8826205.0,14394774.0,26152.0,10256.0,estime_ajuste_mrc,1.073,10508845.0,False
+70035,"Saint-Louis-de-Gonzague, Paroisse (municipalité de) (PE)",1950.0,777.0,757.0,3869.0,17283828.0,17283828.0,17283828.0,22244.0,8864.0,mesure,,16510369.0,False
+70040,"Saint-Stanislas-de-Kostka, Municipalité (MÉ)",1852.0,896.0,788.0,3869.0,20608634.0,16137408.0,26318711.0,23001.0,11128.0,estime_ajuste_mrc,1.073,19213865.0,False
+70052,"Salaberry-de-Valleyfield, Ville (V)",42787.0,20962.0,20073.0,3936.0,367508727.0,287774455.0,469335140.0,17532.0,8589.0,estime_ajuste_mrc,1.073,342636161.0,False
+71005,"Rivière-Beaudette, Municipalité (MÉ)",2489.0,1069.0,996.0,3699.0,25562144.0,20016210.0,32644701.0,23912.0,10270.0,estime_ajuste_mrc,1.036,24678738.0,False
+71015,"Saint-Télesphore, Municipalité (MÉ)",754.0,352.0,325.0,3986.0,6671720.0,6671720.0,6671720.0,18954.0,8848.0,mesure,,6238371.0,False
+71020,"Saint-Polycarpe, Municipalité (MÉ)",2372.0,1030.0,1007.0,3986.0,20611799.0,16139887.0,26322753.0,20011.0,8690.0,estime_ajuste_mrc,1.036,19899473.0,False
+71025,"Saint-Zotique, Municipalité (MÉ)",9618.0,4164.0,3990.0,3699.0,93307690.0,73063760.0,119160647.0,22408.0,9701.0,estime_ajuste_mrc,1.036,90083055.0,False
+71033,"Les Coteaux, Municipalité (MÉ)",5643.0,2453.0,2411.0,3936.0,48618342.0,38070162.0,62089127.0,19820.0,8616.0,estime_ajuste_mrc,1.036,46938133.0,False
+71040,"Coteau-du-Lac, Ville (V)",7473.0,3025.0,2928.0,3936.0,65409428.0,65409428.0,65409428.0,21623.0,8753.0,mesure,,65352010.0,False
+71045,"Saint-Clet, Municipalité (MÉ)",1700.0,728.0,706.0,3936.0,14990834.0,11738440.0,19144376.0,20592.0,8818.0,estime_ajuste_mrc,1.036,14472764.0,False
+71050,"Les Cèdres, Municipalité (MÉ)",7184.0,2810.0,2754.0,3936.0,67686394.0,53001232.0,86440405.0,24088.0,9422.0,estime_ajuste_mrc,1.036,65347210.0,False
+71055,"Pointe-des-Cascades, Village (VL)",1775.0,762.0,743.0,3936.0,14784003.0,14784003.0,14784003.0,19402.0,8329.0,mesure,,16043192.0,False
+71060,"L'Île-Perrot, Ville (V)",11638.0,5150.0,4997.0,3936.0,98145678.0,76852104.0,125339106.0,19057.0,8433.0,estime_ajuste_mrc,1.036,94753846.0,False
+71065,"Notre-Dame-de-l'Île-Perrot, Ville (V)",11427.0,4156.0,4070.0,3936.0,114842362.0,89926295.0,146661976.0,27633.0,10050.0,estime_ajuste_mrc,1.036,110873507.0,False
+71070,"Pincourt, Ville (V)",14751.0,5786.0,5640.0,3936.0,133122790.0,104240622.0,170007400.0,23008.0,9025.0,estime_ajuste_mrc,1.036,128522179.0,False
+71075,"Terrasse-Vaudreuil, Municipalité (MÉ)",1887.0,829.0,809.0,3936.0,17338798.0,13576992.0,22142895.0,20915.0,9189.0,estime_ajuste_mrc,1.036,16739584.0,False
+71083,"Vaudreuil-Dorion, Ville (V)",43268.0,17260.0,16713.0,3936.0,327943325.0,327943325.0,327943325.0,19000.0,7579.0,mesure,,355478082.0,False
+71090,"Vaudreuil-sur-le-Lac, Village (VL)",1361.0,494.0,484.0,3936.0,15034508.0,11772638.0,19200151.0,30434.0,11047.0,estime_ajuste_mrc,1.036,14514928.0,False
+71095,"L'Île-Cadieux, Ville (V)",120.0,64.0,55.0,3936.0,1309382.0,1025300.0,1672175.0,20459.0,10912.0,estime_ajuste_mrc,1.036,1264130.0,True
+71100,"Hudson, Ville (V)",5411.0,2447.0,2338.0,3936.0,61296175.0,47997427.0,78279635.0,25050.0,11328.0,estime_ajuste_mrc,1.036,59177831.0,False
+71105,"Saint-Lazare, Ville (V)",22354.0,7848.0,7749.0,3936.0,217416783.0,170246288.0,277656907.0,27703.0,9726.0,estime_ajuste_mrc,1.036,209903043.0,False
+71110,"Sainte-Marthe, Municipalité (MÉ)",1014.0,448.0,430.0,3986.0,9894372.0,7747700.0,12635826.0,22086.0,9758.0,estime_ajuste_mrc,1.036,9552431.0,False
+71115,"Sainte-Justine-de-Newton, Municipalité (MÉ)",947.0,443.0,407.0,3986.0,8260654.0,6468432.0,10549450.0,18647.0,8723.0,estime_ajuste_mrc,1.036,7975173.0,False
+71125,"Très-Saint-Rédempteur, Municipalité (MÉ)",978.0,389.0,381.0,3986.0,8890948.0,6961978.0,11354382.0,22856.0,9091.0,estime_ajuste_mrc,1.036,8583685.0,False
+71133,"Rigaud, Ville (V)",7854.0,3496.0,3311.0,3986.0,72474184.0,56750268.0,92554758.0,20731.0,9228.0,estime_ajuste_mrc,1.036,69969537.0,False
+71140,"Pointe-Fortune, Village (VL)",582.0,283.0,258.0,3986.0,6207293.0,4860566.0,7927161.0,21934.0,10665.0,estime_ajuste_mrc,1.036,5992774.0,False
+72005,"Saint-Eustache, Ville (V)",45276.0,19396.0,18958.0,3936.0,369616319.0,369616319.0,369616319.0,19056.0,8164.0,mesure,,375879752.0,False
+72010,"Deux-Montagnes, Ville (V)",17915.0,7463.0,7266.0,3936.0,145490510.0,145490510.0,145490510.0,19495.0,8121.0,mesure,,150823449.0,False
+72015,"Sainte-Marthe-sur-le-Lac, Ville (V)",19797.0,7642.0,7503.0,3936.0,182535099.0,142932494.0,233110482.0,23886.0,9220.0,estime_ajuste_mrc,1.043,175032278.0,False
+72020,"Pointe-Calumet, Municipalité (MÉ)",6281.0,2673.0,2590.0,3936.0,58449944.0,58449944.0,58449944.0,21867.0,9306.0,mesure,,54045161.0,False
+72025,"Saint-Joseph-du-Lac, Municipalité (MÉ)",7031.0,2819.0,2743.0,3936.0,67579405.0,67579405.0,67579405.0,23973.0,9612.0,mesure,,62237074.0,False
+72032,"Oka, Municipalité (MÉ)",3968.0,1683.0,1616.0,3936.0,37898409.0,29676013.0,48399000.0,22518.0,9551.0,estime_ajuste_mrc,1.043,36340654.0,False
+72043,"Saint-Placide, Municipalité (MÉ)",1784.0,876.0,778.0,3936.0,17710150.0,13867776.0,22617139.0,20217.0,9927.0,estime_ajuste_mrc,1.043,16982202.0,False
+72802,"Kanesatake, Établissement indien (S-É)",,,,3936.0,,,,,,estime_ajuste_mrc,1.043,,True
+73005,"Boisbriand, Ville (V)",28308.0,11769.0,11425.0,3936.0,218683488.0,218683488.0,218683488.0,18581.0,7725.0,mesure,,234557284.0,False
+73010,"Sainte-Thérèse, Ville (V)",26533.0,13202.0,12686.0,3936.0,220943262.0,220943262.0,220943262.0,16736.0,8327.0,mesure,,215775204.0,False
+73015,"Blainville, Ville (V)",59819.0,22859.0,22424.0,3936.0,527911523.0,527911523.0,527911523.0,23094.0,8825.0,mesure,,530703060.0,False
+73020,"Rosemère, Ville (V)",14090.0,5340.0,5249.0,3936.0,144004349.0,112761331.0,183903936.0,26967.0,10220.0,estime_ajuste_mrc,1.037,138909094.0,False
+73025,"Lorraine, Ville (V)",9502.0,3437.0,3393.0,3936.0,86118318.0,86118318.0,86118318.0,25056.0,9063.0,mesure,,94861582.0,False
+73030,"Bois-des-Filion, Ville (V)",10159.0,4370.0,4258.0,3936.0,89971826.0,70451642.0,114900509.0,20589.0,8856.0,estime_ajuste_mrc,1.037,86788385.0,False
+73035,"Sainte-Anne-des-Plaines, Ville (V)",15221.0,6005.0,5882.0,4532.0,119151724.0,119151724.0,119151724.0,19842.0,7828.0,mesure,,105645423.0,False
+74005,"Mirabel, Ville (V)",61108.0,25514.0,24795.0,3936.0,501005872.0,501005872.0,501005872.0,19637.0,8199.0,mesure,,527538518.0,False
+75005,"Saint-Colomban, Ville (V)",17740.0,6807.0,6632.0,3936.0,182224533.0,142689307.0,232713866.0,26770.0,10272.0,estime_ajuste_mrc,1.142,159565008.0,False
+75017,"Saint-Jérôme, Ville (V)",80213.0,38776.0,37371.0,4532.0,646438847.0,506188217.0,825549014.0,16671.0,8059.0,estime_ajuste_mrc,1.142,566054517.0,False
+75028,"Sainte-Sophie, Municipalité (MÉ)",18080.0,7490.0,7211.0,4532.0,159841144.0,125162192.0,204128664.0,21341.0,8841.0,estime_ajuste_mrc,1.142,139964981.0,False
+75040,"Prévost, Ville (V)",13692.0,5722.0,5532.0,4532.0,135164182.0,105839116.0,172614405.0,23622.0,9872.0,estime_ajuste_mrc,1.142,118356587.0,False
+75045,"Saint-Hippolyte, Municipalité (MÉ)",10669.0,5597.0,4683.0,4532.0,124998223.0,97878752.0,159631742.0,22333.0,11716.0,estime_ajuste_mrc,1.142,109454759.0,False
+76008,"Saint-André-d'Argenteuil, Municipalité (MÉ)",3053.0,1490.0,1330.0,3986.0,31512770.0,31512770.0,31512770.0,21150.0,10322.0,mesure,,28249016.0,False
+76020,"Lachute, Ville (V)",14100.0,6862.0,6531.0,3986.0,117082184.0,91680168.0,149522390.0,17062.0,8304.0,estime_ajuste_mrc,1.116,104908712.0,False
+76025,"Gore, Canton (municipalité de) (CT)",2283.0,1615.0,1124.0,4325.0,34472275.0,26993210.0,44023580.0,21345.0,15100.0,estime_ajuste_mrc,1.116,30888064.0,False
+76030,"Mille-Isles, Municipalité (MÉ)",1721.0,950.0,756.0,4532.0,20628328.0,16152830.0,26343862.0,21714.0,11986.0,estime_ajuste_mrc,1.116,18483524.0,False
+76035,"Wentworth, Canton (municipalité de) (CT)",682.0,802.0,378.0,4325.0,17498067.0,13701707.0,22346293.0,21818.0,25657.0,estime_ajuste_mrc,1.116,15678728.0,False
+76043,"Brownsburg-Chatham, Ville (V)",7247.0,3783.0,3282.0,3986.0,77312570.0,60538923.0,98733726.0,20437.0,10668.0,estime_ajuste_mrc,1.116,69274093.0,False
+76052,"Grenville-sur-la-Rouge, Municipalité (MÉ)",2883.0,1808.0,1376.0,3986.0,36362068.0,28472995.0,46436982.0,20112.0,12613.0,estime_ajuste_mrc,1.116,32581368.0,False
+76055,"Grenville, Village (VL)",1816.0,951.0,903.0,3986.0,16046885.0,12565371.0,20493029.0,16874.0,8836.0,estime_ajuste_mrc,1.116,14378430.0,False
+76065,"Harrington, Canton (municipalité de) (CT)",967.0,1339.0,543.0,4325.0,24361056.0,19075709.0,31110824.0,18193.0,25192.0,estime_ajuste_mrc,1.116,21828146.0,False
+77011,"Estérel, Ville (V)",262.0,377.0,153.0,4532.0,11246557.0,8806517.0,14362665.0,29832.0,42926.0,estime_ajuste_mrc,1.349,8338811.0,False
+77012,"Sainte-Marguerite-du-Lac-Masson, Ville (V)",3367.0,2365.0,1689.0,4532.0,54904577.0,42992543.0,70117103.0,23215.0,16307.0,estime_ajuste_mrc,1.349,40709246.0,False
+77022,"Sainte-Adèle, Ville (V)",14010.0,8002.0,6896.0,4532.0,177664765.0,139118821.0,226890713.0,22203.0,12681.0,estime_ajuste_mrc,1.349,131730340.0,False
+77030,"Piedmont, Municipalité (MÉ)",3476.0,2385.0,1822.0,4532.0,56594201.0,44315588.0,72274875.0,23729.0,16281.0,estime_ajuste_mrc,1.349,41962025.0,False
+77035,"Sainte-Anne-des-Lacs, Paroisse (municipalité de) (PE)",3862.0,2232.0,1792.0,4532.0,63710210.0,49887716.0,81362531.0,28544.0,16497.0,estime_ajuste_mrc,1.349,47238222.0,False
+77043,"Saint-Sauveur, Ville (V)",11580.0,7267.0,5936.0,4532.0,168884903.0,168884903.0,168884903.0,23240.0,14584.0,mesure,,123729826.0,False
+77050,"Morin-Heights, Municipalité (MÉ)",4678.0,2762.0,2211.0,4325.0,76507262.0,59908334.0,97705289.0,27700.0,16355.0,estime_ajuste_mrc,1.349,56726654.0,False
+77055,"Lac-des-Seize-Îles, Municipalité (MÉ)",175.0,212.0,96.0,4325.0,5244299.0,4106502.0,6697348.0,24737.0,29967.0,estime_ajuste_mrc,1.349,3888409.0,True
+77060,"Wentworth-Nord, Municipalité (MÉ)",1672.0,1968.0,896.0,4325.0,46102310.0,36100005.0,58875973.0,23426.0,27573.0,estime_ajuste_mrc,1.349,34182765.0,False
+77065,"Saint-Adolphe-d'Howard, Municipalité (MÉ)",3824.0,3730.0,2039.0,4325.0,88118168.0,69000151.0,112533253.0,23624.0,23043.0,estime_ajuste_mrc,1.349,65335612.0,False
+78005,"Val-Morin, Municipalité (MÉ)",3123.0,2077.0,1487.0,4532.0,45884507.0,45884507.0,45884507.0,22092.0,14692.0,mesure,,36056274.0,False
+78010,"Val-David, Village (VL)",5558.0,3227.0,2668.0,4532.0,66367636.0,51968590.0,84756256.0,20566.0,11941.0,estime_ajuste_mrc,1.278,51928695.0,False
+78015,"Lantier, Municipalité (MÉ)",891.0,819.0,442.0,4325.0,18154860.0,14216002.0,23185065.0,22167.0,20376.0,estime_ajuste_mrc,1.278,14205089.0,False
+78020,"Sainte-Lucie-des-Laurentides, Municipalité (MÉ)",1445.0,953.0,688.0,4532.0,19786301.0,15493488.0,25268532.0,20762.0,13693.0,estime_ajuste_mrc,1.278,15481594.0,False
+78032,"Sainte-Agathe-des-Monts, Ville (V)",11211.0,6767.0,5514.0,4325.0,129738930.0,101590921.0,165685967.0,19172.0,11572.0,estime_ajuste_mrc,1.278,101512932.0,False
+78042,"Ivry-sur-le-Lac, Municipalité (MÉ)",391.0,398.0,200.0,4325.0,10046865.0,7867109.0,12830571.0,25243.0,25695.0,estime_ajuste_mrc,1.278,7861070.0,False
+78047,"Saint-Faustin--Lac-Carré, Municipalité (MÉ)",3780.0,2520.0,1791.0,4325.0,57262042.0,44838535.0,73127756.0,22723.0,15149.0,estime_ajuste_mrc,1.278,44804114.0,False
+78050,"Barkmere, Ville (V)",81.0,230.0,50.0,4325.0,5574809.0,4365304.0,7119432.0,24238.0,68825.0,estime_ajuste_mrc,1.278,4361953.0,True
+78055,"Montcalm, Municipalité (MÉ)",632.0,627.0,330.0,4325.0,13754859.0,10770620.0,17565946.0,21938.0,21764.0,estime_ajuste_mrc,1.278,10762352.0,False
+78060,"Arundel, Canton (municipalité de) (CT)",578.0,402.0,290.0,4325.0,8628501.0,6756472.0,11019218.0,21464.0,14928.0,estime_ajuste_mrc,1.278,6751285.0,False
+78065,"Huberdeau, Municipalité (MÉ)",863.0,527.0,430.0,4325.0,10400540.0,8144051.0,13282240.0,19735.0,12052.0,estime_ajuste_mrc,1.278,8137799.0,False
+78070,"Amherst, Canton (municipalité de) (CT)",1728.0,1613.0,876.0,4393.0,33412511.0,26163371.0,42670185.0,20715.0,19336.0,estime_ajuste_mrc,1.278,26143286.0,False
+78075,"Brébeuf, Paroisse (municipalité de) (PE)",1009.0,620.0,495.0,4325.0,11819704.0,11819704.0,11819704.0,19064.0,11714.0,mesure,,10261113.0,False
+78095,"Lac-Supérieur, Municipalité (MÉ)",1972.0,1718.0,996.0,4856.0,35486073.0,27787056.0,45318274.0,20655.0,17995.0,estime_ajuste_mrc,1.278,27765724.0,False
+78100,"Val-des-Lacs, Municipalité (MÉ)",750.0,822.0,391.0,4325.0,18002648.0,14096814.0,22990679.0,21901.0,24004.0,estime_ajuste_mrc,1.278,14085992.0,False
+78102,"Mont-Tremblant, Ville (V)",10992.0,8783.0,5408.0,4325.0,193332513.0,193332513.0,193332513.0,22012.0,17588.0,mesure,,145678525.0,False
+78115,"La Conception, Municipalité (MÉ)",1527.0,1229.0,743.0,4325.0,29277728.0,22925666.0,37389769.0,23822.0,19173.0,estime_ajuste_mrc,1.278,22908066.0,False
+78120,"Labelle, Municipalité (MÉ)",2765.0,2017.0,1362.0,4594.0,40325703.0,31576684.0,51498830.0,19993.0,14584.0,estime_ajuste_mrc,1.278,31552444.0,False
+78127,"Lac-Tremblant-Nord, Municipalité (MÉ)",60.0,70.0,31.0,4856.0,1549664.0,1213451.0,1979033.0,22138.0,25828.0,estime_ajuste_mrc,1.278,1212520.0,True
+78130,"La Minerve, Municipalité (MÉ)",1421.0,1638.0,767.0,4393.0,34283301.0,26845235.0,43782247.0,20930.0,24126.0,estime_ajuste_mrc,1.278,26824627.0,False
+78802,"Doncaster, Réserve indienne (IRI)",,,,4532.0,,,,,,estime_ajuste_mrc,1.278,,True
+79005,"Notre-Dame-du-Laus, Municipalité (MÉ)",1730.0,1924.0,932.0,4492.0,27878318.0,27878318.0,27878318.0,14490.0,16115.0,mesure,,31116240.0,False
+79010,"Notre-Dame-de-Pontmain, Municipalité (MÉ)",790.0,746.0,411.0,4455.0,13026312.0,10200138.0,16635539.0,17462.0,16489.0,estime_ajuste_mrc,1.094,11902524.0,False
+79015,"Lac-du-Cerf, Municipalité (MÉ)",445.0,458.0,245.0,4455.0,7540459.0,5904489.0,9629709.0,16464.0,16945.0,estime_ajuste_mrc,1.094,6889939.0,False
+79022,"Saint-Aimé-du-Lac-des-Îles, Municipalité (MÉ)",815.0,481.0,375.0,4455.0,9188840.0,7195240.0,11734812.0,19104.0,11275.0,estime_ajuste_mrc,1.094,8396113.0,False
+79025,"Kiamika, Municipalité (MÉ)",790.0,508.0,391.0,4455.0,7930380.0,7930380.0,7930380.0,15611.0,10038.0,mesure,,8156703.0,False
+79030,"Nominingue, Municipalité (MÉ)",2255.0,1937.0,1176.0,4594.0,32652552.0,25568292.0,41699663.0,16857.0,14480.0,estime_ajuste_mrc,1.094,29835596.0,False
+79037,"Rivière-Rouge, Ville (V)",4631.0,3082.0,2328.0,4594.0,51281416.0,51281416.0,51281416.0,16639.0,11074.0,mesure,,44140079.0,False
+79047,"La Macaza, Municipalité (MÉ)",1094.0,997.0,509.0,4856.0,16969155.0,13287546.0,21670834.0,17020.0,15511.0,estime_ajuste_mrc,1.094,15505215.0,False
+79050,"L'Ascension, Municipalité (MÉ)",899.0,880.0,488.0,4594.0,12408436.0,12408436.0,12408436.0,14100.0,13802.0,mesure,,12499484.0,False
+79060,"Lac-Saguay, Village (VL)",526.0,447.0,280.0,4594.0,7666276.0,6003009.0,9790387.0,17151.0,14575.0,estime_ajuste_mrc,1.094,7004902.0,False
+79065,"Chute-Saint-Philippe, Municipalité (MÉ)",1039.0,876.0,513.0,4594.0,14686494.0,11500129.0,18755711.0,16765.0,14135.0,estime_ajuste_mrc,1.094,13419481.0,False
+79078,"Lac-des-Écorces, Municipalité (MÉ)",2885.0,1669.0,1363.0,4455.0,28886205.0,22619087.0,36889767.0,17307.0,10013.0,estime_ajuste_mrc,1.094,26394174.0,False
+79088,"Mont-Laurier, Ville (V)",14180.0,7223.0,6698.0,4455.0,116267468.0,91042211.0,148481939.0,16097.0,8199.0,estime_ajuste_mrc,1.094,106237001.0,False
+79097,"Ferme-Neuve, Municipalité (MÉ)",2716.0,1453.0,1276.0,4599.0,22898017.0,17930089.0,29242418.0,15759.0,8431.0,estime_ajuste_mrc,1.094,20922590.0,False
+79105,"Lac-Saint-Paul, Municipalité (MÉ)",525.0,423.0,275.0,4904.0,5918143.0,5918143.0,5918143.0,13991.0,11273.0,mesure,,6053951.0,False
+79110,"Mont-Saint-Michel, Municipalité (MÉ)",581.0,382.0,280.0,4599.0,6240399.0,4886489.0,7969439.0,16336.0,10741.0,estime_ajuste_mrc,1.094,5702036.0,False
+79115,"Sainte-Anne-du-Lac, Municipalité (MÉ)",556.0,422.0,299.0,4599.0,6216375.0,6216375.0,6216375.0,14731.0,11181.0,mesure,,5215719.0,False
+79902,"Lac-de-la-Pomme, Non organisé (NO)",0.0,0.0,0.0,5092.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.094,0.0,True
+79904,"Lac-Akonapwehikan, Non organisé (NO)",0.0,0.0,0.0,5092.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.094,0.0,True
+79906,"Lac-Wagwabika, Non organisé (NO)",0.0,0.0,0.0,5237.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.094,0.0,True
+79910,"Lac-Bazinet, Non organisé (NO)",0.0,1.0,0.0,4904.0,17550.0,13742.0,22412.0,17550.0,,estime_ajuste_mrc,1.094,16036.0,True
+79912,"Lac-De La Bidière, Non organisé (NO)",0.0,0.0,0.0,4904.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.094,0.0,True
+79914,"Lac-Oscar, Non organisé (NO)",0.0,0.0,0.0,4904.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.094,0.0,True
+79916,"Lac-de-la-Maison-de-Pierre, Non organisé (NO)",0.0,0.0,0.0,5092.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.094,0.0,True
+79920,"Baie-des-Chaloupes, Non organisé (NO)",0.0,0.0,0.0,4856.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.094,0.0,True
+79922,"Lac-Douaire, Non organisé (NO)",5.0,0.0,0.0,4599.0,0.0,0.0,0.0,,0.0,estime_ajuste_mrc,1.094,0.0,True
+79924,"Lac-Ernest, Non organisé (NO)",0.0,0.0,0.0,4594.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.094,0.0,True
+79926,"Lac-Marguerite, Non organisé (NO)",0.0,0.0,0.0,4599.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.094,0.0,True
+80005,"Fassett, Municipalité (MÉ)",453.0,280.0,237.0,3980.0,4712057.0,3689734.0,6017636.0,16829.0,10402.0,estime_ajuste_mrc,1.041,4528493.0,False
+80010,"Montebello, Municipalité (MÉ)",934.0,517.0,459.0,3980.0,9013836.0,7058205.0,11511319.0,17435.0,9651.0,estime_ajuste_mrc,1.041,8662691.0,False
+80015,"Notre-Dame-de-Bonsecours, Municipalité (MÉ)",285.0,166.0,134.0,4393.0,3957100.0,3957100.0,3957100.0,23838.0,13885.0,mesure,,3033073.0,False
+80020,"Notre-Dame-de-la-Paix, Municipalité (MÉ)",675.0,407.0,301.0,4393.0,6178516.0,4838032.0,7890410.0,15181.0,9153.0,estime_ajuste_mrc,1.041,5937824.0,False
+80027,"Saint-André-Avellin, Municipalité (MÉ)",3562.0,1862.0,1616.0,3980.0,34855013.0,34855013.0,34855013.0,18719.0,9785.0,mesure,,32081185.0,False
+80037,"Papineauville, Municipalité (MÉ)",2153.0,1101.0,1019.0,3980.0,20203188.0,15819927.0,25800927.0,18350.0,9384.0,estime_ajuste_mrc,1.041,19416148.0,False
+80045,"Plaisance, Municipalité (MÉ)",1129.0,553.0,502.0,3980.0,10439302.0,10439302.0,10439302.0,18878.0,9247.0,mesure,,10234436.0,False
+80050,"Thurso, Ville (V)",3084.0,1510.0,1421.0,3980.0,25715958.0,20136653.0,32841133.0,17030.0,8339.0,estime_ajuste_mrc,1.041,24714162.0,False
+80055,"Lochaber, Canton (municipalité de) (CT)",446.0,194.0,176.0,3980.0,3966853.0,3106209.0,5065957.0,20448.0,8894.0,estime_ajuste_mrc,1.041,3812319.0,False
+80060,"Lochaber-Partie-Ouest, Canton (municipalité de) (CT)",926.0,358.0,336.0,3932.0,8741124.0,6844660.0,11163045.0,24417.0,9440.0,estime_ajuste_mrc,1.041,8400603.0,False
+80065,"Mayo, Municipalité (MÉ)",704.0,395.0,297.0,3932.0,9124903.0,7145175.0,11653160.0,23101.0,12962.0,estime_ajuste_mrc,1.041,8769432.0,False
+80070,"Saint-Sixte, Municipalité (MÉ)",490.0,219.0,202.0,3980.0,4411688.0,3454533.0,5634044.0,20145.0,9003.0,estime_ajuste_mrc,1.041,4239826.0,False
+80078,"Ripon, Municipalité (MÉ)",1735.0,1009.0,791.0,4393.0,18946729.0,14836068.0,24196339.0,18778.0,10920.0,estime_ajuste_mrc,1.041,18208636.0,False
+80085,"Mulgrave-et-Derry, Municipalité (MÉ)",461.0,476.0,229.0,4492.0,8994886.0,7043366.0,11487118.0,18897.0,19512.0,estime_ajuste_mrc,1.041,8644480.0,False
+80090,"Montpellier, Municipalité (MÉ)",1112.0,954.0,589.0,4492.0,15426916.0,12079910.0,19701284.0,16171.0,13873.0,estime_ajuste_mrc,1.041,14825942.0,False
+80095,"Lac-Simon, Municipalité (MÉ)",1057.0,1304.0,554.0,4393.0,24731748.0,24731748.0,24731748.0,18966.0,23398.0,mesure,,23639963.0,False
+80103,"Chénéville, Municipalité (MÉ)",848.0,500.0,412.0,4393.0,7605734.0,5955603.0,9713071.0,15211.0,8969.0,estime_ajuste_mrc,1.041,7309443.0,False
+80110,"Namur, Municipalité (MÉ)",633.0,381.0,295.0,4393.0,5601016.0,4385826.0,7152901.0,14701.0,8848.0,estime_ajuste_mrc,1.041,5382822.0,False
+80115,"Boileau, Municipalité (MÉ)",405.0,406.0,199.0,4393.0,5983608.0,5983608.0,5983608.0,14738.0,14774.0,mesure,,6379824.0,False
+80125,"Saint-Émile-de-Suffolk, Municipalité (MÉ)",512.0,416.0,243.0,4393.0,6473065.0,5068676.0,8266571.0,15560.0,12643.0,estime_ajuste_mrc,1.041,6220899.0,False
+80130,"Lac-des-Plages, Municipalité (MÉ)",548.0,696.0,317.0,4393.0,11273336.0,8827486.0,14396863.0,16197.0,20572.0,estime_ajuste_mrc,1.041,10834170.0,False
+80135,"Duhamel, Municipalité (MÉ)",569.0,972.0,345.0,4393.0,17918059.0,14030578.0,22882654.0,18434.0,31490.0,estime_ajuste_mrc,1.041,17220040.0,False
+80140,"Val-des-Bois, Municipalité (MÉ)",920.0,837.0,495.0,4492.0,13457966.0,13457966.0,13457966.0,16079.0,14628.0,mesure,,13114608.0,False
+80145,"Bowman, Municipalité (MÉ)",667.0,546.0,335.0,4492.0,9803740.0,7676732.0,12520082.0,17956.0,14698.0,estime_ajuste_mrc,1.041,9421823.0,False
+81017,"Gatineau, Ville (V)",291041.0,133225.0,126476.0,3932.0,2513103012.0,1967863067.0,3209413733.0,18864.0,8635.0,estime_non_ajuste,,2513103012.0,False
+82005,"L'Ange-Gardien, Municipalité (MÉ)",6102.0,2288.0,2176.0,3932.0,54616643.0,42767079.0,69749391.0,23871.0,8951.0,estime_ajuste_mrc,0.919,59431217.0,False
+82010,"Notre-Dame-de-la-Salette, Municipalité (MÉ)",841.0,478.0,381.0,,8447303.0,6614586.0,10787815.0,17672.0,10044.0,estime_non_ajuste,,8447303.0,True
+82015,"Val-des-Monts, Municipalité (MÉ)",13328.0,7002.0,5350.0,3932.0,151035221.0,118266793.0,192882866.0,21570.0,11332.0,estime_ajuste_mrc,0.919,164349297.0,False
+82020,"Cantley, Municipalité (MÉ)",11449.0,4289.0,4109.0,4003.0,107047956.0,83822954.0,136707958.0,24959.0,9350.0,estime_ajuste_mrc,0.919,116484461.0,False
+82025,"Chelsea, Municipalité (MÉ)",8000.0,3376.0,3041.0,4003.0,91448688.0,71608086.0,116786568.0,27088.0,11431.0,estime_ajuste_mrc,0.919,99510084.0,False
+82030,"Pontiac, Municipalité (MÉ)",6142.0,2710.0,2377.0,4003.0,57270848.0,44845431.0,73139002.0,21133.0,9324.0,estime_ajuste_mrc,0.919,62319395.0,False
+82035,"La Pêche, Municipalité (MÉ)",8636.0,4962.0,3669.0,4003.0,98074681.0,76796511.0,125248438.0,19765.0,11356.0,estime_ajuste_mrc,0.919,106720172.0,False
+83005,"Denholm, Municipalité (MÉ)",546.0,561.0,274.0,4187.0,10046922.0,7867153.0,12830644.0,17909.0,18401.0,estime_ajuste_mrc,1.004,10009603.0,False
+83010,"Low, Canton (municipalité de) (CT)",1020.0,864.0,495.0,4187.0,16028766.0,12551183.0,20469890.0,18552.0,15714.0,estime_ajuste_mrc,1.004,15969227.0,False
+83015,"Kazabazua, Municipalité (MÉ)",1037.0,832.0,484.0,4187.0,14263890.0,11169213.0,18216017.0,17144.0,13755.0,estime_ajuste_mrc,1.004,14210907.0,False
+83020,"Lac-Sainte-Marie, Municipalité (MÉ)",677.0,930.0,374.0,4187.0,16150126.0,16150126.0,16150126.0,17366.0,23855.0,mesure,,16792544.0,False
+83032,"Gracefield, Ville (V)",2376.0,1880.0,1131.0,4187.0,30491400.0,23876021.0,38939717.0,16219.0,12833.0,estime_ajuste_mrc,1.004,30378140.0,False
+83040,"Cayamant, Municipalité (MÉ)",895.0,1036.0,460.0,4187.0,16668722.0,13052295.0,21287159.0,16089.0,18624.0,estime_ajuste_mrc,1.004,16606806.0,False
+83045,"Blue Sea, Municipalité (MÉ)",696.0,639.0,358.0,4187.0,11358598.0,8894249.0,14505748.0,17776.0,16320.0,estime_ajuste_mrc,1.004,11316406.0,False
+83050,"Bouchette, Municipalité (MÉ)",695.0,629.0,347.0,4187.0,9941391.0,7784518.0,12695872.0,15805.0,14304.0,estime_ajuste_mrc,1.004,9904463.0,False
+83055,"Sainte-Thérèse-de-la-Gatineau, Municipalité (MÉ)",588.0,534.0,288.0,4373.0,9070138.0,7102292.0,11583221.0,16985.0,15425.0,estime_ajuste_mrc,1.004,9036447.0,False
+83060,"Messines, Municipalité (MÉ)",1655.0,1047.0,787.0,4373.0,18430970.0,14432208.0,23537677.0,17604.0,11137.0,estime_ajuste_mrc,1.004,18362508.0,False
+83065,"Maniwaki, Ville (V)",3757.0,2110.0,1881.0,4373.0,28216339.0,22094554.0,36034299.0,13373.0,7510.0,estime_ajuste_mrc,1.004,28111529.0,False
+83070,"Déléage, Municipalité (MÉ)",1916.0,1021.0,872.0,4373.0,16163266.0,12656503.0,20641656.0,15831.0,8436.0,estime_ajuste_mrc,1.004,16103228.0,False
+83075,"Egan-Sud, Municipalité (MÉ)",508.0,258.0,235.0,4373.0,4516511.0,3536614.0,5767910.0,17506.0,8891.0,estime_ajuste_mrc,1.004,4499734.0,False
+83085,"Bois-Franc, Municipalité (MÉ)",411.0,215.0,192.0,4373.0,3824910.0,2995062.0,4884686.0,17790.0,9306.0,estime_ajuste_mrc,1.004,3810703.0,False
+83088,"Montcerf-Lytton, Municipalité (MÉ)",653.0,387.0,306.0,4373.0,6444810.0,6444810.0,6444810.0,16653.0,9870.0,mesure,,6302840.0,False
+83090,"Aumond, Canton (municipalité de) (CT)",754.0,623.0,355.0,4373.0,10536357.0,8250401.0,13455688.0,16912.0,13974.0,estime_ajuste_mrc,1.004,10497220.0,False
+83095,"Grand-Remous, Municipalité (MÉ)",1159.0,778.0,563.0,4373.0,12997340.0,12997340.0,12997340.0,16706.0,11214.0,mesure,,12345903.0,False
+83802,"Kitigan Zibi, Réserve indienne (IRI)",1204.0,633.0,581.0,4373.0,8710174.0,6820425.0,11123520.0,13760.0,7234.0,estime_non_ajuste,,8710174.0,False
+83804,"Lac-Rapide, Réserve indienne (IRI)",,,,4762.0,,,,,,estime_ajuste_mrc,1.004,,True
+83902,"Lac-Pythonga, Non organisé (NO)",0.0,0.0,0.0,4762.0,,,,,,mesure,,0.0,True
+83904,"Cascades-Malignes, Non organisé (NO)",0.0,0.0,0.0,4762.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.004,0.0,True
+83906,"Lac-Lenôtre, Non organisé (NO)",0.0,0.0,0.0,4599.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.004,0.0,True
+83908,"Lac-Moselle, Non organisé (NO)",0.0,0.0,0.0,4599.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.004,0.0,True
+83912,"Dépôt-Échouani, Non organisé (NO)",0.0,0.0,0.0,4599.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.004,0.0,True
+84005,"Bristol, Municipalité (MÉ)",1199.0,1020.0,547.0,3957.0,17227085.0,13489516.0,22000229.0,16889.0,14368.0,estime_ajuste_mrc,0.893,19282608.0,False
+84010,"Shawville, Municipalité (MÉ)",1668.0,807.0,750.0,3957.0,11270267.0,8825083.0,14392944.0,13966.0,6757.0,estime_ajuste_mrc,0.893,12615028.0,False
+84015,"Clarendon, Municipalité (MÉ)",1392.0,968.0,615.0,3957.0,15861320.0,12420066.0,20256049.0,16386.0,11395.0,estime_ajuste_mrc,0.893,17753881.0,False
+84020,"Portage-du-Fort, Village (VL)",232.0,146.0,110.0,3957.0,2631043.0,2631043.0,2631043.0,18021.0,11341.0,mesure,,2676873.0,True
+84025,"Bryson, Municipalité (MÉ)",646.0,302.0,284.0,3957.0,6040296.0,6040296.0,6040296.0,20001.0,9350.0,mesure,,5300982.0,False
+84030,"Campbell's Bay, Municipalité (MÉ)",705.0,354.0,314.0,3957.0,4779702.0,3742703.0,6104024.0,13502.0,6780.0,estime_ajuste_mrc,0.893,5350012.0,False
+84035,"L'Île-du-Grand-Calumet, Municipalité (MÉ)",648.0,437.0,321.0,3957.0,6963555.0,6963555.0,6963555.0,15935.0,10746.0,mesure,,7077258.0,False
+84040,"Litchfield, Municipalité (MÉ)",500.0,417.0,229.0,4392.0,6466112.0,5063232.0,8257691.0,15506.0,12932.0,estime_ajuste_mrc,0.893,7237644.0,False
+84045,"Thorne, Municipalité (MÉ)",528.0,659.0,277.0,4392.0,8900681.0,6969600.0,11366812.0,13506.0,16857.0,estime_ajuste_mrc,0.893,9962704.0,False
+84050,"Alleyn-et-Cawood, Municipalité (MÉ)",229.0,303.0,126.0,4187.0,5019107.0,3930167.0,6409762.0,16565.0,21917.0,estime_ajuste_mrc,0.893,5617983.0,True
+84055,"Otter Lake, Municipalité (MÉ)",1041.0,1134.0,520.0,4392.0,13787395.0,13787395.0,13787395.0,12158.0,13244.0,mesure,,16457308.0,False
+84060,"Fort-Coulonge, Village (VL)",1312.0,605.0,574.0,4392.0,8228713.0,6443421.0,10508659.0,13601.0,6272.0,estime_ajuste_mrc,0.893,9210557.0,False
+84065,"Mansfield-et-Pontefract, Municipalité (MÉ)",2250.0,1074.0,883.0,4392.0,17570611.0,13758511.0,22438937.0,16360.0,7809.0,estime_ajuste_mrc,0.893,19667123.0,False
+84070,"Waltham, Municipalité (MÉ)",387.0,232.0,175.0,4352.0,3162989.0,2476750.0,4039364.0,13634.0,8173.0,estime_ajuste_mrc,0.893,3540394.0,False
+84082,"L'Isle-aux-Allumettes, Municipalité (MÉ)",1382.0,1124.0,621.0,4352.0,17479349.0,13687049.0,22322388.0,15551.0,12648.0,estime_ajuste_mrc,0.893,19564972.0,False
+84090,"Chichester, Canton (municipalité de) (CT)",350.0,247.0,165.0,4352.0,3293640.0,2579055.0,4206215.0,13335.0,9410.0,estime_ajuste_mrc,0.893,3686634.0,False
+84095,"Sheenboro, Municipalité (MÉ)",149.0,197.0,76.0,4159.0,3304094.0,2587242.0,4219567.0,16772.0,22175.0,estime_ajuste_mrc,0.893,3698336.0,True
+84100,"Rapides-des-Joachims, Municipalité (MÉ)",141.0,117.0,78.0,4589.0,1855429.0,1452877.0,2369517.0,15858.0,13159.0,estime_ajuste_mrc,0.893,2076817.0,True
+84902,"Lac-Nilgaut, Non organisé (NO)",5.0,0.0,0.0,4511.0,0.0,0.0,0.0,,0.0,estime_ajuste_mrc,0.893,0.0,True
+85005,"Témiscaming, Ville (V)",2368.0,1407.0,1114.0,4553.0,24683519.0,19328211.0,31522633.0,17543.0,10424.0,estime_ajuste_mrc,1.063,23222134.0,False
+85010,"Kipawa, Municipalité (MÉ)",446.0,325.0,214.0,4518.0,6651174.0,5208143.0,8494028.0,20465.0,14913.0,estime_ajuste_mrc,1.063,6257392.0,False
+85015,"Saint-Édouard-de-Fabre, Paroisse (municipalité de) (PE)",671.0,320.0,287.0,4609.0,5334480.0,5334480.0,5334480.0,16670.0,7950.0,mesure,,5700026.0,False
+85020,"Béarn, Municipalité (MÉ)",708.0,386.0,350.0,4518.0,6232906.0,4880622.0,7959871.0,16147.0,8804.0,estime_ajuste_mrc,1.063,5863888.0,False
+85025,"Ville-Marie, Ville (V)",2464.0,1264.0,1185.0,4444.0,19568218.0,15322719.0,24990025.0,15481.0,7942.0,estime_ajuste_mrc,1.063,18409683.0,False
+85030,"Duhamel-Ouest, Municipalité (MÉ)",945.0,470.0,394.0,4444.0,9849578.0,7712625.0,12578621.0,20957.0,10423.0,estime_ajuste_mrc,1.063,9266435.0,False
+85037,"Lorrainville, Municipalité (MÉ)",1286.0,602.0,570.0,4444.0,10297667.0,8063497.0,13150863.0,17106.0,8008.0,estime_ajuste_mrc,1.063,9687995.0,False
+85045,"Saint-Bruno-de-Guigues, Municipalité (MÉ)",1185.0,604.0,497.0,4444.0,10118408.0,10118408.0,10118408.0,16752.0,8539.0,mesure,,10882342.0,False
+85052,"Laverlochère-Angliers, Municipalité (MÉ)",947.0,525.0,443.0,4661.0,9295081.0,7278431.0,11870488.0,17705.0,9815.0,estime_ajuste_mrc,1.063,8744766.0,False
+85055,"Fugèreville, Municipalité (MÉ)",326.0,213.0,148.0,4661.0,3705322.0,2901420.0,4731963.0,17396.0,11366.0,estime_ajuste_mrc,1.063,3485949.0,False
+85060,"Latulipe-et-Gaboury, Cantons unis (municipalité de) (CU)",320.0,225.0,159.0,4661.0,2662064.0,2662064.0,2662064.0,11831.0,8319.0,mesure,,3202391.0,False
+85065,"Belleterre, Ville (V)",285.0,181.0,136.0,4763.0,2385035.0,1867581.0,3045862.0,13177.0,8369.0,estime_ajuste_mrc,1.063,2243829.0,False
+85070,"Laforce, Municipalité (MÉ)",320.0,124.0,109.0,4763.0,1884733.0,1475823.0,2406939.0,15199.0,5890.0,estime_ajuste_mrc,1.063,1773147.0,False
+85075,"Moffet, Municipalité (MÉ)",206.0,179.0,104.0,4661.0,2019755.0,2019755.0,2019755.0,11284.0,9805.0,mesure,,3067890.0,True
+85085,"Saint-Eugène-de-Guigues, Municipalité (MÉ)",458.0,254.0,198.0,4444.0,4687349.0,3670387.0,5986082.0,18454.0,10234.0,estime_ajuste_mrc,1.063,4409835.0,False
+85090,"Notre-Dame-du-Nord, Municipalité (MÉ)",1090.0,569.0,511.0,4444.0,8958742.0,7015064.0,11440959.0,15745.0,8219.0,estime_ajuste_mrc,1.063,8428341.0,False
+85095,"Guérin, Canton (municipalité de) (CT)",333.0,210.0,134.0,4444.0,3962377.0,3102704.0,5060241.0,18868.0,11899.0,estime_ajuste_mrc,1.063,3727785.0,False
+85100,"Nédélec, Canton (municipalité de) (CT)",340.0,168.0,152.0,4938.0,2633061.0,2633061.0,2633061.0,15673.0,7744.0,mesure,,2580985.0,False
+85105,"Rémigny, Municipalité (MÉ)",287.0,148.0,135.0,4930.0,2550647.0,1997261.0,3257360.0,17234.0,8887.0,estime_ajuste_mrc,1.063,2399636.0,False
+85802,"Kebaowek, Réserve indienne (IRI)",326.0,152.0,149.0,4518.0,3074956.0,2407817.0,3926941.0,20230.0,9432.0,estime_ajuste_mrc,1.31,2347540.0,False
+85803,"Hunter's Point, Établissement indien (S-É)",5.0,28.0,4.0,4518.0,497909.0,389883.0,635866.0,17782.0,99582.0,estime_ajuste_mrc,1.063,468430.0,True
+85804,"Winneway, Établissement indien (S-É)",176.0,59.0,57.0,4763.0,1178914.0,923138.0,1505558.0,19982.0,6698.0,estime_ajuste_mrc,1.31,900028.0,True
+85806,"Timiskaming, Réserve indienne (IRI)",541.0,208.0,204.0,4444.0,3076466.0,2408999.0,3928869.0,14791.0,5687.0,estime_ajuste_mrc,1.063,2894324.0,False
+85905,"Laniel, Non organisé (NO)",89.0,185.0,57.0,4518.0,4293655.0,3362108.0,5483307.0,23209.0,48243.0,estime_ajuste_mrc,1.31,3277941.0,True
+85907,"Les Lacs-du-Témiscamingue, Non organisé (NO)",10.0,15.0,6.0,4589.0,264735.0,207298.0,338085.0,17649.0,26473.0,estime_ajuste_mrc,1.063,249061.0,True
+86042,"Rouyn-Noranda, Ville (V)",42313.0,20874.0,19282.0,4930.0,362646895.0,362646895.0,362646895.0,17373.0,8571.0,mesure,,332689496.0,False
+87005,"Duparquet, Ville (V)",716.0,389.0,342.0,5166.0,6684615.0,5234329.0,8536736.0,17184.0,9336.0,estime_ajuste_mrc,1.073,6228718.0,False
+87010,"Rapide-Danseur, Municipalité (MÉ)",380.0,209.0,161.0,5091.0,3881465.0,3039347.0,4956911.0,18572.0,10214.0,estime_ajuste_mrc,1.073,3616745.0,False
+87015,"Roquemaure, Municipalité (MÉ)",409.0,215.0,185.0,5091.0,3463845.0,3463845.0,3463845.0,16111.0,8469.0,mesure,,3211635.0,False
+87020,"Gallichan, Municipalité (MÉ)",488.0,304.0,229.0,5091.0,5328430.0,4172380.0,6804790.0,17528.0,10919.0,estime_ajuste_mrc,1.073,4965026.0,False
+87025,"Palmarolle, Municipalité (MÉ)",1386.0,649.0,595.0,5166.0,11640181.0,9114740.0,14865350.0,17936.0,8398.0,estime_ajuste_mrc,1.073,10846309.0,False
+87030,"Sainte-Germaine-Boulé, Municipalité (MÉ)",941.0,398.0,384.0,5166.0,7196903.0,5635471.0,9190964.0,18083.0,7648.0,estime_ajuste_mrc,1.073,6706067.0,False
+87035,"Poularies, Municipalité (MÉ)",662.0,285.0,274.0,5166.0,4494064.0,4494064.0,4494064.0,15769.0,6789.0,mesure,,4430776.0,False
+87042,"Taschereau, Municipalité (MÉ)",898.0,460.0,425.0,5166.0,7014998.0,5493032.0,8958658.0,15250.0,7812.0,estime_ajuste_mrc,1.073,6536568.0,False
+87050,"Authier, Municipalité (MÉ)",290.0,134.0,129.0,5166.0,2130678.0,1668409.0,2721030.0,15901.0,7347.0,estime_ajuste_mrc,1.073,1985364.0,False
+87058,"Macamic, Ville (V)",2744.0,1188.0,1142.0,5331.0,19702862.0,15428151.0,25161975.0,16585.0,7180.0,estime_ajuste_mrc,1.073,18359107.0,False
+87070,"Sainte-Hélène-de-Mancebourg, Paroisse (municipalité de) (PE)",410.0,185.0,159.0,5091.0,3528845.0,2763231.0,4506589.0,19075.0,8607.0,estime_ajuste_mrc,1.073,3288174.0,False
+87075,"Clerval, Municipalité (MÉ)",373.0,291.0,180.0,5091.0,4900064.0,3836952.0,6257735.0,16839.0,13137.0,estime_ajuste_mrc,1.073,4565875.0,False
+87080,"La Reine, Municipalité (MÉ)",307.0,164.0,142.0,5338.0,2719438.0,2129432.0,3472918.0,16582.0,8858.0,estime_ajuste_mrc,1.073,2533970.0,False
+87085,"Dupuy, Municipalité (MÉ)",940.0,414.0,395.0,5338.0,7359792.0,7359792.0,7359792.0,17777.0,7830.0,mesure,,6870229.0,False
+87090,"La Sarre, Ville (V)",7358.0,3698.0,3493.0,5331.0,65683510.0,65683510.0,65683510.0,17762.0,8927.0,mesure,,48622549.0,False
+87095,"Chazel, Municipalité (MÉ)",254.0,131.0,118.0,5331.0,2281017.0,1786130.0,2913023.0,17412.0,8980.0,estime_ajuste_mrc,1.073,2125449.0,False
+87100,"Authier-Nord, Municipalité (MÉ)",288.0,159.0,128.0,5331.0,2780722.0,2177420.0,3551183.0,17489.0,9655.0,estime_ajuste_mrc,1.073,2591074.0,False
+87105,"Val-Saint-Gilles, Municipalité (MÉ)",169.0,79.0,70.0,5331.0,1326036.0,1038341.0,1693443.0,16785.0,7846.0,estime_ajuste_mrc,1.073,1235599.0,True
+87110,"Clermont, Canton (municipalité de) (CT)",484.0,218.0,200.0,5331.0,4102956.0,3212783.0,5239771.0,18821.0,8477.0,estime_ajuste_mrc,1.073,3823130.0,False
+87115,"Normétal, Municipalité (MÉ)",778.0,378.0,361.0,5338.0,5273867.0,4129655.0,6735109.0,13952.0,6779.0,estime_ajuste_mrc,1.073,4914184.0,False
+87120,"Saint-Lambert, Paroisse (municipalité de) (PE)",191.0,95.0,89.0,5338.0,1594631.0,1248661.0,2036458.0,16786.0,8349.0,estime_ajuste_mrc,1.073,1485875.0,True
+87902,"Lac-Duparquet, Non organisé (NO)",0.0,0.0,0.0,5091.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.073,0.0,True
+87904,"Rivière-Ojima, Non organisé (NO)",60.0,39.0,32.0,5331.0,792873.0,620852.0,1012556.0,20330.0,13215.0,estime_ajuste_mrc,1.31,605310.0,True
+88005,"Champneuf, Municipalité (MÉ)",94.0,54.0,48.0,5217.0,1952212.0,1528662.0,2493115.0,36152.0,20768.0,estime_ajuste_mrc,2.188,892137.0,True
+88010,"Rochebaucourt, Municipalité (MÉ)",146.0,70.0,66.0,,1291809.0,1011540.0,1649734.0,18454.0,8848.0,estime_non_ajuste,,1291809.0,True
+88015,"La Morandière, Municipalité (MÉ)",205.0,111.0,98.0,,1958334.0,1533456.0,2500934.0,17643.0,9553.0,estime_non_ajuste,,1958334.0,True
+88022,"Barraute, Municipalité (MÉ)",1986.0,1012.0,930.0,5217.0,33572997.0,26289038.0,42875137.0,33175.0,16905.0,estime_ajuste_mrc,2.188,15342443.0,False
+88030,"La Corne, Municipalité (MÉ)",778.0,382.0,322.0,5213.0,15676831.0,12275604.0,20020444.0,41039.0,20150.0,estime_ajuste_mrc,2.188,7164117.0,False
+88035,"Landrienne, Canton (municipalité de) (CT)",897.0,410.0,398.0,5213.0,15542536.0,12170446.0,19848940.0,37909.0,17327.0,estime_ajuste_mrc,2.188,7102746.0,False
+88040,"Saint-Marc-de-Figuery, Paroisse (municipalité de) (PE)",868.0,386.0,352.0,5213.0,8854214.0,8854214.0,8854214.0,22938.0,10201.0,mesure,,7801704.0,False
+88045,"La Motte, Municipalité (MÉ)",478.0,264.0,222.0,5213.0,10046483.0,7866810.0,12830083.0,38055.0,21018.0,estime_ajuste_mrc,2.188,4591118.0,False
+88050,"Saint-Mathieu-d'Harricana, Municipalité (MÉ)",770.0,349.0,318.0,5213.0,14524597.0,11373357.0,18548958.0,41618.0,18863.0,estime_ajuste_mrc,2.188,6637560.0,False
+88055,"Amos, Ville (V)",12675.0,6051.0,5760.0,,98843653.0,77398647.0,126230471.0,16335.0,7798.0,estime_non_ajuste,,98843653.0,True
+88060,"Saint-Félix-de-Dalquier, Municipalité (MÉ)",1026.0,414.0,405.0,,8632052.0,6759252.0,11023753.0,20850.0,8413.0,estime_non_ajuste,,8632052.0,True
+88065,"Saint-Dominique-du-Rosaire, Municipalité (MÉ)",434.0,205.0,193.0,5369.0,7427443.0,5815994.0,9485381.0,36231.0,17114.0,estime_ajuste_mrc,2.188,3394249.0,False
+88070,"Berry, Municipalité (MÉ)",535.0,283.0,232.0,5393.0,10190063.0,7979238.0,13013445.0,36007.0,19047.0,estime_ajuste_mrc,2.188,4656732.0,False
+88075,"Trécesson, Canton (municipalité de) (CT)",1232.0,584.0,519.0,5184.0,24145941.0,18907265.0,30836107.0,41346.0,19599.0,estime_ajuste_mrc,2.188,11034395.0,False
+88080,"Launay, Canton (municipalité de) (CT)",211.0,99.0,97.0,5184.0,1837440.0,1837440.0,1837440.0,18560.0,8708.0,mesure,,1541735.0,True
+88085,"Sainte-Gertrude-Manneville, Municipalité (MÉ)",793.0,325.0,311.0,5184.0,6014990.0,6014990.0,6014990.0,18508.0,7585.0,mesure,,5943895.0,False
+88090,"Preissac, Municipalité (MÉ)",914.0,527.0,430.0,5184.0,23483143.0,18388267.0,29989667.0,44560.0,25693.0,estime_ajuste_mrc,2.188,10731505.0,False
+88802,"Pikogan, Réserve indienne (IRI)",540.0,165.0,158.0,5213.0,5698880.0,4462458.0,7277881.0,34539.0,10553.0,estime_ajuste_mrc,2.188,2604317.0,False
+88902,"Lac-Despinassy, Non organisé (NO)",21.0,12.0,11.0,5327.0,236582.0,185253.0,302132.0,19715.0,11266.0,estime_ajuste_mrc,1.31,180616.0,True
+88904,"Lac-Chicobi, Non organisé (NO)",161.0,81.0,71.0,5393.0,1588188.0,1243616.0,2028230.0,19607.0,9865.0,estime_ajuste_mrc,1.31,1212484.0,True
+89008,"Val-d'Or, Ville (V)",32752.0,15884.0,15033.0,5027.0,301423300.0,236026847.0,384939286.0,18977.0,9203.0,estime_ajuste_mrc,1.213,248595808.0,False
+89010,"Rivière-Héva, Municipalité (MÉ)",1495.0,729.0,649.0,4962.0,15316733.0,15316733.0,15316733.0,21011.0,10245.0,mesure,,15081153.0,False
+89015,"Malartic, Ville (V)",3355.0,1635.0,1481.0,4962.0,29353128.0,22984707.0,37486060.0,17953.0,8749.0,estime_ajuste_mrc,1.213,24208694.0,False
+89040,"Senneterre, Ville (V)",2782.0,1534.0,1390.0,5362.0,24253759.0,18991692.0,30973799.0,15811.0,8718.0,estime_ajuste_mrc,1.213,20003042.0,False
+89045,"Senneterre, Paroisse (municipalité de) (PE)",1202.0,606.0,559.0,5217.0,12316465.0,9644299.0,15729014.0,20324.0,10247.0,estime_ajuste_mrc,1.213,10157880.0,False
+89050,"Belcourt, Municipalité (MÉ)",219.0,120.0,114.0,5217.0,2297633.0,1799141.0,2934243.0,19147.0,10491.0,estime_ajuste_mrc,1.213,1894950.0,True
+89802,"Kitcisakik, Établissement indien (S-É)",257.0,93.0,80.0,4785.0,1413692.0,1106979.0,1805387.0,15201.0,5501.0,estime_ajuste_mrc,1.213,1165928.0,False
+89804,"Lac Simon, Réserve indienne (IRI)",1285.0,343.0,342.0,5027.0,5222641.0,4089543.0,6669689.0,15226.0,4064.0,estime_ajuste_mrc,1.31,3987165.0,False
+89902,"Matchi-Manitou, Non organisé (NO)",0.0,0.0,0.0,5027.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.213,0.0,True
+89908,"Lac-Metei, Non organisé (NO)",0.0,0.0,0.0,5027.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.213,0.0,True
+89910,"Réservoir-Dozois, Non organisé (NO)",0.0,0.0,0.0,4785.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.213,0.0,True
+89912,"Lac-Granet, Non organisé (NO)",0.0,0.0,0.0,5027.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.213,0.0,True
+90012,"La Tuque, Ville (V)",11129.0,6930.0,5543.0,5237.0,93387208.0,73126026.0,119262197.0,13476.0,8391.0,estime_non_ajuste,,93387208.0,False
+90017,"La Bostonnais, Municipalité (MÉ)",556.0,374.0,268.0,5019.0,6252697.0,4896119.0,7985145.0,16718.0,11246.0,estime_non_ajuste,,6252697.0,False
+90027,"Lac-Édouard, Municipalité (MÉ)",220.0,298.0,118.0,5019.0,4901095.0,3837759.0,6259052.0,16447.0,22278.0,estime_non_ajuste,,4901095.0,True
+90802,"Communauté de Wemotaci, Réserve indienne (IRI)",1142.0,359.0,289.0,5237.0,4631090.0,3626334.0,5914236.0,12900.0,4055.0,estime_non_ajuste,,4631090.0,False
+90804,"Obedjiwan 28, Réserve indienne (IRI)",1991.0,433.0,425.0,5202.0,5442530.0,4261725.0,6950503.0,12569.0,2734.0,estime_non_ajuste,,5442530.0,False
+91005,"Lac-Bouchette, Municipalité (MÉ)",1183.0,956.0,641.0,5223.0,11457808.0,11457808.0,11457808.0,11985.0,9685.0,mesure,,12197079.0,False
+91010,"Saint-André-du-Lac-Saint-Jean, Village (VL)",453.0,231.0,208.0,4590.0,4181149.0,3274011.0,5339628.0,18100.0,9230.0,estime_ajuste_mrc,1.163,3594374.0,False
+91015,"Saint-François-de-Sales, Municipalité (MÉ)",643.0,423.0,295.0,4590.0,5156495.0,5156495.0,5156495.0,12190.0,8019.0,mesure,,6320481.0,False
+91020,"Chambord, Municipalité (MÉ)",1748.0,1186.0,849.0,4590.0,21561631.0,16883644.0,27535757.0,18180.0,12335.0,estime_ajuste_mrc,1.163,18535710.0,False
+91025,"Roberval, Ville (V)",9840.0,4838.0,4520.0,4590.0,84933932.0,66506764.0,108466755.0,17556.0,8631.0,estime_ajuste_mrc,1.163,73014456.0,False
+91030,"Sainte-Hedwidge, Municipalité (MÉ)",870.0,494.0,390.0,5132.0,7337150.0,7337150.0,7337150.0,14853.0,8434.0,mesure,,7614816.0,False
+91035,"Saint-Prime, Municipalité (MÉ)",2760.0,1304.0,1178.0,5132.0,23120192.0,23120192.0,23120192.0,17730.0,8377.0,mesure,,21157679.0,False
+91042,"Saint-Félicien, Ville (V)",10089.0,5169.0,4686.0,5132.0,90461791.0,70835304.0,115526229.0,17501.0,8966.0,estime_ajuste_mrc,1.163,77766544.0,False
+91050,"La Doré, Paroisse (municipalité de) (PE)",1359.0,654.0,610.0,5132.0,11569133.0,9059107.0,14774616.0,17690.0,8513.0,estime_ajuste_mrc,1.163,9945541.0,False
+91802,"Mashteuiatsh, Réserve indienne (IRI)",2010.0,1095.0,808.0,5132.0,17994720.0,14090606.0,22980555.0,16434.0,8953.0,estime_non_ajuste,,17994720.0,False
+91902,"Lac-Ashuapmushuan, Non organisé (NO)",140.0,571.0,96.0,5475.0,9066201.0,7099208.0,11578192.0,15878.0,64759.0,estime_non_ajuste,,9066201.0,True
+92005,"Saint-Augustin, Paroisse (municipalité de) (PE)",334.0,161.0,148.0,5134.0,2939622.0,2301845.0,3754109.0,18259.0,8801.0,estime_ajuste_mrc,1.253,2346468.0,False
+92010,"Péribonka, Municipalité (MÉ)",489.0,304.0,234.0,5134.0,5891973.0,4613658.0,7524475.0,19381.0,12049.0,estime_ajuste_mrc,1.253,4703097.0,False
+92015,"Sainte-Jeanne-d'Arc, Village (VL)",1101.0,552.0,493.0,5134.0,8896129.0,6966035.0,11360998.0,16116.0,8080.0,estime_non_ajuste,,8896129.0,False
+92022,"Dolbeau-Mistassini, Ville (V)",13718.0,6866.0,6263.0,5134.0,120566239.0,94408326.0,153971780.0,17560.0,8789.0,estime_ajuste_mrc,1.253,96238502.0,False
+92030,"Albanel, Municipalité (MÉ)",2181.0,987.0,935.0,5110.0,20647922.0,16168173.0,26368885.0,20920.0,9467.0,estime_ajuste_mrc,1.253,16481605.0,False
+92040,"Normandin, Ville (V)",2991.0,1382.0,1315.0,5110.0,25810735.0,20210867.0,32962169.0,18676.0,8629.0,estime_ajuste_mrc,1.253,20602670.0,False
+92045,"Saint-Thomas-Didyme, Municipalité (MÉ)",703.0,518.0,364.0,5110.0,9323786.0,7300908.0,11907147.0,18000.0,13263.0,estime_ajuste_mrc,1.253,7442442.0,False
+92050,"Saint-Edmond-les-Plaines, Municipalité (MÉ)",355.0,173.0,164.0,5110.0,2620458.0,2620458.0,2620458.0,15147.0,7382.0,mesure,,2418458.0,False
+92055,"Girardville, Municipalité (MÉ)",1018.0,511.0,470.0,5110.0,10048366.0,7868284.0,12832488.0,19664.0,9871.0,estime_ajuste_mrc,1.253,8020816.0,False
+92060,"Notre-Dame-de-Lorette, Municipalité (MÉ)",159.0,116.0,92.0,5110.0,2333217.0,1827005.0,2979686.0,20114.0,14674.0,estime_ajuste_mrc,1.253,1862423.0,True
+92065,"Saint-Eugène-d'Argentenay, Municipalité (MÉ)",487.0,221.0,206.0,5110.0,4206556.0,3293907.0,5372076.0,19034.0,8638.0,estime_ajuste_mrc,1.253,3357761.0,False
+92070,"Saint-Stanislas, Municipalité (MÉ)",376.0,223.0,163.0,5134.0,4180111.0,3273199.0,5338303.0,18745.0,11117.0,estime_ajuste_mrc,1.253,3336652.0,False
+92902,"Passes-Dangereuses, Non organisé (NO)",210.0,151.0,104.0,5982.0,2111886.0,1653693.0,2697030.0,13986.0,10057.0,estime_non_ajuste,,2111886.0,True
+92904,"Rivière-Mistassini, Non organisé (NO)",27.0,20.0,16.0,5768.0,283848.0,222265.0,362494.0,14192.0,10513.0,estime_non_ajuste,,283848.0,True
+93005,"Desbiens, Ville (V)",995.0,523.0,475.0,4590.0,9896644.0,7749480.0,12638728.0,18923.0,9946.0,estime_ajuste_mrc,1.258,7864305.0,False
+93012,"Métabetchouan--Lac-à-la-Croix, Ville (V)",4121.0,2075.0,1806.0,4590.0,33717613.0,26402278.0,43059822.0,16249.0,8182.0,estime_non_ajuste,,33717613.0,False
+93020,"Hébertville, Municipalité (MÉ)",2500.0,1245.0,1078.0,,21355823.0,16722488.0,27272926.0,17153.0,8542.0,estime_non_ajuste,,21355823.0,True
+93025,"Hébertville-Station, Village (VL)",1229.0,558.0,546.0,,9088759.0,7116872.0,11607001.0,16288.0,7395.0,estime_non_ajuste,,9088759.0,True
+93030,"Saint-Bruno, Municipalité (MÉ)",2902.0,1269.0,1226.0,,22483447.0,17605464.0,28712982.0,17717.0,7748.0,estime_non_ajuste,,22483447.0,True
+93035,"Saint-Gédéon, Municipalité (MÉ)",2177.0,1219.0,968.0,4590.0,29582092.0,23163995.0,37778464.0,24268.0,13588.0,estime_ajuste_mrc,1.258,23507219.0,False
+93042,"Alma, Ville (V)",30331.0,14493.0,13815.0,4994.0,268475950.0,210227716.0,342863145.0,18525.0,8852.0,estime_ajuste_mrc,1.258,213342688.0,False
+93045,"Saint-Nazaire, Municipalité (MÉ)",2029.0,869.0,835.0,4994.0,18513035.0,14496468.0,23642481.0,21304.0,9124.0,estime_ajuste_mrc,1.258,14711265.0,False
+93055,"Labrecque, Municipalité (MÉ)",1328.0,766.0,575.0,4994.0,13415925.0,13415925.0,13415925.0,17514.0,10102.0,mesure,,13359550.0,False
+93060,"Lamarche, Municipalité (MÉ)",476.0,396.0,255.0,5273.0,7244260.0,5672553.0,9251442.0,18294.0,15219.0,estime_ajuste_mrc,1.258,5756604.0,False
+93065,"L'Ascension-de-Notre-Seigneur, Paroisse (municipalité de) (PE)",2079.0,985.0,855.0,4994.0,20009631.0,15668364.0,25553741.0,20314.0,9625.0,estime_ajuste_mrc,1.258,15900524.0,False
+93070,"Saint-Henri-de-Taillon, Municipalité (MÉ)",803.0,504.0,362.0,4590.0,9166022.0,9166022.0,9166022.0,18187.0,11415.0,mesure,,9184592.0,False
+93075,"Sainte-Monique, Municipalité (MÉ)",858.0,443.0,379.0,4590.0,8933226.0,6995083.0,11408373.0,20165.0,10412.0,estime_ajuste_mrc,1.258,7098730.0,False
+93080,"Saint-Ludger-de-Milot, Municipalité (MÉ)",637.0,401.0,318.0,5134.0,7415642.0,5806753.0,9470309.0,18493.0,11642.0,estime_ajuste_mrc,1.258,5892792.0,False
+93902,"Mont-Apica, Non organisé (NO)",0.0,0.0,0.0,5624.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+93904,"Lac-Moncouche, Non organisé (NO)",0.0,0.0,0.0,5223.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+93906,"Lac-Achouakan, Non organisé (NO)",0.0,0.0,0.0,5624.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+93908,"Belle-Rivière, Non organisé (NO)",10.0,18.0,4.0,5223.0,276476.0,216492.0,353080.0,15360.0,27648.0,estime_non_ajuste,,276476.0,True
+94068,"Saguenay, Ville (V)",144723.0,71017.0,67522.0,4843.0,1069586323.0,837530102.0,1365938848.0,15061.0,7391.0,estime_non_ajuste,,1069586323.0,False
+94205,"Petit-Saguenay, Municipalité (MÉ)",600.0,384.0,305.0,4944.0,5825364.0,4561500.0,7439410.0,15170.0,9709.0,estime_ajuste_mrc,1.137,5124684.0,False
+94210,"L'Anse-Saint-Jean, Municipalité (MÉ)",1301.0,961.0,621.0,5805.0,15537542.0,12166535.0,19842562.0,16168.0,11943.0,estime_ajuste_mrc,1.137,13668672.0,False
+94215,"Rivière-Éternité, Municipalité (MÉ)",414.0,239.0,199.0,5805.0,3982203.0,3118229.0,5085561.0,16662.0,9619.0,estime_ajuste_mrc,1.137,3503220.0,False
+94220,"Ferland-et-Boilleau, Municipalité (MÉ)",632.0,319.0,263.0,5196.0,6259153.0,4901174.0,7993389.0,19621.0,9904.0,estime_ajuste_mrc,1.137,5506296.0,False
+94225,"Saint-Félix-d'Otis, Municipalité (MÉ)",1109.0,819.0,548.0,5818.0,15457213.0,12103633.0,19739975.0,18873.0,13938.0,estime_ajuste_mrc,1.137,13598005.0,False
+94230,"Sainte-Rose-du-Nord, Paroisse (municipalité de) (PE)",434.0,261.0,217.0,5818.0,3996597.0,3129500.0,5103943.0,15313.0,9209.0,estime_ajuste_mrc,1.137,3515883.0,False
+94235,"Saint-Fulgence, Municipalité (MÉ)",2061.0,998.0,921.0,4843.0,18020651.0,14110911.0,23013670.0,18057.0,8744.0,estime_ajuste_mrc,1.137,15853110.0,False
+94240,"Saint-Honoré, Ville (V)",6376.0,2609.0,2535.0,4843.0,54863155.0,42960108.0,70064204.0,21028.0,8605.0,estime_ajuste_mrc,1.137,48264164.0,False
+94245,"Saint-David-de-Falardeau, Municipalité (MÉ)",2996.0,2250.0,1381.0,4843.0,45229855.0,35416837.0,57761785.0,20102.0,15097.0,estime_ajuste_mrc,1.137,39789566.0,False
+94250,"Bégin, Municipalité (MÉ)",851.0,491.0,384.0,4994.0,8620684.0,6750350.0,11009235.0,17557.0,10130.0,estime_ajuste_mrc,1.137,7583780.0,False
+94255,"Saint-Ambroise, Municipalité (MÉ)",3883.0,1833.0,1697.0,4994.0,35200497.0,27563438.0,44953573.0,19204.0,9065.0,estime_ajuste_mrc,1.137,30966549.0,False
+94260,"Saint-Charles-de-Bourget, Municipalité (MÉ)",784.0,383.0,344.0,4994.0,7681823.0,7681823.0,7681823.0,20057.0,9798.0,mesure,,6252322.0,False
+94265,"Larouche, Municipalité (MÉ)",1601.0,829.0,694.0,4994.0,17102843.0,13392230.0,21841564.0,20631.0,10683.0,estime_ajuste_mrc,1.137,15045697.0,False
+94926,"Lalemant, Non organisé (NO)",0.0,1.0,0.0,5805.0,14520.0,11370.0,18543.0,14520.0,,estime_non_ajuste,,14520.0,True
+94928,"Lac-Ministuk, Non organisé (NO)",58.0,23.0,23.0,5624.0,360803.0,282524.0,460772.0,15687.0,6221.0,estime_non_ajuste,,360803.0,True
+94930,"Mont-Valin, Non organisé (NO)",10.0,44.0,5.0,5934.0,609691.0,477413.0,778619.0,13857.0,60969.0,estime_non_ajuste,,609691.0,True
+95005,"Tadoussac, Village (VL)",814.0,514.0,397.0,4481.0,9345606.0,7317994.0,11935012.0,18182.0,11481.0,estime_ajuste_mrc,1.162,8045605.0,False
+95010,"Sacré-Coeur, Municipalité (MÉ)",1684.0,877.0,744.0,4944.0,16674695.0,13056972.0,21294788.0,19013.0,9902.0,estime_ajuste_mrc,1.162,14355197.0,False
+95018,"Les Bergeronnes, Municipalité (MÉ)",619.0,319.0,289.0,5102.0,5546374.0,4343039.0,7083119.0,17387.0,8960.0,estime_ajuste_mrc,1.162,4774857.0,False
+95025,"Les Escoumins, Municipalité (MÉ)",1794.0,983.0,856.0,5102.0,16660516.0,13045869.0,21276680.0,16949.0,9287.0,estime_ajuste_mrc,1.162,14342990.0,False
+95032,"Longue-Rive, Municipalité (MÉ)",918.0,562.0,488.0,5102.0,8127298.0,6364009.0,10379146.0,14461.0,8853.0,estime_ajuste_mrc,1.162,6996768.0,False
+95040,"Portneuf-sur-Mer, Municipalité (MÉ)",612.0,357.0,321.0,5004.0,5825082.0,4561279.0,7439049.0,16317.0,9518.0,estime_ajuste_mrc,1.162,5014796.0,False
+95045,"Forestville, Ville (V)",2892.0,1577.0,1476.0,5113.0,25279030.0,19794520.0,32283144.0,16030.0,8741.0,estime_ajuste_mrc,1.162,21762644.0,False
+95050,"Colombier, Municipalité (MÉ)",635.0,363.0,324.0,5113.0,5636386.0,4413522.0,7198072.0,15527.0,8876.0,estime_ajuste_mrc,1.162,4852349.0,False
+95802,"Essipit, Réserve indienne (IRI)",310.0,134.0,128.0,5102.0,5917919.0,4633974.0,7557610.0,44164.0,19090.0,estime_ajuste_mrc,2.747,2154063.0,False
+95902,"Lac-au-Brochet, Non organisé (NO)",0.0,7.0,0.0,5441.0,286572.0,224398.0,365973.0,40939.0,,estime_ajuste_mrc,2.747,104309.0,True
+96005,"Baie-Trinité, Village (VL)",438.0,341.0,231.0,5297.0,3235920.0,2533858.0,4132503.0,9490.0,7388.0,estime_ajuste_mrc,0.685,4726579.0,False
+96010,"Godbout, Village (VL)",272.0,241.0,157.0,5297.0,2243316.0,1756609.0,2864877.0,9308.0,8247.0,estime_ajuste_mrc,0.685,3276722.0,False
+96015,"Franquelin, Municipalité (MÉ)",285.0,194.0,157.0,5487.0,3303158.0,3303158.0,3303158.0,17027.0,11590.0,mesure,,2770619.0,False
+96020,"Baie-Comeau, Ville (V)",20687.0,10163.0,9554.0,5487.0,108353270.0,84845069.0,138374938.0,10662.0,5238.0,estime_ajuste_mrc,0.685,158267288.0,False
+96025,"Pointe-Lebel, Village (VL)",1817.0,935.0,857.0,4804.0,12974504.0,10159571.0,16569378.0,13876.0,7141.0,estime_ajuste_mrc,0.685,18951340.0,False
+96030,"Pointe-aux-Outardes, Village (VL)",1434.0,710.0,641.0,4763.0,12491693.0,12491693.0,12491693.0,17594.0,8711.0,mesure,,13503992.0,False
+96035,"Chute-aux-Outardes, Village (VL)",1391.0,731.0,693.0,4763.0,7237318.0,5667118.0,9242577.0,9901.0,5203.0,estime_ajuste_mrc,0.685,10571261.0,False
+96040,"Ragueneau, Paroisse (municipalité de) (PE)",1314.0,713.0,613.0,4763.0,7911097.0,6194714.0,10103041.0,11096.0,6021.0,estime_ajuste_mrc,0.685,11555423.0,False
+96802,"Pessamit, Réserve indienne (IRI)",2428.0,841.0,822.0,4763.0,8434045.0,6604204.0,10770884.0,10029.0,3474.0,estime_ajuste_mrc,0.685,12319272.0,False
+96902,"Rivière-aux-Outardes, Non organisé (NO)",92.0,166.0,56.0,6028.0,6829062.0,5347437.0,8721204.0,41139.0,74229.0,estime_ajuste_mrc,2.747,2485710.0,True
+97007,"Sept-Îles, Ville (V)",24569.0,12814.0,11272.0,5589.0,233238389.0,182635256.0,297862238.0,18202.0,9493.0,estime_ajuste_mrc,1.159,201180608.0,False
+97022,"Port-Cartier, Ville (V)",6516.0,3307.0,2918.0,5152.0,65682298.0,51431942.0,83881030.0,19862.0,10080.0,estime_ajuste_mrc,1.159,56654502.0,False
+97035,"Fermont, Ville (V)",2256.0,1538.0,976.0,7109.0,37024674.0,28991843.0,47283177.0,24073.0,16412.0,estime_ajuste_mrc,1.222,30305003.0,False
+97040,"Schefferville, Ville (V)",244.0,209.0,127.0,7179.0,2879981.0,2255144.0,3677944.0,13780.0,11803.0,estime_ajuste_mrc,1.222,2357289.0,True
+97802,"Uashat 27, Réserve indienne (IRI)",1550.0,522.0,493.0,4908.0,20789520.0,16279050.0,26549716.0,39827.0,13413.0,estime_ajuste_mrc,2.747,7567176.0,False
+97804,"Maliotenam, Réserve indienne (IRI)",1610.0,542.0,528.0,4727.0,23487552.0,18391719.0,29995297.0,43335.0,14589.0,estime_ajuste_mrc,2.747,8549232.0,False
+97806,"Kawawachikamach, Terres réservées aux Naskapis (TK)",641.0,203.0,194.0,7179.0,3400884.0,2663032.0,4343174.0,16753.0,5306.0,estime_ajuste_mrc,1.222,2783652.0,False
+97808,"Matimekosh, Réserve indienne (IRI)",661.0,227.0,203.0,7179.0,3306747.0,2589319.0,4222954.0,14567.0,5003.0,estime_ajuste_mrc,1.222,2706600.0,False
+97810,"Lac-John, Réserve indienne (IRI)",21.0,12.0,11.0,7179.0,177939.0,139333.0,227241.0,14828.0,8473.0,estime_ajuste_mrc,1.222,145644.0,True
+97902,"Rivière-Nipissis, Non organisé (NO)",0.0,0.0,0.0,6116.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.159,0.0,True
+97904,"Lac-Walker, Non organisé (NO)",113.0,59.0,50.0,6116.0,929016.0,727458.0,1186421.0,15746.0,8221.0,estime_ajuste_mrc,1.159,801326.0,True
+97906,"Rivière-Mouchalagane, Non organisé (NO)",15.0,40.0,6.0,6036.0,661156.0,517712.0,844343.0,16529.0,44077.0,estime_ajuste_mrc,1.222,541161.0,True
+97908,"Caniapiscau, Non organisé (NO)",0.0,0.0,0.0,7109.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.222,0.0,True
+97912,"Lac-Juillet, Non organisé (NO)",0.0,0.0,0.0,7179.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.222,0.0,True
+97914,"Lac-Vacher, Non organisé (NO)",44.0,34.0,30.0,7179.0,488302.0,382361.0,623597.0,14362.0,11098.0,estime_ajuste_mrc,1.222,399680.0,True
+98005,"Blanc-Sablon, Municipalité (MÉ)",1122.0,503.0,464.0,5522.0,14106103.0,14106103.0,14106103.0,28044.0,12572.0,mesure,,8554559.0,False
+98010,"Bonne-Espérance, Municipalité (MÉ)",692.0,318.0,282.0,5341.0,6455015.0,5054542.0,8243519.0,20299.0,9328.0,estime_ajuste_mrc,1.239,5209462.0,False
+98012,"Saint-Augustin, Municipalité (MÉ)",425.0,228.0,198.0,4973.0,7586504.0,7586504.0,7586504.0,33274.0,17851.0,mesure,,3707729.0,False
+98014,"Gros-Mécatina, Municipalité (MÉ)",356.0,243.0,182.0,4961.0,4335740.0,3395063.0,5537053.0,17843.0,12179.0,estime_ajuste_mrc,1.239,3499121.0,False
+98015,"Côte-Nord-du-Golfe-du-Saint-Laurent, Municipalité (MÉ)",787.0,430.0,361.0,4997.0,7044323.0,7044323.0,7044323.0,16382.0,8951.0,mesure,,7062752.0,False
+98020,"L'Île-d'Anticosti, Municipalité (MÉ)",177.0,134.0,97.0,4989.0,1988525.0,1557097.0,2539490.0,14840.0,11235.0,estime_ajuste_mrc,0.958,2076246.0,True
+98025,"Natashquan, Municipalité (MÉ)",262.0,156.0,121.0,5073.0,3664169.0,3664169.0,3664169.0,23488.0,13985.0,mesure,,2472868.0,False
+98030,"Aguanish, Municipalité (MÉ)",224.0,152.0,119.0,5142.0,2516715.0,2516715.0,2516715.0,16557.0,11235.0,mesure,,2436906.0,True
+98035,"Baie-Johan-Beetz, Municipalité (MÉ)",84.0,58.0,44.0,5142.0,901085.0,705587.0,1150751.0,15536.0,10727.0,estime_ajuste_mrc,0.958,940835.0,True
+98040,"Havre-Saint-Pierre, Municipalité (MÉ)",3337.0,1655.0,1448.0,5179.0,31025704.0,24294403.0,39622061.0,18747.0,9297.0,estime_ajuste_mrc,0.958,32394362.0,False
+98045,"Longue-Pointe-de-Mingan, Municipalité (MÉ)",408.0,257.0,204.0,5177.0,4383819.0,3432711.0,5598453.0,17058.0,10745.0,estime_ajuste_mrc,0.958,4577205.0,False
+98050,"Rivière-Saint-Jean, Municipalité (MÉ)",227.0,169.0,121.0,5348.0,2510952.0,1966179.0,3206666.0,14858.0,11061.0,estime_ajuste_mrc,0.958,2621719.0,True
+98055,"Rivière-au-Tonnerre, Municipalité (MÉ)",281.0,326.0,157.0,5467.0,4269670.0,3343327.0,5452677.0,13097.0,15195.0,estime_ajuste_mrc,0.958,4458021.0,False
+98802,"Pakuashipi, Établissement indien (S-É)",,,,4973.0,,,,,,estime_ajuste_mrc,1.239,,True
+98804,"Romaine 2, Réserve indienne (IRI)",,,,4997.0,,,,,,estime_ajuste_mrc,1.239,,True
+98806,"Nutashkuan, Réserve indienne (IRI)",915.0,234.0,228.0,4684.0,4417571.0,3459140.0,5641557.0,18879.0,4828.0,estime_ajuste_mrc,0.958,4612446.0,False
+98808,"Mingan, Réserve indienne (IRI)",552.0,165.0,160.0,5177.0,5385112.0,5385112.0,5385112.0,32637.0,9756.0,mesure,,2434504.0,False
+98904,"Lac-Jérôme, Non organisé (NO)",0.0,0.0,0.0,5179.0,0.0,0.0,0.0,,,estime_ajuste_mrc,0.958,0.0,True
+98912,"Petit-Mécatina, Non organisé (NO)",0.0,0.0,0.0,4961.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.239,0.0,True
+99005,"Lebel-sur-Quévillon, Ville (V)",2091.0,1161.0,942.0,5302.0,32478605.0,25432084.0,41477520.0,27975.0,15533.0,estime_ajuste_mrc,1.498,21683148.0,False
+99010,"Waswanipi, Village cri (VC)",0.0,0.0,0.0,5405.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99015,"Matagami, Ville (V)",1402.0,736.0,617.0,5422.0,20797232.0,16285088.0,26559564.0,28257.0,14834.0,estime_ajuste_mrc,1.498,13884508.0,False
+99020,"Chapais, Ville (V)",1468.0,711.0,648.0,5578.0,17184359.0,13456060.0,21945665.0,24169.0,11706.0,estime_ajuste_mrc,1.498,11472506.0,False
+99025,"Chibougamau, Ville (V)",7233.0,3557.0,3190.0,5743.0,88337235.0,69171690.0,112813018.0,24835.0,12213.0,estime_ajuste_mrc,1.498,58975111.0,False
+99030,"Mistissini, Village cri (VC)",10.0,3.0,3.0,5660.0,64198.0,50270.0,81986.0,21399.0,6420.0,estime_ajuste_mrc,1.498,42860.0,True
+99035,"Waskaganish, Village cri (VC)",0.0,0.0,0.0,5940.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.498,0.0,True
+99040,"Nemaska, Village cri (VC)",0.0,0.0,0.0,5822.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+99045,"Eastmain, Village cri (VC)",0.0,0.0,0.0,5950.0,0.0,0.0,0.0,,,estime_ajuste_mrc,1.498,0.0,True
+99050,"Wemindji, Village cri (VC)",0.0,0.0,0.0,6137.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+99055,"Chisasibi, Village cri (VC)",0.0,0.0,0.0,6398.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99060,"Eeyou Istchee Baie-James, Gouvernement régional (GR)",2638.0,1331.0,906.0,6189.0,19895229.0,15578783.0,25407642.0,14948.0,7542.0,estime_non_ajuste,,19895229.0,False
+99065,"Kawawachikamach, Village naskapi (VK)",0.0,0.0,0.0,7179.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+99070,"Whapmagoostui, Village cri (VC)",0.0,0.0,0.0,7144.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+99075,"Kuujjuarapik, Village nordique (VN)",792.0,267.0,249.0,6886.0,2570564.0,2570564.0,2570564.0,9628.0,3246.0,mesure,,2718348.0,False
+99080,"Umiujaq, Village nordique (VN)",541.0,178.0,168.0,7268.0,1660178.0,1660178.0,1660178.0,9327.0,3069.0,mesure,,1651188.0,False
+99085,"Inukjuak, Village nordique (VN)",1821.0,588.0,481.0,8032.0,4791616.0,3752032.0,6119239.0,8149.0,2631.0,estime_ajuste_mrc,0.772,6208162.0,False
+99090,"Kangiqsualujjuaq, Village nordique (VN)",956.0,270.0,247.0,7146.0,2158452.0,2158452.0,2158452.0,7994.0,2258.0,mesure,,2977887.0,False
+99095,"Kuujjuaq, Village nordique (VN)",2668.0,1253.0,973.0,7342.0,8990435.0,8990435.0,8990435.0,7175.0,3370.0,mesure,,16684014.0,False
+99100,"Tasiujaq, Village nordique (VN)",420.0,120.0,106.0,7688.0,910028.0,712589.0,1162171.0,7584.0,2167.0,estime_ajuste_mrc,0.772,1179059.0,False
+99105,"Aupaluk, Village nordique (VN)",233.0,77.0,70.0,7798.0,730462.0,730462.0,730462.0,9487.0,3135.0,mesure,,699142.0,True
+99110,"Kangirsuk, Village nordique (VN)",561.0,197.0,170.0,8170.0,1646352.0,1646352.0,1646352.0,8357.0,2935.0,mesure,,2098199.0,False
+99115,"Quaqtaq, Village nordique (VN)",453.0,173.0,144.0,7934.0,1339310.0,1339310.0,1339310.0,7742.0,2957.0,mesure,,1670047.0,False
+99120,"Puvirnituq, Village nordique (VN)",2129.0,697.0,547.0,8265.0,5737596.0,4492774.0,7327323.0,8232.0,2695.0,estime_ajuste_mrc,0.772,7433802.0,False
+99125,"Akulivik, Village nordique (VN)",642.0,204.0,181.0,8558.0,1581725.0,1581725.0,1581725.0,7754.0,2464.0,mesure,,1930901.0,False
+99130,"Kangiqsujuaq, Village nordique (VN)",837.0,321.0,297.0,8881.0,2735304.0,2735304.0,2735304.0,8521.0,3268.0,mesure,,2982984.0,False
+99135,"Salluit, Village nordique (VN)",1580.0,473.0,426.0,9098.0,4510473.0,4510473.0,4510473.0,9536.0,2855.0,mesure,,4554471.0,False
+99140,"Ivujivik, Village nordique (VN)",412.0,136.0,123.0,8470.0,935963.0,732897.0,1195292.0,6882.0,2272.0,estime_ajuste_mrc,0.772,1212662.0,False
+99802,"Waswanipi, Terres réservées aux Cris (TC)",459.0,160.0,127.0,5629.0,14048932.0,14048932.0,14048932.0,87806.0,30608.0,mesure,,2633904.0,False
+99804,"Mistissini, Terres réservées aux Cris (TC)",3731.0,1210.0,1019.0,5911.0,28632062.0,22420083.0,36565208.0,23663.0,7674.0,estime_ajuste_mrc,1.498,19115145.0,False
+99806,"Waskaganish, Terres réservées aux Cris (TC)",2536.0,626.0,563.0,5831.0,15128990.0,11846622.0,19320811.0,24168.0,5966.0,estime_ajuste_mrc,1.498,10100314.0,False
+99808,"Nemaska, Terres réservées aux Cris (TC)",832.0,291.0,221.0,5822.0,4508449.0,3530301.0,5757614.0,15493.0,5419.0,estime_non_ajuste,,4508449.0,False
+99810,"Eastmain, Terres réservées aux Cris (TC)",924.0,280.0,223.0,5950.0,7358583.0,5762073.0,9397441.0,26281.0,7964.0,estime_ajuste_mrc,1.498,4912688.0,False
+99812,"Wemindji, Terres réservées aux Cris (TC)",1562.0,493.0,397.0,6137.0,8039186.0,6295014.0,10266621.0,16307.0,5147.0,estime_non_ajuste,,8039186.0,False
+99814,"Chisasibi, Terres réservées aux Cris (TC)",4985.0,1281.0,1056.0,6562.0,44564939.0,44564939.0,44564939.0,34789.0,8940.0,mesure,,20541189.0,False
+99816,"Whapmagoostui, Terres réservées aux Cris (TC)",1022.0,251.0,228.0,7144.0,3398509.0,2661172.0,4340141.0,13540.0,3325.0,estime_non_ajuste,,3398509.0,False
+99818,"Oujé-Bougoumou, Terres réservées aux Cris (TC)",797.0,277.0,218.0,5578.0,4326734.0,3388010.0,5525551.0,15620.0,5429.0,estime_non_ajuste,,4326734.0,False
+99877,"Kuujjuarapik, Terre inuite (TI)",0.0,0.0,0.0,7225.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99878,"Umiujaq, Terre inuite (TI)",0.0,0.0,0.0,7268.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99879,"Inukjuak, Terre inuite (TI)",0.0,0.0,0.0,8032.0,0.0,0.0,0.0,,,estime_ajuste_mrc,0.772,0.0,True
+99883,"Akulivik, Terre inuite (TI)",0.0,0.0,0.0,8558.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99885,"Ivujivik, Terre inuite (TI)",0.0,0.0,0.0,9120.0,0.0,0.0,0.0,,,estime_ajuste_mrc,0.772,0.0,True
+99887,"Salluit, Terre inuite (TI)",0.0,0.0,0.0,9098.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99888,"Kangiqsujuaq, Terre inuite (TI)",0.0,0.0,0.0,8881.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99889,"Quaqtaq, Terre inuite (TI)",0.0,0.0,0.0,7934.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99890,"Kangirsuk, Terre inuite (TI)",0.0,0.0,0.0,8170.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99891,"Aupaluk, Terre inuite (TI)",0.0,0.0,0.0,8189.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99892,"Tasiujaq, Terre inuite (TI)",0.0,0.0,0.0,7688.0,0.0,0.0,0.0,,,estime_ajuste_mrc,0.772,0.0,True
+99893,"Kuujjuaq, Terre inuite (TI)",0.0,0.0,0.0,7618.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99894,"Kangiqsualujjuaq, Terre inuite (TI)",0.0,0.0,0.0,7146.0,0.0,0.0,0.0,,,mesure,,0.0,True
+99902,"Rivière-Koksoak, Non organisé (NO)",0.0,0.0,0.0,7342.0,0.0,0.0,0.0,,,estime_non_ajuste,,0.0,True
+99904,"Baie-d'Hudson, Non organisé (NO)",5.0,3.0,3.0,8038.0,35165.0,27535.0,44908.0,11722.0,7033.0,estime_non_ajuste,,35165.0,True
