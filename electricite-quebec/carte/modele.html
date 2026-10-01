@@ -1,0 +1,285 @@
+<title>Carte de l'électricité résidentielle</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+/* Mise en page : bandeau titre + commandes, carte pleine largeur, panneau de lecture à droite (sous la carte en étroit).
+   Palette : une seule teinte (sarcelle) pour la magnitude ; gris neutre teinté pour le fond et les contours. */
+:root {
+  --bg: #f4f6f6; --surface: #ffffff; --fg: #15282b; --fg2: #46595c; --muted: #6f8184;
+  --line: #d5dddd; --accent: #17575f; --nodata: #dde3e3; --hatch: #15282b;
+  --c0: #e8f3f1; --c1: #c5e3de; --c2: #9fd0ca; --c3: #74b9b3; --c4: #4a9d9b; --c5: #2d7d80; --c6: #17575f;
+  --sel: #c2410c;
+  --ff-display: "Fraunces", Georgia, "Times New Roman", serif;
+  --ff-body: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1a1c; --surface: #162326; --fg: #e3eeee; --fg2: #a9bcbe; --muted: #859a9d;
+    --line: #2a3c3f; --accent: #86d0d8; --nodata: #243336; --hatch: #e3eeee;
+    --c0: #17353a; --c1: #1d5057; --c2: #26707a; --c3: #3492a0; --c4: #52b3be; --c5: #86d0d8; --c6: #c3ebef;
+    --sel: #fb923c; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1a1c; --surface: #162326; --fg: #e3eeee; --fg2: #a9bcbe; --muted: #859a9d;
+  --line: #2a3c3f; --accent: #86d0d8; --nodata: #243336; --hatch: #e3eeee;
+  --c0: #17353a; --c1: #1d5057; --c2: #26707a; --c3: #3492a0; --c4: #52b3be; --c5: #86d0d8; --c6: #c3ebef;
+  --sel: #fb923c; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.5 var(--ff-body); padding-inline: 16px; padding-block: 20px 40px; }
+.page { max-width: 1280px; margin: 0 auto; display: grid; gap: 16px; }
+header { display: grid; gap: 4px; }
+h1 { font: 600 clamp(1.5rem, 3.4vw, 2.1rem)/1.15 var(--ff-display); margin: 0; text-wrap: balance; }
+.sub { color: var(--fg2); max-width: 70ch; margin: 0; }
+.controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: var(--surface); }
+.seg button { font: inherit; color: var(--fg2); background: none; border: 0; padding: 7px 12px; cursor: pointer; border-right: 1px solid var(--line); }
+.seg button:last-child { border-right: 0; }
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--bg); }
+.seg button:focus-visible, .zoom button:focus-visible, input:focus-visible { outline: 2px solid var(--sel); outline-offset: 1px; }
+label.chk { display: inline-flex; gap: 6px; align-items: center; color: var(--fg2); cursor: pointer; }
+.search { flex: 1 1 220px; max-width: 320px; }
+.search input { width: 100%; font: inherit; padding: 7px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 16px; align-items: start; }
+@media (max-width: 880px) { .layout { grid-template-columns: minmax(0, 1fr); } }
+.mapbox { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; height: min(78vh, 720px); min-height: 420px; }
+svg#carte { width: 100%; height: 100%; display: block; cursor: grab; touch-action: none; }
+svg#carte:active { cursor: grabbing; }
+.m { stroke: var(--surface); stroke-width: 0.5px; vector-effect: non-scaling-stroke; }
+.m:hover { stroke: var(--fg); stroke-width: 1.5px; }
+.est { fill: url(#hachure); pointer-events: none; }
+.sel { fill: none; stroke: var(--sel); stroke-width: 2.5px; vector-effect: non-scaling-stroke; pointer-events: none; }
+.zoom { position: absolute; right: 10px; top: 10px; display: grid; gap: 4px; }
+.zoom button { width: 32px; height: 32px; font: 600 18px/1 var(--ff-body); border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+.tip { position: absolute; pointer-events: none; background: var(--surface); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font-size: 13px; line-height: 1.4; box-shadow: 0 4px 14px rgba(0,0,0,.18); max-width: 260px; z-index: 5; }
+.tip b { font-weight: 600; }
+.tip .lieu { color: var(--muted); font-size: 12px; }
+.tip .big { font: 600 18px/1.2 var(--ff-display); display: block; margin-top: 4px; }
+.tip table { border-collapse: collapse; margin-top: 4px; width: 100%; }
+.tip td { padding: 1px 0; color: var(--fg2); } .tip td:last-child { text-align: right; color: var(--fg); font-variant-numeric: tabular-nums; }
+.legend { position: absolute; left: 10px; bottom: 10px; background: color-mix(in srgb, var(--surface) 92%, transparent); border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font-size: 12px; max-width: calc(100% - 20px); }
+.legend .t { color: var(--fg2); margin-bottom: 4px; }
+.ramp { display: flex; } .ramp i { display: block; width: 40px; height: 10px; }
+.ticks { position: relative; height: 16px; margin-top: 2px; color: var(--muted); font-variant-numeric: tabular-nums; } .ticks span { position: absolute; transform: translateX(-50%); white-space: nowrap; }
+.keys { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 6px; color: var(--fg2); }
+.keys svg { vertical-align: -3px; margin-right: 4px; }
+aside { display: grid; gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }
+.card h2 { font: 600 1rem/1.3 var(--ff-display); margin: 0 0 8px; }
+.card p { margin: 0 0 8px; color: var(--fg2); } .card p:last-child { margin-bottom: 0; }
+.rang { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.rang li { display: grid; grid-template-columns: 1fr auto; gap: 8px; padding: 3px 0; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; cursor: pointer; }
+.rang li:hover { color: var(--accent); }
+.rang span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sel-info { min-height: 3.2em; }
+.sel-info .big { font: 600 1.5rem/1.2 var(--ff-display); }
+.note { color: var(--muted); font-size: 13px; }
+.note a { color: var(--accent); }
+footer { color: var(--muted); font-size: 13px; display: grid; gap: 6px; max-width: 95ch; }
+footer a { color: var(--accent); }
+</style>
+
+<div class="page">
+  <header>
+    <h1>L'électricité qu'on consomme à la maison, municipalité par municipalité</h1>
+    <p class="sub">Consommation résidentielle de 2021 au Québec. Les municipalités où Hydro-Québec publie des données sont affichées telles quelles; les autres sont estimées par un modèle et ajustées aux totaux de leur MRC.</p>
+  </header>
+
+  <div class="controls">
+    <div class="seg" role="group" aria-label="Mesure affichée">
+      <button type="button" data-m="l" aria-pressed="true">Par logement</button>
+      <button type="button" data-m="h" aria-pressed="false">Par habitant</button>
+      <button type="button" data-m="k" aria-pressed="false">Total</button>
+    </div>
+    <label class="chk"><input type="checkbox" id="seulMesure"> Seulement les valeurs mesurées</label>
+    <div class="search"><input id="rech" list="liste" placeholder="Chercher une municipalité" aria-label="Chercher une municipalité" autocomplete="off"><datalist id="liste"></datalist></div>
+  </div>
+
+  <div class="layout">
+    <div class="mapbox" id="boite">
+      <svg id="carte" role="img" aria-label="Carte choroplèthe de la consommation résidentielle d'électricité par municipalité, Québec, 2021">
+        <defs>
+          <pattern id="hachure" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+            <line x1="0" y1="0" x2="0" y2="5" stroke="var(--hatch)" stroke-width="1" stroke-opacity="0.35"/>
+          </pattern>
+        </defs>
+        <g id="vue"><g id="base"></g><g id="hach"></g><g id="choix"></g></g>
+      </svg>
+      <div class="zoom"><button type="button" id="zp" aria-label="Zoom avant">+</button><button type="button" id="zm" aria-label="Zoom arrière">−</button><button type="button" id="zr" aria-label="Recentrer" style="font-size:13px">⌂</button></div>
+      <div class="legend" id="legende"></div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+
+    <aside>
+      <div class="card">
+        <h2 id="titreSel">Municipalité sélectionnée</h2>
+        <div class="sel-info" id="selInfo"><p>Touchez ou cliquez une municipalité sur la carte.</p></div>
+      </div>
+      <div class="card">
+        <h2 id="titreRang">Les plus élevées</h2>
+        <ol class="rang" id="rang"></ol>
+        <p class="note" style="margin-top:8px">Municipalités d'au moins 1 000 habitants.</p>
+      </div>
+      <div class="card">
+        <h2>Comment lire la carte</h2>
+        <p>Une couleur unie vient d'un total publié par Hydro-Québec pour 2021. Une couleur hachurée est une estimation : on lui associe un intervalle à 80 %, souvent de −22 % à +29 % autour de la valeur.</p>
+        <p>Les valeurs « par logement » comptent tous les logements du recensement, y compris les chalets, ce qui fait baisser la moyenne des municipalités de villégiature.</p>
+      </div>
+    </aside>
+  </div>
+
+  <footer>
+    <div><b>Méthode.</b> Hydro-Québec ne publie une valeur résidentielle 2021 que pour 311 des 1 274 subdivisions du recensement, probablement pour protéger la confidentialité. Un modèle estimé sur ces unités (degrés-jours de chauffage, type de logement, revenu médian) prédit les autres; une correction par MRC fait concorder le total. Erreur typique de prédiction : environ 20 % (validation croisée). Seul le secteur résidentiel est estimé. Les villes dont le total de MRC est incomplet (dont Gatineau, Sherbrooke, Saguenay et Trois-Rivières) ne sont pas corrigées.</div>
+    <div><b>Sources.</b> Consommation : Hydro-Québec, <a href="https://www.donneesquebec.ca/recherche/dataset/historique-consommation-electricite-secteur-activite">Données Québec</a>, licence CC-BY-NC 4.0 (usage non commercial). Limites : MRNF, CC-BY 4.0. Recensement 2021 : Statistique Canada. Températures : Open-Meteo, réanalyse ERA5 (Copernicus / ECMWF), CC-BY 4.0. Les contours sont simplifiés et datent de 2026.</div>
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const DATA = __DONNEES__;
+const nf0 = new Intl.NumberFormat("fr-CA", { maximumFractionDigits: 0 }), nf1 = new Intl.NumberFormat("fr-CA", { maximumFractionDigits: 1 });
+const fmt = v => nf0.format(v), fmt1 = v => nf1.format(v);
+const MES = {
+  l: { champ: "l", titre: "MWh par logement, 2021", court: "kWh/logement", rang: "Les plus élevées", f: v => fmt(v), fl: v => fmt1(v / 1000) },
+  h: { champ: "h", titre: "MWh par habitant, 2021", court: "kWh/habitant", rang: "Les plus élevées", f: v => fmt(v), fl: v => fmt1(v / 1000) },
+  k: { champ: "k", titre: "Consommation totale, GWh, 2021", court: "GWh", rang: "Les plus grandes", f: v => v >= 1e7 ? fmt(v / 1e6) : fmt1(v / 1e6), fl: v => v >= 1e7 ? fmt(v / 1e6) : fmt1(v / 1e6) },
+};
+let mesure = "l", seulMesure = false, choisi = null;
+const feats = DATA.features;
+const bySel = new Map(feats.map(f => [f.properties.c, f]));
+
+const svg = d3.select("#carte"), gVue = d3.select("#vue"), gBase = d3.select("#base"), gHach = d3.select("#hach"), gChoix = d3.select("#choix");
+const boite = document.getElementById("boite"), tip = document.getElementById("tip");
+let proj, chemin, zoom, W, H;
+
+function projeter() {
+  W = boite.clientWidth; H = boite.clientHeight;
+  proj = d3.geoConicConformal().parallels([49, 60]).rotate([68, 0]).fitExtent([[8, 8], [W - 8, H - 8]], DATA);
+  chemin = d3.geoPath(proj);
+}
+function dessiner() {
+  projeter();
+  const p = gBase.selectAll("path").data(feats, d => d.properties.c);
+  p.join("path").attr("class", "m").attr("d", chemin)
+    .on("pointermove", (e, d) => montrer(e, d)).on("pointerleave", () => tip.hidden = true)
+    .on("click", (e, d) => choisir(d.properties.c, false));
+  gHach.selectAll("path").data(feats.filter(f => f.properties.s !== 0), d => d.properties.c).join("path").attr("class", "est").attr("d", chemin);
+  colorer(); dessinerChoix();
+}
+
+let seuils = [], classes = [];
+function valeur(d) {
+  const p = d.properties, v = p[MES[mesure].champ];
+  if (v == null || (seulMesure && p.s !== 0)) return null;
+  return v;
+}
+function colorer() {
+  const ch = MES[mesure].champ;
+  const vals = feats.map(f => f.properties[ch]).filter(v => v != null && v > 0).sort(d3.ascending);
+  seuils = d3.range(1, 7).map(i => d3.quantileSorted(vals, i / 7));
+  gBase.selectAll("path").attr("fill", d => {
+    const v = valeur(d);
+    if (v == null) return "var(--nodata)";
+    let i = 0; while (i < 6 && v >= seuils[i]) i++;
+    return `var(--c${i})`;
+  });
+  gHach.selectAll("path").attr("display", d => (seulMesure || valeur(d) == null) ? "none" : null);
+  legende(); rang();
+}
+function legende() {
+  const m = MES[mesure];
+  const bornes = [d3.min(feats, f => f.properties[m.champ]), ...seuils];
+  const el = document.getElementById("legende");
+  el.innerHTML = `<div class="t">${m.titre}</div>
+    <div class="ramp">${d3.range(7).map(i => `<i style="background:var(--c${i})"></i>`).join("")}</div>
+    <div class="ticks">${seuils.map((s, i) => `<span style="left:${(i + 1) * 40}px">${m.fl(s)}</span>`).join("")}</div>
+    <div class="keys"><span><svg width="14" height="12"><rect width="14" height="12" fill="var(--c4)"/></svg>mesuré</span>
+    <span><svg width="14" height="12"><rect width="14" height="12" fill="var(--c4)"/><rect width="14" height="12" fill="url(#hachure)"/></svg>estimé</span>
+    <span><svg width="14" height="12"><rect width="14" height="12" fill="var(--nodata)"/></svg>sans donnée</span></div>`;
+}
+function rang() {
+  const m = MES[mesure];
+  document.getElementById("titreRang").textContent = m.rang + " (" + m.court + ")";
+  const liste = feats.filter(f => f.properties.p >= 1000 && f.properties[m.champ] != null && (!seulMesure || f.properties.s === 0))
+    .sort((a, b) => b.properties[m.champ] - a.properties[m.champ]).slice(0, 10);
+  const ol = document.getElementById("rang");
+  ol.innerHTML = "";
+  liste.forEach(f => {
+    const li = document.createElement("li");
+    li.tabIndex = 0;
+    li.innerHTML = `<span>${nomCourt(f.properties.n)}</span><span>${m.f(f.properties[m.champ])}</span>`;
+    li.onclick = () => choisir(f.properties.c, true);
+    li.onkeydown = e => { if (e.key === "Enter") choisir(f.properties.c, true); };
+    ol.appendChild(li);
+  });
+}
+const nomCourt = n => n.replace(/,\s*[^,]*\([A-Z]{1,3}\)\s*$/, "").trim();
+const statutTxt = s => s === 0 ? "Mesuré (Hydro-Québec)" : s === 1 ? "Estimé, ajusté au total de la MRC" : s === 2 ? "Estimé, non ajusté (total de MRC incomplet)" : "Aucune estimation";
+function detail(p) {
+  const m = MES[mesure];
+  const v = p[m.champ];
+  const unite = m.court;
+  let h = `<span class="big">${v == null ? "—" : m.f(v)} <small style="font:400 12px var(--ff-body);color:var(--muted)">${unite}</small></span>`;
+  if (p.s != null && p.s !== 0 && p.k != null) {
+    const bas = p.lo / p.k, haut = p.hi / p.k;
+    if (v != null) h += `<div class="lieu">Intervalle à 80 % : ${m.f(v * bas)} à ${m.f(v * haut)}</div>`;
+  }
+  h += `<table><tr><td>Statut</td><td>${statutTxt(p.s)}</td></tr>
+    <tr><td>Total 2021</td><td>${p.k == null ? "—" : fmt1(p.k / 1e6) + " GWh"}</td></tr>
+    <tr><td>Par logement</td><td>${p.l == null ? "—" : fmt(p.l) + " kWh"}</td></tr>
+    <tr><td>Par habitant</td><td>${p.h == null ? "—" : fmt(p.h) + " kWh"}</td></tr>
+    <tr><td>Population</td><td>${p.p == null ? "—" : fmt(p.p)}</td></tr>
+    <tr><td>Degrés-jours 2021</td><td>${p.d == null ? "—" : fmt(p.d)}</td></tr></table>`;
+  return h;
+}
+function montrer(e, d) {
+  const p = d.properties;
+  tip.innerHTML = `<b>${nomCourt(p.n)}</b><div class="lieu">${p.m || ""}${p.m && p.r ? " · " : ""}${p.r || ""}</div>` + detail(p);
+  tip.hidden = false;
+  const r = boite.getBoundingClientRect();
+  let x = e.clientX - r.left + 14, y = e.clientY - r.top + 14;
+  const tw = tip.offsetWidth, th = tip.offsetHeight;
+  if (x + tw > r.width - 6) x = e.clientX - r.left - tw - 14;
+  if (y + th > r.height - 6) y = r.height - th - 6;
+  tip.style.left = Math.max(6, x) + "px"; tip.style.top = Math.max(6, y) + "px";
+}
+function choisir(code, centrer) {
+  choisi = code;
+  const f = bySel.get(code), p = f.properties;
+  document.getElementById("titreSel").textContent = nomCourt(p.n);
+  document.getElementById("selInfo").innerHTML = `<div class="lieu note">${p.m || ""}${p.m && p.r ? " · " : ""}${p.r || ""}</div>` + detail(p);
+  dessinerChoix();
+  if (centrer) {
+    const [[x0, y0], [x1, y1]] = chemin.bounds(f);
+    const k = Math.min(40, 0.5 / Math.max((x1 - x0) / W, (y1 - y0) / H, 0.02));
+    svg.transition().duration(600).call(zoom.transform, d3.zoomIdentity.translate(W / 2, H / 2).scale(k).translate(-(x0 + x1) / 2, -(y0 + y1) / 2));
+  }
+}
+function dessinerChoix() {
+  gChoix.selectAll("path").remove();
+  if (choisi) gChoix.append("path").attr("class", "sel").attr("d", chemin(bySel.get(choisi)));
+}
+
+document.querySelectorAll(".seg button").forEach(b => b.addEventListener("click", () => {
+  mesure = b.dataset.m;
+  document.querySelectorAll(".seg button").forEach(x => x.setAttribute("aria-pressed", x === b));
+  colorer(); if (choisi) choisir(choisi, false);
+}));
+document.getElementById("seulMesure").addEventListener("change", e => { seulMesure = e.target.checked; colorer(); });
+const liste = document.getElementById("liste"), parNom = new Map();
+feats.filter(f => f.properties.k != null).sort((a, b) => b.properties.p - a.properties.p).forEach(f => {
+  const n = nomCourt(f.properties.n) + (f.properties.m ? " (" + f.properties.m + ")" : "");
+  if (!parNom.has(n)) { parNom.set(n, f.properties.c); const o = document.createElement("option"); o.value = n; liste.appendChild(o); }
+});
+document.getElementById("rech").addEventListener("change", e => { const c = parNom.get(e.target.value); if (c) choisir(c, true); });
+
+zoom = d3.zoom().scaleExtent([1, 60]).on("zoom", e => gVue.attr("transform", e.transform));
+svg.call(zoom);
+document.getElementById("zp").onclick = () => svg.transition().call(zoom.scaleBy, 1.6);
+document.getElementById("zm").onclick = () => svg.transition().call(zoom.scaleBy, 1 / 1.6);
+document.getElementById("zr").onclick = () => svg.transition().call(zoom.transform, d3.zoomIdentity);
+let tmr; window.addEventListener("resize", () => { clearTimeout(tmr); tmr = setTimeout(dessiner, 150); });
+dessiner();
+const depart = feats.find(f => f.properties.n === "Québec" && f.properties.r === "Capitale-Nationale");
+if (depart) choisir(depart.properties.c, false);
+</script>

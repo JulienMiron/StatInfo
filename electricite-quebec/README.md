@@ -49,7 +49,8 @@ electricite-quebec/
 │   ├── 02_correspondance_municipalites.py  # noms Hydro-Québec -> codes -> donnees/correspondance_hq_code.csv
 │   ├── 03_contours_municipalites.py        # limites -> donnees/municipalites.geojson (simplifié, 3 Mo) et centres_municipalites.csv
 │   ├── 04_temperatures.py                  # températures ERA5 (Open-Meteo) -> degrés-jours mensuels, incrémental
-│   └── 05_modele_residentiel.py            # modèle + ajustement aux MRC -> donnees/estimations_residentiel_2021.csv
+│   ├── 05_modele_residentiel.py            # modèle + ajustement aux MRC -> donnees/estimations_residentiel_2021.csv
+│   └── 06_construire_carte.py              # carte/modele.html + données -> carte/index.html (autonome)
 └── donnees/
 ```
 
@@ -109,19 +110,19 @@ plus tard (par exemple une exécution quotidienne) sans le réécrire.
 
 ### Modèle résidentiel (`05_modele_residentiel.py`)
 
-Dépendances supplémentaires : statsmodels. Les données de départ sont un panel de 338 unités
-d'Hydro-Québec (1 752 unités-années 2016-2021 avec 12 mois complets) : log(kWh résidentiels par
+Dépendances supplémentaires : statsmodels. Les données de départ sont un panel de 341 unités
+d'Hydro-Québec (1 770 unités-années 2016-2021 avec 12 mois complets) : log(kWh résidentiels par
 logement) en fonction des degrés-jours, de la composition du parc de logements et du revenu médian.
 
 | Terme | Coefficient | Lecture |
 |---|---|---|
 | Degrés-jours, écart d'une année à la moyenne de l'unité | +0,20 (écart-type 0,02) | une année 10 % plus froide fait monter la consommation d'environ 2 % |
-| Degrés-jours, moyenne de l'unité | −0,66 (0,11) | association **entre** municipalités, à ne pas lire comme un effet du froid (voir plus bas) |
+| Degrés-jours, moyenne de l'unité | −0,69 (0,12) | association **entre** municipalités, à ne pas lire comme un effet du froid (voir plus bas) |
 | Logarithme du revenu médian | +0,62 (0,16) | |
 | Part de maisons individuelles, de logements mobiles, de locataires, d'avant 1980, taille des ménages | non significatifs seuls | conservés ensemble, peu précis |
 
-R² = 0,49 ; erreur de prédiction (validation croisée par blocs d'unités) : 0,19 en échelle logarithmique,
-soit environ ±27 % pour un intervalle à 80 %.
+R² = 0,47 ; erreur de prédiction (validation croisée par blocs d'unités) : 0,20 en échelle logarithmique,
+soit de −22 % à +29 % pour un intervalle à 80 %. Les prédictions sont ramenées dans l'étendue observée (1er-99e centiles).
 
 Ce qui est solide : l'effet de la météo d'une année à l'autre dans une même municipalité. Ce qui l'est
 moins : le niveau d'une municipalité non mesurée. Les municipalités plus froides consomment *moins* par
@@ -132,23 +133,28 @@ sont des extrapolations.
 
 L'estimation de chaque municipalité 2021 suit trois règles :
 
-1. unité mesurée en 2021 (303 codes) : valeur observée, répartie entre ses codes selon la prédiction ;
-2. unité non mesurée dans une MRC au total 2021 complet et cohérent (912 codes) : prédiction multipliée
-   par un facteur commun à la MRC pour que mesuré + estimé égale le total de la MRC (facteur médian 1,06,
-   du 10e au 90e centile : 0,84 à 1,28) ;
-3. sinon (67 codes, 7,3 TWh, dont Gatineau, Sherbrooke, Saguenay et Trois-Rivières, dont le total
+1. unité mesurée en 2021 (311 codes) : valeur observée, répartie entre ses codes selon la prédiction ;
+2. unité non mesurée dans une MRC au total 2021 complet et cohérent (917 codes) : prédiction multipliée
+   par un facteur commun à la MRC pour que mesuré + estimé égale le total de la MRC (facteur médian 1,04,
+   du 10e au 90e centile : 0,83 à 1,27, maximum 1,52) ;
+3. sinon (54 codes, 7,0 TWh, dont Gatineau, Sherbrooke, Saguenay et Trois-Rivières, dont le total
    « hors MRC » est incomplet chez Hydro-Québec) : prédiction brute, signalée `estime_non_ajuste`.
 
-Le total estimé est de 68,6 TWh, contre 64,8 TWh dans le fichier des MRC, qui est incomplet pour ces
+Le total estimé est de 68,2 TWh, contre 64,8 TWh dans le fichier des MRC, qui est incomplet pour ces
 mêmes villes. Contrôle ponctuel : Québec (ville) 4,3 TWh estimés, pour 4,7 TWh dans les lignes « hors
 MRC » de la Capitale-Nationale (ces lignes contiennent aussi d'autres municipalités).
 
+Fusions municipales : cinq codes de la couche 2026 (Amos, La Pocatière, Plessisville, Hébertville,
+Lac-des-Aigles) regroupent 13 codes du recensement ; le script 02 les rattache par préfixe de MRC (inférence
+non vérifiée) et le script 05 en additionne les estimations. Cacouna et Notre-Dame-de-la-Salette restent
+sans caractéristiques.
+
 Limites : seul le secteur résidentiel est estimé (pas le commercial, l'industriel ni l'institutionnel) ;
-207 codes ont des variables manquantes remplacées par la médiane (`pred_incomplet`) ; les facteurs
+195 codes ont des variables manquantes remplacées par la médiane (`pred_incomplet`) ; les facteurs
 d'ajustement supposent que l'erreur de prédiction est la même pour toutes les municipalités d'une MRC.
 
 ## Reste à faire
 
 1. Corriger à la main les 25 unités non associées et les 7 codes absents du recensement.
-2. Carte interactive (choroplèthe) avec incertitude : `carte/`.
+2. Carte interactive : `carte/index.html`, assemblée par `06_construire_carte.py` à partir de `carte/modele.html`.
 3. Estimer les autres secteurs (commercial, industriel, institutionnel).

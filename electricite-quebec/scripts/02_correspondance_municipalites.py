@@ -33,6 +33,7 @@ RACINE = Path(__file__).resolve().parents[2]
 HQ = RACINE / "2022-10_Historique-consommation-electricite-par-secteur-activite_municipalite.csv"
 ARCHIVE_SHP = RACINE / "BDAT(adm)_SHP.zip"
 SORTIE = RACINE / "electricite-quebec" / "donnees" / "correspondance_hq_code.csv"
+CENSUS = RACINE / "electricite-quebec" / "donnees" / "recensement_2021_sdr_qc.csv"  # produit par le script 01
 
 PRIORITE = {"region+mrc+nom": 1, "region+nom": 2, "nom": 3}
 
@@ -146,6 +147,22 @@ def main():
                 }
             )
     res = pd.DataFrame(lignes)
+
+    # Fusions municipales : certains codes de la couche 2026 (ex. Amos 88057) n'existent pas au
+    # recensement 2021, où la municipalité compte encore plusieurs codes. On rattache à l'unité
+    # d'Hydro-Québec les codes du recensement sans polygone dans la couche qui partagent les
+    # 3 premiers chiffres du code (même MRC). C'est une inférence : à confirmer.
+    cen_codes = set(pd.read_csv(CENSUS, dtype={"code_geo": str}, usecols=["code_geo"]).code_geo)
+    orphelins = sorted(cen_codes - set(couche.MUS_CO_GEO))
+    extra = []
+    for _, r in res[res.code_geo.notna() & ~res.code_geo.isin(cen_codes)].iterrows():
+        for o in orphelins:
+            if o[:3] == r.code_geo[:3]:
+                extra.append({**r.to_dict(), "code_geo": o, "methode": "fusion:" + r.code_geo})
+    if extra:
+        res = pd.concat([res, pd.DataFrame(extra)], ignore_index=True)
+        res["n_codes_unite"] = res.groupby(["region", "mrc", "muni"], dropna=False).code_geo.transform("count")
+        print(f"Codes du recensement rattachés par fusion : {len(extra)}")
     SORTIE.parent.mkdir(parents=True, exist_ok=True)
     res.to_csv(SORTIE, index=False, encoding="utf-8")
 

@@ -72,6 +72,13 @@ def main():
     t["an"] = t.mois.str[:4].astype(int)
     dju = t.groupby(["point_id", "an"]).dju.sum().rename("dju").reset_index()
 
+    # --- fusions municipales (voir script 02) : le code du recensement hérite du point climatique
+    # du code actuel de la couche des limites
+    fus = corr[corr.methode.fillna("").str.startswith("fusion:")][["code_geo", "methode"]].copy()
+    fus["nouveau"] = fus.methode.str.split(":").str[1]
+    pts = pd.concat([pts, fus.merge(pts, left_on="nouveau", right_on="code_geo", suffixes=("_x", ""))[["code_geo_x", "point_id"]]
+                     .rename(columns={"code_geo_x": "code_geo"})]).drop_duplicates("code_geo")
+
     # --- table des codes : recensement + point climatique + degrés-jours par année
     cen = cen.merge(pts, on="code_geo", how="left")
     cen["revenu"] = cen.revenu_median_menage_2020
@@ -144,7 +151,11 @@ def main():
     X["ldju_c"] = np.log(c.dju21.values / 1000) - X.ldju_m
     manque = X.isna().any(axis=1) | (c.logements_total.fillna(0) <= 0)
     X = X.fillna(X.median())  # codes sans revenu ou type de logement : médiane (signalés)
-    c["pred_kwh"] = np.exp(ajust.predict(X)) * biais * c.logements_total
+    # Prédictions bornées à l'étendue observée (1er-99e centiles) : évite les extrapolations absurdes
+    borne_bas, borne_haut = p.y.quantile(0.01), p.y.quantile(0.99)
+    brut = ajust.predict(X)
+    c["borne"] = (brut < borne_bas) | (brut > borne_haut)
+    c["pred_kwh"] = np.exp(brut.clip(borne_bas, borne_haut)) * biais * c.logements_total
     c["pred_incomplet"] = manque
 
     # --- mesures 2021 par unité, répartition entre les codes, MRC
@@ -174,6 +185,10 @@ def main():
     c.loc[assoc & ~c.cle.isin(cl_ok), "cle"] = c.region_couche.map(norm) + "|" + c.mrc_couche.map(norm)
     c["cle_valide"] = c.cle.isin(cl_ok)
     tt = tot.set_index("cle")
+    # total mesuré par clé MRC, calculé sur les unités d'Hydro-Québec elles-mêmes (et non sur les codes
+    # retrouvés au recensement) pour ne pas gonfler le reste attribué aux municipalités non mesurées
+    obs["cle"] = obs.region.map(norm) + "|" + obs.mrc.map(norm)
+    mes_cle = obs.groupby("cle").kwh_obs_unite.sum()
 
     # --- ajustement aux totaux des MRC
     c["kwh_estime"] = np.where(c.mesure, c.kwh_mesure, c.pred_kwh)
@@ -182,7 +197,7 @@ def main():
     bilan = []
     for cle, g in c[c.cle_valide].groupby("cle"):
         total, complet = tt.loc[cle, "total"], bool(tt.loc[cle, "complet"])
-        mes = g.kwh_mesure.sum()
+        mes = mes_cle.get(cle, 0.0)
         nm = g[~g.mesure]
         if nm.empty or not complet:
             continue
@@ -208,6 +223,22 @@ def main():
     c["kwh_haut80"] = np.where(c.mesure, c.kwh_estime, c.kwh_estime * hi)
     c["kwh_par_logement"] = c.kwh_estime / c.logements_total
     c["kwh_par_habitant"] = c.kwh_estime / c.population_2021.replace(0, np.nan)
+    # --- fusions : une ligne par code actuel de la couche (somme des codes du recensement fusionnés)
+    c["code_sortie"] = c.code_geo.map(dict(zip(fus.code_geo, fus.nouveau))).fillna(c.code_geo)
+    fusionnes = c.code_sortie != c.code_geo
+    if fusionnes.any():
+        parts = c[c.code_sortie.isin(c.loc[fusionnes, "code_sortie"])]
+        agr = parts.groupby("code_sortie").agg(
+            nom=("nom_couche", "first"), population_2021=("population_2021", "sum"),
+            logements_total=("logements_total", "sum"), logements_occupes=("logements_occupes", "sum"),
+            dju21=("dju21", "mean"), kwh_estime=("kwh_estime", "sum"), kwh_bas80=("kwh_bas80", "sum"),
+            kwh_haut80=("kwh_haut80", "sum"), pred_kwh=("pred_kwh", "sum"), pred_incomplet=("pred_incomplet", "any"),
+            statut=("statut", lambda x: x.iloc[0] if x.nunique() == 1 else "estime_ajuste_mrc"),
+            facteur_mrc=("facteur_mrc", "mean")).reset_index().rename(columns={"code_sortie": "code_geo"})
+        agr["kwh_par_logement"] = agr.kwh_estime / agr.logements_total
+        agr["kwh_par_habitant"] = agr.kwh_estime / agr.population_2021.replace(0, np.nan)
+        c = pd.concat([c[~c.code_sortie.isin(parts.code_sortie)], agr], ignore_index=True)
+        print(f"Fusions : {len(parts)} codes du recensement regroupés en {len(agr)} codes actuels")
     sortie = c[[
         "code_geo", "nom", "population_2021", "logements_total", "logements_occupes", "dju21",
         "kwh_estime", "kwh_bas80", "kwh_haut80", "kwh_par_logement", "kwh_par_habitant",
@@ -217,6 +248,7 @@ def main():
         sortie[col] = sortie[col].round(0)
     sortie["facteur_mrc"] = sortie.facteur_mrc.round(3)
     sortie.to_csv(D / "estimations_residentiel_2021.csv", index=False, encoding="utf-8")
+    print(f"Prédictions ramenées dans l'étendue observée : {int(c.borne.sum())} codes")
     print(f"\nTotal estimé : {c.kwh_estime.sum()/1e9:.1f} TWh (total MRC 2021 : {tot.total.sum()/1e9:.1f} TWh)")
     print(f"{len(sortie)} codes écrits ; prédiction incomplète pour {int(c.pred_incomplet.sum())}")
 

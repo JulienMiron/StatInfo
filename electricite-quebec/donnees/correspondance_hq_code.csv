@@ -1,5 +1,5 @@
 region,mrc,muni,kwh_observe,code_geo,methode,n_codes_unite
-Abitibi-Témiscamingue,Abitibi,Amos,0.0,88057,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Amos,0.0,88057,region+mrc+nom,5
 Abitibi-Témiscamingue,Abitibi,Barraute,0.0,88022,region+mrc+nom,1
 Abitibi-Témiscamingue,Abitibi,Berry,0.0,88070,region+mrc+nom,1
 Abitibi-Témiscamingue,Abitibi,Champneuf,0.0,88005,region+mrc+nom,1
@@ -71,7 +71,7 @@ Abitibi-Témiscamingue,,Rivière-Ojima,0.0,87904,region+nom,1
 Abitibi-Témiscamingue,,Rouyn-Noranda,8945915608.7,86042,region+nom,1
 Abitibi-Témiscamingue,,Winneway,28570664.0,85804,region+nom,1
 Bas-Saint-Laurent,Kamouraska,Kamouraska,0.0,14050,region+mrc+nom,1
-Bas-Saint-Laurent,Kamouraska,La Pocatière,605014918.0,14082,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,La Pocatière,605014918.0,14082,region+mrc+nom,4
 Bas-Saint-Laurent,Kamouraska,Mont-Carmel,0.0,14005,region+mrc+nom,1
 Bas-Saint-Laurent,Kamouraska,Rivière-Ouelle,0.0,14065,region+mrc+nom,1
 Bas-Saint-Laurent,Kamouraska,Saint-Alexandre-de-Kamouraska,0.0,14035,region+mrc+nom,1
@@ -169,7 +169,7 @@ Bas-Saint-Laurent,Rivière-du-Loup,Saint-Épiphane,61420723.0,12030,region+mrc+n
 Bas-Saint-Laurent,Témiscouata,Auclair,44581309.0,13045,region+mrc+nom,1
 Bas-Saint-Laurent,Témiscouata,Biencourt,0.0,13055,region+mrc+nom,1
 Bas-Saint-Laurent,Témiscouata,Dégelis,0.0,13005,region+mrc+nom,1
-Bas-Saint-Laurent,Témiscouata,Lac-des-Aigles,0.0,13062,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Lac-des-Aigles,0.0,13062,region+mrc+nom,2
 Bas-Saint-Laurent,Témiscouata,Lejeune,36663934.0,13050,region+mrc+nom,1
 Bas-Saint-Laurent,Témiscouata,Packington,0.0,13015,region+mrc+nom,1
 Bas-Saint-Laurent,Témiscouata,Pohénégamook,125600799.0,13095,region+mrc+nom,1
@@ -304,7 +304,7 @@ Centre-du-Québec,L'Érable,Inverness,0.0,32058,region+mrc+nom,1
 Centre-du-Québec,L'Érable,Laurierville,125123206.0,32072,region+mrc+nom,1
 Centre-du-Québec,L'Érable,Lyster,0.0,32065,region+mrc+nom,1
 Centre-du-Québec,L'Érable,Notre-Dame-de-Lourdes,0.0,32080,region+mrc+nom,1
-Centre-du-Québec,L'Érable,Plessisville,1262760417.0,32043,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Plessisville,1262760417.0,32043,region+mrc+nom,3
 Centre-du-Québec,L'Érable,Princeville,793139271.6,32033,region+mrc+nom,1
 Centre-du-Québec,L'Érable,Saint-Ferdinand,0.0,32013,region+mrc+nom,1
 Centre-du-Québec,L'Érable,Saint-Pierre-Baptiste,0.0,32050,region+mrc+nom,1
@@ -1129,7 +1129,7 @@ Outaouais,,Kitigan Zibi,0.0,83802,region+nom,1
 Outaouais,,Lac-Pythonga,9249266.0,83902,region+nom,1
 Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Alma,44743106.0,93042,nom,1
 Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Desbiens,0.0,93005,nom,1
-Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Hébertville,254751131.0,93022,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Hébertville,254751131.0,93022,nom,4
 Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Hébertville-Station,0.0,,aucune,0
 Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,L'Ascension-de-Notre-Seigneur,0.0,93065,nom,1
 Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Labrecque,105153309.0,93055,nom,1
@@ -1179,3 +1179,16 @@ Saguenay--Lac-Saint-Jean,,Chute-des-Passes,0.0,,aucune,0
 Saguenay--Lac-Saint-Jean,,Lac-Ministuk,0.0,94928,nom,1
 Saguenay--Lac-Saint-Jean,,Mashteuiatsh,0.0,91802,nom,1
 Saguenay--Lac-Saint-Jean,,Saguenay,3412461860.3,94068,nom,1
+Abitibi-Témiscamingue,Abitibi,Amos,0.0,88010,fusion:88057,5
+Abitibi-Témiscamingue,Abitibi,Amos,0.0,88015,fusion:88057,5
+Abitibi-Témiscamingue,Abitibi,Amos,0.0,88055,fusion:88057,5
+Abitibi-Témiscamingue,Abitibi,Amos,0.0,88060,fusion:88057,5
+Bas-Saint-Laurent,Kamouraska,La Pocatière,605014918.0,14080,fusion:14082,4
+Bas-Saint-Laurent,Kamouraska,La Pocatière,605014918.0,14085,fusion:14082,4
+Bas-Saint-Laurent,Kamouraska,La Pocatière,605014918.0,14090,fusion:14082,4
+Bas-Saint-Laurent,Témiscouata,Lac-des-Aigles,0.0,13060,fusion:13062,2
+Centre-du-Québec,L'Érable,Plessisville,1262760417.0,32040,fusion:32043,3
+Centre-du-Québec,L'Érable,Plessisville,1262760417.0,32045,fusion:32043,3
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Hébertville,254751131.0,93020,fusion:93022,4
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Hébertville,254751131.0,93025,fusion:93022,4
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Hébertville,254751131.0,93030,fusion:93022,4
