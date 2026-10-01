@@ -28,6 +28,7 @@ Dépendances : pandas, numpy.
 """
 import argparse
 import json
+import ssl
 import sys
 import time
 import urllib.error
@@ -52,6 +53,29 @@ class LimiteJournaliere(Exception):
     """La limite quotidienne gratuite de l'API est atteinte."""
 
 
+def contexte_ssl():
+    """Contexte SSL avec vérification des certificats.
+
+    Les Python installés depuis python.org sur Mac n'ont pas de certificats racine tant que
+    « Install Certificates.command » n'a pas été lancé : on utilise alors ceux de certifi
+    (pip3 install certifi) s'il est présent. La vérification n'est jamais désactivée.
+    """
+    try:
+        import certifi
+
+        return ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        return ssl.create_default_context()
+
+
+CONTEXTE_SSL = contexte_ssl()
+MESSAGE_SSL = (
+    "Certificats SSL introuvables pour ce Python. Sur Mac, lance dans le Terminal :\n"
+    "    pip3 install certifi\n"
+    "(ou double-clique « Install Certificates.command » dans /Applications/Python 3.x/), puis relance."
+)
+
+
 # --------------------------------------------------------------------------- appels réseau
 def appeler(url, params, essais=6):
     """GET JSON avec reprises. Lève LimiteJournaliere si le quota du jour est épuisé."""
@@ -60,7 +84,7 @@ def appeler(url, params, essais=6):
     for _ in range(essais):
         try:
             requete = urllib.request.Request(adresse, headers={"User-Agent": "StatInfo-electricite-quebec/1.0"})
-            with urllib.request.urlopen(requete, timeout=90) as r:
+            with urllib.request.urlopen(requete, timeout=90, context=CONTEXTE_SSL) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
             corps = e.read().decode("utf-8", "replace")
@@ -81,6 +105,8 @@ def appeler(url, params, essais=6):
             else:
                 raise RuntimeError(f"Erreur {e.code} : {raison}")
         except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+            if isinstance(getattr(e, "reason", None), ssl.SSLCertVerificationError):
+                raise RuntimeError(MESSAGE_SSL)  # inutile de réessayer
             print(f"  Problème réseau ({e}) ; nouvel essai dans {attente} s")
             time.sleep(attente)
         attente = min(attente * 2, 120)
