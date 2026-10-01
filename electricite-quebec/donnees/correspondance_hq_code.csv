@@ -1,0 +1,1181 @@
+region,mrc,muni,kwh_observe,code_geo,methode,n_codes_unite
+Abitibi-Témiscamingue,Abitibi,Amos,0.0,88057,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Barraute,0.0,88022,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Berry,0.0,88070,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Champneuf,0.0,88005,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,La Corne,0.0,88030,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,La Morandière,6014115.0,,aucune,0
+Abitibi-Témiscamingue,Abitibi,La Motte,0.0,88045,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Landrienne,0.0,88035,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Launay,19148108.0,88080,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Preissac,1823716.0,88090,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Rochebaucourt,0.0,,aucune,0
+Abitibi-Témiscamingue,Abitibi,Saint-Dominique-du-Rosaire,0.0,88065,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Saint-Félix-de-Dalquier,75374074.0,,aucune,0
+Abitibi-Témiscamingue,Abitibi,Saint-Marc-de-Figuery,68163999.0,88040,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Saint-Mathieu-d'Harricana,0.0,88050,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Sainte-Gertrude-Manneville,44112398.0,88085,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi,Trécesson,0.0,88075,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Authier,0.0,87050,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Authier-Nord,0.0,87100,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Chazel,0.0,87095,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Clermont,0.0,87110,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Clerval,0.0,87075,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Duparquet,0.0,87005,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Dupuy,67348572.0,87085,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Gallichan,10639241.0,87020,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,La Reine,0.0,87080,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,La Sarre,2184476549.65,87090,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Macamic,0.0,87058,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Normétal,0.0,87115,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Palmarolle,0.0,87025,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Poularies,39753044.0,87035,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Rapide-Danseur,8629827.0,87010,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Roquemaure,31350668.0,87015,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Saint-Lambert,0.0,87120,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Sainte-Germaine-Boulé,0.0,87030,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Sainte-Hélène-de-Mancebourg,0.0,87070,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Taschereau,0.0,87042,region+mrc+nom,1
+Abitibi-Témiscamingue,Abitibi-Ouest,Val-Saint-Gilles,0.0,87105,region+mrc+nom,1
+Abitibi-Témiscamingue,La Vallée-de-l'Or,Belcourt,0.0,89050,region+mrc+nom,1
+Abitibi-Témiscamingue,La Vallée-de-l'Or,Malartic,0.0,89015,region+mrc+nom,1
+Abitibi-Témiscamingue,La Vallée-de-l'Or,Rivière-Héva,121077061.0,89010,region+mrc+nom,1
+Abitibi-Témiscamingue,La Vallée-de-l'Or,Senneterre,385036843.0,89040,region+mrc+nom+groupe,2
+Abitibi-Témiscamingue,La Vallée-de-l'Or,Senneterre,385036843.0,89045,region+mrc+nom+groupe,2
+Abitibi-Témiscamingue,La Vallée-de-l'Or,Val-d'Or,3387404475.2400002,89008,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Belleterre,0.0,85065,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Béarn,0.0,85020,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Duhamel-Ouest,0.0,85030,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Fugèreville,0.0,85055,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Guérin,0.0,85095,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Kipawa,0.0,85010,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Laforce,0.0,85070,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Latulipe-et-Gaboury,27991873.0,85060,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Laverlochère-Angliers,1925845.0,85052,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Lorrainville,122081567.0,85037,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Moffet,17151732.0,85075,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Notre-Dame-du-Nord,0.0,85090,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Nédélec,30044564.0,85100,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Rémigny,2055627.0,85105,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Saint-Bruno-de-Guigues,102534034.0,85045,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Saint-Eugène-de-Guigues,49596882.0,85085,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Saint-Édouard-de-Fabre,52743767.0,85015,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Témiscaming,0.0,85005,region+mrc+nom,1
+Abitibi-Témiscamingue,Témiscamingue,Ville-Marie,0.0,85025,region+mrc+nom,1
+Abitibi-Témiscamingue,,Kebaowek,0.0,85802,region+nom,1
+Abitibi-Témiscamingue,,Lac-Chicobi,11649626.0,88904,region+nom,1
+Abitibi-Témiscamingue,,Lac-Despinassy,0.0,88902,region+nom,1
+Abitibi-Témiscamingue,,Lac-Simon,0.0,89804,region+nom,1
+Abitibi-Témiscamingue,,Laniel,0.0,85905,region+nom,1
+Abitibi-Témiscamingue,,Rivière-Ojima,0.0,87904,region+nom,1
+Abitibi-Témiscamingue,,Rouyn-Noranda,8945915608.7,86042,region+nom,1
+Abitibi-Témiscamingue,,Winneway,28570664.0,85804,region+nom,1
+Bas-Saint-Laurent,Kamouraska,Kamouraska,0.0,14050,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,La Pocatière,605014918.0,14082,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Mont-Carmel,0.0,14005,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Rivière-Ouelle,0.0,14065,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Saint-Alexandre-de-Kamouraska,0.0,14035,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Saint-André-de-Kamouraska,0.0,14040,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Saint-Bruno-de-Kamouraska,27859402.0,14010,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Saint-Denis-De La Bouteillerie,0.0,14055,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Saint-Gabriel-Lalemant,0.0,14075,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Saint-Germain-de-Kamouraska,0.0,14045,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Saint-Joseph-de-Kamouraska,0.0,14030,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Saint-Onésime-d'Ixworth,27156356.0,,aucune,0
+Bas-Saint-Laurent,Kamouraska,Saint-Pacôme,0.0,14070,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Saint-Pascal,200409328.0,14018,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Saint-Philippe-de-Néri,0.0,14060,region+mrc+nom,1
+Bas-Saint-Laurent,Kamouraska,Sainte-Anne-de-la-Pocatière,0.0,,aucune,0
+Bas-Saint-Laurent,Kamouraska,Sainte-Hélène-de-Kamouraska,0.0,14025,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Baie-des-Sables,58459392.0,08080,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Grosses-Roches,0.0,08015,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Les Méchins,0.0,08005,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Matane,40398995.0,08053,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Saint-Adelme,0.0,08030,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Saint-Jean-de-Cherbourg,0.0,08010,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Saint-Léandre,0.0,08065,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Saint-René-de-Matane,62510526.0,08035,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Saint-Ulric,0.0,08073,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Sainte-Félicité,69375042.0,08023,region+mrc+nom,1
+Bas-Saint-Laurent,La Matanie,Sainte-Paule,0.0,08040,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Albertville,17249148.0,07025,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Amqui,263032561.0,07047,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Causapscal,0.0,07018,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Lac-au-Saumon,0.0,07057,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Saint-Alexandre-des-Lacs,0.0,07065,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Saint-Cléophas,0.0,07090,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Saint-Damase,0.0,07105,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Saint-Léon-le-Grand,58484140.0,07030,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Saint-Moïse,0.0,07095,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Saint-Noël,0.0,07100,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Saint-Tharcisius,0.0,07070,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Saint-Vianney,0.0,07075,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Saint-Zénon-du-Lac-Humqui,26390804.0,07035,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Sainte-Florence,0.0,07010,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Sainte-Irène,40732319.0,07040,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Sainte-Marguerite-Marie,0.0,07005,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Sayabec,0.0,07085,region+mrc+nom,1
+Bas-Saint-Laurent,La Matapédia,Val-Brillant,78718356.0,07080,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Grand-Métis,27997549.0,09060,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,La Rédemption,0.0,09005,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Les Hauteurs,49749901.0,09015,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Mont-Joli,45554934.5,09077,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Métis-sur-Mer,0.0,09048,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Padoue,13993826.0,09040,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Price,0.0,09065,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Saint-Charles-Garnier,15347990.0,09010,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Saint-Donat,0.0,09030,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Saint-Gabriel-de-Rimouski,90445501.0,09025,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Saint-Joseph-de-Lepage,0.0,09070,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Saint-Octave-de-Métis,41344897.0,09055,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Sainte-Angèle-de-Mérici,0.0,09035,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Sainte-Flavie,0.0,09085,region+mrc+nom,1
+Bas-Saint-Laurent,La Mitis,Sainte-Jeanne-d'Arc,0.0,,ambigue,0
+Bas-Saint-Laurent,La Mitis,Sainte-Luce,0.0,09092,region+mrc+nom,1
+Bas-Saint-Laurent,Les Basques,Notre-Dame-des-Neiges,106128630.0,11045,region+mrc+nom,1
+Bas-Saint-Laurent,Les Basques,Saint-Clément,0.0,11005,region+mrc+nom,1
+Bas-Saint-Laurent,Les Basques,Saint-Guy,0.0,,aucune,0
+Bas-Saint-Laurent,Les Basques,Saint-Jean-de-Dieu,0.0,11010,region+mrc+nom,1
+Bas-Saint-Laurent,Les Basques,Saint-Mathieu-de-Rioux,0.0,11050,region+mrc+nom,1
+Bas-Saint-Laurent,Les Basques,Saint-Médard,0.0,11025,region+mrc+nom,1
+Bas-Saint-Laurent,Les Basques,Saint-Simon-de-Rimouski,40440592.0,11055,region+mrc+nom,1
+Bas-Saint-Laurent,Les Basques,Saint-Éloi,0.0,11035,region+mrc+nom,1
+Bas-Saint-Laurent,Les Basques,Sainte-Françoise,0.0,11030,region+mrc+nom,1
+Bas-Saint-Laurent,Les Basques,Sainte-Rita,23986320.0,11015,region+mrc+nom,1
+Bas-Saint-Laurent,Les Basques,Trois-Pistoles,0.0,11040,region+mrc+nom,1
+Bas-Saint-Laurent,Rimouski-Neigette,Esprit-Saint,0.0,10005,region+mrc+nom,1
+Bas-Saint-Laurent,Rimouski-Neigette,La Trinité-des-Monts,298274.0,10010,region+mrc+nom,1
+Bas-Saint-Laurent,Rimouski-Neigette,Rimouski,5009208926.0,10043,region+mrc+nom,1
+Bas-Saint-Laurent,Rimouski-Neigette,Saint-Anaclet-de-Lessard,0.0,10030,region+mrc+nom,1
+Bas-Saint-Laurent,Rimouski-Neigette,Saint-Eugène-de-Ladrière,32905099.0,10075,region+mrc+nom,1
+Bas-Saint-Laurent,Rimouski-Neigette,Saint-Fabien,156171025.0,10070,region+mrc+nom,1
+Bas-Saint-Laurent,Rimouski-Neigette,Saint-Marcellin,9849113.0,10025,region+mrc+nom,1
+Bas-Saint-Laurent,Rimouski-Neigette,Saint-Narcisse-de-Rimouski,88532836.0,10015,region+mrc+nom,1
+Bas-Saint-Laurent,Rimouski-Neigette,Saint-Valérien,56738510.0,10060,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Cacouna,176600677.0,12057,region+mrc+nom+groupe,2
+Bas-Saint-Laurent,Rivière-du-Loup,Cacouna,176600677.0,12804,region+mrc+nom+groupe,2
+Bas-Saint-Laurent,Rivière-du-Loup,L'Isle-Verte,133490217.0,12043,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Notre-Dame-des-Sept-Douleurs,2273896.0,12045,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Notre-Dame-du-Portage,115393505.0,12080,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Rivière-du-Loup,87073370.671,12072,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Saint-Antonin,272560837.0,12015,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Saint-Arsène,0.0,12065,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Saint-Cyprien,0.0,12005,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Saint-François-Xavier-de-Viger,0.0,12025,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Saint-Hubert-de-Rivière-du-Loup,0.0,12010,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Saint-Modeste,0.0,12020,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Saint-Paul-de-la-Croix,0.0,12035,region+mrc+nom,1
+Bas-Saint-Laurent,Rivière-du-Loup,Saint-Épiphane,61420723.0,12030,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Auclair,44581309.0,13045,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Biencourt,0.0,13055,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Dégelis,0.0,13005,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Lac-des-Aigles,0.0,13062,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Lejeune,36663934.0,13050,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Packington,0.0,13015,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Pohénégamook,125600799.0,13095,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Rivière-Bleue,0.0,13025,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Saint-Athanase,30514532.0,13100,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Saint-Elzéar-de-Témiscouata,0.0,13085,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Saint-Eusèbe,46516855.0,13030,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Saint-Honoré-de-Témiscouata,63148246.0,13090,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Saint-Jean-de-la-Lande,0.0,13010,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Saint-Juste-du-Lac,0.0,13040,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Saint-Louis-du-Ha! Ha!,0.0,13080,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Saint-Marc-du-Lac-Long,0.0,13020,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Saint-Michel-du-Squatec,0.0,13065,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Saint-Pierre-de-Lamy,0.0,13075,region+mrc+nom,1
+Bas-Saint-Laurent,Témiscouata,Témiscouata-sur-le-Lac,13710966.0,13073,region+mrc+nom,1
+Bas-Saint-Laurent,,Lac-Casault,1299027.0,07908,region+nom,1
+Bas-Saint-Laurent,,Routhierville,0.0,07902,region+nom,1
+Capitale-Nationale,Charlevoix,Baie-Saint-Paul,895677100.0,16013,region+mrc+nom,1
+Capitale-Nationale,Charlevoix,L'Isle-aux-Coudres,2660898.0,16023,region+mrc+nom,1
+Capitale-Nationale,Charlevoix,Les Éboulements,0.0,16048,region+mrc+nom,1
+Capitale-Nationale,Charlevoix,Petite-Rivière-Saint-François,0.0,16005,region+mrc+nom,1
+Capitale-Nationale,Charlevoix,Saint-Hilarion,0.0,16050,region+mrc+nom,1
+Capitale-Nationale,Charlevoix,Saint-Urbain,2737294.0,16055,region+mrc+nom,1
+Capitale-Nationale,Charlevoix-Est,Baie-Sainte-Catherine,0.0,15065,region+mrc+nom,1
+Capitale-Nationale,Charlevoix-Est,Clermont,4247751.0,15035,region+mrc+nom,1
+Capitale-Nationale,Charlevoix-Est,La Malbaie,1056635355.0,15013,region+mrc+nom,1
+Capitale-Nationale,Charlevoix-Est,Notre-Dame-des-Monts,41876326.0,15025,region+mrc+nom,1
+Capitale-Nationale,Charlevoix-Est,Saint-Aimé-des-Lacs,0.0,15030,region+mrc+nom,1
+Capitale-Nationale,Charlevoix-Est,Saint-Irénée,0.0,15005,region+mrc+nom,1
+Capitale-Nationale,Charlevoix-Est,Saint-Siméon,0.0,15058,region+mrc+nom,1
+Capitale-Nationale,L'Île-d'Orléans,Saint-François-de-l'Île-d'Orléans,5015885.0,20005,region+mrc+nom,1
+Capitale-Nationale,L'Île-d'Orléans,Saint-Jean-de-l'Île-d'Orléans,0.0,20015,region+mrc+nom,1
+Capitale-Nationale,L'Île-d'Orléans,Saint-Laurent-de-l'Île-d'Orléans,0.0,20020,region+mrc+nom,1
+Capitale-Nationale,L'Île-d'Orléans,Saint-Pierre-de-l'Île-d'Orléans,0.0,20025,region+mrc+nom,1
+Capitale-Nationale,L'Île-d'Orléans,Sainte-Famille-de-l'Île-d'Orléans,0.0,20010,region+mrc+nom,1
+Capitale-Nationale,L'Île-d'Orléans,Sainte-Pétronille,0.0,20030,region+mrc+nom,1
+Capitale-Nationale,La Côte-de-Beaupré,Beaupré,0.0,21025,region+mrc+nom,1
+Capitale-Nationale,La Côte-de-Beaupré,Boischatel,0.0,21045,region+mrc+nom,1
+Capitale-Nationale,La Côte-de-Beaupré,Château-Richer,371898565.0,21035,region+mrc+nom,1
+Capitale-Nationale,La Côte-de-Beaupré,L'Ange-Gardien,320503833.0,21040,region+mrc+nom,1
+Capitale-Nationale,La Côte-de-Beaupré,Saint-Ferréol-les-Neiges,150955980.0,21010,region+mrc+nom,1
+Capitale-Nationale,La Côte-de-Beaupré,Saint-Joachim,106684795.0,21020,region+mrc+nom,1
+Capitale-Nationale,La Côte-de-Beaupré,Saint-Tite-des-Caps,0.0,21005,region+mrc+nom,1
+Capitale-Nationale,La Côte-de-Beaupré,Sainte-Anne-de-Beaupré,325228950.0,21030,region+mrc+nom,1
+Capitale-Nationale,La Jacques-Cartier,Fossambault-sur-le-Lac,202122183.0,22010,region+mrc+nom,1
+Capitale-Nationale,La Jacques-Cartier,Lac-Beauport,0.0,22040,region+mrc+nom,1
+Capitale-Nationale,La Jacques-Cartier,Lac-Delage,11803062.0,22030,region+mrc+nom,1
+Capitale-Nationale,La Jacques-Cartier,Lac-Saint-Joseph,0.0,22015,region+mrc+nom,1
+Capitale-Nationale,La Jacques-Cartier,Saint-Gabriel-de-Valcartier,11275545.0,22025,region+mrc+nom,1
+Capitale-Nationale,La Jacques-Cartier,Sainte-Brigitte-de-Laval,0.0,22045,region+mrc+nom,1
+Capitale-Nationale,La Jacques-Cartier,Sainte-Catherine-de-la-Jacques-Cartier,654725299.0,22005,region+mrc+nom,1
+Capitale-Nationale,La Jacques-Cartier,Shannon,66849515.0,22020,region+mrc+nom,1
+Capitale-Nationale,La Jacques-Cartier,Stoneham-et-Tewkesbury,0.0,22035,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Cap-Santé,0.0,34030,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Deschambault-Grondines,0.0,34058,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Donnacona,110057183.0,34025,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Lac-Sergent,0.0,34120,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Neuville,358557180.0,34007,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Pont-Rouge,0.0,34017,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Portneuf,5751312.0,34048,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Rivière-à-Pierre,24370775.0,34135,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Saint-Alban,0.0,34097,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Saint-Basile,0.0,34038,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Saint-Casimir,0.0,34078,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Saint-Gilbert,0.0,34060,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Saint-Léonard-de-Portneuf,0.0,34115,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Saint-Marc-des-Carrières,341205977.0,34065,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Saint-Raymond,1012911415.0,34128,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Saint-Thuribe,0.0,34085,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Saint-Ubalde,0.0,34090,region+mrc+nom,1
+Capitale-Nationale,Portneuf,Sainte-Christine-d'Auvergne,0.0,34105,region+mrc+nom,1
+Capitale-Nationale,,L'Ancienne-Lorette,0.0,23057,region+nom,1
+Capitale-Nationale,,Lac-Pikauba,0.0,16902,region+nom,1
+Capitale-Nationale,,Notre-Dame-des-Anges,0.0,23015,region+nom,1
+Capitale-Nationale,,Québec,30697654385.3,23027,region+nom,1
+Capitale-Nationale,,Sagard,0.0,15904,region+nom,1
+Capitale-Nationale,,Saint-Augustin-de-Desmaures,2757321980.4,23072,region+nom,1
+Capitale-Nationale,,Wendake,226065576.0,23802,region+nom,1
+Centre-du-Québec,Arthabaska,Chesterville,1061095.0,39030,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Daveluyville,268018819.0,39152,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Ham-Nord,0.0,39010,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Kingsey Falls,0.0,39097,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Maddington Falls,0.0,39165,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Notre-Dame-de-Ham,0.0,39015,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Saint-Albert,0.0,39085,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Saint-Christophe-d'Arthabaska,0.0,39060,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Saint-Louis-de-Blandford,0.0,39170,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Saint-Norbert-d'Arthabaska,0.0,39043,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Saint-Rosaire,0.0,39145,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Saint-Rémi-de-Tingwick,2940800.0,39020,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Saint-Samuel,0.0,39130,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Saint-Valère,0.0,39135,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Sainte-Clotilde-de-Horton,0.0,39117,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Sainte-Hélène-de-Chester,0.0,39035,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Sainte-Séraphine,25708526.0,39105,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Sainte-Élizabeth-de-Warwick,0.0,39090,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Saints-Martyrs-Canadiens,28864339.0,39005,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Tingwick,0.0,39025,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Victoriaville,4570871424.737,39062,region+mrc+nom,1
+Centre-du-Québec,Arthabaska,Warwick,686317420.8,39077,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Bécancour,6117027279.634,38010,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Deschaillons-sur-Saint-Laurent,0.0,38070,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Fortierville,0.0,38047,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Lemieux,0.0,38020,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Manseau,0.0,38028,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Parisville,0.0,38055,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Saint-Pierre-les-Becquets,0.0,38065,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Saint-Sylvère,0.0,38005,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Sainte-Cécile-de-Lévrard,31860498.0,38060,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Sainte-Françoise,16103266.0,38035,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Sainte-Marie-de-Blandford,0.0,38015,region+mrc+nom,1
+Centre-du-Québec,Bécancour,Sainte-Sophie-de-Lévrard,0.0,38040,region+mrc+nom,1
+Centre-du-Québec,Drummond,Drummondville,8512128945.1,49058,region+mrc+nom,1
+Centre-du-Québec,Drummond,Durham-Sud,0.0,49015,region+mrc+nom,1
+Centre-du-Québec,Drummond,L'Avenir,0.0,49025,region+mrc+nom,1
+Centre-du-Québec,Drummond,Lefebvre,0.0,49020,region+mrc+nom,1
+Centre-du-Québec,Drummond,Notre-Dame-du-Bon-Conseil,12290550.1,49080,region+mrc+nom+groupe,2
+Centre-du-Québec,Drummond,Notre-Dame-du-Bon-Conseil,12290550.1,49075,region+mrc+nom+groupe,2
+Centre-du-Québec,Drummond,Saint-Bonaventure,106905848.0,49125,region+mrc+nom,1
+Centre-du-Québec,Drummond,Saint-Cyrille-de-Wendover,367515919.0,49070,region+mrc+nom,1
+Centre-du-Québec,Drummond,Saint-Edmond-de-Grantham,61910893.0,49100,region+mrc+nom,1
+Centre-du-Québec,Drummond,Saint-Eugène,0.0,49105,region+mrc+nom,1
+Centre-du-Québec,Drummond,Saint-Félix-de-Kingsey,184592103.0,49005,region+mrc+nom,1
+Centre-du-Québec,Drummond,Saint-Germain-de-Grantham,539804912.0,49048,region+mrc+nom,1
+Centre-du-Québec,Drummond,Saint-Guillaume,30333334.0,49113,region+mrc+nom,1
+Centre-du-Québec,Drummond,Saint-Lucien,0.0,49030,region+mrc+nom,1
+Centre-du-Québec,Drummond,Saint-Majorique-de-Grantham,6910178.0,49095,region+mrc+nom,1
+Centre-du-Québec,Drummond,Saint-Pie-de-Guire,0.0,49130,region+mrc+nom,1
+Centre-du-Québec,Drummond,Sainte-Brigitte-des-Saults,0.0,49085,region+mrc+nom,1
+Centre-du-Québec,Drummond,Wickham,17607628.0,49040,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Inverness,0.0,32058,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Laurierville,125123206.0,32072,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Lyster,0.0,32065,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Notre-Dame-de-Lourdes,0.0,32080,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Plessisville,1262760417.0,32043,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Princeville,793139271.6,32033,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Saint-Ferdinand,0.0,32013,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Saint-Pierre-Baptiste,0.0,32050,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Sainte-Sophie-d'Halifax,0.0,32023,region+mrc+nom,1
+Centre-du-Québec,L'Érable,Villeroy,0.0,32085,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Aston-Jonction,0.0,50013,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Baie-du-Febvre,104155154.0,50100,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Grand-Saint-Esprit,0.0,50065,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,La Visitation-de-Yamaska,741167.0,50085,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Nicolet,896912778.0,50072,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Pierreville,216121921.0,50113,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Saint-Célestin,107623699.0,50035,region+mrc+nom+groupe,2
+Centre-du-Québec,Nicolet-Yamaska,Saint-Célestin,107623699.0,50030,region+mrc+nom+groupe,2
+Centre-du-Québec,Nicolet-Yamaska,Saint-Elphège,0.0,50095,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Saint-François-du-Lac,21695676.0,50128,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Saint-Léonard-d'Aston,189315717.0,50042,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Saint-Wenceslas,0.0,50023,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Saint-Zéphirin-de-Courval,86877703.0,50090,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Sainte-Eulalie,126755945.0,50005,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Sainte-Monique,0.0,50057,region+mrc+nom,1
+Centre-du-Québec,Nicolet-Yamaska,Sainte-Perpétue,0.0,50050,region+mrc+nom,1
+Centre-du-Québec,,Odanak,0.0,50802,region+nom,1
+Centre-du-Québec,,Wôlinak,0.0,38802,region+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,La Guadeloupe,182506793.0,29030,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Lac-Poulin,0.0,29095,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Notre-Dame-des-Pins,0.0,29120,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Benoît-Labre,185579854.0,29100,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Côme--Linière,317012115.0,,aucune,0
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Georges,3411048991.0,29073,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Gédéon-de-Beauce,263688115.0,29013,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Hilaire-de-Dorset,0.0,29020,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Honoré-de-Shenley,6810242.0,29038,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Martin,271451881.0,29045,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Philibert,26944660.0,29065,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-René,0.0,29050,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Simon-les-Mines,2236340.0,29125,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Théophile,86083469.0,29005,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Éphrem-de-Beauce,372385289.0,29112,region+mrc+nom,1
+Chaudière-Appalaches,Beauce-Sartigan,Saint-Évariste-de-Forsyth,0.0,,aucune,0
+Chaudière-Appalaches,Bellechasse,Armagh,0.0,19037,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Beaumont,229696457.0,19105,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Honfleur,11728439.0,19070,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,La Durantaye,0.0,19090,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Notre-Dame-Auxiliatrice-de-Buckland,0.0,19010,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Anselme,295631783.102,19062,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Charles-de-Bellechasse,167047889.0,19097,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Damien-de-Buckland,5848735.0,19030,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Gervais,0.0,19075,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Henri,561963580.0,19068,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Lazare-de-Bellechasse,0.0,19050,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Léon-de-Standon,18392388.0,19020,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Malachie,0.0,19025,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Michel-de-Bellechasse,0.0,19110,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Nazaire-de-Dorchester,24924924.0,19015,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Nérée-de-Bellechasse,0.0,19045,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Philémon,0.0,19005,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Raphaël,0.0,19082,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Saint-Vallier,11383580.0,19117,region+mrc+nom,1
+Chaudière-Appalaches,Bellechasse,Sainte-Claire,666089143.929,19055,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,L'Islet,577473095.012,17078,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Saint-Adalbert,41745474.0,17015,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Saint-Aubert,0.0,17055,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Saint-Cyrille-de-Lessard,58043285.0,17045,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Saint-Damase-de-L'Islet,43493497.0,17040,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Saint-Jean-Port-Joli,442105503.0,17070,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Saint-Marcel,40149066.0,17020,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Saint-Omer,0.0,17005,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Saint-Pamphile,471633905.0,17010,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Saint-Roch-des-Aulnaies,0.0,17065,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Sainte-Félicité,0.0,17025,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Sainte-Louise,52419743.0,17060,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Sainte-Perpétue,158746248.0,17030,region+mrc+nom,1
+Chaudière-Appalaches,L'Islet,Tourville,0.0,17035,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Frampton,19462723.0,26005,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Saint-Bernard,353263217.0,26055,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Saint-Elzéar,0.0,26022,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Saint-Isidore,215383703.0,26063,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Saint-Lambert-de-Lauzon,565055098.0,26070,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Sainte-Hénédine,115314319.0,26040,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Sainte-Marguerite,118460026.0,26035,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Sainte-Marie,1661104504.741,26030,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Saints-Anges,0.0,26010,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Scott,105313849.0,26048,region+mrc+nom,1
+Chaudière-Appalaches,La Nouvelle-Beauce,Vallée-Jonction,4781108.0,26015,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Adstock,2759949.0,31056,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Beaulac-Garthby,0.0,31008,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Disraeli,65036882.0,31020,region+mrc+nom+groupe,2
+Chaudière-Appalaches,Les Appalaches,Disraeli,65036882.0,31015,region+mrc+nom+groupe,2
+Chaudière-Appalaches,Les Appalaches,East Broughton,169644395.0,31122,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Irlande,0.0,31040,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Kinnear's Mills,0.0,31105,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Sacré-Coeur-de-Jésus,0.0,31130,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Saint-Adrien-d'Irlande,37333762.0,31095,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Saint-Fortunat,0.0,31030,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Saint-Jacques-de-Leeds,0.0,31140,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Saint-Jacques-le-Majeur-de-Wolfestown,12960012.0,31025,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Saint-Jean-de-Brébeuf,0.0,31100,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Saint-Joseph-de-Coleraine,0.0,31045,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Saint-Julien,0.0,31035,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Saint-Pierre-de-Broughton,0.0,31135,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Sainte-Clotilde-de-Beauce,1004109.0,31060,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Sainte-Praxède,43524512.0,31050,region+mrc+nom,1
+Chaudière-Appalaches,Les Appalaches,Thetford Mines,2801527299.0,31084,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Lac-Etchemin,402339482.0,28053,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Saint-Benjamin,9003915.0,28025,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Saint-Camille-de-Lellis,0.0,28070,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Saint-Cyprien,34364317.0,28040,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Saint-Louis-de-Gonzague,0.0,28035,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Saint-Luc-de-Bellechasse,29202086.0,28060,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Saint-Magloire,0.0,28075,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Saint-Prosper,45893289.0,28020,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Saint-Zacharie,0.0,28005,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Sainte-Aurélie,203110561.0,28015,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Sainte-Justine,0.0,28045,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Sainte-Rose-de-Watford,58168613.0,28030,region+mrc+nom,1
+Chaudière-Appalaches,Les Etchemins,Sainte-Sabine,28145841.0,28065,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Dosquet,0.0,33040,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Laurier-Station,295013538.0,33060,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Leclercville,63995337.0,33123,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Lotbinière,0.0,33115,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Notre-Dame-du-Sacré-Coeur-d'Issoudun,0.0,33085,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Saint-Agapit,354423202.0,33045,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Saint-Antoine-de-Tilly,0.0,33095,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Saint-Apollinaire,621923698.0,33090,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Saint-Flavien,161779651.0,33052,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Saint-Gilles,177277551.0,33035,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Saint-Janvier-de-Joly,0.0,33065,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Saint-Narcisse-de-Beaurivage,179241086.0,33030,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Saint-Patrice-de-Beaurivage,0.0,33025,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Saint-Sylvestre,39448218.0,33007,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Saint-Édouard-de-Lotbinière,161912302.0,33080,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Sainte-Agathe-de-Lotbinière,85513295.0,33017,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Sainte-Croix,515346222.6,33102,region+mrc+nom,1
+Chaudière-Appalaches,Lotbinière,Val-Alain,0.0,33070,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Berthier-sur-Mer,0.0,18065,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Cap-Saint-Ignace,95175766.0,18045,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Lac-Frontière,0.0,18010,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Montmagny,1350594003.0,18050,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Notre-Dame-du-Rosaire,30648105.0,18040,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Saint-Antoine-de-l'Isle-aux-Grues,0.0,18070,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Saint-Fabien-de-Panet,0.0,18015,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Saint-François-de-la-Rivière-du-Sud,237636945.0,18060,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Saint-Just-de-Bretenières,170576592.0,18005,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Saint-Paul-de-Montminy,57695724.0,18030,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Saint-Pierre-de-la-Rivière-du-Sud,0.0,18055,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Sainte-Apolline-de-Patton,30863466.0,18025,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Sainte-Euphémie-sur-Rivière-du-Sud,21172359.0,18035,region+mrc+nom,1
+Chaudière-Appalaches,Montmagny,Sainte-Lucie-de-Beauregard,0.0,18020,region+mrc+nom,1
+Chaudière-Appalaches,Robert-Cliche,Beauceville,884267550.0,27028,region+mrc+nom,1
+Chaudière-Appalaches,Robert-Cliche,Saint-Alfred,0.0,27015,region+mrc+nom,1
+Chaudière-Appalaches,Robert-Cliche,Saint-Frédéric,77279121.0,27065,region+mrc+nom,1
+Chaudière-Appalaches,Robert-Cliche,Saint-Joseph-de-Beauce,617263350.0,27043,region+mrc+nom,1
+Chaudière-Appalaches,Robert-Cliche,Saint-Joseph-des-Érables,0.0,27050,region+mrc+nom,1
+Chaudière-Appalaches,Robert-Cliche,Saint-Jules,0.0,27055,region+mrc+nom,1
+Chaudière-Appalaches,Robert-Cliche,Saint-Odilon-de-Cranbourne,152947647.0,27035,region+mrc+nom,1
+Chaudière-Appalaches,Robert-Cliche,Saint-Séverin,16189222.0,27070,region+mrc+nom,1
+Chaudière-Appalaches,Robert-Cliche,Saint-Victor,7102947.0,27008,region+mrc+nom,1
+Chaudière-Appalaches,Robert-Cliche,Tring-Jonction,148376115.0,27060,region+mrc+nom,1
+Chaudière-Appalaches,,Lévis,17845060269.17,25213,region+nom,1
+Côte-Nord,Caniapiscau,Fermont,0.0,97035,region+mrc+nom,1
+Côte-Nord,Caniapiscau,Schefferville,0.0,97040,region+mrc+nom,1
+Côte-Nord,La Haute-Côte-Nord,Colombier,0.0,95050,region+mrc+nom,1
+Côte-Nord,La Haute-Côte-Nord,Forestville,0.0,95045,region+mrc+nom,1
+Côte-Nord,La Haute-Côte-Nord,Les Bergeronnes,0.0,95018,region+mrc+nom,1
+Côte-Nord,La Haute-Côte-Nord,Les Escoumins,0.0,95025,region+mrc+nom,1
+Côte-Nord,La Haute-Côte-Nord,Longue-Rive,0.0,95032,region+mrc+nom,1
+Côte-Nord,La Haute-Côte-Nord,Portneuf-sur-Mer,0.0,95040,region+mrc+nom,1
+Côte-Nord,La Haute-Côte-Nord,Sacré-Coeur,0.0,95010,region+mrc+nom,1
+Côte-Nord,La Haute-Côte-Nord,Tadoussac,0.0,95005,region+mrc+nom,1
+Côte-Nord,Le Golfe-du-Saint-Laurent,Blanc-Sablon,160321874.0,98005,region+mrc+nom,1
+Côte-Nord,Le Golfe-du-Saint-Laurent,Bonne-Espérance,0.0,98010,region+mrc+nom,1
+Côte-Nord,Le Golfe-du-Saint-Laurent,Côte-Nord-du-Golfe-du-Saint-Laurent,83751412.0,98015,region+mrc+nom,1
+Côte-Nord,Le Golfe-du-Saint-Laurent,Gros-Mécatina,0.0,98014,region+mrc+nom,1
+Côte-Nord,Le Golfe-du-Saint-Laurent,Saint-Augustin,80582316.0,98012,region+mrc+nom,1
+Côte-Nord,Manicouagan,Baie-Comeau,0.0,96020,region+mrc+nom,1
+Côte-Nord,Manicouagan,Baie-Trinité,0.0,96005,region+mrc+nom,1
+Côte-Nord,Manicouagan,Chute-aux-Outardes,0.0,96035,region+mrc+nom,1
+Côte-Nord,Manicouagan,Franquelin,28697154.0,96015,region+mrc+nom,1
+Côte-Nord,Manicouagan,Godbout,0.0,96010,region+mrc+nom,1
+Côte-Nord,Manicouagan,Pointe-Lebel,0.0,96025,region+mrc+nom,1
+Côte-Nord,Manicouagan,Pointe-aux-Outardes,118646145.0,96030,region+mrc+nom,1
+Côte-Nord,Manicouagan,Ragueneau,0.0,96040,region+mrc+nom,1
+Côte-Nord,Minganie,Aguanish,24907984.0,98030,region+mrc+nom,1
+Côte-Nord,Minganie,Baie-Johan-Beetz,2126072.0,98035,region+mrc+nom,1
+Côte-Nord,Minganie,Havre-Saint-Pierre,0.0,98040,region+mrc+nom,1
+Côte-Nord,Minganie,L'Île-d'Anticosti,0.0,98020,region+mrc+nom,1
+Côte-Nord,Minganie,Longue-Pointe-de-Mingan,0.0,98045,region+mrc+nom,1
+Côte-Nord,Minganie,Natashquan,51268059.0,98025,region+mrc+nom,1
+Côte-Nord,Minganie,Rivière-Saint-Jean,0.0,98050,region+mrc+nom,1
+Côte-Nord,Minganie,Rivière-au-Tonnerre,0.0,98055,region+mrc+nom,1
+Côte-Nord,Sept-Rivières,Port-Cartier,0.0,97022,region+mrc+nom,1
+Côte-Nord,Sept-Rivières,Sept-Îles,58137458.0,97007,region+mrc+nom,1
+Côte-Nord,,Betsiamites,191341895.0,,aucune,0
+Côte-Nord,,Essipit,0.0,95802,region+nom,1
+Côte-Nord,,Lac-au-Brochet,0.0,95902,region+nom,1
+Côte-Nord,,Maliotenam,20196373.0,97804,region+nom,1
+Côte-Nord,,Mingan,42661732.0,98808,region+nom,1
+Côte-Nord,,Natashquan,56181938.0,,ambigue,0
+Côte-Nord,,Rivière-aux-Outardes,6153041.0,96902,region+nom,1
+Côte-Nord,,Uashat,0.0,97802,region+nom,1
+Estrie,Brome-Missisquoi,Abercorn,0.0,46005,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Bedford,287899846.0,46040,region+mrc+nom+groupe,2
+Estrie,Brome-Missisquoi,Bedford,287899846.0,46035,region+mrc+nom+groupe,2
+Estrie,Brome-Missisquoi,Bolton-Ouest,0.0,46065,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Brigham,0.0,46090,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Brome,0.0,46070,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Bromont,2445587692.1,46078,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Cowansville,1628430337.0,46080,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Dunham,329694807.0,46050,region+mrc+nom,1
+Estrie,Brome-Missisquoi,East Farnham,0.0,46085,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Farnham,1395621832.4,46112,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Frelighsburg,122217998.0,46010,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Lac-Brome,978769474.0,46075,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Notre-Dame-de-Stanbridge,6672384.0,46100,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Pike River,0.0,46025,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Saint-Armand,0.0,46017,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Saint-Ignace-de-Stanbridge,0.0,46095,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Sainte-Sabine,0.0,46105,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Stanbridge East,65841605.0,46045,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Stanbridge Station,0.0,46030,region+mrc+nom,1
+Estrie,Brome-Missisquoi,Sutton,0.0,46058,region+mrc+nom,1
+Estrie,Coaticook,Barnston-Ouest,0.0,44045,region+mrc+nom,1
+Estrie,Coaticook,Coaticook,0.0,44037,region+mrc+nom,1
+Estrie,Coaticook,Compton,0.0,44071,region+mrc+nom,1
+Estrie,Coaticook,Dixville,69957268.0,44023,region+mrc+nom,1
+Estrie,Coaticook,East Hereford,0.0,44010,region+mrc+nom,1
+Estrie,Coaticook,Martinville,0.0,44060,region+mrc+nom,1
+Estrie,Coaticook,Saint-Herménégilde,74233565.0,44015,region+mrc+nom,1
+Estrie,Coaticook,Saint-Malo,0.0,44003,region+mrc+nom,1
+Estrie,Coaticook,Saint-Venant-de-Paquette,0.0,44005,region+mrc+nom,1
+Estrie,Coaticook,Sainte-Edwidge-de-Clifton,0.0,44055,region+mrc+nom,1
+Estrie,Coaticook,Stanstead-Est,0.0,44050,region+mrc+nom,1
+Estrie,Coaticook,Waterville,515027932.7,44080,region+mrc+nom,1
+Estrie,La Haute-Yamaska,Granby,6821507498.29,47017,region+mrc+nom,1
+Estrie,La Haute-Yamaska,Roxton Pond,0.0,47047,region+mrc+nom,1
+Estrie,La Haute-Yamaska,Saint-Alphonse-de-Granby,364024172.0,47010,region+mrc+nom,1
+Estrie,La Haute-Yamaska,Saint-Joachim-de-Shefford,0.0,47040,region+mrc+nom,1
+Estrie,La Haute-Yamaska,Sainte-Cécile-de-Milton,190237685.0,47055,region+mrc+nom,1
+Estrie,La Haute-Yamaska,Shefford,0.0,47035,region+mrc+nom,1
+Estrie,La Haute-Yamaska,Warden,0.0,47030,region+mrc+nom,1
+Estrie,La Haute-Yamaska,Waterloo,0.0,47025,region+mrc+nom,1
+Estrie,Le Granit,Audet,0.0,30055,region+mrc+nom,1
+Estrie,Le Granit,Courcelles,88502041.0,,aucune,0
+Estrie,Le Granit,Frontenac,133784547.0,30025,region+mrc+nom,1
+Estrie,Le Granit,Lac-Drolet,130646659.0,30080,region+mrc+nom,1
+Estrie,Le Granit,Lac-Mégantic,551290839.2,30030,region+mrc+nom,1
+Estrie,Le Granit,Lambton,217764920.0,30095,region+mrc+nom,1
+Estrie,Le Granit,Marston,50255249.0,30035,region+mrc+nom,1
+Estrie,Le Granit,Milan,0.0,30040,region+mrc+nom,1
+Estrie,Le Granit,Nantes,0.0,30045,region+mrc+nom,1
+Estrie,Le Granit,Notre-Dame-des-Bois,81019884.0,30010,region+mrc+nom,1
+Estrie,Le Granit,Piopolis,0.0,30020,region+mrc+nom,1
+Estrie,Le Granit,Saint-Augustin-de-Woburn,93831438.0,30005,region+mrc+nom,1
+Estrie,Le Granit,Saint-Ludger,114231991.0,30072,region+mrc+nom,1
+Estrie,Le Granit,Saint-Robert-Bellarmin,316068.0,30070,region+mrc+nom,1
+Estrie,Le Granit,Saint-Romain,0.0,30100,region+mrc+nom,1
+Estrie,Le Granit,Saint-Sébastien,0.0,30085,region+mrc+nom,1
+Estrie,Le Granit,Sainte-Cécile-de-Whitton,0.0,30050,region+mrc+nom,1
+Estrie,Le Granit,Stornoway,0.0,30105,region+mrc+nom,1
+Estrie,Le Granit,Stratford,0.0,30110,region+mrc+nom,1
+Estrie,Le Granit,Val-Racine,2209072.0,30015,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Ascot Corner,0.0,41055,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Bury,107347072.0,41070,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Chartierville,0.0,41020,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Cookshire-Eaton,580022987.0,41038,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Dudswell,0.0,41117,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,East Angus,0.0,41060,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Hampden,0.0,41075,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,La Patrie,0.0,41027,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Lingwick,27379446.0,41085,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Newport,0.0,41037,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Saint-Isidore-de-Clifton,0.0,41012,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Scotstown,908426.0,41080,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Weedon,277292603.0,41098,region+mrc+nom,1
+Estrie,Le Haut-Saint-François,Westbury,0.0,41065,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Bonsecours,0.0,42040,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Cleveland,0.0,42110,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Kingsbury,0.0,42070,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Lawrenceville,0.0,42045,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Maricourt,0.0,42065,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Melbourne,0.0,42075,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Racine,0.0,42032,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Richmond,0.0,42098,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Saint-Claude,18450332.0,42100,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Saint-Denis-de-Brompton,0.0,42025,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Saint-François-Xavier-de-Brompton,0.0,42020,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Sainte-Anne-de-la-Rochelle,0.0,42050,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Stoke,0.0,42005,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Ulverton,0.0,42078,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Val-Joli,36089657.0,42095,region+mrc+nom,1
+Estrie,Le Val-Saint-François,Valcourt,477721596.0,42060,region+mrc+nom+groupe,2
+Estrie,Le Val-Saint-François,Valcourt,477721596.0,42055,region+mrc+nom+groupe,2
+Estrie,Le Val-Saint-François,Windsor,0.0,42088,region+mrc+nom,1
+Estrie,Les Sources,Danville,386026101.6,40047,region+mrc+nom,1
+Estrie,Les Sources,Ham-Sud,0.0,40005,region+mrc+nom,1
+Estrie,Les Sources,Saint-Adrien,36310884.0,40010,region+mrc+nom,1
+Estrie,Les Sources,Saint-Camille,0.0,40025,region+mrc+nom,1
+Estrie,Les Sources,Saint-Georges-de-Windsor,0.0,40032,region+mrc+nom,1
+Estrie,Les Sources,Val-des-Sources,0.0,40043,region+mrc+nom,1
+Estrie,Les Sources,Wotton,0.0,40017,region+mrc+nom,1
+Estrie,Memphrémagog,Austin,236476537.0,45085,region+mrc+nom,1
+Estrie,Memphrémagog,Ayer's Cliff,0.0,45035,region+mrc+nom,1
+Estrie,Memphrémagog,Bolton-Est,0.0,45095,region+mrc+nom,1
+Estrie,Memphrémagog,Eastman,0.0,45093,region+mrc+nom,1
+Estrie,Memphrémagog,Hatley,238837584.0,45055,region+mrc+nom+groupe,2
+Estrie,Memphrémagog,Hatley,238837584.0,45043,region+mrc+nom+groupe,2
+Estrie,Memphrémagog,Magog,24707244.0,45072,region+mrc+nom,1
+Estrie,Memphrémagog,North Hatley,93840037.0,45050,region+mrc+nom,1
+Estrie,Memphrémagog,Ogden,0.0,45020,region+mrc+nom,1
+Estrie,Memphrémagog,Orford,594928124.0,45115,region+mrc+nom,1
+Estrie,Memphrémagog,Potton,0.0,45030,region+mrc+nom,1
+Estrie,Memphrémagog,Saint-Benoît-du-Lac,0.0,45080,region+mrc+nom,1
+Estrie,Memphrémagog,Saint-Étienne-de-Bolton,0.0,45100,region+mrc+nom,1
+Estrie,Memphrémagog,Sainte-Catherine-de-Hatley,0.0,45060,region+mrc+nom,1
+Estrie,Memphrémagog,Stanstead,522282170.0,45025,region+mrc+nom+groupe,2
+Estrie,Memphrémagog,Stanstead,522282170.0,45008,region+mrc+nom+groupe,2
+Estrie,Memphrémagog,Stukely-Sud,0.0,45105,region+mrc+nom,1
+Estrie,,Sherbrooke,47351498.0,43027,region+nom,1
+Gaspésie--Îles-de-la-Madeleine,Avignon,Carleton-sur-Mer,419393860.0,06013,nom,1
+Gaspésie--Îles-de-la-Madeleine,Avignon,Escuminac,0.0,06025,nom,1
+Gaspésie--Îles-de-la-Madeleine,Avignon,L'Ascension-de-Patapédia,14564651.0,06060,nom,1
+Gaspésie--Îles-de-la-Madeleine,Avignon,Maria,0.0,06005,nom,1
+Gaspésie--Îles-de-la-Madeleine,Avignon,Matapédia,7331904.0,06045,nom,1
+Gaspésie--Îles-de-la-Madeleine,Avignon,Nouvelle,0.0,06020,nom,1
+Gaspésie--Îles-de-la-Madeleine,Avignon,Pointe-à-la-Croix,0.0,06030,nom,1
+Gaspésie--Îles-de-la-Madeleine,Avignon,Ristigouche-Partie-Sud-Est,0.0,,aucune,0
+Gaspésie--Îles-de-la-Madeleine,Avignon,Saint-Alexis-de-Matapédia,0.0,06050,nom,1
+Gaspésie--Îles-de-la-Madeleine,Avignon,Saint-André-de-Restigouche,0.0,06040,nom,1
+Gaspésie--Îles-de-la-Madeleine,Avignon,Saint-François-d'Assise,0.0,06055,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Bonaventure,0.0,05045,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Caplan,0.0,05060,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Cascapédia--Saint-Jules,0.0,,aucune,0
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Hope,0.0,05025,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Hope Town,0.0,05020,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,New Carlisle,0.0,05040,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,New Richmond,0.0,05070,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Paspébiac,0.0,05032,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Saint-Alphonse,0.0,05065,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Saint-Elzéar,0.0,05050,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Saint-Godefroi,0.0,05015,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Saint-Siméon,0.0,05055,nom,1
+Gaspésie--Îles-de-la-Madeleine,Bonaventure,Shigawake,0.0,05010,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Côte-de-Gaspé,Cloridorme,0.0,03010,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Côte-de-Gaspé,Gaspé,1126804867.0,03005,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Côte-de-Gaspé,Grande-Vallée,0.0,03020,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Côte-de-Gaspé,Murdochville,0.0,03025,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Côte-de-Gaspé,Petite-Vallée,14897427.0,03015,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Haute-Gaspésie,Cap-Chat,0.0,04047,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Haute-Gaspésie,La Martre,6367370.0,04030,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Haute-Gaspésie,Marsoui,0.0,04025,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Haute-Gaspésie,Mont-Saint-Pierre,17882634.0,04015,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Haute-Gaspésie,Rivière-à-Claude,0.0,04020,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Haute-Gaspésie,Saint-Maxime-du-Mont-Louis,0.0,04010,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Haute-Gaspésie,Sainte-Anne-des-Monts,603062232.0,04037,nom,1
+Gaspésie--Îles-de-la-Madeleine,La Haute-Gaspésie,Sainte-Madeleine-de-la-Rivière-Madeleine,0.0,04005,nom,1
+Gaspésie--Îles-de-la-Madeleine,Le Rocher-Percé,Chandler,403576216.0,02028,nom,1
+Gaspésie--Îles-de-la-Madeleine,Le Rocher-Percé,Grande-Rivière,0.0,02015,nom,1
+Gaspésie--Îles-de-la-Madeleine,Le Rocher-Percé,Percé,270308250.0,02005,nom,1
+Gaspésie--Îles-de-la-Madeleine,Le Rocher-Percé,Port-Daniel--Gascons,0.0,,aucune,0
+Gaspésie--Îles-de-la-Madeleine,Le Rocher-Percé,Sainte-Thérèse-de-Gaspé,0.0,02010,nom,1
+Gaspésie--Îles-de-la-Madeleine,,Gesgapegiag,60901206.0,06802,nom,1
+Gaspésie--Îles-de-la-Madeleine,,Grosse-Île,0.0,01042,nom,1
+Gaspésie--Îles-de-la-Madeleine,,Les Îles-de-la-Madeleine,1053922820.0,01023,nom,1
+Gaspésie--Îles-de-la-Madeleine,,Listuguj,169972510.0,06804,nom,1
+Gaspésie--Îles-de-la-Madeleine,,Mont-Albert,0.0,04902,nom,1
+Lanaudière,D'Autray,Berthierville,748475486.0,52035,region+mrc+nom,1
+Lanaudière,D'Autray,La Visitation-de-l'Île-Dupas,0.0,52050,region+mrc+nom,1
+Lanaudière,D'Autray,Lanoraie,0.0,52017,region+mrc+nom,1
+Lanaudière,D'Autray,Lavaltrie,1079802892.0,52007,region+mrc+nom,1
+Lanaudière,D'Autray,Mandeville,0.0,52095,region+mrc+nom,1
+Lanaudière,D'Autray,Saint-Barthélemy,0.0,52055,region+mrc+nom,1
+Lanaudière,D'Autray,Saint-Cléophas-de-Brandon,0.0,52075,region+mrc+nom,1
+Lanaudière,D'Autray,Saint-Cuthbert,0.0,52062,region+mrc+nom,1
+Lanaudière,D'Autray,Saint-Didace,0.0,52090,region+mrc+nom,1
+Lanaudière,D'Autray,Saint-Gabriel,0.0,52080,region+mrc+nom,1
+Lanaudière,D'Autray,Saint-Gabriel-de-Brandon,321396800.0,52085,region+mrc+nom,1
+Lanaudière,D'Autray,Saint-Ignace-de-Loyola,0.0,52045,region+mrc+nom,1
+Lanaudière,D'Autray,Saint-Norbert,0.0,52070,region+mrc+nom,1
+Lanaudière,D'Autray,Sainte-Geneviève-de-Berthier,55846792.0,52040,region+mrc+nom,1
+Lanaudière,D'Autray,Sainte-Élisabeth,0.0,52030,region+mrc+nom,1
+Lanaudière,Joliette,Crabtree,0.0,61013,region+mrc+nom,1
+Lanaudière,Joliette,Joliette,16186210.0,61025,region+mrc+nom,1
+Lanaudière,Joliette,Notre-Dame-de-Lourdes,0.0,61045,region+mrc+nom,1
+Lanaudière,Joliette,Notre-Dame-des-Prairies,49403666.0,61030,region+mrc+nom,1
+Lanaudière,Joliette,Saint-Ambroise-de-Kildare,0.0,61040,region+mrc+nom,1
+Lanaudière,Joliette,Saint-Charles-Borromée,0.0,61035,region+mrc+nom,1
+Lanaudière,Joliette,Saint-Paul,456793745.0,61005,region+mrc+nom,1
+Lanaudière,Joliette,Saint-Pierre,0.0,61020,region+mrc+nom,1
+Lanaudière,Joliette,Saint-Thomas,0.0,61027,region+mrc+nom,1
+Lanaudière,Joliette,Sainte-Mélanie,0.0,61050,region+mrc+nom,1
+Lanaudière,L'Assomption,Charlemagne,0.0,60005,region+mrc+nom,1
+Lanaudière,L'Assomption,L'Assomption,1867475353.0,60028,region+mrc+nom,1
+Lanaudière,L'Assomption,L'Épiphanie,570640557.0,60037,region+mrc+nom,1
+Lanaudière,L'Assomption,Repentigny,681644428.0,60013,region+mrc+nom,1
+Lanaudière,L'Assomption,Saint-Sulpice,253313564.0,60020,region+mrc+nom,1
+Lanaudière,Les Moulins,Mascouche,3494242233.0,64015,region+mrc+nom,1
+Lanaudière,Les Moulins,Terrebonne,10477042952.5,64008,region+mrc+nom,1
+Lanaudière,Matawinie,Chertsey,0.0,62047,region+mrc+nom,1
+Lanaudière,Matawinie,Entrelacs,0.0,62053,region+mrc+nom,1
+Lanaudière,Matawinie,Notre-Dame-de-la-Merci,177108777.0,62055,region+mrc+nom,1
+Lanaudière,Matawinie,Rawdon,49688638.0,62037,region+mrc+nom,1
+Lanaudière,Matawinie,Saint-Alphonse-Rodriguez,0.0,62025,region+mrc+nom,1
+Lanaudière,Matawinie,Saint-Côme,0.0,62065,region+mrc+nom,1
+Lanaudière,Matawinie,Saint-Damien,0.0,62075,region+mrc+nom,1
+Lanaudière,Matawinie,Saint-Donat,215891653.0,62060,region+mrc+nom,1
+Lanaudière,Matawinie,Saint-Félix-de-Valois,679519510.0,62007,region+mrc+nom,1
+Lanaudière,Matawinie,Saint-Jean-de-Matha,502241684.0,62015,region+mrc+nom,1
+Lanaudière,Matawinie,Saint-Michel-des-Saints,0.0,62085,region+mrc+nom,1
+Lanaudière,Matawinie,Saint-Zénon,0.0,62080,region+mrc+nom,1
+Lanaudière,Matawinie,Sainte-Béatrix,0.0,62020,region+mrc+nom,1
+Lanaudière,Matawinie,Sainte-Marcelline-de-Kildare,0.0,62030,region+mrc+nom,1
+Lanaudière,Matawinie,Sainte-Émélie-de-l'Énergie,76537606.0,62070,region+mrc+nom,1
+Lanaudière,Montcalm,Saint-Alexis,0.0,63023,region+mrc+nom,1
+Lanaudière,Montcalm,Saint-Calixte,0.0,63055,region+mrc+nom,1
+Lanaudière,Montcalm,Saint-Esprit,0.0,63030,region+mrc+nom,1
+Lanaudière,Montcalm,Saint-Jacques,438253165.0,63013,region+mrc+nom,1
+Lanaudière,Montcalm,Saint-Liguori,0.0,63065,region+mrc+nom,1
+Lanaudière,Montcalm,Saint-Lin--Laurentides,0.0,,aucune,0
+Lanaudière,Montcalm,Saint-Roch-Ouest,0.0,63040,region+mrc+nom,1
+Lanaudière,Montcalm,Saint-Roch-de-l'Achigan,542061547.0,63035,region+mrc+nom,1
+Lanaudière,Montcalm,Sainte-Julienne,0.0,63060,region+mrc+nom,1
+Lanaudière,Montcalm,Sainte-Marie-Salomé,48574982.0,63005,region+mrc+nom,1
+Lanaudière,,Manawan,0.0,62802,region+nom,1
+Lanaudière,,Saint-Guillaume-Nord,0.0,62912,region+nom,1
+Laurentides,Antoine-Labelle,Chute-Saint-Philippe,0.0,79065,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Ferme-Neuve,0.0,79097,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Kiamika,67804600.0,79025,region+mrc+nom,1
+Laurentides,Antoine-Labelle,L'Ascension,92720197.0,79050,region+mrc+nom,1
+Laurentides,Antoine-Labelle,La Macaza,0.0,79047,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Lac-Saguay,0.0,79060,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Lac-Saint-Paul,44196716.0,79105,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Lac-des-Écorces,120823884.0,79078,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Lac-du-Cerf,0.0,79015,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Mont-Laurier,118538075.3,79088,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Mont-Saint-Michel,0.0,79110,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Nominingue,0.0,79030,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Notre-Dame-de-Pontmain,0.0,79010,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Notre-Dame-du-Laus,203729073.0,79005,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Rivière-Rouge,521316186.0,79037,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Saint-Aimé-du-Lac-des-Îles,0.0,79022,region+mrc+nom,1
+Laurentides,Antoine-Labelle,Sainte-Anne-du-Lac,69318726.0,79115,region+mrc+nom,1
+Laurentides,Argenteuil,Brownsburg-Chatham,255069196.0,76043,region+mrc+nom,1
+Laurentides,Argenteuil,Gore,0.0,76025,region+mrc+nom,1
+Laurentides,Argenteuil,Grenville,0.0,76055,region+mrc+nom,1
+Laurentides,Argenteuil,Grenville-sur-la-Rouge,100508104.2,76052,region+mrc+nom,1
+Laurentides,Argenteuil,Harrington,0.0,76065,region+mrc+nom,1
+Laurentides,Argenteuil,Lachute,866429908.7,76020,region+mrc+nom,1
+Laurentides,Argenteuil,Mille-Isles,0.0,76030,region+mrc+nom,1
+Laurentides,Argenteuil,Saint-André-d'Argenteuil,165644107.0,76008,region+mrc+nom,1
+Laurentides,Argenteuil,Wentworth,0.0,76035,region+mrc+nom,1
+Laurentides,Deux-Montagnes,Deux-Montagnes,1213867021.0,72010,region+mrc+nom,1
+Laurentides,Deux-Montagnes,Oka,0.0,72032,region+mrc+nom,1
+Laurentides,Deux-Montagnes,Pointe-Calumet,448332170.0,72020,region+mrc+nom,1
+Laurentides,Deux-Montagnes,Saint-Eustache,4435068611.0,72005,region+mrc+nom,1
+Laurentides,Deux-Montagnes,Saint-Joseph-du-Lac,594401318.0,72025,region+mrc+nom,1
+Laurentides,Deux-Montagnes,Saint-Placide,0.0,72043,region+mrc+nom,1
+Laurentides,Deux-Montagnes,Sainte-Marthe-sur-le-Lac,0.0,72015,region+mrc+nom,1
+Laurentides,La Rivière-du-Nord,Prévost,708458827.0,75040,region+mrc+nom,1
+Laurentides,La Rivière-du-Nord,Saint-Colomban,16038658.0,75005,region+mrc+nom,1
+Laurentides,La Rivière-du-Nord,Saint-Hippolyte,0.0,75045,region+mrc+nom,1
+Laurentides,La Rivière-du-Nord,Saint-Jérôme,7025086039.3,75017,region+mrc+nom,1
+Laurentides,La Rivière-du-Nord,Sainte-Sophie,1384083869.0,75028,region+mrc+nom,1
+Laurentides,Les Laurentides,Amherst,0.0,78070,region+mrc+nom,1
+Laurentides,Les Laurentides,Arundel,0.0,78060,region+mrc+nom,1
+Laurentides,Les Laurentides,Barkmere,0.0,78050,region+mrc+nom,1
+Laurentides,Les Laurentides,Brébeuf,95224990.0,78075,region+mrc+nom,1
+Laurentides,Les Laurentides,Huberdeau,0.0,78065,region+mrc+nom,1
+Laurentides,Les Laurentides,Ivry-sur-le-Lac,4248633.0,78042,region+mrc+nom,1
+Laurentides,Les Laurentides,La Conception,0.0,78115,region+mrc+nom,1
+Laurentides,Les Laurentides,La Minerve,0.0,78130,region+mrc+nom,1
+Laurentides,Les Laurentides,Labelle,151923808.0,78120,region+mrc+nom,1
+Laurentides,Les Laurentides,Lac-Supérieur,0.0,78095,region+mrc+nom,1
+Laurentides,Les Laurentides,Lac-Tremblant-Nord,0.0,78127,region+mrc+nom,1
+Laurentides,Les Laurentides,Lantier,0.0,78015,region+mrc+nom,1
+Laurentides,Les Laurentides,Mont-Tremblant,2142374391.0,78102,region+mrc+nom,1
+Laurentides,Les Laurentides,Montcalm,0.0,78055,region+mrc+nom,1
+Laurentides,Les Laurentides,Saint-Faustin--Lac-Carré,0.0,,aucune,0
+Laurentides,Les Laurentides,Sainte-Agathe-des-Monts,850457472.0,78032,region+mrc+nom,1
+Laurentides,Les Laurentides,Sainte-Lucie-des-Laurentides,0.0,78020,region+mrc+nom,1
+Laurentides,Les Laurentides,Val-David,0.0,78010,region+mrc+nom,1
+Laurentides,Les Laurentides,Val-Morin,356498902.0,78005,region+mrc+nom,1
+Laurentides,Les Laurentides,Val-des-Lacs,0.0,78100,region+mrc+nom,1
+Laurentides,Les Pays-d'en-Haut,Estérel,58600503.0,77011,region+mrc+nom,1
+Laurentides,Les Pays-d'en-Haut,Lac-des-Seize-Îles,0.0,77055,region+mrc+nom,1
+Laurentides,Les Pays-d'en-Haut,Morin-Heights,0.0,77050,region+mrc+nom,1
+Laurentides,Les Pays-d'en-Haut,Piedmont,0.0,77030,region+mrc+nom,1
+Laurentides,Les Pays-d'en-Haut,Saint-Adolphe-d'Howard,0.0,77065,region+mrc+nom,1
+Laurentides,Les Pays-d'en-Haut,Saint-Sauveur,1502347809.0,77043,region+mrc+nom,1
+Laurentides,Les Pays-d'en-Haut,Sainte-Adèle,1192509895.0,77022,region+mrc+nom,1
+Laurentides,Les Pays-d'en-Haut,Sainte-Anne-des-Lacs,0.0,77035,region+mrc+nom,1
+Laurentides,Les Pays-d'en-Haut,Sainte-Marguerite-du-Lac-Masson,0.0,77012,region+mrc+nom,1
+Laurentides,Les Pays-d'en-Haut,Wentworth-Nord,134531148.0,77060,region+mrc+nom,1
+Laurentides,Thérèse-De Blainville,Blainville,4839471939.9,73015,region+mrc+nom,1
+Laurentides,Thérèse-De Blainville,Bois-des-Filion,0.0,73030,region+mrc+nom,1
+Laurentides,Thérèse-De Blainville,Boisbriand,3245973512.0,73005,region+mrc+nom,1
+Laurentides,Thérèse-De Blainville,Lorraine,652100338.0,73025,region+mrc+nom,1
+Laurentides,Thérèse-De Blainville,Rosemère,0.0,73020,region+mrc+nom,1
+Laurentides,Thérèse-De Blainville,Sainte-Anne-des-Plaines,1028246380.0,73035,region+mrc+nom,1
+Laurentides,Thérèse-De Blainville,Sainte-Thérèse,2486776644.3,73010,region+mrc+nom,1
+Laurentides,,Mirabel,6081956971.1,74005,region+nom,1
+Laval,,Laval,36706154096.51,65005,region+nom,1
+Mauricie,Les Chenaux,Batiscan,0.0,37210,region+mrc+nom,1
+Mauricie,Les Chenaux,Champlain,0.0,37220,region+mrc+nom,1
+Mauricie,Les Chenaux,Notre-Dame-du-Mont-Carmel,0.0,37235,region+mrc+nom,1
+Mauricie,Les Chenaux,Saint-Luc-de-Vincennes,0.0,37225,region+mrc+nom,1
+Mauricie,Les Chenaux,Saint-Maurice,256026248.0,37230,region+mrc+nom,1
+Mauricie,Les Chenaux,Saint-Narcisse,152488296.0,37240,region+mrc+nom,1
+Mauricie,Les Chenaux,Saint-Prosper-de-Champlain,0.0,37250,region+mrc+nom,1
+Mauricie,Les Chenaux,Saint-Stanislas,0.0,37245,region+mrc+nom,1
+Mauricie,Les Chenaux,Sainte-Anne-de-la-Pérade,0.0,37205,region+mrc+nom,1
+Mauricie,Les Chenaux,Sainte-Geneviève-de-Batiscan,0.0,37215,region+mrc+nom,1
+Mauricie,Maskinongé,Charette,0.0,51080,region+mrc+nom,1
+Mauricie,Maskinongé,Louiseville,1014491150.0,51015,region+mrc+nom,1
+Mauricie,Maskinongé,Maskinongé,215717183.0,51008,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Alexis-des-Monts,0.0,51065,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Barnabé,98934028.0,51025,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Boniface,0.0,51085,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Justin,87773063.0,51045,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Léon-le-Grand,94835207.0,51035,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Mathieu-du-Parc,0.0,51070,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Paulin,10927839.0,51060,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Sévère,0.0,51030,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Édouard-de-Maskinongé,36354628.0,51050,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Élie-de-Caxton,2636030.0,51075,region+mrc+nom,1
+Mauricie,Maskinongé,Saint-Étienne-des-Grès,152715242.0,51090,region+mrc+nom,1
+Mauricie,Maskinongé,Sainte-Angèle-de-Prémont,0.0,51055,region+mrc+nom,1
+Mauricie,Maskinongé,Sainte-Ursule,115668838.0,51040,region+mrc+nom,1
+Mauricie,Maskinongé,Yamachiche,568208984.4,51020,region+mrc+nom,1
+Mauricie,Mékinac,Grandes-Piles,0.0,35040,region+mrc+nom,1
+Mauricie,Mékinac,Hérouxville,0.0,35035,region+mrc+nom,1
+Mauricie,Mékinac,Lac-aux-Sables,0.0,35010,region+mrc+nom,1
+Mauricie,Mékinac,Notre-Dame-de-Montauban,0.0,35005,region+mrc+nom,1
+Mauricie,Mékinac,Saint-Adelphe,0.0,35015,region+mrc+nom,1
+Mauricie,Mékinac,Saint-Roch-de-Mékinac,0.0,35045,region+mrc+nom,1
+Mauricie,Mékinac,Saint-Séverin,0.0,35020,region+mrc+nom,1
+Mauricie,Mékinac,Saint-Tite,391596779.0,35027,region+mrc+nom,1
+Mauricie,Mékinac,Sainte-Thècle,0.0,35050,region+mrc+nom,1
+Mauricie,Mékinac,Trois-Rives,0.0,35055,region+mrc+nom,1
+Mauricie,,La Bostonnais,0.0,90017,region+nom,1
+Mauricie,,La Tuque,33646445.0,90012,region+nom,1
+Mauricie,,Lac-Édouard,0.0,90027,region+nom,1
+Mauricie,,Shawinigan,5298395915.565,36033,region+nom,1
+Mauricie,,Trois-Rivières,348679927.0,37067,region+nom,1
+Mauricie,,Wemotaci,0.0,90802,region+nom,1
+Montréal,,Baie-D'Urfé,1696956529.3,66112,region+nom,1
+Montréal,,Beaconsfield,0.0,66107,region+nom,1
+Montréal,,Côte-Saint-Luc,0.0,66058,region+nom,1
+Montréal,,Dollard-Des Ormeaux,2658644659.0,66142,region+nom,1
+Montréal,,Dorval,0.0,66087,region+nom,1
+Montréal,,Hampstead,617157171.0,66062,region+nom,1
+Montréal,,Kirkland,0.0,66102,region+nom,1
+Montréal,,L'Île-Dorval,10638.0,66092,region+nom,1
+Montréal,,Mont-Royal,2876582760.598,66072,region+nom,1
+Montréal,,Montréal,169517070592.2,66023,region+nom,1
+Montréal,,Montréal-Est,0.0,66007,region+nom,1
+Montréal,,Montréal-Ouest,7810634.0,66047,region+nom,1
+Montréal,,Pointe-Claire,0.0,66097,region+nom,1
+Montréal,,Sainte-Anne-de-Bellevue,0.0,66117,region+nom,1
+Montréal,,Senneville,28807490.9,66127,region+nom,1
+Montréal,,Westmount,0.0,66032,region+nom,1
+Montérégie,Acton,Acton Vale,813880976.0,48028,region+mrc+nom,1
+Montérégie,Acton,Béthanie,16099949.0,48005,region+mrc+nom,1
+Montérégie,Acton,Roxton,0.0,48015,region+mrc+nom,1
+Montérégie,Acton,Roxton Falls,0.0,48010,region+mrc+nom,1
+Montérégie,Acton,Saint-Nazaire-d'Acton,0.0,48050,region+mrc+nom,1
+Montérégie,Acton,Saint-Théodore-d'Acton,0.0,48045,region+mrc+nom,1
+Montérégie,Acton,Sainte-Christine,75900774.0,48020,region+mrc+nom,1
+Montérégie,Acton,Upton,125630177.0,48038,region+mrc+nom,1
+Montérégie,Beauharnois-Salaberry,Beauharnois,32889868.0,70022,region+mrc+nom,1
+Montérégie,Beauharnois-Salaberry,Saint-Louis-de-Gonzague,201914757.0,70035,region+mrc+nom,1
+Montérégie,Beauharnois-Salaberry,Saint-Stanislas-de-Kostka,78674910.0,70040,region+mrc+nom,1
+Montérégie,Beauharnois-Salaberry,Saint-Urbain-Premier,0.0,70005,region+mrc+nom,1
+Montérégie,Beauharnois-Salaberry,Saint-Étienne-de-Beauharnois,0.0,70030,region+mrc+nom,1
+Montérégie,Beauharnois-Salaberry,Sainte-Martine,530293466.0,70012,region+mrc+nom,1
+Montérégie,Beauharnois-Salaberry,Salaberry-de-Valleyfield,5184267855.0,70052,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Beloeil,1896900381.0,57040,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Carignan,568224837.0,57010,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Chambly,2315823383.0,57005,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,McMasterville,393772329.0,57025,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Mont-Saint-Hilaire,0.0,57035,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Otterburn Park,0.0,57030,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Saint-Antoine-sur-Richelieu,0.0,57075,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Saint-Basile-le-Grand,1198223022.0,57020,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Saint-Charles-sur-Richelieu,0.0,57057,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Saint-Denis-sur-Richelieu,0.0,57068,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Saint-Jean-Baptiste,0.0,57033,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Saint-Marc-sur-Richelieu,0.0,57050,region+mrc+nom,1
+Montérégie,La Vallée-du-Richelieu,Saint-Mathieu-de-Beloeil,385316383.0,57045,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Henryville,151993316.0,56042,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Lacolle,0.0,56023,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Mont-Saint-Grégoire,0.0,56097,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Noyan,0.0,56015,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Saint-Alexandre,18101873.0,56055,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Saint-Blaise-sur-Richelieu,0.0,56065,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Saint-Georges-de-Clarenceville,0.0,,aucune,0
+Montérégie,Le Haut-Richelieu,Saint-Jean-sur-Richelieu,9078059354.0,56083,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Saint-Paul-de-l'Île-aux-Noix,0.0,56035,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Saint-Sébastien,0.0,56050,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Saint-Valentin,0.0,56030,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Sainte-Anne-de-Sabrevois,0.0,56060,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Sainte-Brigide-d'Iberville,0.0,56105,region+mrc+nom,1
+Montérégie,Le Haut-Richelieu,Venise-en-Québec,72293362.0,56005,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Dundee,45759748.0,69075,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Elgin,0.0,69050,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Franklin,0.0,69010,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Godmanchester,0.0,69060,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Havelock,0.0,69005,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Hinchinbrooke,0.0,69045,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Howick,0.0,69025,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Huntingdon,0.0,69055,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Ormstown,424562826.0,69037,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Saint-Anicet,0.0,69070,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Saint-Chrysostome,231288914.0,69017,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Sainte-Barbe,0.0,69065,region+mrc+nom,1
+Montérégie,Le Haut-Saint-Laurent,Très-Saint-Sacrement,0.0,69030,region+mrc+nom,1
+Montérégie,Les Jardins-de-Napierville,Hemmingford,300295184.0,68015,region+mrc+nom+groupe,2
+Montérégie,Les Jardins-de-Napierville,Hemmingford,300295184.0,68010,region+mrc+nom+groupe,2
+Montérégie,Les Jardins-de-Napierville,Napierville,0.0,68030,region+mrc+nom,1
+Montérégie,Les Jardins-de-Napierville,Saint-Bernard-de-Lacolle,0.0,68005,region+mrc+nom,1
+Montérégie,Les Jardins-de-Napierville,Saint-Cyprien-de-Napierville,209864506.0,68035,region+mrc+nom,1
+Montérégie,Les Jardins-de-Napierville,Saint-Jacques-le-Mineur,0.0,68040,region+mrc+nom,1
+Montérégie,Les Jardins-de-Napierville,Saint-Michel,241085027.0,68050,region+mrc+nom,1
+Montérégie,Les Jardins-de-Napierville,Saint-Patrice-de-Sherrington,0.0,68025,region+mrc+nom,1
+Montérégie,Les Jardins-de-Napierville,Saint-Rémi,869537062.0,68055,region+mrc+nom,1
+Montérégie,Les Jardins-de-Napierville,Saint-Édouard,0.0,68045,region+mrc+nom,1
+Montérégie,Les Jardins-de-Napierville,Sainte-Clotilde,0.0,68020,region+mrc+nom,1
+Montérégie,Les Maskoutains,La Présentation,0.0,54035,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Barnabé-Sud,86931526.0,54105,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Bernard-de-Michaudville,0.0,54115,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Damase,3508467.0,54017,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Dominique,141981162.0,54060,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Hugues,0.0,54100,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Hyacinthe,7466541684.69,54048,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Jude,136468971.0,54110,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Liboire,0.0,54072,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Louis,0.0,54120,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Marcel-de-Richelieu,0.0,54125,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Pie,430340072.0,54008,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Simon,31380123.0,54090,region+mrc+nom,1
+Montérégie,Les Maskoutains,Saint-Valérien-de-Milton,224118318.0,54065,region+mrc+nom,1
+Montérégie,Les Maskoutains,Sainte-Hélène-de-Bagot,19620608.0,54095,region+mrc+nom,1
+Montérégie,Les Maskoutains,Sainte-Madeleine,0.0,54025,region+mrc+nom,1
+Montérégie,Les Maskoutains,Sainte-Marie-Madeleine,0.0,54030,region+mrc+nom,1
+Montérégie,Marguerite-D'Youville,Calixa-Lavallée,0.0,59030,region+mrc+nom,1
+Montérégie,Marguerite-D'Youville,Contrecoeur,22107891.0,59035,region+mrc+nom,1
+Montérégie,Marguerite-D'Youville,Saint-Amable,841962333.0,59015,region+mrc+nom,1
+Montérégie,Marguerite-D'Youville,Sainte-Julie,2463915669.0,59010,region+mrc+nom,1
+Montérégie,Marguerite-D'Youville,Varennes,4130190231.98,59020,region+mrc+nom,1
+Montérégie,Marguerite-D'Youville,Verchères,0.0,59025,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Massueville,0.0,53010,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Saint-Aimé,0.0,53015,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Saint-David,87050519.0,53005,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Saint-Gérard-Majella,0.0,53085,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Saint-Joseph-de-Sorel,0.0,53050,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Saint-Ours,0.0,53032,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Saint-Robert,0.0,53020,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Saint-Roch-de-Richelieu,0.0,53040,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Sainte-Anne-de-Sorel,208358372.0,53065,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Sainte-Victoire-de-Sorel,211271905.0,53025,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Sorel-Tracy,3386652424.0,53052,region+mrc+nom,1
+Montérégie,Pierre-De Saurel,Yamaska,0.0,53072,region+mrc+nom,1
+Montérégie,Roussillon,Candiac,0.0,67020,region+mrc+nom,1
+Montérégie,Roussillon,Châteauguay,3914256618.0,67050,region+mrc+nom,1
+Montérégie,Roussillon,Delson,0.0,67025,region+mrc+nom,1
+Montérégie,Roussillon,La Prairie,1937775571.0,67015,region+mrc+nom,1
+Montérégie,Roussillon,Léry,0.0,67055,region+mrc+nom,1
+Montérégie,Roussillon,Mercier,1018460183.0,67045,region+mrc+nom,1
+Montérégie,Roussillon,Saint-Constant,58002503.0,67035,region+mrc+nom,1
+Montérégie,Roussillon,Saint-Isidore,275323951.0,67040,region+mrc+nom,1
+Montérégie,Roussillon,Saint-Mathieu,0.0,67005,region+mrc+nom,1
+Montérégie,Roussillon,Saint-Philippe,0.0,67010,region+mrc+nom,1
+Montérégie,Roussillon,Sainte-Catherine,0.0,67030,region+mrc+nom,1
+Montérégie,Rouville,Ange-Gardien,0.0,55008,region+mrc+nom,1
+Montérégie,Rouville,Marieville,25516361.0,55048,region+mrc+nom,1
+Montérégie,Rouville,Richelieu,305524350.0,55057,region+mrc+nom,1
+Montérégie,Rouville,Rougemont,573245028.799,55037,region+mrc+nom,1
+Montérégie,Rouville,Saint-Césaire,623027099.0,55023,region+mrc+nom,1
+Montérégie,Rouville,Saint-Mathias-sur-Richelieu,23385078.0,55065,region+mrc+nom,1
+Montérégie,Rouville,Saint-Paul-d'Abbotsford,73761456.0,55015,region+mrc+nom,1
+Montérégie,Rouville,Sainte-Angèle-de-Monnoir,3622097.0,55030,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Coteau-du-Lac,870178890.0,71040,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Hudson,0.0,71100,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,L'Île-Cadieux,0.0,71095,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,L'Île-Perrot,0.0,71060,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Les Coteaux,0.0,71033,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Les Cèdres,470685389.7,71050,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Notre-Dame-de-l'Île-Perrot,0.0,71065,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Pincourt,0.0,71070,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Pointe-Fortune,0.0,71140,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Pointe-des-Cascades,106410475.0,71055,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Rigaud,0.0,71133,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Rivière-Beaudette,0.0,71005,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Saint-Clet,28011648.0,71045,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Saint-Lazare,0.0,71105,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Saint-Polycarpe,0.0,71020,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Saint-Télesphore,68298032.0,71015,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Saint-Zotique,0.0,71025,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Sainte-Justine-de-Newton,0.0,71115,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Sainte-Marthe,0.0,71110,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Terrasse-Vaudreuil,0.0,71075,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Très-Saint-Rédempteur,0.0,71125,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Vaudreuil-Dorion,4139902745.843,71083,region+mrc+nom,1
+Montérégie,Vaudreuil-Soulanges,Vaudreuil-sur-le-Lac,68983058.0,71090,region+mrc+nom,1
+Montérégie,,Akwesasne,22392743.0,69802,region+nom,1
+Montérégie,,Boucherville,6046907029.39,58033,region+nom,1
+Montérégie,,Brossard,529534057.0,58007,region+nom,1
+Montérégie,,Kahnawake,0.0,67802,region+nom,1
+Montérégie,,Longueuil,19879541433.6,58227,region+nom,1
+Montérégie,,Saint-Bruno-de-Montarville,840340152.3,58037,region+nom,1
+Montérégie,,Saint-Lambert,0.0,58012,region+nom,1
+Nord-du-Québec,Administration régionale Kativik,Akulivik,13066112.0,99883,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Akulivik,13066112.0,99125,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Aupaluk,13637538.0,99891,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Aupaluk,13637538.0,99105,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Inukjuak,51832235.0,99879,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Inukjuak,51832235.0,99085,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Ivujivik,10102757.0,99885,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Ivujivik,10102757.0,99140,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Kangiqsualujjuaq,30265852.0,99894,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Kangiqsualujjuaq,30265852.0,99090,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Kangiqsujuaq,31880778.0,99888,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Kangiqsujuaq,31880778.0,99130,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Kangirsuk,24456440.0,99890,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Kangirsuk,24456440.0,99110,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Kuujjuaq,130295892.0,99893,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Kuujjuaq,130295892.0,99095,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Kuujjuarapik,42098105.0,99877,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Kuujjuarapik,42098105.0,99075,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Puvirnituq,28671169.0,99120,region+nom,1
+Nord-du-Québec,Administration régionale Kativik,Quaqtaq,16270226.0,99889,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Quaqtaq,16270226.0,99115,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Salluit,44160134.0,99887,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Salluit,44160134.0,99135,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Tasiujaq,15203374.0,99892,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Tasiujaq,15203374.0,99100,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Umiujaq,20071122.0,99878,region+nom+groupe,2
+Nord-du-Québec,Administration régionale Kativik,Umiujaq,20071122.0,99080,region+nom+groupe,2
+Nord-du-Québec,,Chapais,0.0,99020,region+nom,1
+Nord-du-Québec,,Chibougamau,0.0,99025,region+nom,1
+Nord-du-Québec,,Chisasibi,471425765.0,99055,region+nom+groupe,2
+Nord-du-Québec,,Chisasibi,471425765.0,99814,region+nom+groupe,2
+Nord-du-Québec,,Eastmain,2299999.0,99045,region+nom+groupe,2
+Nord-du-Québec,,Eastmain,2299999.0,99810,region+nom+groupe,2
+Nord-du-Québec,,Gouvernement régional d'Eeyou Istchee Baie-James,0.0,,aucune,0
+Nord-du-Québec,,Lebel-sur-Quévillon,0.0,99005,region+nom,1
+Nord-du-Québec,,Matagami,0.0,99015,region+nom,1
+Nord-du-Québec,,Mistissini,0.0,99030,region+nom+groupe,2
+Nord-du-Québec,,Mistissini,0.0,99804,region+nom+groupe,2
+Nord-du-Québec,,Nemiscau,91949095.0,,aucune,0
+Nord-du-Québec,,Waskaganish,0.0,99035,region+nom+groupe,2
+Nord-du-Québec,,Waskaganish,0.0,99806,region+nom+groupe,2
+Nord-du-Québec,,Waswanipi,138590076.0,99010,region+nom+groupe,2
+Nord-du-Québec,,Waswanipi,138590076.0,99802,region+nom+groupe,2
+Outaouais,La Vallée-de-la-Gatineau,Aumond,0.0,83090,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Blue Sea,0.0,83045,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Bois-Franc,0.0,83085,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Bouchette,0.0,83050,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Cayamant,0.0,83040,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Denholm,0.0,83005,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Déléage,0.0,83070,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Egan-Sud,0.0,83075,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Gracefield,0.0,83032,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Grand-Remous,117656692.0,83095,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Kazabazua,0.0,83015,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Lac-Sainte-Marie,134263174.0,83020,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Low,0.0,83010,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Maniwaki,0.0,83065,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Messines,0.0,83060,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Montcerf-Lytton,58924866.0,83088,region+mrc+nom,1
+Outaouais,La Vallée-de-la-Gatineau,Sainte-Thérèse-de-la-Gatineau,0.0,83055,region+mrc+nom,1
+Outaouais,Les Collines-de-l'Outaouais,Cantley,597314996.0,82020,region+mrc+nom,1
+Outaouais,Les Collines-de-l'Outaouais,Chelsea,0.0,82025,region+mrc+nom,1
+Outaouais,Les Collines-de-l'Outaouais,L'Ange-Gardien,0.0,82005,region+mrc+nom,1
+Outaouais,Les Collines-de-l'Outaouais,La Pêche,0.0,82035,region+mrc+nom,1
+Outaouais,Les Collines-de-l'Outaouais,Notre-Dame-de-la-Salette,525183.0,80087,region+nom,1
+Outaouais,Les Collines-de-l'Outaouais,Pontiac,0.0,82030,region+mrc+nom,1
+Outaouais,Les Collines-de-l'Outaouais,Val-des-Monts,0.0,82015,region+mrc+nom,1
+Outaouais,Papineau,Boileau,40689169.0,80115,region+mrc+nom,1
+Outaouais,Papineau,Bowman,0.0,80145,region+mrc+nom,1
+Outaouais,Papineau,Chénéville,0.0,80103,region+mrc+nom,1
+Outaouais,Papineau,Duhamel,8225577.0,80135,region+mrc+nom,1
+Outaouais,Papineau,Fassett,0.0,80005,region+mrc+nom,1
+Outaouais,Papineau,Lac-Simon,175019480.0,80095,region+mrc+nom,1
+Outaouais,Papineau,Lac-des-Plages,0.0,80130,region+mrc+nom,1
+Outaouais,Papineau,Lochaber,0.0,80055,region+mrc+nom,1
+Outaouais,Papineau,Lochaber-Partie-Ouest,0.0,80060,region+mrc+nom,1
+Outaouais,Papineau,Mayo,0.0,80065,region+mrc+nom,1
+Outaouais,Papineau,Montebello,0.0,80010,region+mrc+nom,1
+Outaouais,Papineau,Montpellier,78423959.0,80090,region+mrc+nom,1
+Outaouais,Papineau,Mulgrave-et-Derry,6532781.0,80085,region+mrc+nom,1
+Outaouais,Papineau,Namur,0.0,80110,region+mrc+nom,1
+Outaouais,Papineau,Notre-Dame-de-Bonsecours,37201532.0,80015,region+mrc+nom,1
+Outaouais,Papineau,Notre-Dame-de-la-Paix,0.0,80020,region+mrc+nom,1
+Outaouais,Papineau,Papineauville,0.0,80037,region+mrc+nom,1
+Outaouais,Papineau,Plaisance,93125975.0,80045,region+mrc+nom,1
+Outaouais,Papineau,Ripon,0.0,80078,region+mrc+nom,1
+Outaouais,Papineau,Saint-André-Avellin,367769172.0,80027,region+mrc+nom,1
+Outaouais,Papineau,Saint-Sixte,0.0,80070,region+mrc+nom,1
+Outaouais,Papineau,Saint-Émile-de-Suffolk,0.0,80125,region+mrc+nom,1
+Outaouais,Papineau,Thurso,0.0,80050,region+mrc+nom,1
+Outaouais,Papineau,Val-des-Bois,112591698.0,80140,region+mrc+nom,1
+Outaouais,Pontiac,Alleyn-et-Cawood,0.0,84050,region+mrc+nom,1
+Outaouais,Pontiac,Bristol,0.0,84005,region+mrc+nom,1
+Outaouais,Pontiac,Bryson,51068763.0,84025,region+mrc+nom,1
+Outaouais,Pontiac,Campbell's Bay,30527163.0,84030,region+mrc+nom,1
+Outaouais,Pontiac,Chichester,0.0,84090,region+mrc+nom,1
+Outaouais,Pontiac,Clarendon,0.0,84015,region+mrc+nom,1
+Outaouais,Pontiac,Fort-Coulonge,1067896.0,84060,region+mrc+nom,1
+Outaouais,Pontiac,L'Isle-aux-Allumettes,0.0,84082,region+mrc+nom,1
+Outaouais,Pontiac,L'Île-du-Grand-Calumet,58243292.0,84035,region+mrc+nom,1
+Outaouais,Pontiac,Litchfield,0.0,84040,region+mrc+nom,1
+Outaouais,Pontiac,Mansfield-et-Pontefract,0.0,84065,region+mrc+nom,1
+Outaouais,Pontiac,Otter Lake,97893806.0,84055,region+mrc+nom,1
+Outaouais,Pontiac,Portage-du-Fort,26383191.0,84020,region+mrc+nom,1
+Outaouais,Pontiac,Rapides-des-Joachims,0.0,84100,region+mrc+nom,1
+Outaouais,Pontiac,Shawville,0.0,84010,region+mrc+nom,1
+Outaouais,Pontiac,Sheenboro,0.0,84095,region+mrc+nom,1
+Outaouais,Pontiac,Thorne,0.0,84045,region+mrc+nom,1
+Outaouais,Pontiac,Waltham,0.0,84070,region+mrc+nom,1
+Outaouais,,Gatineau,33558789000.96,81017,region+nom,1
+Outaouais,,Kitigan Zibi,0.0,83802,region+nom,1
+Outaouais,,Lac-Pythonga,9249266.0,83902,region+nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Alma,44743106.0,93042,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Desbiens,0.0,93005,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Hébertville,254751131.0,93022,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Hébertville-Station,0.0,,aucune,0
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,L'Ascension-de-Notre-Seigneur,0.0,93065,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Labrecque,105153309.0,93055,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Lamarche,0.0,93060,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Métabetchouan--Lac-à-la-Croix,196957782.0,,aucune,0
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Saint-Bruno,139617901.0,,aucune,0
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Saint-Gédéon,0.0,93035,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Saint-Henri-de-Taillon,81847263.0,93070,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Saint-Ludger-de-Milot,0.0,93080,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Saint-Nazaire,139026390.0,93045,nom,1
+Saguenay--Lac-Saint-Jean,Lac-Saint-Jean-Est,Sainte-Monique,0.0,93075,nom,1
+Saguenay--Lac-Saint-Jean,Le Domaine-du-Roy,Chambord,0.0,91020,nom,1
+Saguenay--Lac-Saint-Jean,Le Domaine-du-Roy,La Doré,0.0,91050,nom,1
+Saguenay--Lac-Saint-Jean,Le Domaine-du-Roy,Lac-Bouchette,109929877.0,91005,nom,1
+Saguenay--Lac-Saint-Jean,Le Domaine-du-Roy,Roberval,1009173063.0,91025,nom,1
+Saguenay--Lac-Saint-Jean,Le Domaine-du-Roy,Saint-André-du-Lac-Saint-Jean,0.0,91010,nom,1
+Saguenay--Lac-Saint-Jean,Le Domaine-du-Roy,Saint-François-de-Sales,44276628.0,91015,nom,1
+Saguenay--Lac-Saint-Jean,Le Domaine-du-Roy,Saint-Félicien,53927954.2,91042,nom,1
+Saguenay--Lac-Saint-Jean,Le Domaine-du-Roy,Saint-Prime,279473982.0,91035,nom,1
+Saguenay--Lac-Saint-Jean,Le Domaine-du-Roy,Sainte-Hedwidge,57437077.0,91030,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Bégin,0.0,94250,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Ferland-et-Boilleau,0.0,94220,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,L'Anse-Saint-Jean,0.0,94210,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Larouche,0.0,94265,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Petit-Saguenay,58948674.0,94205,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Rivière-Éternité,0.0,94215,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Saint-Ambroise,0.0,94255,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Saint-Charles-de-Bourget,58977351.0,94260,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Saint-David-de-Falardeau,0.0,94245,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Saint-Fulgence,0.0,94235,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Saint-Félix-d'Otis,0.0,94225,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Saint-Honoré,0.0,94240,nom,1
+Saguenay--Lac-Saint-Jean,Le Fjord-du-Saguenay,Sainte-Rose-du-Nord,33893706.0,94230,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Albanel,0.0,92030,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Dolbeau-Mistassini,42453884.0,92022,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Girardville,0.0,92055,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Normandin,22078518.0,92040,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Notre-Dame-de-Lorette,206143.0,92060,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Péribonka,0.0,92010,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Saint-Augustin,0.0,92005,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Saint-Edmond-les-Plaines,29418124.0,92050,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Saint-Eugène-d'Argentenay,3546462.0,92065,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Saint-Stanislas,0.0,92070,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Saint-Thomas-Didyme,0.0,92045,nom,1
+Saguenay--Lac-Saint-Jean,Maria-Chapdelaine,Sainte-Jeanne-d'Arc,0.0,,ambigue,0
+Saguenay--Lac-Saint-Jean,,Chute-des-Passes,0.0,,aucune,0
+Saguenay--Lac-Saint-Jean,,Lac-Ministuk,0.0,94928,nom,1
+Saguenay--Lac-Saint-Jean,,Mashteuiatsh,0.0,91802,nom,1
+Saguenay--Lac-Saint-Jean,,Saguenay,3412461860.3,94068,nom,1
